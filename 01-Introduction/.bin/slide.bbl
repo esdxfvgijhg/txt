@@ -1,0 +1,438 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{perera_mosden_2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e5b420aba58a8d93cbbcaf2b1b0f4dab}{%
+           family={Perera},
+           familyi={P\bibinitperiod},
+           given={Charith},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fc70eb90eedda65d38f05ef738504765}{%
+           family={Jayaraman},
+           familyi={J\bibinitperiod},
+           given={Prem\bibnamedelima Prakash},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8da289bb46b6a95f52ced670c23af820}{%
+           family={Zaslavsky},
+           familyi={Z\bibinitperiod},
+           given={Arkady},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2df88d211fd24d931ebe3bf0dd661f93}{%
+           family={Christen},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=25d9d97c240056793c5abcc6aee6a4d0}{%
+           family={Georgakopoulos},
+           familyi={G\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{3de209921c916ed281e1c8e4c1d97279}
+      \strng{fullhash}{8e83d93795126fdb31b8044a6e275f92}
+      \strng{bibnamehash}{8e83d93795126fdb31b8044a6e275f92}
+      \strng{authorbibnamehash}{8e83d93795126fdb31b8044a6e275f92}
+      \strng{authornamehash}{3de209921c916ed281e1c8e4c1d97279}
+      \strng{authorfullhash}{8e83d93795126fdb31b8044a6e275f92}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Internet of Things (IoT) is part of Future Internet and will comprise many billions of Internet Connected Objects (ICO) or `things' where things can sense, communicate, compute and potentially actuate as well as have intelligence, multi-modal interfaces, physical/ virtual identities and attributes. Collecting data from these objects is an important task as it allows software systems to understand the environment better. Many different hardware devices may involve in the process of collecting and uploading sensor data to the cloud where complex processing can occur. Further, we cannot expect all these objects to be connected to the computers due to technical and economical reasons. Therefore, we should be able to utilize resource constrained devices to collect data from these ICOs. On the other hand, it is critical to process the collected sensor data before sending them to the cloud to make sure the sustainability of the infrastructure due to energy constraints. This requires to move the sensor data processing tasks towards the resource constrained computational devices (e.g. mobile phones). In this paper, we propose Mobile Sensor Data Processing Engine (MOSDEN), an plug-in-based IoT middleware for mobile devices, that allows to collect and process sensor data without programming efforts. Our architecture also supports sensing as a service model. We present the results of the evaluations that demonstrate its suitability towards real world deployments. Our proposed middleware is built on Android platform.}
+      \field{day}{15}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{00107}
+      \field{shorttitle}{{{MOSDEN}}}
+      \field{title}{{{MOSDEN}}: {{An Internet}} of {{Things Middleware}} for {{Resource Constrained Mobile Devices}}}
+      \field{urlday}{18}
+      \field{urlmonth}{12}
+      \field{urlyear}{2018}
+      \field{year}{2013}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \verb{eprint}
+      \verb 1310.4038
+      \endverb
+      \verb{file}
+      \verb Perera et al_2013_MOSDEN.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/L26NV8MT/Perera et al_2013_MOSDEN.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1310.4038
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1310.4038
+      \endverb
+      \keyw{Weather,A}
+    \endentry
+    \entry{kouicem_internet_2018}{article}{}
+      \name{author}{3}{}{%
+        {{hash=80c6d7b1b4a4d844a6128b3538ce851d}{%
+           family={Kouicem},
+           familyi={K\bibinitperiod},
+           given={Djamel\bibnamedelima Eddine},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=68dd81e717901b7ea12174ce55056fff}{%
+           family={Bouabdallah},
+           familyi={B\bibinitperiod},
+           given={Abdelmadjid},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ef7f8f2dfc79bde176339846f13a4b0a}{%
+           family={Lakhlef},
+           familyi={L\bibinitperiod},
+           given={Hicham},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{676a407ba2b82558b5f07116684c3d5f}
+      \strng{fullhash}{676a407ba2b82558b5f07116684c3d5f}
+      \strng{bibnamehash}{676a407ba2b82558b5f07116684c3d5f}
+      \strng{authorbibnamehash}{676a407ba2b82558b5f07116684c3d5f}
+      \strng{authornamehash}{676a407ba2b82558b5f07116684c3d5f}
+      \strng{authorfullhash}{676a407ba2b82558b5f07116684c3d5f}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Internet of Things (IoT) is one of the promising technologies that has attracted a lot of attention in both industrial and academic fields these years. It aims to integrate seamlessly both physical and digital worlds in one single ecosystem that makes up a new intelligent era of Internet. This technology offers a huge business value for organizations and provides opportunities for many existing applications such as energy, healthcare and other sectors. However, as new emergent technology, IoT suffers from several security issues which are most challenging than those from other fields regarding its complex environment and resources-constrained IoT devices. A lot of researches have been initiated in order to provide efficient security solutions in IoT, particularly to address resources constraints and scalability issues. Furthermore, some technologies related to networking and cryptocurrency fields such as Software Defined Networking (SDN) and Blockchain are revolutionizing the world of the Internet of Things thanks to their efficiency and scalability. In this paper, we provide a comprehensive top down survey of the most recent proposed security and privacy solutions in IoT. We discuss particularly the benefits that new approaches such as blockchain and Software Defined Networking can bring to the security and the privacy in IoT in terms of flexibility and scalability. Finally, we give a general classification of existing solutions and comparison based on important parameters.}
+      \field{day}{4}
+      \field{issn}{1389-1286}
+      \field{journaltitle}{Computer Networks}
+      \field{month}{8}
+      \field{note}{00029}
+      \field{shortjournal}{Computer Networks}
+      \field{shorttitle}{Internet of Things Security}
+      \field{title}{Internet of Things Security: {{A}} Top-down Survey}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{volume}{141}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{199\bibrangedash 221}
+      \range{pages}{23}
+      \verb{doi}
+      \verb 10.1016/j.comnet.2018.03.012
+      \endverb
+      \verb{file}
+      \verb Kouicem et al_2018_Internet of things security.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/6UWPMR2T/Kouicem et al_2018_Internet of things security.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S1389128618301208
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1389128618301208
+      \endverb
+      \keyw{App,A}
+    \endentry
+    \entry{venkatesan_design_2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0548fd121a3db7c549a5cbca1c645ff5}{%
+           family={Venkatesan},
+           familyi={V\bibinitperiod},
+           given={V.\bibnamedelimi Prasanna},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c72445bd061fd9d1f42e545bcc341fd9}{%
+           family={Devi},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi Punitha},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9396c8c2d9112305d5f010428e124f4b}{%
+           family={Sivaranjani},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Palladam, Tamilnadu, India}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{fullhash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{bibnamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{authorbibnamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{authornamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{authorfullhash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 {{International Conference}} on {{I}}-{{SMAC}} ({{IoT}} in {{Social}}, {{Mobile}}, {{Analytics}} and {{Cloud}}) ({{I}}-{{SMAC}})}
+      \field{eventtitle}{2017 {{International Conference}} on {{I}}-{{SMAC}} ({{IoT}} in {{Social}}, {{Mobile}}, {{Analytics}} and {{Cloud}}) ({{I}}-{{SMAC}})}
+      \field{isbn}{978-1-5090-3242-6 978-1-5090-3243-3}
+      \field{month}{2}
+      \field{note}{00004}
+      \field{title}{Design of a Smart Gateway Solution Based on the Exploration of Specific Challenges in {{IoT}}}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{22\bibrangedash 31}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/I-SMAC.2017.8058352
+      \endverb
+      \verb{file}
+      \verb Venkatesan et al_2017_Design of a smart gateway solution based on the exploration of specific.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/A8CEDHVT/Venkatesan et al_2017_Design of a smart gateway solution based on the exploration of specific.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/8058352/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/8058352/
+      \endverb
+      \keyw{App,A}
+    \endentry
+    \entry{feltrin_lorawan_2018}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2916a9cce7425ffcd8b695576b194b7c}{%
+           family={Feltrin},
+           familyi={F\bibinitperiod},
+           given={Luca},
+           giveni={L\bibinitperiod}}}%
+        {{hash=659bce3605b7d6cf6f2cbd389ad911a1}{%
+           family={Buratti},
+           familyi={B\bibinitperiod},
+           given={Chiara},
+           giveni={C\bibinitperiod}}}%
+        {{hash=416b5af99311d6f22b24a3c2c5a58d82}{%
+           family={Vinciarelli},
+           familyi={V\bibinitperiod},
+           given={Enrico},
+           giveni={E\bibinitperiod}}}%
+        {{hash=7cb2a33cbe4e6402b229d1d1fc1538a2}{%
+           family={De\bibnamedelima Bonis},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e6700cd9224619779fd1c05720fb297f}{%
+           family={Verdone},
+           familyi={V\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{bd3986956c7fd93a0970eba94035e42c}
+      \strng{fullhash}{0d52bc6f0a24f2ce3556d8edb601aa24}
+      \strng{bibnamehash}{0d52bc6f0a24f2ce3556d8edb601aa24}
+      \strng{authorbibnamehash}{0d52bc6f0a24f2ce3556d8edb601aa24}
+      \strng{authornamehash}{bd3986956c7fd93a0970eba94035e42c}
+      \strng{authorfullhash}{0d52bc6f0a24f2ce3556d8edb601aa24}
+      \field{sortinit}{7}
+      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Internet of Things (IoT) addresses a huge set of possible application domains, requiring both short- and long-range communication technologies. When long distances are present, a number of proprietary and standard solutions for Low Power Wide Area Networks (LPWAN) are already available. Among them, LoRaWAN is a candidate technology supported by many network operators. This paper discusses the possible role of LoRaWAN for the IoT. First, the LoRaWAN technology is assessed experimentally through a set of laboratory and on-field tests, to characterize it from the link-level viewpoint; then, a system-level analysis is performed through simulation, to evaluate the capacity of a LoRaWAN gateway and a multigateway network to serve a large area. Finally, the results are discussed considering a broad set of use cases.}
+      \field{issn}{2327-4662}
+      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{note}{00000}
+      \field{number}{3}
+      \field{shortjournal}{IEEE Internet Things J.}
+      \field{shorttitle}{{{LoRaWAN}}}
+      \field{title}{{{LoRaWAN}}: {{Evaluation}} of {{Link}}- and {{System}}-{{Level Performance}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{5}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2249\bibrangedash 2258}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/JIOT.2018.2828867
+      \endverb
+      \verb{file}
+      \verb Feltrin et al. - 2018 - LoRaWAN Evaluation of Link- and System-Level Perf.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/EUXH6LEM/Feltrin et al. - 2018 - LoRaWAN Evaluation of Link- and System-Level Perf.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8344411/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8344411/
+      \endverb
+      \keyw{,ADR}
+    \endentry
+    \entry{rizzi_evaluation_2017}{article}{}
+      \name{author}{4}{}{%
+        {{hash=a359d1d8722ebf4f0d02c07bc3377b48}{%
+           family={Rizzi},
+           familyi={R\bibinitperiod},
+           given={Mattia},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c30e26385289a3ded5d2ae5cfd28c3b8}{%
+           family={Ferrari},
+           familyi={F\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=23f655c9761944fcde1d341d5482f4dd}{%
+           family={Flammini},
+           familyi={F\bibinitperiod},
+           given={Alessandra},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f915737fd3e90b286454a7ac533567d5}{%
+           family={Sisinni},
+           familyi={S\bibinitperiod},
+           given={Emiliano},
+           giveni={E\bibinitperiod}}}%
+      }
+      \strng{namehash}{0e3eaec6ad07fca068e964ab0e985ff8}
+      \strng{fullhash}{c7a1279d6da63e4b6ea1018545abea32}
+      \strng{bibnamehash}{c7a1279d6da63e4b6ea1018545abea32}
+      \strng{authorbibnamehash}{c7a1279d6da63e4b6ea1018545abea32}
+      \strng{authornamehash}{0e3eaec6ad07fca068e964ab0e985ff8}
+      \strng{authorfullhash}{c7a1279d6da63e4b6ea1018545abea32}
+      \field{sortinit}{9}
+      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0018-9456, 1557-9662}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{month}{12}
+      \field{note}{00064}
+      \field{number}{12}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
+      \field{title}{Evaluation of the {{IoT LoRaWAN Solution}} for {{Distributed Measurement Applications}}}
+      \field{urlday}{25}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{66}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{3340\bibrangedash 3349}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/TIM.2017.2746378
+      \endverb
+      \verb{file}
+      \verb Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications:/home/aghiles/Aghiles/Research/Reading/iot/storage/E9LJ3KA3/rizzi2017.pdf:application/pdf;Rizzi et al_2017_Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/URE7IUCV/Rizzi et al_2017_Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/8036410/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/8036410/
+      \endverb
+      \keyw{,new-lora}
+    \endentry
+    \entry{eriksson_investigating_2017}{article}{}
+      \name{author}{2}{}{%
+        {{hash=f16f91d9f6e557fbf1b6f15e99fa3198}{%
+           family={Eriksson},
+           familyi={E\bibinitperiod},
+           given={Joakim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cc69b82811f7e1cdad65eaf80767107c}{%
+           family={Andersen},
+           familyi={A\bibinitperiod},
+           given={Jonas\bibnamedelima Skog},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{ef0459eaea9bf128beda62ce73148dd2}
+      \strng{fullhash}{ef0459eaea9bf128beda62ce73148dd2}
+      \strng{bibnamehash}{ef0459eaea9bf128beda62ce73148dd2}
+      \strng{authorbibnamehash}{ef0459eaea9bf128beda62ce73148dd2}
+      \strng{authornamehash}{ef0459eaea9bf128beda62ce73148dd2}
+      \strng{authorfullhash}{ef0459eaea9bf128beda62ce73148dd2}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{note}{00000}
+      \field{title}{Investigating the Practical Performance of the {{LoRaWAN}} Technology}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{pages}{61}
+      \range{pages}{1}
+      \verb{file}
+      \verb Eriksson and Andersen - Investigating the practical performance of the LoR.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/JUJBZQC6/Eriksson and Andersen - Investigating the practical performance of the LoR.pdf:application/pdf
+      \endverb
+      \keyw{,LoRa}
+    \endentry
+    \entry{marco_cattani_experimental_2017}{article}{}
+      \name{author}{3}{}{%
+        {{hash=73756a2353c15b88c53e9892bcbea66a}{%
+           family={{Marco Cattani}},
+           familyi={M\bibinitperiod}}}%
+        {{hash=d310720f00225233acace72ba20984de}{%
+           family={{Carlo Boano}},
+           familyi={C\bibinitperiod}}}%
+        {{hash=4324c9fb6a50774002069a17868ce8ad}{%
+           family={{Kay Römer}},
+           familyi={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{cf96dbfbd82e52bf8c4e1563040ec71d}
+      \strng{fullhash}{cf96dbfbd82e52bf8c4e1563040ec71d}
+      \strng{bibnamehash}{cf96dbfbd82e52bf8c4e1563040ec71d}
+      \strng{authorbibnamehash}{cf96dbfbd82e52bf8c4e1563040ec71d}
+      \strng{authornamehash}{cf96dbfbd82e52bf8c4e1563040ec71d}
+      \strng{authorfullhash}{cf96dbfbd82e52bf8c4e1563040ec71d}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Recent technological innovations allow compact radios to transmit over long distances with minimal energy consumption and could drastically affect the way Internet of Things (IoT) technologies communicate in the near future. By extending the communication range of links, it is indeed possible to reduce the network diameter to a point that each node can communicate with almost every other node in the network directly. This drastically simplifies communication, removing the need of routing, and significantly reduces the overhead of data collection. Long-range low-power wireless technology, however, is still at its infancy, and it is yet unclear (i) whether it is sufficiently reliable to complement existing short-range and cellular technologies and (ii) which radio settings can sustain a high delivery rate while maximizing energy-efficiency. To shed light on this matter, this paper presents an extensive experimental study of the reliability of LoRa , one of the most promising long-range low-power wireless technologies to date. We focus our evaluation on the impact of physical layer settings on the effective data rate and energy efficiency of communications. Our results show that it is often not worth tuning parameters, thereby reducing the data rate in order to maximize the probability of successful reception, especially on links at the edge of their communication range. Furthermore, we study the impact of environmental factors on the performance of LoRa, and show that higher temperatures significantly decrease the received signal strength and may drastically affect packet reception.}
+      \field{day}{15}
+      \field{issn}{2224-2708}
+      \field{journaltitle}{Journal of Sensor and Actuator Networks}
+      \field{langid}{english}
+      \field{month}{6}
+      \field{note}{00000}
+      \field{number}{2}
+      \field{shortjournal}{JSAN}
+      \field{title}{An {{Experimental Evaluation}} of the {{Reliability}} of {{LoRa Long}}-{{Range Low}}-{{Power Wireless Communication}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{6}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{7}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/jsan6020007
+      \endverb
+      \verb{file}
+      \verb Marco Cattani et al. - 2017 - An Experimental Evaluation of the Reliability of L.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/4U6LJJT4/Marco Cattani et al. - 2017 - An Experimental Evaluation of the Reliability of L.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.mdpi.com/2224-2708/6/2/7
+      \endverb
+      \verb{url}
+      \verb http://www.mdpi.com/2224-2708/6/2/7
+      \endverb
+      \keyw{,LoRa}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

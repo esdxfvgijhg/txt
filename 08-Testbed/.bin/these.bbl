@@ -1,0 +1,53 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{bregell_hardware_2015}{article}{}
+      \name{author}{1}{}{%
+        {{hash=1acdd94669cdd39cf013c1f224702665}{%
+           family={Bregell},
+           familyi={B\bibinitperiod},
+           given={Johan},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{1acdd94669cdd39cf013c1f224702665}
+      \strng{fullhash}{1acdd94669cdd39cf013c1f224702665}
+      \strng{bibnamehash}{1acdd94669cdd39cf013c1f224702665}
+      \strng{authorbibnamehash}{1acdd94669cdd39cf013c1f224702665}
+      \strng{authornamehash}{1acdd94669cdd39cf013c1f224702665}
+      \strng{authorfullhash}{1acdd94669cdd39cf013c1f224702665}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Master of Science Thesis in Embedded Electronic System Design}
+      \field{note}{00002}
+      \field{title}{Hardware and Software Platform for {{Internet}} of {{Things}}}
+      \field{year}{2015}
+      \field{dateera}{ce}
+      \verb{file}
+      \verb Bregell - 2015 - Hardware and software platform for Internet of Thi.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/WP8TRJWI/Bregell - 2015 - Hardware and software platform for Internet of Thi.pdf:application/pdf
+      \endverb
+      \keyw{Boards,A}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

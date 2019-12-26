@@ -1,0 +1,33 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is '.bin/paper.blg'
+[222] biber:315> INFO - === Thu Dec 12, 2019, 11:07:54
+[395] Biber.pm:371> INFO - Reading '.bin/paper.bcf'
+[1056] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[1056] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
+[1077] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[1077] Biber.pm:889> INFO - Found 3 citekeys in bib section 2
+[1078] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[1351] Biber.pm:4093> INFO - Processing section 2
+[1405] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/Research/txt/Resources/bib/iot.bib' for section 2
+[1981] bibtex.pm:1512> INFO - LaTeX decoding ...
+[6262] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/Research/txt/Resources/bib/iot.bib'
+[6392] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/Research/txt/Resources/bib/iotbis.bib' for section 2
+[6393] bibtex.pm:1512> INFO - LaTeX decoding ...
+[6402] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/Research/txt/Resources/bib/iotbis.bib'
+[6404] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/Research/txt/Resources/bib/privacy.bib' for section 2
+[6462] bibtex.pm:1512> INFO - LaTeX decoding ...
+[7352] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/Research/txt/Resources/bib/privacy.bib'
+[7362] Utils.pm:193> WARN - Duplicate entry key: 'fang_privacy_2010' in file '/home/aghiles/Aghiles/Research/txt/Resources/bib/privacy.bib', skipping ...
+[7371] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/Research/txt/Resources/bib/petri.bib' for section 2
+[7374] bibtex.pm:1512> INFO - LaTeX decoding ...
+[7411] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/Research/txt/Resources/bib/petri.bib'
+[7412] Utils.pm:193> WARN - I didn't find a database entry for 'al-fuqaha_internet_24' (section 2)
+[7412] Utils.pm:193> WARN - I didn't find a database entry for 'libelium_waspmote_2017' (section 2)
+[7413] Utils.pm:193> WARN - I didn't find a database entry for 'fakhfakh_deep_2017' (section 2)
+[7434] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[7434] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[7434] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[7434] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[7435] bbl.pm:636> INFO - Writing '.bin/paper.bbl' with encoding 'UTF-8'
+[7435] bbl.pm:739> INFO - Output to .bin/paper.bbl
+[7435] Biber.pm:110> INFO - WARNINGS: 4

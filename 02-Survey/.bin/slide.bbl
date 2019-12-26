@@ -1,0 +1,66 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{simiscuka_relay_2018}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=b22b87a6796fe432f9c0e88e19af8496}{%
+           family={Simiscuka},
+           familyi={S\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=566d5a415247198bad76463991d74b27}{%
+           family={Muntean},
+           familyi={M\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{d277c18b6d191658b94ecd393be3ec52}
+      \strng{fullhash}{d277c18b6d191658b94ecd393be3ec52}
+      \strng{bibnamehash}{d277c18b6d191658b94ecd393be3ec52}
+      \strng{authorbibnamehash}{d277c18b6d191658b94ecd393be3ec52}
+      \strng{authornamehash}{d277c18b6d191658b94ecd393be3ec52}
+      \strng{authorfullhash}{d277c18b6d191658b94ecd393be3ec52}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Internet of Things (IoT) networks inter-connect billions of devices of diverse data types such as multimedia and sensor data. These networks need to be able to offer services at high quality levels for a massive amount of users and smart objects. In this paper, we analyse the Quality of Service (QoS) of our Relay and Mobility Scheme for the Internet of Things (REMOS-IOT), which consists of IoT objects that provide several services such as video applications, CCTV monitoring and sensor data, smart gateways, which interconnect the smart devices, and a cloud-deployed platform which is used for resource management and decision-making to improve network quality. This paper presents a novel algorithm which considers QoS, devices locations and service relevance metrics and creates more appropriate clusters for the networked IoT objects in order to improve IoT services quality. Objects are then attached to gateways or relay devices with better network quality, while the performance of poorly operating clusters is also improved.}
+      \field{booktitle}{2018 {{IEEE International Conference}} on {{Communications Workshops}} ({{ICC Workshops}})}
+      \field{eventtitle}{2018 {{IEEE International Conference}} on {{Communications Workshops}} ({{ICC Workshops}})}
+      \field{month}{5}
+      \field{note}{00002}
+      \field{title}{A {{Relay}} and {{Mobility Scheme}} for {{QoS Improvement}} in {{IoT Communications}}}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/ICCW.2018.8403755
+      \endverb
+      \verb{file}
+      \verb Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/WZ8L9235/Simiscuka_Muntean_2018_A Relay and Mobility Scheme for QoS Improvement in IoT Communications.pdf:application/pdf
+      \endverb
+      \keyw{,SDN}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

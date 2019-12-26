@@ -1,0 +1,116 @@
+\subsection{Background}
+\subsubsection{Game Theory}
+\begin{frame}{Game theory}{Related work}
+	\Itemize{
+		\item \bf{Players:} $K = \{1, ... , K\}$
+		\item \bf{Strategies:} $S =S_{1} \times \ldots \times S_{K}$
+		\Itemize{
+			\item $S_{k}$ is the strategy set of the $k^{th}$ player.
+		}
+		\item \bf{Rewards:} $u_{k} : S \longrightarrow R_{+}$ and is denoted by $r_{k} (s_{k} , s_{-k})$
+		\Itemize{
+			\item $s_{-k}=\left(s_{1}, \dots, s_{k-1}, s_{k+1}, \ldots, s_{K}\right) \in S_{1} \times \ldots \times S_{k-1} \times S_{k+1} \times \ldots \times S_{K}$
+		}
+	}
+ \end{frame}
+
+
+\subsubsection{Matching Theory}
+	\begin{frame}{Game theory}{Related work}
+\end{frame}
+
+
+
+
+\subsubsection{Learning}
+
+\subsubsection{Bandit Algorithm}
+\begin{frame}{Multi-Armed-Bandit Algorithm}{Related work}
+\begin{itemize}
+	\item \bf{Arms:} K = {1, ... , K}
+	\item \bf{Decision:} T = {1, ... , T}
+	\item \bf{Reward:} $X^{k}_{t}$ with $\mu^{k}_{t}$ = E $[X^{k}_{t}]$
+	\begin{itemize}
+		\item \bf{Best reward:} $X^{*}_{t}$ with $\mu^{*}_{t}$ = max $\mu^{k}_{t}$,  k\in  K
+	\end{itemize}
+\end{itemize}
+\end{frame}
+
+
+
+\subsubsection{Q-Learning}
+\begin{frame}{Q Learning}{Related work}
+	\Figure{h}{.5}{qlearning}{qlearning}
+\end{frame}
+
+
+\subsubsection{Marcov Chain}
+
+\begin{frame}{Marcov chain}{Related work}
+
+\begin{flushleft}
+\begin{equation}
+V(s, \pi)=\mathbb{E}_{s}^{\pi}\left(\sum_{k=0}^{\mathrm{inf}} \gamma^{k} \cdot r\left(s_{k}, a_{k}\right)\right), s \in \mathbb{S}
+\end{equation}
+
+\begin{equation}
+r\left(s_{k}, a_{k}\right)=G_{k} \cdot P R R\left(a_{k}\right)
+\end{equation}
+
+\begin{equation}
+\pi^{*}=\arg \max _{\pi} V(s, \pi)
+\end{equation}
+
+% \stamp{HGHGJ}
+% \begin{tikzpicture}[remember picture, overlay]
+% 	\node[draw, rotate=30] at (25em, 7ex) {\color{red!90}\huge\bfseries APPROVED};
+% \end{tikzpicture}
+
+\begin{equation}
+PRR=(1-BER)^{L}
+\end{equation}
+
+\begin{equation}
+BER=10^{\alpha e^{\beta SNR}}
+\end{equation}
+
+\end{flushleft}
+
+\end{frame}
+
+\begin{frame}{Marcov chain}{Related work}
+
+\Columns{0.6}{.4}{
+
+Learning iterative steps:
+
+\Itemize{
+	\item \textbf{Choose} action $a_{k}(t) \sim \pi_{k}(t)$
+	\item \textbf{Observe} game outcome 
+	\Itemize{
+		\item $a_{\_k}(t)$
+		\item $u_{k}(a_{k}(t), a_{\_k}(t))$
+	}
+	\item \textbf{Improve} $\pi_{k}(t+1)$
+}
+
+Thus, we can expect that \forall k \in K
+
+\Equation{e1}{\pi_{k(t)} \xrightarrow{t\longrightarrow\infty} \pi^{*}_{k}}
+\Equation{e2}{u_{k}(\pi_{k}(t), \pi_{\_k}(t)) \xrightarrow{t\longrightarrow\infty} u_{k}(\pi^{*}_{k}, \pi^{*}_{\_k})}
+
+Where:
+\Itemize{
+	\item $ \pi^{*} = (\pi^{*}_{1}, ..., \pi^{*}_{k})$ is the NE strategy profile
+}
+
+}{
+	\Figure{h}{1}{marcov}{}
+}
+
+\end{frame}
+
+
+
+
+ 

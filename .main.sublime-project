@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"name": "Folders",
+			"path": ".",
+			"file_exclude_patterns": [".*", "*.gz"],
+			"follow_symlinks": true
+		}
+	],
+	"settings":
+	{
+		"TEXroot": "these.tex",
+		"builder_settings":
+		{
+			"options": "--shell-escape",
+			"program": "lualatex"
+		}
+	}
+}

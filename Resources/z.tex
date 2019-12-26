@@ -1,0 +1,26 @@
+\documentclass{article}
+\usepackage{tikz}
+\tikzset{
+  boxStyle/.style={draw=blue!80, fill=blue!9, very thick,
+    rectangle, rounded corners=3mm, inner sep=10pt, inner ysep=15pt},
+  boxTitleStyle/.style={fill=blue!80, rectangle, rounded corners=2mm,
+    text=white, inner sep=10pt, inner ysep=7pt, left=10pt},
+}
+
+\newenvironment{textBox}[1]{%
+  \def\title{#1}%
+  \begin{tikzpicture}
+    \node [boxStyle] (box)
+    \bgroup\minipage{0.5\textwidth}%
+}{
+    \endminipage%
+    \egroup;
+%    \node[boxTitleStyle] at (box.north east) {\title};
+  \end{tikzpicture}%
+}
+
+\begin{document}
+\begin{textBox}{Hello}
+This is some text that goes in the minipage
+\end{textBox}
+\end{document}

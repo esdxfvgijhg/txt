@@ -1,0 +1,191 @@
+\begin{poster}{
+    grid=false,
+    headerborder=open,           % Adds a border around the header of content boxes
+    colspacing=1em,              % Column spacing
+    bgColorOne=white,            % Background color for the gradient on the left side of the poster
+    bgColorTwo=white,            % Background color for the gradient on the right side of the poster
+    borderColor=white,           % Border color
+    headerColorOne=violet,       % Background color for the header in the content boxes (left side)
+    headerColorTwo=white,        % Background color for the header in the content boxes (right side)
+    headerFontColor=white,       % Text color for the header text in the content boxes
+    boxColorOne=white,           % Background color of the content boxes
+    textborder=rounded,          %rectangle, % Format of the border around content boxes, can be: none, bars, coils, triangles, rectangle, rounded, roundedsmall, roundedright or faded
+    eyecatcher=false,            % Set to false for ignoring the left logo in the title and move the title left
+    headerheight=0.1\textheight, % Height of the header
+    headershape=rounded,         % Specify the rounded corner in the content box headers, can be: rectangle, small-rounded, roundedright, roundedleft or rounded
+    headershade=plain,
+    headerfont=\Large\textsf,    % Large, bold and sans serif font in the headers of content boxes
+    %textfont={\setlength{\parindent}{1.5em}}, % Uncomment for paragraph indentation
+    linewidth=2pt                % Width of the border lines around content boxes
+}{
+    \includegraphics[scale=.3]{esiee}
+}{
+   \LARGE\textsf{Genetic Algorithm For LoRa Transmission Parameter Selection}
+}{
+    \sf\vspace{0.2em}\\
+    Aghiles DJOUDI\Mark{1}\Mark{2}, Rafik ZITOUNI\Mark{2}, Nawel ZANGAR\Mark{1} and Laurent GEORGE\Mark{1}
+    \vspace{0.3em}\\
+    \small{
+        \Mark{1} LIGM, UMR 8049, École des Ponts, UPEM, ESIEE Paris, CNRS,UPE, France\\
+        \Mark{2} ECE Research Lab Paris, 37 Quai de Grenelle, 75015 Paris, France
+        \vspace{0.3em}\\
+    }
+    Email:   aghiles.djoudi@esiee.fr, rafik.zitouni@ece.fr, nawel.zangar@esiee.fr, laurent.george@esiee.fr
+
+}{
+    \includegraphics[scale=.13]{esiee}
+}
+
+
+\headerbox{1. Introduction}{name=introduction,column=0,row=0, span=3}{
+     The need of a new kind of wireless communication that could send data far away with limited resource constraints emerged recently to support IoT applications like smart building and smart environment monitoring.
+ \textbf{LoRaWan} is one of this emerging wireless networks \cite{ayoub_internet_2019},
+    it allows end-devices to reach the gateway in a range up to 5Km, 
+    % it worth to mention that LoRaWan has a star topology so end-devices can communicate only 
+Unlike other technologies LoRaWan is the best versatile solution to deploy IoT application in both urban and rural area where there is no communication infrastructure.
+
+}
+
+\headerbox{2. Parameter selection problem}{name=mcs,column=0,below=introduction,span=1}{
+    The physical layer of LoRa technology (Semtech SX1276) has 4 parameters which make 6720 possible settings \cite{noura_interoperability_2018}:
+    \begin{itemize}
+        \item[\ding{224}] \textbf{SF:} Spreading factor [SF7 - SF12]
+        \item[\ding{224}] \textbf{CR:} Coding rate [4/5 - 4/8]
+        \item[\ding{224}] \textbf{BW:} Bandwidth [7.8Khz - 500Khz]
+        \item[\ding{224}] \textbf{Tx:} Transmission power [-4dBm~+20dBm]
+    \end{itemize}
+
+    \begin{center}
+        \includegraphics[width=\linewidth]{lorawan_parameters}
+            iotnet.eu
+    \end{center}
+}
+
+\headerbox{3. Genetic Algorithm}{name=model,column=0,below=mcs,span=1}{
+    A genetic algorithm is a heuristic search that is used to deal with selection and ranking problems  \cite{vlahogianni_optimized_2005}.
+    This algorithm reflects the process of natural selection where the fittest configurations are selected for reproduction in order to produce offspring of the next generation.
+    \begin{itemize}
+        \item[\ding{224}]  \textbf{Gene:} QoS metric.
+        \item[\ding{224}]  \textbf{Chromosome:} QoS of one configuration.
+        \item[\ding{224}]  \textbf{Population:} QoS of all configurations.
+    \end{itemize}
+
+        \begin{center}
+        \includegraphics[width=\linewidth]{genetic_}
+        towardsdatascience.com
+    \end{center}
+}
+
+
+
+\headerbox{4. LoRaWan network}{name=image,span=2,column=1,below=introduction}{
+    \begin{center}
+        \includegraphics[width=.8\linewidth]{arch2}
+    \end{center}
+}
+
+
+\headerbox{5. Algorithm}{name=screen,span=2,column=1,below=image}{
+\medskip
+\setlength{\columnsep}{-2.5cm}
+    \begin{multicols}{2}
+    \textbf{Definition:} stopping criteria, population size P, and mutation probability $p_{m}$\\
+    \textbf{Generate} randomly the initial configurations \\
+    \textbf{repeat:}\\
+    . . . \textbf{for} each configuration do\\
+    . . . . . . Train a model \& compute configuration's fitness\\
+    . . . \textbf{end}\\
+    . . . \textbf{for} each reproduction 1 ... P/2 do\\
+    . . . . . . \textbf{Select:} 2 configurations based on fitness\\
+    . . . . . . \textbf{Crossover:} Produce 2 child configurations\\
+    . . . . . . \textbf{Mutate:} child configurations with $p_{m}$\\
+    . . . \textbf{end}\\
+    \textbf{until} stopping criterion are met\\
+    \columnbreak
+    \flushright
+    \begin{tikzpicture}[node distance=1cm, every node/.style={fill=white, font=\sffamily}, align=center]
+      \node (start)       [activityStarts]                     {Parameter initialization};
+      \node (fitness)     [selection, below of=start]          {Fitness function};
+      \node (crossover)   [selection, below of=fitness]        {Crossover};
+      \node (mutation)    [selection, below of=crossover]      {Mutation};
+      \node (selection)   [selection, below of=mutation]       {Survivor selection};
+      \node (end)         [activityStarts, below of=selection] {Ranked selection list};
+  
+      \draw[->]     (start)     -- (fitness);
+      \draw[->]     (fitness)   -- (crossover);
+      \draw[->]     (crossover) -- (mutation);
+      \draw[->]     (mutation)  -- (selection);
+      \draw[->]     (selection) -- (end);
+      \draw[->] (selection.east) to[bend right] (fitness.east);
+    \end{tikzpicture}
+\end{multicols}
+}
+
+\headerbox{6. Framework}{name=sea,span=2,column=1,below=screen}{
+    \begin{center}
+        \includegraphics[width=\linewidth]{genetic}
+        The proposed scheme for LoRa transmission parameters selection based on GA, FL and Multi-Criteria Decision Making MCDM .
+    \end{center}
+    \medskip
+    \Itemize{
+        \item \textbf{Ongoing:} In order to generate all the required metrics of each LoRa configuration, we use ns3 simulator with 2 nodes and one gateway. The distance between nodes and the gateway is 1km.
+
+    }
+
+
+
+    % \begin{multicols}{2}
+    %     \includegraphics[width=.8\linewidth]{generation}
+
+    % \columnbreak
+    %     \bigskip
+    %     \
+    %     \
+    %     \
+    %     \
+    %     \
+    %     \begin{center}
+    %     \begin{tabular}{c|c|c|c}
+    %         \textbf{Setup}   & \textbf{Selection error} & \textbf{Rank} & \textbf{Fitness} \\\hline
+    %         \textbf{1}               & 0.9                      & 1             & 1.5               \\
+    %         \textbf{2}               & 0.5                      & 3             & 4.5               \\
+    %         \textbf{3}               & 0.7                      & 2             & 3                  \\
+    %         \textbf{n}               & 0.5                      & 4             & 6                 \\
+    %     \end{tabular}
+    %     \end{center}
+
+    % \end{multicols}
+
+    % Results show that genetic algorithm select the configuration that match better the required QoS by the application.
+    % % In fact,
+    %     when we run an application that requires high quality of service,
+    %     the algorithm select the configuration that gives large BW and hight data rate with minimum enrgy consumption.
+    % When we run an application that requiers less QoS,
+    %     the algorithm rank configuration whith sufficient BW and DR.
+
+}
+
+\headerbox{7. Discussion}{name=conclusion,column=1,below=sea,span=2,above=bottom}{
+
+    \ding{224} \textbf{Advantages:}
+        Genetic algorithms can manage data sets with many features.
+        They don't need additional knowledge about the problem under study.
+        In fact, such iterative algorithms require only the result of the last fitness value of the previous generation,
+        % but they usually require much time to converge thus edge computing could solve this problem.
+        % Such an approach could easily be deployed in network servers without additional configuration.
+
+    \ding{224} \textbf{Conclusion:}
+        LoRa transmission parameter selection problem by nature is a selection problem,
+        thus, in our work we use genetic algorithm with a selection process to get the optimal subset of parameters that match better required QoS.
+        Knowing the impact of each LoRa parameter on the output configuration still a big issue in research area.
+        Our first results show that the transmission delay is more impacted by the SF and BW but less impacted by the CR.
+    }
+
+\headerbox{7. References}{name=references,column=0,span=1,below=model,above=bottom}{
+    \small
+    \renewcommand{\section}[2]{\vskip 0.05em} 
+    % \bibliographystyle{unsrt}
+    \printbibliography
+}
+\end{poster}
+

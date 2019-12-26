@@ -1,0 +1,89 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% POLICE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usepackage{txfonts}
+\newcommand{\displaydefault}{pag}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% COULEURS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\colorlet{titlecolor}{red!50!black}
+\colorlet{sectioncolor}{blue!75!black}
+\colorlet{exocolor}{green!50!black}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%% MARGES %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\geometry{left=5cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%% TITRE %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\usetikzlibrary{calc}
+\usetikzlibrary{shapes}
+
+\setlength{\droptitle}{-3cm}%
+\renewcommand{\maketitlehooka}{
+%\begin{center}
+%Lycée Saint-Ursule\hfill Terminale S
+%
+%\thedate\hfill \theauthor
+%\end{center}
+\begin{tikzpicture}[remember picture, overlay]
+\fill[fill=titlecolor] (current page.north west) rectangle ($ (current page.north east) + (0,-3cm) $);
+\node[above right=-0.2cm,text=white] at ($ (current page.north west) + (0,-3cm) $) {\fontfamily{\displaydefault}\fontsize{2.5cm}{2.5cm}\selectfont \hspace{-4pt}révisions};
+\node[above left=-0.2cm,text=white] at ($ (current page.north east) + (0,-3cm) $) {\fontfamily{\displaydefault}\fontsize{2.5cm}{2.5cm}\selectfont TS};
+\end{tikzpicture}
+}
+
+\newcommand{\mangeargument}[1]{}
+\pretitle{\mangeargument}
+\posttitle{\vspace{1cm}}
+\preauthor{\mangeargument}
+\postauthor{}
+\predate{\mangeargument}
+\postdate{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%% SECTIONS %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\titleformat{\section}%
+  [hang]% style du titre (hang, display, runin, leftmargin, drop, wrap)
+  {\color{sectioncolor}\fontfamily{\displaydefault}\selectfont\bfseries\LARGE}% changement de fonte commun au numéro et au titre
+  {\colorbox{sectioncolor}{\color{white}\,\thesection\,}}% spécification du numéro
+  {0.5em}% espace entre le numéro et le titre
+  {}% changement de fonte du titre
+  [\titlerule]
+
+\titlespacing*{\section}%
+  {-3cm}% retrait à gauche
+  {3em}% espace avant
+  {2em}% espace après
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%% THÉORÈMES %%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newtheoremstyle{definition}
+  {\topsep}%   space before
+  {\topsep}%   space after
+  {\upshape}%  Body font
+  {}%          Indent amount (empty for no indent, \parindent)
+  {\bfseries}% Thm head font   
+  {}%         Punctuation after thm head
+  {0cm}%         Space after thm head (\newline = linebreak)
+  {\llap{\begin{tikzpicture}[baseline=(textbox.base)]
+         \node[ellipse,fill=exocolor,text=white,inner sep=3pt]
+           (textbox)
+           {\vphantom{t}\smash{\thmname{#1}\thmnumber{ #2}}};
+         \end{tikzpicture}
+        }%
+   \thmnote{(#3) }}% Thm head spec
+
+
+

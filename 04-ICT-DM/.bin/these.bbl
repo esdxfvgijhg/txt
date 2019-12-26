@@ -1,0 +1,204 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{qiu_ergid_2016}{article}{}
+      \name{author}{6}{}{%
+        {{hash=f8943421a003b06fc50de5d963861eca}{%
+           family={Qiu},
+           familyi={Q\bibinitperiod},
+           given={Tie},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1ea903c293b2c3048574804785b91783}{%
+           family={Lv},
+           familyi={L\bibinitperiod},
+           given={Yuan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=fcc7df98b43603dc06c2a196e5459dd7}{%
+           family={Xia},
+           familyi={X\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=d78d9f118cf4ab50783df878af0fadb4}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+        {{hash=75916034f60ced983937f039403ca17f}{%
+           family={Wan},
+           familyi={W\bibinitperiod},
+           given={Jiafu},
+           giveni={J\bibinitperiod}}}%
+        {{hash=e13d7b2fa2538ea0a4244801e1a0837e}{%
+           family={Tolba},
+           familyi={T\bibinitperiod},
+           given={Amr},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{78fcc9c290356e34bb0e285c5584b920}
+      \strng{fullhash}{fe02d4d9591b9ad35b326bc2a927a8a9}
+      \strng{bibnamehash}{fe02d4d9591b9ad35b326bc2a927a8a9}
+      \strng{authorbibnamehash}{fe02d4d9591b9ad35b326bc2a927a8a9}
+      \strng{authornamehash}{78fcc9c290356e34bb0e285c5584b920}
+      \strng{authorfullhash}{fe02d4d9591b9ad35b326bc2a927a8a9}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{10848045}
+      \field{journaltitle}{Journal of Network and Computer Applications}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{note}{00052}
+      \field{shortjournal}{Journal of Network and Computer Applications}
+      \field{shorttitle}{{{ERGID}}}
+      \field{title}{{{ERGID}}: {{An}} Efficient Routing Protocol for Emergency Response {{Internet}} of {{Things}}}
+      \field{urlday}{9}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{volume}{72}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{104\bibrangedash 112}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1016/j.jnca.2016.06.009
+      \endverb
+      \verb{file}
+      \verb Qiu et al_2016_ERGID.pdf:/home/aghiles/Aghiles/Job/doc/x/iot/storage/GJLHCB4X/Qiu et al_2016_ERGID.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1084804516301308
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1084804516301308
+      \endverb
+      \keyw{,z-A}
+    \endentry
+    \entry{al-turjman_cognitive_2019}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2877c90c5af5288a8df92b5be52346a4}{%
+           family={Al-Turjman},
+           familyi={A\bibinithyphendelim T\bibinitperiod},
+           given={Fadi},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{2877c90c5af5288a8df92b5be52346a4}
+      \strng{fullhash}{2877c90c5af5288a8df92b5be52346a4}
+      \strng{bibnamehash}{2877c90c5af5288a8df92b5be52346a4}
+      \strng{authorbibnamehash}{2877c90c5af5288a8df92b5be52346a4}
+      \strng{authornamehash}{2877c90c5af5288a8df92b5be52346a4}
+      \strng{authorfullhash}{2877c90c5af5288a8df92b5be52346a4}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this paper, we propose a framework for data delivery in large-scale networks for disaster management, where numerous wireless sensors are distributed over city traffic-infrastructures, shopping-malls' parking areas, airports' facilities, etc. In general, our framework caters for energy-efficient applications in the Internet of Things (IoT) where data is propagated via relays from diverse sensornodes towards a gateway connected to a large-scale network such as the Internet. We consider the entire network energy while choosing the next hop for the routed packets in the targeted wireless sensor network. Our delivery approach considers resource limitations in terms of hop count, and remaining-energy levels. Extensive simulations are performed and achieved results confirm the effectiveness of the proposed approach in comparison to other baseline energy-aware routing protocols in the literature.}
+      \field{issn}{0167739X}
+      \field{journaltitle}{Future Generation Computer Systems}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{note}{00050}
+      \field{title}{Cognitive Routing Protocol for Disaster-Inspired {{Internet}} of {{Things}}}
+      \field{urlday}{8}
+      \field{urlmonth}{10}
+      \field{urlyear}{2019}
+      \field{volume}{92}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1103\bibrangedash 1115}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.future.2017.03.014
+      \endverb
+      \verb{file}
+      \verb Al-Turjman - 2019 - Cognitive routing protocol for disaster-inspired I.pdf:/home/aghiles/Aghiles/Job/doc/x/iot/storage/ADX9YQW5/Al-Turjman - 2019 - Cognitive routing protocol for disaster-inspired I.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0167739X16307439
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0167739X16307439
+      \endverb
+      \keyw{,z-A}
+    \endentry
+    \entry{al-kashoash_comparison_2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e60cb8fa61db391c0f9697c7ee2bfad3}{%
+           family={Al-Kashoash},
+           familyi={A\bibinithyphendelim K\bibinitperiod},
+           given={H.\bibnamedelimi A.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7ced864d4acf1fdcd851e9d9e4d34d0d}{%
+           family={Kemp},
+           familyi={K\bibinitperiod},
+           given={Andrew\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{061842bc39c59a20626b871b09c21776}
+      \strng{fullhash}{061842bc39c59a20626b871b09c21776}
+      \strng{bibnamehash}{061842bc39c59a20626b871b09c21776}
+      \strng{authorbibnamehash}{061842bc39c59a20626b871b09c21776}
+      \strng{authornamehash}{061842bc39c59a20626b871b09c21776}
+      \strng{authorfullhash}{061842bc39c59a20626b871b09c21776}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By 2020, 50 billion devices (things) are expected to be connected to the Internet to form the Internet of Things (IoT) world. In general, two main categories of networks are used in the IoT: short-range and long-range low-power networks. IPv6 over low-power wireless personal area networks (6LoWPAN) are considered to be a crucial network in short-range low-power networks where 6LoWPAN motes will account for the majority of short-range low-power things. Also, LoRaWAN and SigFox are two major networking landscapes and players in long-range, low-power networks or oftentimes called low-power wide area networks (LPWAN). This paper reviews and compares 6LoWPAN and LPWAN in terms of network architecture, protocol stack, applications and security. In general, LPWAN networks are more demanding in terms of node and link constraints than 6LoWPAN networks (e.g. very low payload size, very low data rate and very limited resources). Also, as yet, LPWAN networks do not have IPv6 addressing capabilities. Each network category has its unique characteristics and strengths and each category has its important role in the IoT world.}
+      \field{issn}{1448-837X, 2205-362X}
+      \field{journaltitle}{Australian Journal of Electrical and Electronics Engineering}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{00000}
+      \field{number}{4}
+      \field{shortjournal}{Australian Journal of Electrical and Electronics Engineering}
+      \field{title}{Comparison of {{6LoWPAN}} and {{LPWAN}} for the {{Internet}} of {{Things}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{13}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{268\bibrangedash 274}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1080/1448837X.2017.1409920
+      \endverb
+      \verb{file}
+      \verb Al-Kashoash and Kemp - 2016 - Comparison of 6LoWPAN and LPWAN for the Internet o.pdf:/home/aghiles/Aghiles/Job/doc/x/iot/storage/L8672SPT/Al-Kashoash and Kemp - 2016 - Comparison of 6LoWPAN and LPWAN for the Internet o.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/1448837X.2017.1409920
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/1448837X.2017.1409920
+      \endverb
+      \keyw{,LoRa}
+    \endentry
+  \enddatalist
+  \missing{lopes_design_2019}
+  \missing{raza_low_22}
+\endrefsection
+\endinput
+

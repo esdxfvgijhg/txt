@@ -1,0 +1,189 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{alkhawlani_access_2008}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2c94faa007d8002e5045bd61482fd3bd}{%
+           family={Alkhawlani},
+           familyi={A\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4d19ab5e778fbe6dc54ddc612a16d7cc}{%
+           family={Ayesh},
+           familyi={A\bibinitperiod},
+           given={Aladdin},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{76877cef998619e240239f8789b7f69d}
+      \strng{fullhash}{76877cef998619e240239f8789b7f69d}
+      \strng{bibnamehash}{76877cef998619e240239f8789b7f69d}
+      \strng{authorbibnamehash}{76877cef998619e240239f8789b7f69d}
+      \strng{authornamehash}{76877cef998619e240239f8789b7f69d}
+      \strng{authorfullhash}{76877cef998619e240239f8789b7f69d}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1687-7470, 1687-7489}
+      \field{journaltitle}{Advances in Artificial Intelligence}
+      \field{langid}{english}
+      \field{note}{00089}
+      \field{title}{Access {{Network Selection Based}} on {{Fuzzy Logic}} and {{Genetic Algorithms}}}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2019}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1\bibrangedash 12}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1155/2008/793058
+      \endverb
+      \verb{file}
+      \verb Alkhawlani_Ayesh_2008_Access Network Selection Based on Fuzzy Logic and Genetic Algorithms.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/F6FSAEVQ/Alkhawlani_Ayesh_2008_Access Network Selection Based on Fuzzy Logic and Genetic Algorithms.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.hindawi.com/archive/2008/793058/
+      \endverb
+      \verb{url}
+      \verb https://www.hindawi.com/archive/2008/793058/
+      \endverb
+      \keyw{Fuzzy,A}
+    \endentry
+    \entry{bendaoud_network_2019}{article}{}
+      \name{author}{3}{}{%
+        {{hash=a9f520f4aa66b0de8c1855215530d96f}{%
+           family={Bendaoud},
+           familyi={B\bibinitperiod},
+           given={Fayssal},
+           giveni={F\bibinitperiod}}}%
+        {{hash=07307ea13cb65973f766c45bc1d7dcf5}{%
+           family={Abdennebi},
+           familyi={A\bibinitperiod},
+           given={Marwen},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ed32356c3e6bfec45051306891d8575b}{%
+           family={Didi},
+           familyi={D\bibinitperiod},
+           given={Fedoua},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{51e480f55c4fbb02494f8eaa65eeb1bd}
+      \strng{fullhash}{51e480f55c4fbb02494f8eaa65eeb1bd}
+      \strng{bibnamehash}{51e480f55c4fbb02494f8eaa65eeb1bd}
+      \strng{authorbibnamehash}{51e480f55c4fbb02494f8eaa65eeb1bd}
+      \strng{authornamehash}{51e480f55c4fbb02494f8eaa65eeb1bd}
+      \strng{authorfullhash}{51e480f55c4fbb02494f8eaa65eeb1bd}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Heterogeneous wireless networks is a term referring to networks combining different radio access technologies with the aim of establishing the best connection possible. In this case, users with multi-mode terminals can connect via different wireless technologies, such as 802.16, 802.11, UMTS, HSPA and LTE, all at the same time. The problem consists in the selection of the most suitable from all radio access technologies available. The decision process is called network selection, and depends on several parameters, such as quality of service, mobility, cost, energy, battery life, etc. Several methods and approaches have been proposed in this context, with their objective being to offer the best QoS to the users, and/or to maximize re-usability of the networks. This paper represents a survey of the network selection methods used. Multiple attribute-dependent decision-making methods are presented. Furthermore, the game theory concept is illustrated, the use of the fuzzy logic is presented, and the utility functions defining the network selection process are discussed.}
+      \field{issn}{15094553, 18998852}
+      \field{journaltitle}{Journal of Telecommunications and Information Technology}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{note}{00000}
+      \field{shorttitle}{Network {{Selection}} in {{Wireless Heterogeneous Networks}}}
+      \field{title}{Network {{Selection}} in {{Wireless Heterogeneous Networks}}: A {{Survey}}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{volume}{4}
+      \field{year}{2019}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{64\bibrangedash 74}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.26636/jtit.2018.126218
+      \endverb
+      \verb{file}
+      \verb Bendaoud et al_2019_Network Selection in Wireless Heterogeneous Networks.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/739YRMYN/Bendaoud et al_2019_Network Selection in Wireless Heterogeneous Networks.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.itl.waw.pl/czasopisma/JTIT/2018/4/64.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.itl.waw.pl/czasopisma/JTIT/2018/4/64.pdf
+      \endverb
+      \keyw{RAN,A}
+    \endentry
+    \entry{chowdhury_survey_2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ada9d063c7c5a46760fe39b5a8e064ca}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Abishi},
+           giveni={A\bibinitperiod}}}%
+        {{hash=db2c26090b531db0692142534a8592c9}{%
+           family={Raut},
+           familyi={R\bibinitperiod},
+           given={Shital\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{490c0920e0b381a823ab907e46f81adf}
+      \strng{fullhash}{490c0920e0b381a823ab907e46f81adf}
+      \strng{bibnamehash}{490c0920e0b381a823ab907e46f81adf}
+      \strng{authorbibnamehash}{490c0920e0b381a823ab907e46f81adf}
+      \strng{authornamehash}{490c0920e0b381a823ab907e46f81adf}
+      \strng{authorfullhash}{490c0920e0b381a823ab907e46f81adf}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In the modern era of computation, Internet of Things (IoT) has attracted more and more attention for implementing automation based high quality eco-system, innovative and reliable services, and improved productivity. That is why, IoT is presently spanning over a diverse range of applications in the fields of education, healthcare, agriculture, military, industry, etc. The resources IoT requires in those applications are heterogeneous in nature, for example, storage, processor, network, sensor nodes, energy, etc. The obvious challenge is how to manage these limited resources efficiently. Quite recently a number of attempts have been made towards an optimal resource management using various scheduling schemes. This paper broadly divides these scheduling schemes into three aspects, namely Quality of Services (QoS), IoT architecture, and IoT network infrastructure. The paper also presents an analysis based on different metrics of IoT resource scheduling and a comparison among different resource scheduling techniques. A section of this analysis is dedicated to the simulation model analyses involved in different scheduling schemes. Finally, we believe there is still a lot of scope in improving IoT resource management maintaining the overall quality needed. The paper considers with such a future direction of research in this field.}
+      \field{day}{15}
+      \field{issn}{1084-8045}
+      \field{journaltitle}{Journal of Network and Computer Applications}
+      \field{month}{10}
+      \field{note}{00002}
+      \field{shortjournal}{Journal of Network and Computer Applications}
+      \field{title}{A Survey Study on {{Internet}} of {{Things}} Resource Management}
+      \field{urlday}{7}
+      \field{urlmonth}{3}
+      \field{urlyear}{2019}
+      \field{volume}{120}
+      \field{year}{2018}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{42\bibrangedash 60}
+      \range{pages}{19}
+      \verb{doi}
+      \verb 10.1016/j.jnca.2018.07.007
+      \endverb
+      \verb{file}
+      \verb Chowdhury_Raut_2018_A survey study on Internet of Things resource management.pdf:/home/aghiles/Aghiles/Research/Reading/iot/storage/8678UQHT/Chowdhury_Raut_2018_A survey study on Internet of Things resource management.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://www.sciencedirect.com/science/article/pii/S1084804518302315
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1084804518302315
+      \endverb
+      \keyw{Utility,A}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
