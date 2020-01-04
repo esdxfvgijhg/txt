@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  25 DEC 2019 11:04
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  1 JAN 2020 20:31
  system commands enabled.
 **main.tex
 (./main.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.076 seconds
+luaotfload | main : initialization completed in 0.074 seconds
 (/home/aghiles/.config/latex/paper.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
@@ -2234,20 +2234,21 @@ Package: translations 2017/08/31 v1.7a internationalization of LaTeX2e packages
 Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
 ))))
 (/home/aghiles/.config/latex/nomenclature.tex))
-\c@subparagraph=\count527
-\c@part=\count528
+(/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+Package: titling 2009/09/04 v2.1d maketitle typesetting
+\thanksmarkwidth=\skip155
+\thanksmargin=\skip156
+\droptitle=\skip157
+)
+\c@part=\count527
 
 (/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 Package: chngcntr 2018/04/09 v1.1a change counter resetting
 Package chngcntr Info: \counterwithout already defined.
 (chngcntr)             Quitting chngcntr on input line 21.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
-Package: titling 2009/09/04 v2.1d maketitle typesetting
-\thanksmarkwidth=\skip155
-\thanksmargin=\skip156
-\droptitle=\skip157
-))
+\c@subparagraph=\count528
+)
 (/home/aghiles/.config/latex/bibliography.tex)
 
 Package biblatex Warning: File 'english-ieee.lbx' not found!
@@ -2270,6 +2271,9 @@ LaTeX Warning: Label `2-tab:LPWan_characteristics' multiply defined.
 
 
 LaTeX Warning: Label `2-tab:uyuy' multiply defined.
+
+
+LaTeX Warning: Label `eq:tf' multiply defined.
 
 
 LaTeX Warning: Label `10-tab:OS' multiply defined.
@@ -2703,18 +2707,14 @@ Package biblatex Info: Reference section=3 on input line 13.
 Package biblatex Info: Setting label 'refsection:3' on input line 13.
 
 (./02-Survey/00_all.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
 
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[2
+] [2
 
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[3
+] [3
 
 
 Missing character: There is no – (U+2013) in font ptmr8t!
@@ -2723,9 +2723,7 @@ Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[4
+] [4
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
@@ -2734,40 +2732,27 @@ Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[5
+] [5
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[6
+] [6
 Missing character: There is no − (U+2212) in font ptmr8t!
 Missing character: There is no − (U+2212) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[7]
+] [7]
 Underfull \hbox (badness 3229) in paragraph at lines 681--685
 []\T1/ptm/m/n/10 Croce et al. [[][]60[][]] showed the ef-fect of the quasi-
  []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[8]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[9]
+[8] [9]
 Underfull \vbox (badness 1895) has occurred while \output is active []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[10
+ [10
 Missing character: There is no ﬂ (U+FB02) in font ptmr8t!
 Missing character: There is no ć (U+0107) in font ptmr8t!
 ]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [11]
 Underfull \hbox (badness 10000) in paragraph at lines 1186--1201
 []\T1/ptm/m/n/10 From a sim-u-la-tion per-spec-tive, the work in
@@ -2789,13 +2774,9 @@ Underfull \hbox (badness 2818) in paragraph at lines 1186--1201
 \T1/ptm/m/n/10 these stud-ies did not char-ac-ter-ize the sam-pling points
  []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [12
 Missing character: There is no – (U+2013) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[13
+] [13
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
 Missing character: There is no ﬂ (U+FB02) in font ptmr8t!
@@ -2807,11 +2788,7 @@ Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no μ (U+03BC) in font ptmr8t!
 Missing character: There is no μ (U+03BC) in font ptmr8t!
 Missing character: There is no μ (U+03BC) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[14]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[15
+] [14] [15
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
@@ -2820,16 +2797,12 @@ Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[16
+] [16
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[17
+] [17
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
@@ -2837,54 +2810,36 @@ Missing character: There is no ∈ (U+2208) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[18
+] [18
 Missing character: There is no — (U+2014) in font ptmr8t!
 Missing character: There is no — (U+2014) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[19
+] [19
 Missing character: There is no ∈ (U+2208) in font ptmr8t!
 Missing character: There is no ∈ (U+2208) in font ptmr8t!
 Missing character: There is no ∗ (U+2217) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[20
+] [20
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 ]
 Underfull \hbox (badness 1406) in paragraph at lines 2188--2199
 []\T1/ptm/m/n/10 Van-ge-lista et al. [] present
  []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [21
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[22
+] [22
 Missing character: There is no – (U+2013) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[23
+] [23
 Missing character: There is no ∼ (U+223C) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ∈ (U+2208) in font ptmr8t!
 Missing character: There is no − (U+2212) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[24]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[25
+] [24] [25
 Missing character: There is no ’ (U+2019) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[26
+] [26
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
@@ -2908,8 +2863,6 @@ Underfull \hbox (badness 4229) in paragraph at lines 2937--2940
 \T1/ptm/m/n/10 Also the en-ergy con-sump-tion is con-sid-ered by some
  []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [27
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ﬁ (U+FB01) in font ptmr8t!
@@ -2927,14 +2880,10 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 1.
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[28]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[29
+[28] [29
 
 ]) (./02-Survey/02_standards.tex
-</home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.pdf, id=1557, 499.8424pt
+</home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.pdf, id=1614, 499.8424pt
  x 513.87984pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.pdf Graphic file (t
 ype pdf)
@@ -2942,12 +2891,10 @@ ype pdf)
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.
 pdf  used on input line 4.
 (luatex.def)             Requested size: 252.0pt x 259.07991pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[30
+ [30
 
 </home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.pdf>]
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_stack.png, id=1638, 845.
+</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_stack.png, id=1695, 845.
 1575pt x 597.23125pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_stack.png Graphic f
 ile (type png)
@@ -2955,7 +2902,7 @@ ile (type png)
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_
 stack.png  used on input line 131.
 (luatex.def)             Requested size: 252.0pt x 178.0772pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_a.png, id=1639, 981.667
+</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_a.png, id=1696, 981.667
 5pt x 209.78375pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_a.png Graphic file
  (type png)
@@ -2963,7 +2910,7 @@ File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_a.png Graphic file
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class
 _a.png  used on input line 181.
 (luatex.def)             Requested size: 201.60077pt x 43.07956pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_b.png, id=1640, 1025.83
+</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_b.png, id=1697, 1025.83
 25pt x 196.735pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_b.png Graphic file
  (type png)
@@ -2971,14 +2918,12 @@ File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_b.png Graphic file
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class
 _b.png  used on input line 220.
 (luatex.def)             Requested size: 252.0pt x 48.32806pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[31
+ [31
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
 </home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_stack.png></home/aghiles
 /Aghiles/job/txt/Resources/img/C-RAN/class_a.png>]
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_c.png, id=1657, 1028.84
+</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_c.png, id=1716, 1028.84
 375pt x 185.69376pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_c.png Graphic file
  (type png)
@@ -2986,15 +2931,15 @@ File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_c.png Graphic file
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class
 _c.png  used on input line 236.
 (luatex.def)             Requested size: 252.0pt x 45.4826pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lorawan_parameters.png, id=16
-58, 1027.84pt x 566.115pt>
+</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lorawan_parameters.png, id=17
+17, 1027.84pt x 566.115pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lorawan_parameters.png G
 raphic file (type png)
 <use /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lorawan_parameters.png>
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/loraw
 an_parameters.png  used on input line 243.
 (luatex.def)             Requested size: 252.0pt x 138.79008pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/loraparam.png, id=1659, 1219.
+</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/loraparam.png, id=1718, 1219.
 55624pt x 638.385pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/loraparam.png Graphic fi
 le (type png)
@@ -3002,7 +2947,7 @@ le (type png)
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lorap
 aram.png  used on input line 244.
 (luatex.def)             Requested size: 252.0pt x 131.9023pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/bw.png, id=1660, 722.7pt x 45
+</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/bw.png, id=1719, 722.7pt x 45
 9.7175pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/bw.png Graphic file (typ
 e png)
@@ -3226,15 +3171,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [32</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/class_b.png></home/aghiles
 /Aghiles/job/txt/Resources/img/C-RAN/class_c.png></home/aghiles/Aghiles/job/txt/
 Resources/img/C-RAN/lorawan_parameters.png></home/aghiles/Aghiles/job/txt/Resour
 ces/img/C-RAN/loraparam.png></home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/b
-w.png>]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[33
+w.png>] [33
 
 ]
 Overfull \hbox (67.51859pt too wide) in alignment at lines 399--420
@@ -3256,29 +3197,21 @@ Overfull \hbox (67.51859pt too wide) in alignment at lines 461--466
  [][][][][][][][] 
  []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [34
 
 Missing character: There is no π (U+03C0) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[35
+] [35
 Missing character: There is no ∼ (U+223C) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no μ (U+03BC) in font ptmr8t!
 Missing character: There is no μ (U+03BC) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[36
+] [36
 
 ]
 Overfull \hbox (5.93076pt too wide) in paragraph at lines 592--593
 [][] 
  []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [37
 
 Missing character: There is no – (U+2013) in font ptmr8t!
@@ -3290,8 +3223,6 @@ Overfull \hbox (51.96925pt too wide) in paragraph at lines 626--639
 [][] 
  []
 
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [38
 
 Missing character: There is no ’ (U+2019) in font ptmr8t!
@@ -3360,21 +3291,11 @@ Missing character: There is no ’ (U+2019) in font ptmr8t!
 \depth=\dimen431
 \totalheight=\dimen432
 \width=\dimen433
+ [39
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[39
-
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[40]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[41
+] [40] [41
 Missing character: There is no ’ (U+2019) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[42]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[43
+] [42] [43
 Missing character: There is no ‘ (U+2018) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ‘ (U+2018) in font ptmr8t!
@@ -3409,34 +3330,25 @@ Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[44
+] [44
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no – (U+2013) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[45
+] [45
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[46
+] [46
 Missing character: There is no — (U+2014) in font ptmr8t!
 Missing character: There is no — (U+2014) in font ptmr8t!
-]) (./02-Survey/06_security.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[47
+])
+(./02-Survey/06_security.tex [47
 Missing character: There is no — (U+2014) in font ptmr8t!
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
-]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[48]
+] [48]
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
@@ -3463,9 +3375,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[49
+ [49
 
 ]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
@@ -3473,7 +3383,8 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 14.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
@@ -3501,9 +3412,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[50]
+ [50]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
@@ -3532,14 +3441,13 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 LaTeX Font Info:    Try loading font information for TS1+ptm on input line 14.
- (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[51]
+ [51]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
@@ -3566,9 +3474,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[52
+ [52
 Missing character: There is no – (U+2013) in font ptmr8t!
 Missing character: There is no ł (U+0142) in font ptmr8t!
 ]
@@ -3603,9 +3509,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[53]
+ [53]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
@@ -3630,7 +3534,6 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
 Package biblatex Info: Reference section=0 on input line 14.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
 [54]
 \blx@maxsegment@4=\count545
 \blx@sectionciteorder@4=\count546
@@ -3638,21 +3541,21 @@ Package biblatex Info: Reference section=4 on input line 14.
 Package biblatex Info: Setting label 'refsection:4' on input line 14.
  (./03-ICSNC-2019/00_abstract.tex) (./03-ICSNC-2019/01_introduction.tex)
 (./03-ICSNC-2019/02_related.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
 ]) (./03-ICSNC-2019/04_approach.tex
-</home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf, id=2349, 1026.1025pt 
+</home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf, id=2431, 1026.1025pt 
 x 457.04752pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf Graphic file (typ
 e pdf)
 <use /home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf>
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pd
-f  used on input line 54.
+f  used on input line 93.
 (luatex.def)             Requested size: 252.0pt x 112.24611pt.
 ) (./03-ICSNC-2019/05_experimentation.tex
-</home/aghiles/Aghiles/job/txt/Resources/img/gateway.jpg, id=2366, 4625.28pt x 3
+</home/aghiles/Aghiles/job/txt/Resources/img/gateway.jpg, id=2448, 4625.28pt x 3
 468.96pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/gateway.jpg Graphic file (type
  jpg)
@@ -3660,7 +3563,7 @@ File: /home/aghiles/Aghiles/job/txt/Resources/img/gateway.jpg Graphic file (type
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/gateway.jpg
   used on input line 15.
 (luatex.def)             Requested size: 120.95892pt x 90.67252pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/node.jpg, id=2367, 4625.28pt x 3468
+</home/aghiles/Aghiles/job/txt/Resources/img/node.jpg, id=2449, 4625.28pt x 3468
 .96pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/node.jpg Graphic file (type jp
 g)
@@ -3668,33 +3571,46 @@ g)
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/node.jpg  u
 sed on input line 15.
 (luatex.def)             Requested size: 120.95892pt x 90.67252pt.
-) (./03-ICSNC-2019/06_results.tex) (./03-ICSNC-2019/07_conclusion.tex)
-(./04-ICT-DM/authors.tex)
+) (./03-ICSNC-2019/06_results.tex) (./03-ICSNC-2019/07_conclusion.tex
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
+[2
+Missing character: There is no ← (U+2190) in font ptmr8t!
+Missing character: There is no ← (U+2190) in font ptmr8t!
+Missing character: There is no ← (U+2190) in font ptmr8t!
+Missing character: There is no ← (U+2190) in font ptmr8t!
+Missing character: There is no ← (U+2190) in font ptmr8t!
+Missing character: There is no ← (U+2190) in font ptmr8t!
+Missing character: There is no ← (U+2190) in font ptmr8t!
+Missing character: There is no ← (U+2190) in font ptmr8t!
+Missing character: There is no ← (U+2190) in font ptmr8t!
+</home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf></home/aghiles/Aghiles
+/job/txt/Resources/img/gateway.jpg></home/aghiles/Aghiles/job/txt/Resources/img/
+node.jpg>]) (./04-ICT-DM/authors.tex)
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 15.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 15.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 15.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 15.
 Package biblatex Info: Reference section=0 on input line 15.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[2</home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf></home/aghiles/Aghil
-es/job/txt/Resources/img/gateway.jpg></home/aghiles/Aghiles/job/txt/Resources/im
-g/node.jpg>]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
+[3
+
+]
 \blx@maxsegment@5=\count547
 \blx@sectionciteorder@5=\count548
 Package biblatex Info: Reference section=5 on input line 15.
 Package biblatex Info: Setting label 'refsection:5' on input line 15.
  (./04-ICT-DM/00_abstract.tex) (./04-ICT-DM/01_introduction.tex)
 (./04-ICT-DM/02_related.tex) (./04-ICT-DM/03_background.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
 ]) (./04-ICT-DM/04_approach.tex
 
-LaTeX Warning: Reference `4-fig:iot' on page  undefined on input line 8.
+LaTeX Warning: Reference `4-fig:iot' on page 2 undefined on input line 8.
 
-</home/aghiles/Aghiles/job/txt/Resources/img/iot-devices.png, id=2469, 1869.9862
+</home/aghiles/Aghiles/job/txt/Resources/img/iot-devices.png, id=2573, 1869.9862
 5pt x 951.555pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/iot-devices.png Graphic file (
 type png)
@@ -3714,7 +3630,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 16.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 16.
 Package biblatex Info: Reference section=0 on input line 16.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2</home/aghiles/Aghiles/job/txt/Resources/img/iot-devices.png>]
 \blx@maxsegment@6=\count549
 \blx@sectionciteorder@6=\count550
@@ -3723,37 +3639,63 @@ Package biblatex Info: Setting label 'refsection:6' on input line 16.
 
 (./05-ICC/00_abstract.tex) (./05-ICC/01_introduction.tex
 
-LaTeX Warning: Reference `5-sec:Background' on page  undefined on input line 21.
+LaTeX Warning: Reference `5-sec:Background' on page 1 undefined on input line 21
+.
 
 
-
-LaTeX Warning: Reference `5-sec:Results' on page  undefined on input line 26.
+LaTeX Warning: Reference `5-sec:Results' on page 1 undefined on input line 26.
 
 ) (./05-ICC/02_related.tex) (./05-ICC/03_background.tex)
-(./05-ICC/04_approach.tex) (./05-ICC/05_experimentation.tex)
-(./05-ICC/06_results.tex) (./05-ICC/07_conclusion.tex)
-(./06-InfoCom/authors.tex)
+(./05-ICC/04_approach.tex
+Underfull \hbox (badness 3635) in paragraph at lines 41--41
+[]\T1/ptm/m/n/10 D=$\OML/cmm/m/it/10 x[]$\T1/ptm/m/n/10 , ..., $\OML/cmm/m/it/1
+0 x[]$ \T1/ptm/m/n/10 cat-e-gor-i-cal data set with $\OML/cmm/m/it/10 x[]$
+ []
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
+[1
+
+
+Missing character: There is no “ (U+201C) in font ptmr8t!
+Missing character: There is no ” (U+201D) in font ptmr8t!
+Missing character: There is no “ (U+201C) in font ptmr8t!
+Missing character: There is no ” (U+201D) in font ptmr8t!
+Missing character: There is no “ (U+201C) in font ptmr8t!
+Missing character: There is no ” (U+201D) in font ptmr8t!
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
+[2
+Missing character: There is no “ (U+201C) in font ptmr8t!
+Missing character: There is no ” (U+201D) in font ptmr8t!
+]) (./05-ICC/05_experimentation.tex) (./05-ICC/06_results.tex
+warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
+[3
+Missing character: There is no β (U+03B2) in font ptmr8t!
+Missing character: There is no − (U+2212) in font ptmr8t!
+Missing character: There is no α (U+03B1) in font ptmr8t!
+]) (./05-ICC/07_conclusion.tex) (./06-InfoCom/authors.tex)
 
 LaTeX Warning: Empty bibliography on input line 17.
 
 Package biblatex Info: Reference section=0 on input line 17.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
-[1
-
-
-]
+warning  (pdf backend): ignoring duplicate destination with the name 'page.4'
+[4]
 \blx@maxsegment@7=\count551
 \blx@sectionciteorder@7=\count552
 Package biblatex Info: Reference section=7 on input line 17.
 Package biblatex Info: Setting label 'refsection:7' on input line 17.
  (./06-InfoCom/00_abstract.tex) (./06-InfoCom/01_introduction.tex
 
-LaTeX Warning: Reference `6-sec:Background' on page  undefined on input line 24.
+LaTeX Warning: Reference `6-sec:Background' on page 1 undefined on input line 24
+.
 
 
-
-LaTeX Warning: Reference `6-sec:Results' on page  undefined on input line 28.
+LaTeX Warning: Reference `6-sec:Results' on page 1 undefined on input line 28.
 
 ) (./06-InfoCom/02_related.tex) (./06-InfoCom/03_background.tex)
 (./06-InfoCom/04_approach.tex) (./06-InfoCom/05_experimentation.tex)
@@ -3764,7 +3706,7 @@ LaTeX Warning: Empty bibliography on input line 18.
 
 Package biblatex Info: Reference section=0 on input line 18.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
@@ -3775,11 +3717,11 @@ Package biblatex Info: Reference section=8 on input line 18.
 Package biblatex Info: Setting label 'refsection:8' on input line 18.
  (./07-/00_abstract.tex) (./07-/01_introduction.tex
 
-LaTeX Warning: Reference `7-sec:Background' on page  undefined on input line 25.
+LaTeX Warning: Reference `7-sec:Background' on page 1 undefined on input line 25
+.
 
 
-
-LaTeX Warning: Reference `7-sec:Results' on page  undefined on input line 29.
+LaTeX Warning: Reference `7-sec:Results' on page 1 undefined on input line 29.
 
 ) (./07-/02_related.tex) (./07-/03_background.tex) (./07-/04_approach.tex)
 (./07-/05_experimentation.tex) (./07-/06_results.tex) (./07-/07_conclusion.tex
@@ -3792,7 +3734,7 @@ LaTeX Warning: Empty bibliography on input line 19.
 
 Package biblatex Info: Reference section=0 on input line 19.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
@@ -3815,12 +3757,12 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 1.
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
 ]) (./08-Testbed/02_related.tex) (./08-Testbed/03_background.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2
 Missing character: There is no ∼ (U+223C) in font ptmr8t!
 Missing character: There is no ∼ (U+223C) in font ptmr8t!
@@ -3832,7 +3774,7 @@ Missing character: There is no • (U+2022) in font ptmr8t!
 Missing character: There is no • (U+2022) in font ptmr8t!
 Missing character: There is no • (U+2022) in font ptmr8t!
 ]) (./08-Testbed/04_approach.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
 [3
 Missing character: There is no • (U+2022) in font ptmr8t!
 Missing character: There is no • (U+2022) in font ptmr8t!
@@ -3845,7 +3787,7 @@ Missing character: There is no • (U+2022) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 ]) (./08-Testbed/05_experimentation.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.4'
 [4
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
@@ -3865,7 +3807,7 @@ Missing character: There is no − (U+2212) in font ptmr8t!
 Missing character: There is no − (U+2212) in font ptmr8t!
 Missing character: There is no − (U+2212) in font ptmr8t!
 ]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.5'
 [5
 Missing character: There is no ∼ (U+223C) in font ptmr8t!
 Missing character: There is no ∼ (U+223C) in font ptmr8t!
@@ -3875,24 +3817,24 @@ Missing character: There is no − (U+2212) in font ptmr8t!
 Missing character: There is no − (U+2212) in font ptmr8t!
 Missing character: There is no − (U+2212) in font ptmr8t!
 ]
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.6'
 [6
 Missing character: There is no μ (U+03BC) in font ptmr8t!
 Missing character: There is no μ (U+03BC) in font ptmr8t!
 ]) (./08-Testbed/06_results.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.7'
 [7
 Missing character: There is no ∼ (U+223C) in font ptmr8t!
 Missing character: There is no ’ (U+2019) in font ptmr8t!
 ]) (./08-Testbed/07_conclusion.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.8'
 [8
 Missing character: There is no μ (U+03BC) in font ptmr8t!
 ]) (./09-Conclusion/authors.tex)
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 20.
 Package biblatex Info: Reference section=0 on input line 20.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.9'
 [9
 
 ]
@@ -3906,7 +3848,7 @@ LaTeX Warning: Empty bibliography on input line 23.
 
 Package biblatex Info: Reference section=0 on input line 23.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
@@ -3920,7 +3862,7 @@ Package biblatex Info: Setting label 'refsection:11' on input line 23.
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 5.
 
-</home/aghiles/Aghiles/job/txt/Resources/img/os-timeline.png, id=2570, 594.0594p
+</home/aghiles/Aghiles/job/txt/Resources/img/os-timeline.png, id=2714, 594.0594p
 t x 179.7114pt>
 File: /home/aghiles/Aghiles/job/txt/Resources/img/os-timeline.png Graphic file (
 type png)
@@ -3929,7 +3871,7 @@ Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/os-timeline
 .png  used on input line 5.
 (luatex.def)             Requested size: 252.0pt x 76.23236pt.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
 [1
 
 
@@ -3978,7 +3920,7 @@ LaTeX Warning: Citation 'al-fuqaha_internet_24' on page 2 undefined on input lin
 e 211.
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 [2
 Missing character: There is no “ (U+201C) in font ptmr8t!
 Missing character: There is no ” (U+201D) in font ptmr8t!
@@ -4063,7 +4005,7 @@ Overfull \hbox (39.29057pt too wide) in paragraph at lines 342--342
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (./A-Protocols/02_technologies.tex) (./A-Protocols/04_frame.tex
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.3'
 [3]
 \height=\dimen434
 \depth=\dimen435
@@ -4352,7 +4294,7 @@ Overfull \hbox (828.0pt too wide) has occurred while \output is active
  []
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.4'
 [4
 
 
@@ -4384,7 +4326,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Overfull \vbox (39.83846pt too high) has occurred while \output is active []
 
 
-warning  (pdf backend): ignoring duplicate destination with the name 'page.'
+warning  (pdf backend): ignoring duplicate destination with the name 'page.5'
 [5
 
 
@@ -4410,7 +4352,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
 Package rerunfilecheck Info: File `paper.out' has not changed.
-(rerunfilecheck)             Checksum: 723984E28AEAC89514BE53B7837EF4CE;11911.
+(rerunfilecheck)             Checksum: F7318717C5D70B5A012FA30DFF38D1A2;12527.
 
 
 LaTeX Warning: There were undefined references.
@@ -4429,16 +4371,16 @@ Package logreq Info: Writing requests to 'paper.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 73384 strings out of 494383
+ 73518 strings out of 494383
  244512,2848258 words of node,token memory allocated
- 20738 words of node memory still in use:
-   8 hlist, 2 vlist, 2 rule, 2 glue, 2895 kern, 1 glyph, 1125 attribute, 116 glu
-e_spec, 1125 attribute_list, 2 write, 164 pdf_action nodes
-   avail lists: 1:28,2:3994,3:1292,4:514,5:1173,6:1014,7:11172,8:3551,9:4496,10:
+ 21663 words of node memory still in use:
+   8 hlist, 2 vlist, 2 rule, 2 glue, 3036 kern, 1 glyph, 1180 attribute, 116 glu
+e_spec, 1180 attribute_list, 2 write, 164 pdf_action nodes
+   avail lists: 1:28,2:3884,3:1292,4:514,5:1173,6:1014,7:11172,8:3551,9:4496,10:
 25,11:874,12:1
- 73316 multiletter control sequences out of 65536+600000
+ 73353 multiletter control sequences out of 65536+600000
  221 fonts using 19289703 bytes
- 84i,17n,136p,2027b,1892s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 84i,21n,136p,2027b,1892s stack positions out of 5000i,500n,10000p,200000b,100000s
 
 warning  (pdf backend): unreferenced destination with name 'NDCG'
 
@@ -4546,10 +4488,10 @@ e/texlive/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-
 dist/fonts/type1/urw/times/utmbi8a.pfb></usr/share/texlive/texmf-dist/fonts/type
 1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr
 i8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on paper.pdf (77 pages, 8123157 bytes).
+Output written on paper.pdf (81 pages, 8149652 bytes).
 
-PDF statistics: 2823 PDF objects out of 2984 (max. 8388607)
- 2595 compressed objects within 26 object streams
- 555 named destinations out of 1000 (max. 131072)
- 1464 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 2971 PDF objects out of 2984 (max. 8388607)
+ 2737 compressed objects within 28 object streams
+ 652 named destinations out of 1000 (max. 131072)
+ 1520 words of extra memory for PDF output out of 10000 (max. 100000000)
 

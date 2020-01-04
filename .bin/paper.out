@@ -76,7 +76,7 @@
 \BOOKMARK [1][-]{section.3.3}{Proposed Framework}{part.3}% 76
 \BOOKMARK [1][-]{section.3.4}{Experiments}{part.3}% 77
 \BOOKMARK [1][-]{section.3.5}{Discussion}{part.3}% 78
-\BOOKMARK [0][-]{part.4}{4 Emergency Evacuation System}{}% 79
+\BOOKMARK [0][-]{part.4}{4 EES}{}% 79
 \BOOKMARK [1][-]{section.4.1}{Introduction}{part.4}% 80
 \BOOKMARK [1][-]{section.4.2}{Related work}{part.4}% 81
 \BOOKMARK [1][-]{section.4.3}{Background}{part.4}% 82
@@ -91,91 +91,98 @@
 \BOOKMARK [2][-]{subsection.5.3.3}{Communication protocol}{section.5.3}% 91
 \BOOKMARK [2][-]{subsection.5.3.4}{Workspace and tools}{section.5.3}% 92
 \BOOKMARK [1][-]{section.5.4}{Approach}{part.5}% 93
-\BOOKMARK [1][-]{section.5.5}{Experimentation}{part.5}% 94
-\BOOKMARK [1][-]{section.5.6}{Results exploitation}{part.5}% 95
-\BOOKMARK [2][-]{subsection.5.6.1}{Range}{section.5.6}% 96
-\BOOKMARK [2][-]{subsection.5.6.2}{Response time}{section.5.6}% 97
-\BOOKMARK [2][-]{subsection.5.6.3}{Connection speed}{section.5.6}% 98
-\BOOKMARK [2][-]{subsection.5.6.4}{Power consumption}{section.5.6}% 99
-\BOOKMARK [1][-]{section.5.7}{Conclusion}{part.5}% 100
-\BOOKMARK [0][-]{part.6}{6 Q-Learning}{}% 101
-\BOOKMARK [1][-]{section.6.1}{Introduction}{part.6}% 102
-\BOOKMARK [1][-]{section.6.2}{Related work}{part.6}% 103
-\BOOKMARK [1][-]{section.6.3}{Background}{part.6}% 104
-\BOOKMARK [2][-]{subsection.6.3.1}{Hardware}{section.6.3}% 105
-\BOOKMARK [2][-]{subsection.6.3.2}{Operating system}{section.6.3}% 106
-\BOOKMARK [2][-]{subsection.6.3.3}{Communication protocol}{section.6.3}% 107
-\BOOKMARK [2][-]{subsection.6.3.4}{Workspace and tools}{section.6.3}% 108
-\BOOKMARK [1][-]{section.6.4}{Approach}{part.6}% 109
-\BOOKMARK [1][-]{section.6.5}{Experimentation}{part.6}% 110
-\BOOKMARK [1][-]{section.6.6}{Results exploitation}{part.6}% 111
-\BOOKMARK [2][-]{subsection.6.6.1}{Range}{section.6.6}% 112
-\BOOKMARK [2][-]{subsection.6.6.2}{Response time}{section.6.6}% 113
-\BOOKMARK [2][-]{subsection.6.6.3}{Connection speed}{section.6.6}% 114
-\BOOKMARK [2][-]{subsection.6.6.4}{Power consumption}{section.6.6}% 115
-\BOOKMARK [1][-]{section.6.7}{Conclusion}{part.6}% 116
-\BOOKMARK [0][-]{part.7}{7 ...}{}% 117
-\BOOKMARK [1][-]{section.7.1}{Introduction}{part.7}% 118
-\BOOKMARK [1][-]{section.7.2}{Related work}{part.7}% 119
-\BOOKMARK [2][-]{subsection.7.2.1}{Objenious}{section.7.2}% 120
-\BOOKMARK [1][-]{section.7.3}{Background}{part.7}% 121
-\BOOKMARK [2][-]{subsection.7.3.1}{Hardware}{section.7.3}% 122
-\BOOKMARK [2][-]{subsection.7.3.2}{Operating system}{section.7.3}% 123
-\BOOKMARK [2][-]{subsection.7.3.3}{Communication protocol}{section.7.3}% 124
-\BOOKMARK [2][-]{subsection.7.3.4}{Workspace and tools}{section.7.3}% 125
-\BOOKMARK [1][-]{section.7.4}{Approach}{part.7}% 126
-\BOOKMARK [1][-]{section.7.5}{Experimentation}{part.7}% 127
-\BOOKMARK [1][-]{section.7.6}{Results exploitation}{part.7}% 128
-\BOOKMARK [2][-]{subsection.7.6.1}{Range}{section.7.6}% 129
-\BOOKMARK [2][-]{subsection.7.6.2}{Response time}{section.7.6}% 130
-\BOOKMARK [2][-]{subsection.7.6.3}{Connection speed}{section.7.6}% 131
-\BOOKMARK [2][-]{subsection.7.6.4}{Power consumption}{section.7.6}% 132
-\BOOKMARK [1][-]{section.7.7}{Conclusion}{part.7}% 133
-\BOOKMARK [0][-]{part.8}{8 Testbed}{}% 134
-\BOOKMARK [1][-]{section.8.1}{Introduction bregellhardware2015}{part.8}% 135
-\BOOKMARK [2][-]{subsection.8.1.1}{Problem Statement}{section.8.1}% 136
-\BOOKMARK [2][-]{subsection.8.1.2}{Background}{section.8.1}% 137
-\BOOKMARK [2][-]{subsection.8.1.3}{Purpose \(Goal\)}{section.8.1}% 138
-\BOOKMARK [2][-]{subsection.8.1.4}{Limitations}{section.8.1}% 139
-\BOOKMARK [2][-]{subsection.8.1.5}{Method}{section.8.1}% 140
-\BOOKMARK [1][-]{section.8.2}{Related work}{part.8}% 141
-\BOOKMARK [1][-]{section.8.3}{Background}{part.8}% 142
-\BOOKMARK [2][-]{subsection.8.3.1}{Hardware}{section.8.3}% 143
-\BOOKMARK [2][-]{subsection.8.3.2}{Operating system}{section.8.3}% 144
-\BOOKMARK [2][-]{subsection.8.3.3}{Communication protocol}{section.8.3}% 145
-\BOOKMARK [2][-]{subsection.8.3.4}{Workspace and tools}{section.8.3}% 146
-\BOOKMARK [1][-]{section.8.4}{Proposed ...}{part.8}% 147
-\BOOKMARK [2][-]{subsection.8.4.1}{Drivers and firmware}{section.8.4}% 148
-\BOOKMARK [2][-]{subsection.8.4.2}{CoAP server}{section.8.4}% 149
-\BOOKMARK [3][-]{subsubsection.8.4.2.1}{Testing}{subsection.8.4.2}% 150
-\BOOKMARK [3][-]{subsubsection.8.4.2.2}{Final prototype}{subsection.8.4.2}% 151
-\BOOKMARK [1][-]{section.8.5}{Experimentation}{part.8}% 152
-\BOOKMARK [2][-]{subsection.8.5.1}{Range}{section.8.5}% 153
-\BOOKMARK [2][-]{subsection.8.5.2}{Response time}{section.8.5}% 154
-\BOOKMARK [2][-]{subsection.8.5.3}{Connection speed}{section.8.5}% 155
-\BOOKMARK [2][-]{subsection.8.5.4}{Power consumption}{section.8.5}% 156
-\BOOKMARK [1][-]{section.8.6}{Results}{part.8}% 157
-\BOOKMARK [2][-]{subsection.8.6.1}{Range}{section.8.6}% 158
-\BOOKMARK [2][-]{subsection.8.6.2}{Response time}{section.8.6}% 159
-\BOOKMARK [2][-]{subsection.8.6.3}{Connection speed}{section.8.6}% 160
-\BOOKMARK [2][-]{subsection.8.6.4}{Power consumption}{section.8.6}% 161
-\BOOKMARK [2][-]{subsection.8.6.5}{Project execution}{section.8.6}% 162
-\BOOKMARK [1][-]{section.8.7}{Discussion}{part.8}% 163
-\BOOKMARK [0][-]{part.9}{9 Conclusion}{}% 164
-\BOOKMARK [1][-]{section.9.1}{Conclusion}{part.9}% 165
-\BOOKMARK [1][-]{section.9.2}{Perspectives}{part.9}% 166
-\BOOKMARK [0][-]{part.10}{10 Survey plafforms}{}% 167
-\BOOKMARK [1][-]{section.10.1}{IoT end devices}{part.10}% 168
-\BOOKMARK [2][-]{subsection.10.1.1}{Software platform}{section.10.1}% 169
-\BOOKMARK [3][-]{subsubsection.10.1.1.1}{Contiki}{subsection.10.1.1}% 170
-\BOOKMARK [3][-]{subsubsection.10.1.1.2}{RIOT}{subsection.10.1.1}% 171
-\BOOKMARK [3][-]{subsubsection.10.1.1.3}{TinyOS}{subsection.10.1.1}% 172
-\BOOKMARK [3][-]{subsubsection.10.1.1.4}{freeRTOS}{subsection.10.1.1}% 173
-\BOOKMARK [3][-]{table.caption.57}{Summary and conclusion}{subsection.10.1.1}% 174
-\BOOKMARK [2][-]{subsection.10.1.2}{Hardware platform}{section.10.1}% 175
-\BOOKMARK [3][-]{subsubsection.10.1.2.1}{Processing Unit}{subsection.10.1.2}% 176
-\BOOKMARK [3][-]{subsubsection.10.1.2.2}{Radio Unit}{subsection.10.1.2}% 177
-\BOOKMARK [3][-]{subsubsection.10.1.2.3}{Sensing Unit}{subsection.10.1.2}% 178
-\BOOKMARK [2][-]{subsection.10.1.3}{Summary and discussion}{section.10.1}% 179
-\BOOKMARK [2][-]{subsection.10.1.4}{Lora}{section.10.1}% 180
-\BOOKMARK [1][-]{section.10.2}{Divers}{part.10}% 181
+\BOOKMARK [2][-]{subsection.5.4.1}{The FL-based Control Component}{section.5.4}% 94
+\BOOKMARK [3][-]{subsubsection.5.4.1.1}{Inputs}{subsection.5.4.1}% 95
+\BOOKMARK [3][-]{subsubsection.5.4.1.2}{Outputs}{subsection.5.4.1}% 96
+\BOOKMARK [2][-]{subsection.5.4.2}{The GA Component}{section.5.4}% 97
+\BOOKMARK [3][-]{subsubsection.5.4.2.1}{Objective function 1 \(UP\)}{subsection.5.4.2}% 98
+\BOOKMARK [3][-]{subsubsection.5.4.2.2}{Objective function 2 \(RSS\)}{subsection.5.4.2}% 99
+\BOOKMARK [3][-]{subsubsection.5.4.2.3}{Objective function 3}{subsection.5.4.2}% 100
+\BOOKMARK [2][-]{subsection.5.4.3}{The MCDM Component}{section.5.4}% 101
+\BOOKMARK [1][-]{section.5.5}{Experiments}{part.5}% 102
+\BOOKMARK [1][-]{section.5.6}{Results exploitation}{part.5}% 103
+\BOOKMARK [2][-]{subsection.5.6.1}{servicetype-based selection algorithm}{section.5.6}% 104
+\BOOKMARK [2][-]{subsection.5.6.2}{terminal speed-based selection algorithm}{section.5.6}% 105
+\BOOKMARK [2][-]{subsection.5.6.3}{random-based selection algorith}{section.5.6}% 106
+\BOOKMARK [1][-]{section.5.7}{Conclusion}{part.5}% 107
+\BOOKMARK [0][-]{part.6}{6 Q-Learning}{}% 108
+\BOOKMARK [1][-]{section.6.1}{Introduction}{part.6}% 109
+\BOOKMARK [1][-]{section.6.2}{Related work}{part.6}% 110
+\BOOKMARK [1][-]{section.6.3}{Background}{part.6}% 111
+\BOOKMARK [2][-]{subsection.6.3.1}{Hardware}{section.6.3}% 112
+\BOOKMARK [2][-]{subsection.6.3.2}{Operating system}{section.6.3}% 113
+\BOOKMARK [2][-]{subsection.6.3.3}{Communication protocol}{section.6.3}% 114
+\BOOKMARK [2][-]{subsection.6.3.4}{Workspace and tools}{section.6.3}% 115
+\BOOKMARK [1][-]{section.6.4}{Approach}{part.6}% 116
+\BOOKMARK [1][-]{section.6.5}{Experimentation}{part.6}% 117
+\BOOKMARK [1][-]{section.6.6}{Results exploitation}{part.6}% 118
+\BOOKMARK [2][-]{subsection.6.6.1}{Range}{section.6.6}% 119
+\BOOKMARK [2][-]{subsection.6.6.2}{Response time}{section.6.6}% 120
+\BOOKMARK [2][-]{subsection.6.6.3}{Connection speed}{section.6.6}% 121
+\BOOKMARK [2][-]{subsection.6.6.4}{Power consumption}{section.6.6}% 122
+\BOOKMARK [1][-]{section.6.7}{Conclusion}{part.6}% 123
+\BOOKMARK [0][-]{part.7}{7 ...}{}% 124
+\BOOKMARK [1][-]{section.7.1}{Introduction}{part.7}% 125
+\BOOKMARK [1][-]{section.7.2}{Related work}{part.7}% 126
+\BOOKMARK [2][-]{subsection.7.2.1}{Objenious}{section.7.2}% 127
+\BOOKMARK [1][-]{section.7.3}{Background}{part.7}% 128
+\BOOKMARK [2][-]{subsection.7.3.1}{Hardware}{section.7.3}% 129
+\BOOKMARK [2][-]{subsection.7.3.2}{Operating system}{section.7.3}% 130
+\BOOKMARK [2][-]{subsection.7.3.3}{Communication protocol}{section.7.3}% 131
+\BOOKMARK [2][-]{subsection.7.3.4}{Workspace and tools}{section.7.3}% 132
+\BOOKMARK [1][-]{section.7.4}{Approach}{part.7}% 133
+\BOOKMARK [1][-]{section.7.5}{Experimentation}{part.7}% 134
+\BOOKMARK [1][-]{section.7.6}{Results exploitation}{part.7}% 135
+\BOOKMARK [2][-]{subsection.7.6.1}{Range}{section.7.6}% 136
+\BOOKMARK [2][-]{subsection.7.6.2}{Response time}{section.7.6}% 137
+\BOOKMARK [2][-]{subsection.7.6.3}{Connection speed}{section.7.6}% 138
+\BOOKMARK [2][-]{subsection.7.6.4}{Power consumption}{section.7.6}% 139
+\BOOKMARK [1][-]{section.7.7}{Conclusion}{part.7}% 140
+\BOOKMARK [0][-]{part.8}{8 Testbed}{}% 141
+\BOOKMARK [1][-]{section.8.1}{Introduction bregellhardware2015}{part.8}% 142
+\BOOKMARK [2][-]{subsection.8.1.1}{Problem Statement}{section.8.1}% 143
+\BOOKMARK [2][-]{subsection.8.1.2}{Background}{section.8.1}% 144
+\BOOKMARK [2][-]{subsection.8.1.3}{Purpose \(Goal\)}{section.8.1}% 145
+\BOOKMARK [2][-]{subsection.8.1.4}{Limitations}{section.8.1}% 146
+\BOOKMARK [2][-]{subsection.8.1.5}{Method}{section.8.1}% 147
+\BOOKMARK [1][-]{section.8.2}{Related work}{part.8}% 148
+\BOOKMARK [1][-]{section.8.3}{Background}{part.8}% 149
+\BOOKMARK [2][-]{subsection.8.3.1}{Hardware}{section.8.3}% 150
+\BOOKMARK [2][-]{subsection.8.3.2}{Operating system}{section.8.3}% 151
+\BOOKMARK [2][-]{subsection.8.3.3}{Communication protocol}{section.8.3}% 152
+\BOOKMARK [2][-]{subsection.8.3.4}{Workspace and tools}{section.8.3}% 153
+\BOOKMARK [1][-]{section.8.4}{Proposed ...}{part.8}% 154
+\BOOKMARK [2][-]{subsection.8.4.1}{Drivers and firmware}{section.8.4}% 155
+\BOOKMARK [2][-]{subsection.8.4.2}{CoAP server}{section.8.4}% 156
+\BOOKMARK [3][-]{subsubsection.8.4.2.1}{Testing}{subsection.8.4.2}% 157
+\BOOKMARK [3][-]{subsubsection.8.4.2.2}{Final prototype}{subsection.8.4.2}% 158
+\BOOKMARK [1][-]{section.8.5}{Experimentation}{part.8}% 159
+\BOOKMARK [2][-]{subsection.8.5.1}{Range}{section.8.5}% 160
+\BOOKMARK [2][-]{subsection.8.5.2}{Response time}{section.8.5}% 161
+\BOOKMARK [2][-]{subsection.8.5.3}{Connection speed}{section.8.5}% 162
+\BOOKMARK [2][-]{subsection.8.5.4}{Power consumption}{section.8.5}% 163
+\BOOKMARK [1][-]{section.8.6}{Results}{part.8}% 164
+\BOOKMARK [2][-]{subsection.8.6.1}{Range}{section.8.6}% 165
+\BOOKMARK [2][-]{subsection.8.6.2}{Response time}{section.8.6}% 166
+\BOOKMARK [2][-]{subsection.8.6.3}{Connection speed}{section.8.6}% 167
+\BOOKMARK [2][-]{subsection.8.6.4}{Power consumption}{section.8.6}% 168
+\BOOKMARK [2][-]{subsection.8.6.5}{Project execution}{section.8.6}% 169
+\BOOKMARK [1][-]{section.8.7}{Discussion}{part.8}% 170
+\BOOKMARK [0][-]{part.9}{9 Conclusion}{}% 171
+\BOOKMARK [1][-]{section.9.1}{Conclusion}{part.9}% 172
+\BOOKMARK [1][-]{section.9.2}{Perspectives}{part.9}% 173
+\BOOKMARK [0][-]{part.10}{10 Survey plafforms}{}% 174
+\BOOKMARK [1][-]{section.10.1}{IoT end devices}{part.10}% 175
+\BOOKMARK [2][-]{subsection.10.1.1}{Software platform}{section.10.1}% 176
+\BOOKMARK [3][-]{subsubsection.10.1.1.1}{Contiki}{subsection.10.1.1}% 177
+\BOOKMARK [3][-]{subsubsection.10.1.1.2}{RIOT}{subsection.10.1.1}% 178
+\BOOKMARK [3][-]{subsubsection.10.1.1.3}{TinyOS}{subsection.10.1.1}% 179
+\BOOKMARK [3][-]{subsubsection.10.1.1.4}{freeRTOS}{subsection.10.1.1}% 180
+\BOOKMARK [3][-]{table.caption.62}{Summary and conclusion}{subsection.10.1.1}% 181
+\BOOKMARK [2][-]{subsection.10.1.2}{Hardware platform}{section.10.1}% 182
+\BOOKMARK [3][-]{subsubsection.10.1.2.1}{Processing Unit}{subsection.10.1.2}% 183
+\BOOKMARK [3][-]{subsubsection.10.1.2.2}{Radio Unit}{subsection.10.1.2}% 184
+\BOOKMARK [3][-]{subsubsection.10.1.2.3}{Sensing Unit}{subsection.10.1.2}% 185
+\BOOKMARK [2][-]{subsection.10.1.3}{Summary and discussion}{section.10.1}% 186
+\BOOKMARK [2][-]{subsection.10.1.4}{Lora}{section.10.1}% 187
+\BOOKMARK [1][-]{section.10.2}{Divers}{part.10}% 188

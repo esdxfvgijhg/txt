@@ -10,7 +10,7 @@
 	],
 	"settings":
 	{
-		"TEXroot": "these.tex",
+		"TEXroot": "main.tex",
 		"builder_settings":
 		{
 			"options": "--shell-escape",

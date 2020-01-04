@@ -15,32 +15,158 @@
  \end{frame}
 
 
-\subsubsection{Matching Theory}
-	\begin{frame}{Game theory}{Related work}
-\end{frame}
+%\subsubsection{Matching Theory}
 
 
-
-
-\subsubsection{Learning}
 
 \subsubsection{Bandit Algorithm}
 \begin{frame}{Multi-Armed-Bandit Algorithm}{Related work}
+
+%We compare the simulated standard ADR algorithm with 7 different multi-armed bandit algorithms:
+
+%\Itemize{
+%\item UCB [10] and
+%\item (TS) Thompson Sampling [11] designed for stationary environments, 
+%\item (SWUCB) Sliding Window UCB  [14],
+%\item (STS) Switching Thompson Sampling  [15].
+%\item (STSBA) Switching Thompson Sampling with Bayesian Aggregation  [16] designed for switching environments.
+%\item EXP3 [17].
+%\item REXP3 [20] for adversarial environments.
+%}
+
+ For each step $t=1, \dots, T$
 \begin{itemize}
 	\item \bf{Arms:} K = {1, ... , K}
-	\item \bf{Decision:} T = {1, ... , T}
+	% \item \bf{Decision:} T = {1, ... , T}
 	\item \bf{Reward:} $X^{k}_{t}$ with $\mu^{k}_{t}$ = E $[X^{k}_{t}]$
 	\begin{itemize}
+		\item Bernoulli rewards: $x_{k_{t}} \sim B\left(\mu_{k_{t}, t}\right)$
 		\item \bf{Best reward:} $X^{*}_{t}$ with $\mu^{*}_{t}$ = max $\mu^{k}_{t}$,  k\in  K
+		\item The reward $k_{t}$ is revealed $x_{k_{t}} \in[0,1]$
 	\end{itemize}
+\item  Minimize the pseudo regret:
+\Itemize{
+\item $R(T)=\sum_{t=1}^{T} \mu_{t}^{\star}-\mathbb{E}\left[\sum_{t=1}^{T} x_{k_{t}}\right]$
+
+\item  where 
+\Itemize{
+\item $\mu_{t}^{\star}=\max _{k} \mu_{k, t}$
+}
+}
 \end{itemize}
+
 \end{frame}
+
+\begin{frame}{Bandit Algorithm}{Related work}
+
+Growing number of Thompson Sampling f i,t : 
+
+\Itemize{
+	\item i denotes the starting time
+	\item t the current time.
+}
+
+Let P(f i,t) be the probability at time t of the Thompson sampling starting at time i.
+
+\medskip
+\medskip
+
+
+\Itemize{
+\item Initialization: $\mathbb{P}\left(f_{1,1}\right)=1, t=1, \quad 2$
+\Itemize{
+\item $\forall k \in K \alpha_{k, f_{1,1}} \leftarrow \alpha_{0}, \beta_{k, f_{1,1}} \leftarrow \beta_{0}$
+}
+
+
+\item  Decision process: at each time t:
+
+\Itemize{
+\item $\forall i<t, \forall k: \theta_{k, f_{i, t}} \sim \operatorname{Beta}\left(\alpha_{k, f_{i, t}}, \beta_{k, f_{i, t}}\right) \quad$
+
+\item Play (Bayesian Aggregation):
+\Itemize{
+\item $k_{t}=\arg \max _{k} \sum_{i<t} \mathbb{P}\left(f_{i, t}\right) \theta_{k, f_{i, t}} \quad$
+}
+}
+
+
+\item  Instantaneous gain update:
+\Equation{dd3}{\quad \forall i<t \mathbb{P}\left(x_{t} | f_{i, t}\right)=\left\{\begin{array}{ll}
+{\frac{\alpha_{k, f_{i, t}}}{\beta_{k, f_{i, t}}+\alpha_{k, f_{i, t}}}} & {\text { if } x_{k_{t}}=1} \\
+{\frac{\beta_{k, f_{i, t}}+\alpha_{k, f_{i, t}}}{\beta_{k, f_{i, t}}+\alpha_{k, f_{i, t}}}} & {\text { if } x_{k_{t}}=0}
+\end{array}\right.}
+
+
+
+
+
+\item Arm hyperparameters update:
+\Equation{dd5d}{
+\forall i<t\left\{\begin{array}{ll}
+{\alpha_{k, f_{i, t}}=\alpha_{k, f_{i, t}}+1} & {\text { if } x_{k_{t}}=1} \\
+{\beta_{k, f_{i, t}}=\beta_{k, f_{i, t}}+1} & {\text { if } x_{k_{t}}=0}
+\end{array}\right.}
+
+
+
+
+\item Distribution of experts update:
+
+\Itemize{
+\item $\forall i<t, \mathbb{P}\left(f_{i, t}\right) \propto(1-\rho) \cdot \mathbb{P}\left(x_{t} | f_{i, t-1}\right) \cdot \mathbb{P}\left(f_{i, t-1}\right)$
+\item $f_{t, t}: \mathbb{P}\left(f_{t, t}\right) \propto \rho \sum_{i=1}^{t-1} \mathbb{P}\left(x_{t} | f_{i, t-1}\right) \cdot \mathbb{P}\left(f_{i, t-1}\right)$
+\item $\alpha_{k, f_{t, t}}=\alpha_{0}, \beta_{k, f_{t, t}}=\beta_{0}$
+}
+}
+
+\end{frame}
+
+
+
+
+	\begin{frame}{Bandit Algorithm}{Related work}
+
+\Itemize{
+
+\item \textbf{THOMPSON SAMPLING (TS)}
+\Itemize{
+\item success counter: $\alpha_{k}=\#\left(x_{k_{t}}=1\right)+\alpha_{0}$
+\item failure counter: $\beta_{k}=\#\left(x_{k_{t}}=0\right)+\beta_{0}$
+\item At each $t:$
+\Itemize{
+\item  $\theta_{k} \sim \operatorname{Beta}\left(\alpha_{k}, \beta_{k}\right)$
+\item  $k_{t}=\arg \max _{k} \theta_{k}$
+\item  $\left\{\begin{array}{ll}
+{\alpha_{k}=\alpha_{k}+1} & {\text { if } x_{k_{t}}=1} \\
+{\beta_{k}=\beta_{k}+1} & {\text { if } x_{k_{t}}=0}
+\end{array}\right.$
+}
+}
+
+\item \textbf{SWITCHING ENVIRONMENT}
+\Equation{c1}{\mu_{k, t}=\left\{\begin{array}{ll}
+{\mu_{k, t-1}} & {\text { probability } 1-\rho} \\
+{\mu_{n e w} \sim U(0,1)} & {\text { probability } \rho}
+\end{array}\right.}
+}
+
+\end{frame}
+
 
 
 
 \subsubsection{Q-Learning}
 \begin{frame}{Q Learning}{Related work}
 	\Figure{h}{.5}{qlearning}{qlearning}
+	$\red{Q\left(s_{t+1}, a_{t}\right)}=Q\left(s_{t}, a_{t}\right)+\gamma\left(\blue{R\left(s_{t}, a_{t}\right)}-Q\left(s_{t}, a_{t}\right)\right)$
+
+	\Itemize{
+	\item $\red{Q\left(s_{t+1}, a_{t}\right)}$ = new Q-Value
+	\item $Q\left(s_{t}, a_{t}\right)$ = old Q-Value
+	\item $\gamma$ = learning constant
+	\item $\blue{R\left(s_{t}, a_{t}\right)}$ = immediate reward received after executing action a in state s at time t
+	}
 \end{frame}
 
 

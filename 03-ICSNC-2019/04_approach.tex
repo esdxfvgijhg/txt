@@ -9,10 +9,49 @@
 % The scheme decision phase can be described in more detail as follows.
 
 
+\begin{algorithm}
+
+\KwData{population: a set of individuals,
+	FITNESS-FN: a function that measures the fitness of an individual}
+\KwResult{the best individual in population , according to FITNESS-FN}
+ \SetKwFunction{FMain}{Main}
+ \SetKwProg{GA}{GA(population, FITNESS-FN)}{:}{end}
+ \GA{}{
+	\Repeat{until some individual is fit enough, or enough time has elapsed}{
+		new population ← empty set
+		\For{i = 1 to S IZE ( population)}{
+			x ← RANDOM-SELECTION (population, FITNESS-FN)
+			y ← RANDOM-SELECTION (population, FITNESS-FN)
+			child ← REPRODUCE (x,y)
+			\eIf{(small random probability)}{
+				child ← MUTATE (child)
+			}
+			add child to new population
+		}
+		population ← new population
+	}
+}
+
+\SetKwFunction{FMain}{Main}
+\KwData{x,y,parent individuals}
+\KwResult{an individual}
+
+\SetKwProg{REPRODUCE}{REPRODUCE(x,y)}{:}{end}
+\REPRODUCE{}{
+	n ← LENGTH (x); c ← random number from 1 to n
+	individual ← APPEND (SUBSTRING (x , 1, c), SUBSTRING (y, c + 1, n))
+}
+
+\end{algorithm}
+\medskip
+
+ 
+ 
+ 
 % \begin{algorithm}
 % 	 \KwData{QoS constraints}
 % 	 \KwResult{Ranked configuration list}
-% \SetKwFunction{FMain}{Main}
+
 % \SetKwProg{GA}{GA}{:}{end}
 % \GA{}{
 % 	\Repeat{stopping criterion is met}{

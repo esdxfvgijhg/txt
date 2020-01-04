@@ -676,10 +676,10 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
 INPUT /home/aghiles/.config/latex/nomenclature.tex
 INPUT /home/aghiles/.config/latex/nomenclature.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/titling/titling.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
 INPUT /home/aghiles/.config/latex/bibliography.tex
 INPUT /home/aghiles/.config/latex/bibliography.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx

@@ -1,1 +1,245 @@
 \section{Approach} \label{sec:Approach}
+
+
+$\min _{W, Z} F(W, Z)=\sum_{l=1}^{k} \sum_{i=1}^{n} w_{l i}^{x} d\left(\mathbf{z}_{l}, \mathbf{x}_{i}\right)$
+such that
+$0 \leq w_{l i} \leq 1, \quad 1 \leq l \leq k, \quad 1 \leq i \leq n$
+$\sum_{l=1}^{k} w_{l i}=1, \quad 1 \leq i \leq n$
+$0<\sum_{i=1}^{n} w_{l i}<n, \quad 1 \leq l \leq k$
+
+
+% d A
+% n O
+% k C
+
+% ajr
+% zlj
+% dc
+% kd
+% $A_{(1<j<d)}$={$a_{j1}$, ..., $a_{jc}$$} a
+% $Z_{(1<l<k)}$={$z_{l1}$, ..., $z_{ld}$}
+% A1 Ad
+
+where:
+\Itemize{
+	\item  n is the number of possible configurations $x_{i}$ with 1<i<n.
+	\item  k is the number of application clusters $c_{l}$ with 1<l<k.
+
+	\item  d is the number of metrics $a_{j}$ of each object $x_{i}$ with 1<j<d.
+	\item  c is the number of metrics categories (physical, mac) $c_{m}$ with 1<m<c.
+
+	\item  A={$A_{1}$, ..., $A_{d}$} is a set of categorical attributes with $A_{(1<j<d)}$={$a_{j1}$, ..., $a_{jc}$}
+
+	\item  D={$x_{1}$, ..., $x_{n}$} is a set of n objects.
+	\item  D={$x_{1}$, ..., $x_{n}$} categorical data set with $x_{(1<i<n)}$ \in $A_{(1<j<d)}$
+
+	\item  $Z_{l}$={$z_{l1}$, ..., $z_{ld}$} is a set of cluster centers.
+
+	\item  W=$w_{li}$ is a k x n fuzzy membership matrix.
+	\item  \alpha \in[1, ] is a weighting exponent.
+	\item  d($z_{l}$, $x_{i}$) is a certain distance measure between cluster center $z_{l}$ and the object $x_{i}$.
+}
+
+\subsection{The FL-based Control Component}
+Our framework contains four FL-based subsystems.
+Each subsystem considers one of the \ac{ADR} important criteria.
+
+
+\subsubsection{Inputs}
+\paragraph{Physical subsystem}
+The Physical subsystem considers the received signal strength criteria.
+It has two input variables RSS1 to describe the received signal strength from LoRa-based network,
+ and RSS2 to describe the received signal strength from GFSK-based network.
+\paragraph{Envirement subsystem}
+The Envirement subsystem considers the mobile station speed criteria.
+It has only one input variable MSS to describe the mobile station speed.
+\paragraph{Sercice subsystem}
+The Sercice subsystem considers the service-type criteria.
+It has two input variables,
+	the first is “DelayReqc” to describe the one-way delay needed for the required service,
+	 and the second is “RateReqc” to describe the bit rate needed for the required service.
+\paragraph{User subsystem}
+The User subsystem considers the user preference and price criteria.
+It has only one input variable “Price” to describe the user preferred price.
+\paragraph*{membership functions}
+Every input variable has three membership functions 
+\Itemize{
+	\item low
+	\item medium
+	\item high 
+}
+Figure 3 shows the membership functions of the input variables.
+
+\subsubsection{Outputs}
+Every subsystem has two output variables,
+\paragraph{CDMA network}
+one variable to describe the probability of acceptance for the new user in the CDMA network
+\paragraph{CDMA network}
+one variable to describe the probability of acceptance for the new user in the TDMA network.
+The subsystems output variables are 
+\Itemize{ 
+	\item $RSS_{c1}$, $RSS_{c2}$ for RSS subsystem,
+	\item $MSS_{c1}$, $MSS_{c2}$ for MSS subsystem,
+	\item $ST_{c1}$, $ST_{c2}$ for ST subsystem,
+	\item $UP_{c1}$, $UP_{c2}$ for UP subsystem.
+}
+\paragraph*{membership functions}
+Each output variable has four membership functions 
+\Itemize{ 
+	\item TR (totally reject)
+	\item PR (probability reject)
+	\item PA (probability accept)
+	\item TA (totally accept) 
+}
+Figure 4 shows “ST c1 ” variable with its membership functions as a sample for the output variables.
+
+\subsection{The GA Component}
+
+The GA has been used in our scheme to help the users or network operator to find suitable values for the weights {$W_{v}$,
+	$W_{s}$,
+	$W_{t}$,
+	$W_{u}$}.
+
+
+Beside the GA advantages that are summarized on Section 2.4,
+	our decision to use GA was based on the nature of our objective functions that have several dynamic and stochastic components,
+	where any other derivative-based optimization method cannot perform well.
+Another important issue that encouraged the selection of GA to our problem is the high interaction between different variables.
+
+Since the \ac{ADR} is a multi criteria problem in nature,
+	different objectives need to be optimized.
+
+In this paper,
+	three different objective functions are proposed to cover the different and opposite objectives and requirements of the users,
+	QoS and operators.
+The proposed objective functions are outlined in the following points.
+
+
+\subsubsection{Objective function 1 (UP)}
+The first objective is to maximize the percentage of satisfied users,
+	that is,
+	users who are assigned to a network of their preference ($P_{u}$ ):
+	since the algorithm considers multiple criteria,
+	it may assign a user to a network different from his/her original preference.
+$P_{u}$ is considered appropriate for performance evaluation from the user point of view.
+To maximize $P_{u}$ ,
+	the objective function ObjFun1 shown in Algorithm 1 is used.
+
+\subsubsection{Objective function 2 (RSS)}
+The second objective is to maximize the percentage of users assigned to the networks with stronger signal strength ($P_{q}$):
+	since the algorithm considers multiple criteria,
+	it may assign a user to a network with weaker signal strength.
+$P_{q}$ is considered as a simple indicator for performance evaluation from the QoS point of view.
+To maximize $P_{q}$ ,
+	the objective function ObjFun2 shown in Algorithm 2 is used.
+
+\subsubsection{Objective function 3}
+The third objective is to achieve the load balancing between networks:
+	P o is the percentage between the number of users in both networks.
+It is used as a basic indicator for load balancing.
+If the resources of both networks have the same importance and cost for network operator,
+	this objective is considered appropriate for performance evaluation from network operator point of view.
+To achieve load balancing,
+	the objective function ObjFun3 shown in Algorithm 3 is used.
+
+
+
+The weights of the input criteria {$W_{v}$,
+	$W_{s}$,
+	$W_{t}$,
+	$W_{u}$} have been encoded using real encoding method.
+The length of the real-valued encoding is 4 real floating numbers.
+The length of each floating number is depending on the internal precision and roundoff used by the computer to define the precision of the floating numbers.
+The results achieved by extensive comparisons of GA performance as a function of the different GA parameters (i.e.,
+	the population size,
+	the mutation rate,
+	and the crossover fraction) and the different GA operators (i.e.,
+	the selection and crossover operators) have been summarized by [27].
+
+
+They have concluded that crossover fraction,
+	selection operator,
+	and crossover operator are not of much importance.
+On the other side,
+	the population size and the mutation rate have the most significant impact on the ability of the GA to find better minimum value for objective function.
+Based on that,
+	several sets of experiments to determine good population size and mutation rate for our proposed objective functions have been carried out.
+Each experiment has been repeated several iterations while the performance is recorded.
+The results from all the iterations are then combined by calculating the average (and standard deviation) for each experiment.
+Usually,
+	testing GAs includes mainly two issues;
+	how far the result obtained by GA is from the benchmark results,
+	which can be measured by average fitness value.
+The second issue is how fast GA is in finding the best solution,
+	which can be measured by the total number of function evaluations.
+
+\paragraph{Parameter initialization}
+Since our GA is working offline,
+	only the average best fitness value achieved by the GA is used.
+The average best fitness and the standard deviation are plotted against the tested parameters.
+When studying a parameter all the other parameters and operators are kept constant.
+Only a sample for the experiments results achieved is given in this paper as shown in Figure 5.
+
+The lower plot in Figure 5 shows the me\ac{ADR} and standard deviations of the ObjFun1 function best fitness values over 20 runs,
+	for each of the values of the population sizes between 10 and 100 with step size equals to 10 individuals.
+
+The upper plot shows a color-coded display of the best fitness values in each run where dark color indicates better results.
+For ObjFun1 fitness function,
+	setting the population size to 20 individuals or more yields better result.
+Based on these results and the other experiments results for other objective functions,
+	the population size chosen in our GAs has been set to 20.
+
+Other sets of experiments have been carried out to determine a suitable mutation rate.
+Based on the experiments,
+	the mutation rate has been set to 0.1.
+In addition,
+	our GA uses a roulette selection function.
+
+\paragraph{Elitism}
+To ensure elitism,
+	the number of individuals that are guaranteed to survive to the next generation has been set to 4 individuals.
+It uses two-point crossover function and a uniform mutation function.
+The GA terminates if the maximum number of the GA iterations reaches to 300 iterations,
+	if there is no improvement in the best fitness value for number of consecutive generations equals to 100 generation,
+	or if there is no improvement in the best fitness value for an interval of time equals to 300 seconds.
+
+
+\subsection{The MCDM Component}
+
+The input criteria of the MCDM are the outputs of the FL-based control subsystems in the first component.
+The GA component assigns the weight w i for criteria i to reflect its relative importance.
+The criteria with more importance to the operator and user can be assigned higher weight using the objective function of the GA specified by the operator.
+Since all the outputs of FL subsystems are in the range [0, 1],
+	there is not be any need to scale the criteria performance against alternatives.
+
+\paragraph{simple multi-attribute rating technique (SMART)}
+
+Enhanced version of simple multi-attribute rating technique (SMART) has been used.
+SMART is one of the simplest MCDM and most efficient methods.
+The ranking value x j of alternative A j is obtained simply as the weighted algebraic mean of the utility values associated with it,
+	that is,
+	a i j according to (1):
+
+SMART employs relatively uncomplicated and straightforward manipulation method,
+	which makes it stronger and easier to use in a hybrid and more complex models such as the proposed one in this paper.
+With the aid of both FL and GA,
+	SMART has all the capabilities required to address the specific considerations that are involved in the \ac{ADR} decision making process.
+SMART can be quickly and easily understood by the inexperienced decision makers.
+However,
+	to get better understanding and deeper insights into the selection decision making,
+	other advanced MCDM methods can be used in the future work and compared with SMART method.
+In our algorithm,
+	there are two alternatives for the MCDM,
+	one is a CDMA-based network and the other is a TDMA-based network.
+
+\paragraph*{Ranking function}
+The ranking value of CDMA network x c and the ranking value of TDMA network x t can be calculated as follows:
+
+where:
+\Itemize{
+	\item $W_{v}$ is the assigned weight for the MSS subsystem.
+	\item $W_{s}$ is the assigned weight for the RSS subsystem.
+	\item $W_{t}$ is the assigned weight for the ST subsystem.
+	\item $W_{u}$ is the assigned weight for the user UP subsystem.
+	\item $T_{w}$ is the total weight and is calculated using (3):
+}

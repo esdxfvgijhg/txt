@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is '.bin/these.blg'
+[23] biber:315> INFO - === Wed Jan  1, 2020, 20:20:10
+[39] Utils.pm:209> ERROR - .bin/these.bcf is malformed, last biblatex run probably failed. Deleted .bin/these.bbl
+[39] Biber.pm:114> INFO - ERRORS: 1
