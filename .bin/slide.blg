@@ -1,19 +1,33 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is '.bin/slide.blg'
-[26] biber:315> INFO - === Tue Dec 31, 2019, 18:18:49
-[48] Biber.pm:371> INFO - Reading '.bin/slide.bcf'
-[110] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[110] Biber.pm:889> INFO - Found 11 citekeys in bib section 1
-[110] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[129] Biber.pm:4093> INFO - Processing section 1
-[139] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/Resources/bib/iot.bib' for section 1
-[200] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1164] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/Resources/bib/iot.bib'
-[1233] Utils.pm:193> WARN - ISBN '978-1-5090-3242-6 978-1-5090-3243-3' in entry 'venkatesan_design_2017' is invalid - run biber with '--validate_datamodel' for details.
-[1304] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1304] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1304] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1304] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1315] bbl.pm:636> INFO - Writing '.bin/slide.bbl' with encoding 'UTF-8'
-[1323] bbl.pm:739> INFO - Output to .bin/slide.bbl
-[1323] Biber.pm:110> INFO - WARNINGS: 1
+[22] biber:315> INFO - === sam. févr.  8, 2020, 18:52:51
+[41] Biber.pm:371> INFO - Reading '.bin/slide.bcf'
+[94] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[94] Biber.pm:889> INFO - Found 10 citekeys in bib section 1
+[94] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[110] Biber.pm:4093> INFO - Processing section 1
+[118] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib' for section 1
+[163] bibtex.pm:1512> INFO - LaTeX decoding ...
+[909] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib'
+[949] Utils.pm:193> WARN - ISBN '978-1-5090-3242-6 978-1-5090-3243-3' in entry 'venkatesan_design_2017' is invalid - run biber with '--validate_datamodel' for details.
+[976] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib' for section 1
+[977] bibtex.pm:1512> INFO - LaTeX decoding ...
+[982] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib'
+[982] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib' for section 1
+[997] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1244] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib'
+[1254] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib' for section 1
+[1255] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1273] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib'
+[1274] Utils.pm:193> WARN - I didn't find a database entry for 'perera_mosden_2013' (section 1)
+[1274] Utils.pm:193> WARN - I didn't find a database entry for 'kouicem_internet_2018' (section 1)
+[1274] Utils.pm:193> WARN - I didn't find a database entry for 'bendaoud_network_2019' (section 1)
+[1274] Utils.pm:193> WARN - I didn't find a database entry for 'chowdhury_survey_2018' (section 1)
+[1274] Utils.pm:193> WARN - I didn't find a database entry for 'simiscuka_relay_2018' (section 1)
+[1282] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1282] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1282] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1282] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[1290] bbl.pm:636> INFO - Writing '.bin/slide.bbl' with encoding 'UTF-8'
+[1293] bbl.pm:739> INFO - Output to .bin/slide.bbl
+[1294] Biber.pm:110> INFO - WARNINGS: 6

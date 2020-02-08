@@ -1,5 +1,76 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is '.bin/these.blg'
-[23] biber:315> INFO - === Wed Jan  1, 2020, 20:20:10
-[39] Utils.pm:209> ERROR - .bin/these.bcf is malformed, last biblatex run probably failed. Deleted .bin/these.bbl
-[39] Biber.pm:114> INFO - ERRORS: 1
+[23] biber:315> INFO - === sam. févr.  8, 2020, 17:39:17
+[45] Biber.pm:371> INFO - Reading '.bin/these.bcf'
+[118] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[216] Biber.pm:889> INFO - Found 164 citekeys in bib section 1
+[216] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[232] Biber.pm:4093> INFO - Processing section 1
+[241] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib' for section 1
+[293] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1050] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib'
+[1096] Utils.pm:193> WARN - ISBN '978-3-030-00246-6 978-3-030-00247-3' in entry 'montavont_enhanced_2018' is invalid - run biber with '--validate_datamodel' for details.
+[1128] Utils.pm:193> WARN - ISBN '978-1-4577-1394-1 978-1-4577-1392-7 978-1-4577-1393-4' in entry 'nguyen_practical_2011' is invalid - run biber with '--validate_datamodel' for details.
+[1350] Utils.pm:193> WARN - ISBN '978-1-4799-6722-3 978-1-4799-6721-6' in entry 'aref_free_2014' is invalid - run biber with '--validate_datamodel' for details.
+[1519] Utils.pm:193> WARN - ISBN '978-3-319-67638-8 978-3-319-67639-5' in entry 'piva_impact_2017' is invalid - run biber with '--validate_datamodel' for details.
+[1780] Utils.pm:193> WARN - ISBN '978-3-319-27071-5 978-3-319-27072-2' in entry 'atanasovski_long-range_2015' is invalid - run biber with '--validate_datamodel' for details.
+[1821] Utils.pm:193> WARN - ISBN '978-1-4673-4523-1 978-1-4673-4521-7 978-1-4673-4522-4' in entry 'cardell-oliver_error_2012' is invalid - run biber with '--validate_datamodel' for details.
+[1892] Utils.pm:193> WARN - ISBN '978-1-5386-3529-2 978-1-5386-3531-5' in entry 'jorke_urban_2017' is invalid - run biber with '--validate_datamodel' for details.
+[2026] Utils.pm:193> WARN - ISBN '978-1-5386-3529-2 978-1-5386-3531-5' in entry 'bankov_mathematical_2017' is invalid - run biber with '--validate_datamodel' for details.
+[2196] Utils.pm:193> WARN - ISBN '978-1-5090-3242-6 978-1-5090-3243-3' in entry 'venkatesan_design_2017' is invalid - run biber with '--validate_datamodel' for details.
+[2243] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib' for section 1
+[2244] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2249] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib'
+[2255] Utils.pm:193> WARN - month field 'Aug' in entry 'lorasite' is not an integer - this will probably not sort properly.
+[2255] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib' for section 1
+[2271] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2688] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib'
+[2703] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib' for section 1
+[2705] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2739] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib'
+[2741] Utils.pm:193> WARN - I didn't find a database entry for 'subramanian_joint_2005' (section 1)
+[2741] Utils.pm:193> WARN - I didn't find a database entry for 'bor_lora_nodate' (section 1)
+[2742] Utils.pm:193> WARN - I didn't find a database entry for 'varsier_capacity_2017' (section 1)
+[2742] Utils.pm:193> WARN - I didn't find a database entry for 'petajajarvi_coverage_2015-1' (section 1)
+[2742] Utils.pm:193> WARN - I didn't find a database entry for 'dhillon_fundamentals_2014' (section 1)
+[2742] Utils.pm:193> WARN - I didn't find a database entry for 'rezende_adaptive_2018-1' (section 1)
+[2742] Utils.pm:193> WARN - I didn't find a database entry for 'aref_free_2014-1' (section 1)
+[2742] Utils.pm:193> WARN - I didn't find a database entry for 'herrera-tapia_evaluating_2017' (section 1)
+[2742] Utils.pm:193> WARN - I didn't find a database entry for 'bankov_limits_2016' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'mahmoud_study_2016' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'aguilar_opportunistic_2017' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'hutchison_data-aware_2013' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'zucchetto_uncoordinated_2017' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'servi_m/m/1_2002' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'li_equilibrium_2016' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'cruz_algorithm_2019' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'alonso_middleware_2018' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'zheng_smdp-based_2015' (section 1)
+[2743] Utils.pm:193> WARN - I didn't find a database entry for 'bregell_hardware_2015' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'kouicem_internet_2018' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'hancke_role_2012' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'alba_intelligent_2016' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'gaddam_comparative_2018' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for '_rpl2_' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'al-fuqaha_internet_24' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'libelium_waspmote_2017' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'qin_software_2014' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'kobo_survey_2017' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'ndiaye_software_2017' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'bera_softwaredefined_2017' (section 1)
+[2744] Utils.pm:193> WARN - I didn't find a database entry for 'luo_sensor_2012' (section 1)
+[2745] Utils.pm:193> WARN - I didn't find a database entry for 'costanzo_software_2012' (section 1)
+[2745] Utils.pm:193> WARN - I didn't find a database entry for 'galluccio_sdnwise_2015' (section 1)
+[2745] Utils.pm:193> WARN - I didn't find a database entry for 'degante_smart_2014' (section 1)
+[2745] Utils.pm:193> WARN - I didn't find a database entry for 'lopes_design_2019' (section 1)
+[2745] Utils.pm:193> WARN - I didn't find a database entry for 'raza_low_22' (section 1)
+[2745] Utils.pm:193> WARN - I didn't find a database entry for 'berder_reseaux_2014' (section 1)
+[2745] Utils.pm:193> WARN - I didn't find a database entry for 'sarwar_iot_2015' (section 1)
+[2745] Utils.pm:193> WARN - I didn't find a database entry for '_evaluation_' (section 1)
+[2881] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2881] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2881] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2881] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[2969] bbl.pm:636> INFO - Writing '.bin/these.bbl' with encoding 'UTF-8'
+[3042] bbl.pm:739> INFO - Output to .bin/these.bbl
+[3042] Biber.pm:110> INFO - WARNINGS: 49

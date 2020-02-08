@@ -1,0 +1,1646 @@
+\cite{montavont_enhanced_2018}E7535MLG
+
+In this section,
+	we present the LoRa/ LoRaWAN technology.
+Even if the terms LoRa and LoRaWAN are used interchangeably but they refer to two different concepts in the network.
+In fact LoRa corresponds to the PHYSICAL layer and precisely to the modulation technique used and LoRaWAN defines the LoRa MAC layer.
+2.1 LoRa Modulation:
+	Physical Layer LoRa technology is a proprietary physical modulation designed and patented by Semtech Corporation.
+It is based on Chirp-Spread Spectrum (CSS) modulation \cite{springer_spread_2000} with Integrated Forward Error Correction.
+LoRa operates in the lower ISM bands (EU: 868 MHz and 433 MHz,
+	USA: 915 MHz and 433 MHz).
+It offers different configurations (data rates,
+	transmission range,
+	energy consumption and resilience to noise) according to the selection of four parameters which are Carrier Frequency (CF),
+	Bandwidth (BW),
+	Coding Rate (CR) and Spreading Factor (SF).
+Each LoRa symbol is composed of 2 SF chirps [Project DecodingLoRa],
+	where SF represents the corresponding spreading factor in the range of 6 to 12.
+SF6 means a shortest range,
+	SF12 will be the longest.
+Each step up in spreading factor doubles the time on air to transmit the same amount of data.
+The use of a larger SF decreases the bit rate and increases the time on Air (ToA) which induces greater power consumption.
+In fact,
+	in the case of a 125 kHz bandwidth and a coding rate 4/5,
+	the bit rate is equal to 250 bps for SF12 and it is equal to 5470 bps for SF7 [LoRa Alliance Technical committee LoRawan regional parameters].
+With LoRa,
+	transmissions on the same carrier frequency but with different spreading factors are orthogonal,
+	so there is no interference.
+2.2 LoRaWan:
+	LoRa Mac Layer Unlike the proprietary LoRa protocol,
+	LoRaWAN is an open protocol defined by LoRa Alliance.
+A LoRaWAN network is based on star-of-stars topology and is composed of three elements.
+– End devices:
+	nodes that send uplink (UL) traffic and receives Downlink (DL) traffic through LoRa gateways.
+The communication between end-devices and gateways is based on LoRa modulation.
+– LoRa gateways dispatch the LoRaWAN frames received from end devices via IP connections (using Ethernet, 3G, 4G or Wi-Fi,
+	etc.) to a network server.
+
+– A network server decodes the packets,
+	analyzes information mined by end devices and generate the packets that should be sent to end devices.
+LoRaWAN end devices implement three classes:
+	a basic LoRaWAN named Class A and optional features (class B,
+	class C) \cite{LorawanSpecification}.
+LoRaWAN operates in ISM bands (863–870 MHz band in Europe) which are subject to regulations on radio emissions,
+	thus radios are required to adopt either a Listen-Before-Talk (LBT) policy or a duty cycled transmission to limit the rate at which the end devices can actually generate messages.
+The current LoRaWAN specification exclusively uses duty-cycled limited transmissions to comply with the ETSI regulations [LoRa Alliance Technical committee LoRawan regional parameters].
+In fact,
+	each device is limited to an aggregated transmit duty cycle of 1\% that means 36 s per hour.
+
+LoRaWAN defines three MAC message types in \cite{LorawanSpecification} which are:
+the join message for connecting a device with a network server,
+	the confirmed message which have to receive an ACK from a network server,
+	and the unconfirmed message without ACK.
+A MAC payload length varies between 59 and 250 Bytes depending on the modulation rate [LoRa Alliance Technical committee LoRawan regional parameters].
+3 Related Work on LoRa Performance Enhancement In order to optimize the performance of a LoRa network and the quality of service,
+	we identified three complementary approaches:
+	(1) parameter selection,
+	(2) data compression,
+	(3) activity time sharing.
+
+
+3.1 LoRa Parameter Selection As explained in previous section,
+	for satisfying a desired performance level,
+	one can choose his configuration by combining the various parameters CR (4/5, 4/6, 4/7 and 4/8),
+	BW (125 kHz, 250 kHz and 500 kHz),
+	SF (from 7 to 12) and TP (2 dBm to 17 dBm),
+	resulting in total 1152 combinations.
+
+
+% -----------------------------------------------------
+
+
+
+% -----------------------------------------------------
+
+\cite{karmakar_linkcon_2017} QN8Y27W6
+
+In HT-WLANs,
+	dynamic link adaptation can be classified into two categories as follows.
+(i) Link adaptation in static environment:
+	MiRA \cite{pefkianakis_window-based_2013} is a dynamic data rate adaptation approach that selects spatial streams and rates.
+It is based on MIMO technology and the receiver’s feedback.
+In poor channel condition,
+	MiRA performs excessive rate selection.
+Further,
+	RAMAS \cite{nguyen_practical_2011} is a credit-based scheme that also applies MIMO streams.
+So,
+	this approach incurs overhead of assigning credit to select data rate.
+
+% -----------------------------------------------------
+
+
+\cite{bor_lora_2017} R2PBNFAQ
+
+Selecting communication parameters of wireless transmitters to reduce energy consumption is a well researched area.
+In the Wireless Sensor Networks (WSN) research domain a large amount of research has been undertaken that investigates transmission power control to reduce transmission energy consumption (examples are [Transmission power control techniques for wireless sensor networks],
+	\cite{lin_atpc_2006},
+	\cite{zurita_ares_power_2007}).
+Typical transceivers used for WSNs only provide transmission power as means to influence energy consumption.
+Existing algorithms to adjust transmission power depend on probe transmissions;
+	often data transmissions double as probe transmissions.
+Link quality is either determined by counting lost/erroneous packets over time and/or by estimation using RSSI or Link Quality Indicator (LQI).
+Depending on the current link quality,
+	transmission power is adjusted.
+We follow in our work these established principles.
+However,
+	LoRa transceivers as used in this work provide additional parameters to influence communication energy cost which we take into account.
+Previous work on WiFi and cellular networks has investigated either transmit power control (e.g.
+\cite{monks_power_2001},
+	\cite{muqattash_single-channel_2004},
+	\cite{lin_atpc_2006}),
+	transmit rate control (e.g.
+\cite{lacage_ieee_2004},
+	[sourceforge.net/p/madwiﬁ/svn/HEAD/tree/madwiﬁ/trunk/ ath rate/minstrel/minstrel.txt],
+	\cite{wong_robust_2006}),
+	or a combination of the two as ‘joint transmit power and rate control’ (e.g.
+\cite{ramachandran_symphony_2010},
+	\cite{subramanian_joint_2005},
+	\cite{chevillat_dynamic_2005}.
+Most of the transmit power control is concerned with increasing the capacity,
+	and not necessarily the energy consumption.
+The transmit rate control is often only concerned with maximising throughput.
+Compared to LoRa,
+	WiFi data rates and packet rates are significantly higher,
+	and the control algorithms run at a much higher rate then what is feasible with LoRa.
+For example,
+	the most commonly used transmit rate control algorithm Minstrel [sourceforge.net/p/madwiﬁ/svn/HEAD/tree/madwiﬁ/trunk/ ath rate/minstrel/minstrel.txt] evaluates its links every 100 ms.
+
+\cite{cuomo_explora_2017} HNKJMCMR
+
+The current literature on LoRaWAN systems can be divided in three fields:
+	i) works dealing with an overview of the current technology and proposing new solutions to optimize its performance \cite{bor_lora_nodate} \cite{augustin_study_2016};
+	ii) papers aiming at analyzing the LoRa capabilities and studying their performance in specific scenarios \cite{voigt_mitigating_2016}\cite{georgiou_low_2017}\cite{mikhaylov_analysis_2016}\cite{reynders_power_2017};
+	iii) works defining channel models (through simulations in different environments and scenarios) and emphasizing how these infrastructures are sensitive to the environment in which they operate \cite{petajajarvi_coverage_2015}.
+
+% -----------------------------------------------------
+
+
+\cite{bor_lora_2016} I4JZZ98I
+
+There is limited published work discussing scalability of LoRa.
+
+% -----------------------------------------------------
+Closest to this paper is the work by \citet{petajajarvi_coverage_2015} and our own previous work reported in \cite{bor_lora_nodate}.
+
+A vast number of generic wireless simulation tools such as ns-3 [Modeling and tools for network simulation] or OMNet++ [The OMNeT++ discrete event simulation system] exist.
+There are also simulators such as Cooja [Cross-level sensor network simulation with cooja] or TOSSIM [Tossim:
+	accurate and scalable simulation of entire tinyos applications] designed for Wireless Sensor Networks (WSN) and IoT environments.
+These simulators can be extended by the components designed for our simulator LoRaSim to enable LoRa simulations.
+The Semtech LoRa modem calculator [www.semtech.com/apps/ﬁledown/down.php? ﬁle=SX1272LoRaCalculatorSetup1\%271.zip] helps with analysis of LoRa transmission features (airtime of packets,
+receiver sensitivity) but does not enable network planning.
+Siradel provides a simulation tool called S IOT [www.siradel.com/portfolio-item/alliance-lora].
+S IOT relies on Volcano,
+	a 3D-ray tracing propagation model and a portfolio of 2D and 3D geodata.
+The tool supports sink deployment decisions based on propagation models.
+This commercial tool considers the environment to a much greater detail than our simulator LoRaSim.
+However,
+	it does not take into account actual traffic,
+	collisions or details such as capture effect.
+Our models provided in Section 3 could be used to improve S IOT.
+
+Moreover,
+	\cite{bor_lora_nodate} describes LoRaBlink,
+	an IoT protocol for LoRa transceivers designed to support reliable and energy efficient low-latency bi-directional multi-hop communication.
+
+
+However,
+	the performance drastically decrease when the link load increases.
+Limits and potentialities of LoRaWAN are studied by \citet{voigt_mitigating_2016}.
+Through simulations based on real experimental data,
+	the paper shows that interference can drastically reduce the performance of a LoRa network.
+They also demonstrate that directional antennas and using multiple base stations can improve performance under interference.
+Scalability issues in the LoRA system are analyzed in several papers \cite{bor_lora_2016}\cite{georgiou_low_2017}\cite{mikhaylov_analysis_2016}.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+Finally,
+	\cite{reynders_power_2017} and \cite{magrin_performance_2017} derive throughput behavior and capacity limits under some ideal conditions (perfect orthogonality of the SFs).
+
+\cite{cuomo_towards_2018} SG3YQG82
+
+The LoRaWAN has attracted the IoT community as a promising platform for supporting smart city deployments.
+Thus,
+	throughout the last years,
+	different works have analyzed the technology limits and addressed open issues such as scalability.
+In this context,
+	we can classify the related literature as follows:
+	(i) Works analyzing the current capabilities and limitations of LoRaWAN \cite{adelantado_understanding_2017}\cite{petajajarvi_performance_2017}\cite{georgiou_low_2017}\cite{bor_lora_2016},
+	and studing its performance under specific settings \cite{magrin_performance_2017}\cite{petajajarvi_evaluation_2017}\cite{varsier_capacity_2017}.
+(ii) Papers proposing novel approaches and heuristics to optimize the network performance \cite{bor_lora_nodate}\cite{reynders_power_2017}\cite{abdelfadeel_fair_2018}\cite{sartori_enabling_2017}\cite{cuomo_explora_2017}.
+As for the first group,
+	\citet{adelantado_understanding_2017} the limits of LoRaWAN.
+An issue concerns the maximum duty cycle (DC) allowed within the ISM band.
+For instance,
+	the 1\% for the U E 868 M Hz band turns out into a maximum
+transmission time of 36 secs in an hour,
+	for each device.
+This also limits the LoRa gateways in the down-link channel,
+	which have to comply with the DC regulation.
+Another important analysis in \cite{adelantado_understanding_2017} regards the use of ALOHA in a LoRaWAN deployment,
+	which simplifies the network implementation,
+	but at the expense of the throughput that is significantly limited by collisions.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+Scalability issues also have been addressed in by \citet{bor_lora_2016} where it was identified a LoRa link model for the communication range and the collision behavior.
+They also provided the LoRa simulator (LoRaSim) implementing the link behavior model.
+In addition,
+	it has been of interest the evaluation the LoRaWAN performance in smart city scenarios.
+
+% -----------------------------------------------------
+Other works dealt with application-tailored deployments such as in \cite{petajajarvi_evaluation_2017} where it was studied the support of LoRa for health care monitoring,
+	or in \cite{varsier_capacity_2017} for hosting smart metering devices.
+For optimizing the performance of LoRa,
+	many works have addressed the scalability issue.
+To this aim,
+	several heuristics have been focused on how to efficiently allocate the wireless resources.
+
+
+%------------------------------------------------------
+Other efforts for optimizing the network have been done tackling other solutions such as the usage of new LoRa transceivers \cite{bor_lora_nodate} or the development of multi-hop communication for choosing the minimal Time-on-Air path \cite{sartori_enabling_2017}.
+
+\cite{farhad_scalability_2019} RQLF94IS
+
+This section presents the related works regarding SF assignment and analysis of LoRaWAN in both confirmed and unconfirmed mode.
+The performance of LoRaWAN network with the only unconfirmed mode in an urban environment is presented in \cite{magrin_performance_2017}.
+
+% -----------------------------------------------------
+
+
+Another work shows the performance of LoRaWAN network by performing a system-level simulation on NS-3 when heterogeneous traffics are transferred for smart metering communication \cite{gupta_modelling_2017}.
+The simulation was performed under a single GW located at the densely populated area in combination with multiple buildings of some random heights and sizes.
+EDs are distributed uniformly on each floor in the building within a coverage range of 2500 m.
+The lowest SFs are assigned according to SNR of ED packets,
+	thus it reduces the ToA for each ED and minimizes the chances of interference.
+The SF control algorithm is presented by allocating SFs to interact with two types of collisions:
+	(a) two packets with the same SF collide and (b) two packets with different SFs collide in \cite{reynders_power_2017}.
+Hoverer,
+	it fails to provide a solution to the second type.
+The primary purpose of this research is to reduce PER,
+	improve fairness,
+	and the throughput between EDs.
+The algorithm sorts the EDs based on distance and path loss to form distinct groups,
+	where each group uses a separate channel.
+EDs in each group get the same SF based on the distance.
+Then the sum of the received power and cumulative interference ratio (CIR) is computed.
+If CIR exceeds the highest received power then it passes the feasibility check.
+On the other hand,
+	the lowest SF is assigned to each group if the CIR is lower than the threshold.
+The proposed scheme decreases the PER up to 42\% overall.
+An SF allocation scheme for massive LoRaWAN network aims to enhance the success ratio by considering the interference among the same SFs and channel \cite{lim_spreading_2018}.
+To identify the interference caused by the collision of two packets,
+	it determines the collision overlap time between the packets of the same SFs over the same channel.
+Then the SIR and received power are computed.
+If it exceeds the threshold,
+	then the packets survived from interference.
+Otherwise,
+	the packets are lost due to interference.
+However,
+	it ignores any interference occurred due to the different SFs over the same channel,
+	because these SFs are not perfectly orthogonal.
+
+
+\cite{ochoa_large_2018} SGS7P626
+
+Some authors deployed LoRa networks and experimentally studied its performance  \cite{aref_free_2014}
+\cite{petajajarvi_coverage_2015-1}
+\cite{wixted_evaluation_2016}
+\cite{san-um_long-range_2017}
+\cite{li_application_2017}.
+The measurements were done in city centers,
+	tactical troop tracking,
+	and sailing monitoring systems.
+Nevertheless,
+	experimental results in real life networks are not reproducible and MAC layer optimization is difficult.
+
+% -----------------------------------------------------
+
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{orfanidis_investigating_2017} 4KSQ7ABK
+
+There are numerous LPWAN technologies emerging.
+LoRa,
+	in particular,
+	has attracted both research and industry interest because of its long range and robust performance.
+Existing research mostly focuses on LoRas performance,
+	especially its transmission range,
+	capacity,
+	and scalability and on interaction between LoRa transmissions.
+
+% -----------------------------------------------------
+They include \cite{bor_lora_2017} \cite{augustin_study_2016} [LoRa from the city to the mountains:
+	Exploration of hardware and environmental factors],
+	where the authors evaluate LoRa performance under various set of configurations and conditions.
+
+% -----------------------------------------------------
+LoRa scalability is investigated in \cite{georgiou_low_2017}\cite{voigt_mitigating_2016}\cite{adelantado_understanding_2017}.
+The authors in \cite{georgiou_low_2017} analyze a LoRa network using a single gateway.
+Their results show that with an increase in the number of enddevices,
+	the coverage probability drops exponentially,
+	due to their interfering signals.
+
+
+% -----------------------------------------------------
+
+\cite{reynders_power_2017} 2ILCWX9Z
+
+As described above,
+	CSS enables decoding multiple messages with different spreading factors simultaneously.
+To decode simultaneous transmissions,
+	power control is important because a threshold SNR needs to be guaranteed which is only possible when the received powers of all simultaneously transmitting nodes are of the same magnitude.
+Code Division Multiple Access (CDMA) is also a spread spectrum technique in which power control is a well investigated topic towards 3G cellular networks.
+Different algorithms exist:
+	BER-based [Transmitter power control with adaptive safety margins based on duration outage],
+	SNR-based [Power control in wireless networks:
+	A survey] and RSSI-based [Location based power control for mobile devices in a cellular network].
+In our scenario however,
+	we cannot use the SNRor BER-based solutions,
+	as they require fast feedback.
+In 3G networks,
+	the update rate is 800Hz,
+	while in LoRaWAN only one downlink message is available for each uplink message.
+
+% -----------------------------------------------------
+Finally,
+	interesting research has been done concerning random access.
+\cite{dhillon_fundamentals_2014} has shown the limits for random access networks with respect to retransmission probabilities and optimization of throughput given some failure constraints.
+This paper is different in the sense that the goal of our optimization is not throughput but packet error rate fairness.
+
+\cite{reynders_lorawan_2018} MWBMBZYE
+
+
+% -----------------------------------------------------
+Many work has been done in estimating the performance of LoRA networks,
+	such as \cite{adelantado_understanding_2017} \cite{augustin_study_2016} \cite{mikhaylov_analysis_2016}.
+Although their conclusions are interesting,
+	they only use a simpliied MAC protocol.
+This calls for a powerful network simulator that is useful to study the real network performance.
+Several simulation tools have been proposed for LoRaWAN.
+The most well-known LoRaWAN simulator is the LoRaSim built with python \cite{bor_lora_2016} \cite{voigt_mitigating_2016}.
+It is open source and gives great insights in the LoRaWAN performance.
+However,
+	LoRaSim does not implement acknowledgments.
+Thus,
+	it cannot be used to study the network performance where nodes switch their spreading factor based on the feedback or absence of feedback from the gateway.
+Similarly,
+	an Omnet++ implementation has been proposed in [Adaptive Coniguration of LoRa Networks for Dense IoT Deployments].
+It implements an Automatic Data Rate (ADR) scheme where nodes can update their spreading factor and power at runtime.
+For ns-3,
+	two diferent modules have been proposed in literature.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+Independently from the previous implementation,
+	the authors in \cite{abeele_scalability_2017} have proposed their solution.
+Their proposal also supports multiple gateways and overlapping networks.
+However,
+	they did not include MAC commands.
+With their solution,
+	interfering networks are possible as they accept interference from any network working on the same channel and frequency.
+Also in this implementation,
+	the network is not connected to the IP layer,
+	but directly to gateways.
+Compared to the above models,
+	our implementation is totally compliant with the LoRaWAN v1.0 class A speciication.
+It is highly conigurable.
+Its lexible backbone architecture allows for easy integration of new protocols.
+Our model supports distributed gateways that are connected over an IP network to the network server that controls the whole network.
+We also provide base classes for the easy implementation of new applications on the network server and new MAC commands.
+With this model,
+	we have investigated many aspects of LoRa networks,
+	such as the efect of diferent spreading factors \cite{reynders_power_2017},
+	the efect of interference \cite{reynders_range_2016},
+	the reliability and scalability \cite{reynders_improving_2018},
+	etc.
+Our model can also be used to study the efect of downlink messages \cite{pop_does_2017} and multiple gateways \cite{abeele_scalability_2017} \cite{voigt_mitigating_2016}.
+
+\cite{bouguera_energy_2018} P3CSS7S2
+
+LoRa and LoRaWAN technologies are relatively recent standards \cite{augustin_study_2016}.
+Most existing research based on LoRa and LoRaWAN has focused on features such as delay,
+	range,
+	throughput and network capacity \cite{bor_lora_2017} \cite{augustin_study_2016}\cite{jetmir_haxhibeqiri_lora_2017}\cite{nolan_evaluation_2016}.
+Since the LoRa modulation is deployed for sensor applications,
+	several papers evaluated this new technology with respect to its energy consumption.
+Driven by the challenges of energy consumption of wireless sensor applications,
+	many recent works have focused on the power dissipation of communicating sensors.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+To save power,
+	Mare S.
+et al.
+have concluded that the communication module and the microcontroller must be in idle state as long as possible when they are not active.
+This work proposes interesting results,
+	but LoRa and LoRaWAN technologies are not integrated into this study.
+
+% -----------------------------------------------------
+
+	
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{chen_viable_2018}Z38EPLZL
+
+Understanding the limitations of LoRa technology is critical to the design and management of LoRa networks.
+
+% -----------------------------------------------------
+Elkhodr et al.(2016) reviewed various IoT communication technologies,
+	including ZigBee, 6LoWPAN,
+	Bluetooth Low Energy,
+	LoRa and Wi-Fi.
+The capabilities and behaviours of these technologies were analyzed.
+
+% -----------------------------------------------------
+Khutsoane et al.
+(2017) surveyed a number of various LoRa technologies applications and contended that LoRa was ideal for low-power,
+	long-range communications where low data rates were acceptable.
+However,
+	there had not been a common,
+	comprehensive or holistic strategy for IoT network design,
+	development and management from Elkhordr et al.
+and Khutsoane et al.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+Our study fills this gap by proposing \cite{chen_viable_2018},
+	particularly,
+	using practical measurements of LoRa network dependencies and performance metrics to support our proposal.
+
+% -----------------------------------------------------
+Memos et al.
+(2017) focused on the security and privacy issues on IoT network and proposed a security scheme to protect routing in IoT networks.
+Their study contribution is on a design of an algorithm for surveillance systems used in Smart Cities.
+Mesh networks may increase the coverage areas;
+	however,
+	forwarding traffic to other devices through multi-hop communications increases transmission latency and routing traffic,
+	as stated by Filho et al.
+(2016).
+Our study focused on LoRa networks which are based on a star topology with single-hop communication and no routing complexity.
+In particular,
+	security complication is also alleviated and it has better throughput compared to mesh networks.
+
+% -----------------------------------------------------
+
+\cite{dawaliby_adaptive_2019} WQ72KWJM
+
+Performance evaluation over LoRa networks has been intensively reviewed by many research studies in the literature \cite{wixted_evaluation_2016} \cite{li_application_2017} [Experimental performance evaluation of lorawan:
+	A case study in bangkok].
+Other research studies focused on evaluating LoRa scalability \cite{mikhaylov_lorawan_2017} while considering co-SF interference that comes from collisions when using the same SF configuration on the same channel \cite{georgiou_low_2017} whereas others assumed that SFs on a channel are perfectly orthogonal \cite{bor_lora_2016} \cite{bor_lora_nodate}.
+SF represents the ratio between the chirp rate and the data symbol rate and affects directly the data rate and the range that a LoRa device can reach away from a LoRaWAN gateway.
+
+Moreover,
+	co-SF directly impact communication reliability,
+	reduces the packet delivery ratio (PDR) successfully decoded at the gateway \cite{piva_impact_2017} and limits the scalability of a LoRa network when increasing the number of devices [Lora throughput analysis with imperfect spreading factor orthogonality].
+Therefore,
+	the latter should be considered in any upcoming study related to SF configuration strategies and network deployments.
+Some study examples focused on finding the optimal transmitter parameter settings that satisfy performance requirements using a developed link probing regime \cite{bor_lora_2017}.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+The work in \cite{nakao_end--end_2017} introduced a slicing infrastructure for 5G mobile networking and summarized research efforts to enable end-to-end network slicing between 5G use cases.
+
+% -----------------------------------------------------
+Furthermore,
+	authors in \cite{gadallah_dynamic_2017} and \cite{rezende_adaptive_2018-1} adopted network slicing in LTE mobile wireless networks.
+The former proposed a dynamic resource reservation for machine-to-machine (M2M) communications whereas the latter present a slice optimizer component with a common objective in both papers to improve QoS in terms of delay and link reliability.
+In a 5G wearable network,
+	the authors took advantage of slicing technology to enhance the network resource sharing and energy-efficient utilization \cite{hao_network_2018}.
+Moreover in [Joint application admission control and network slicing in virtual sensor networks],
+	the authors perform slicing in virtual wireless sensor networks to improve lease management of physical resources with multiple concurrent application providers.
+In [Network slicing for ultra-reliable low latency communication in industry 4.0 scenarios],
+	authors focused on URLLC and proposed several slicing methods for URLLC scenarios which require strong latency and reliability guarantees.
+Nowadays,
+	guaranteeing service requirements in LoRa wireless access network (LoRaWAN) with traffic slicing remain as open research issues \cite{adelantado_understanding_2017}.
+Therefore,
+	unlike the previous work,
+	in this article network slicing is investigated in LoRa technology which,
+	to the best of our knowledge,
+	has not been treated before by the research community.
+
+\cite{feltrin_lorawan_2018} EUXH6LEM
+
+The scientific literature on LoRa,
+	and LPWANs in general,
+	is slowly expanding but most of the papers are still related to the link-level evaluation of the technology.
+Tests using Sigfox,
+	LoRaWAN,
+	and pre-standard NB-IoT solutions,
+	have been made on the field by several network operators.
+Some field trials have been carried out,
+	to determine LoRa ranging performance,
+	in free space conditions \cite{aref_free_2014-1} and in more complex scenarios \cite{petajajarvi_coverage_2015}.
+
+% -----------------------------------------------------
+Different studies have investigated the use of LoRa technology in specific fields of application,
+	as for example,
+	sailing monitoring systems \cite{li_application_2017},
+	tactical troops tracking systems \cite{san-um_long-range_2017},
+	smart cities \cite{stan_overview_2016},
+	etc.
+In contrast with these works,
+	we address a large set of applications,
+	properly categorizing them.
+Many details regarding the LoRa modulation and physical layer have been recently published in [revspace.nl/DecodingLora ] and [Decoding LoRa:
+	Realizing a modern LPWAN with SDR],
+	where the Authors studied the output signal generated by commercial transceivers to understand how information is encoded and embedded in the chirp waveforms.
+
+% -----------------------------------------------------
+The interference problem has been addressed in \cite{bor_lora_nodate},
+	where the Authors study packet collisions applying a time offset between each other;
+	in \cite{georgiou_low_2017} and \cite{goursaud_dedicated_2015} the orthogonality of transmissions performed with different Spreading Factors,
+	an important issue discussed in more detail in Section V,
+	is studied mathematically.
+More precisely,
+	in these articles the Authors analyze the architecture of the LoRa (de)modulator and determine the conditions for a capture to happen in the presence of two signals with different SF.
+We performed a similar analysis,
+	but using an experimental approach.
+
+% -----------------------------------------------------
+The first papers about the system-level LoRa network capacity have been published very recently,
+	most of them addressing the problem through simple mathematical approaches \cite{mikhaylov_analysis_2016},
+	\cite{adelantado_understanding_2017}.
+In these works the limitations imposed by regulation on the utilization of the channel are taken into consideration as a major limit for the network capacity;
+	although this is true when few continuously transmitting devices are considered,
+	if the traffic generated is more sporadic and the number of devices is higher,
+	this does not represent a problem.
+It is possible to show that among the use cases that we consider in this paper the channel utilization for a single device is always below 0.55\%.
+
+% -----------------------------------------------------
+Moreover,
+	with respect to \cite{mikhaylov_analysis_2016} and \cite{adelantado_understanding_2017},
+	we determine
+
+the capacity of a network considering the full LoRa protocol stack,
+	the presence of concurrent transmissions and consequent collisions or captures,
+	and realistic information on the physical layer obtained through experiments.
+
+% -----------------------------------------------------
+
+
+\cite{sanchez-iborra_performance_2018} ZD2JYZZS
+
+
+% -----------------------------------------------------
+Although the appearance and widespread of LoRaWAN are recent,
+	a number of works have been published aiming at analyzing or evaluating its performance in different scenarios or proposing enhancements to the off-the-shelf version of LoRaWAN \cite{herrera-tapia_evaluating_2017}.
+From a theoretical perspective,
+	works in \cite{georgiou_low_2017}\cite{mikhaylov_analysis_2016}\cite{bankov_limits_2016} analyzed the capacity of LoRaWAN in terms of scalability and node-throughput.
+All these works concluded that LoRaWAN systems should be carefully configured and dimensioned with the aim of hosting a great number of end-devices.
+Concretely,
+	in \cite{georgiou_low_2017},
+	the negative impact of interferences within highly-populated LoRaWAN cells was studied.
+Authors found some issues related to the co-spreading sequence interference,
+	which notably harms the scalability of LoRaWAN systems.
+
+% -----------------------------------------------------
+However,
+	as stated in \cite{mikhaylov_analysis_2016},
+	LoRaWAN networks can be generally utilized for fairly dense deployments with relaxed latency or reliability requirements.
+Thus,
+	in order to ensure the network scalability when the end-device population prominently grows,
+	two measures can be taken:
+	(i) the number of delivered packets per node per day should be reduced;
+	or (ii) the number of gateways should be increased \cite{bankov_limits_2016}.
+As mentioned above,
+	some works have proposed enhancements to the original LoRaWAN features \cite{naoui_enhancing_2016}\cite{weber_ipv6_2016}.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+In turn,
+	authors of \cite{petajajarvi_coverage_2015} investigated the coverage of LoRaWAN in different environments by placing the end-device onboard a car and a boat.
+Interesting coverage ranges over 10 km were reached with a not excessive Packet Loss Rate (PLR).
+A more elaborated work was developed in \cite{petajajarvi_performance_2017},
+	in which the same authors extended their measurements and evaluated the performance of the system under mobility conditions.
+
+% -----------------------------------------------------
+From a simulation perspective,
+	the work in \cite{herrera-tapia_evaluating_2017} focused on vehicular scenarios and examined the performance of LoRaWAN in vehicular opportunistic networks,
+	showing better results in comparison with WiFi technology.
+As observed in the reviewed works,
+	the coverage range and the performance of different LoRaWAN configurations were evaluated.
+However,
+	these studies did not characterize the sampling points depending on their adversity against wireless transmissions.
+In this work,
+	we evaluate the performance of LoRaWAN under three well-defined conditions,
+	namely,
+	urban,
+	suburban,
+	and rural scenarios.
+By using this methodology,
+	we identify the most proper configuration for LoRaWAN PHY layer parameters in order to reach the best performance in each type of scenario.
+
+% -----------------------------------------------------
+Besides,
+	a comparison of the attained experimental results with a theoretical propagation model is also presented.
+A similar approximation was considered in \cite{petajajarvi_coverage_2015} but,
+	in this work,
+	the attained coverage range was compared with the predictions given by the simple Free-Space model.
+This model is known to be inadequate to predict path loss in complex scenarios like those with the presence of obstacles.
+For that reason,
+	in the present work,
+	we make use of the predictions provided by a network-planning tool employing the widely used Okumura–Hata propagation model over realistic topographic maps.
+
+\cite{casals_modeling_2017} H6QDESI3
+
+Most of the research done on LoRa/LoRaWAN has focused on features such as coverage,
+	robustness,
+	capacity,
+	scalability,
+	delay and throughput \cite{mikhaylov_analysis_2016}
+ \cite{petajajarvi_coverage_2015}
+\cite{adelantado_understanding_2017}
+\cite{augustin_study_2016}
+\cite{nolan_evaluation_2016}
+\cite{petajajarvi_performance_2017}
+\cite{mikhaylov_lorawan_2017}
+\cite{jetmir_haxhibeqiri_lora_2017}
+\cite{petajajarvi_evaluation_2017}
+However,
+	a characteristic such as energy consumption,
+	which is crucial considering that many LoRa/LoRaWAN devices will not be grid-powered,
+	has received limited attention.
+We next review the literature on LoRaWAN energy consumption.
+We first focus on current consumption details of LoRa/LoRaWAN devices reported in published works,
+	and secondly we discuss the few existing models of LoRa/LoRaWAN energy consumption,
+	node lifetime or energy cost of data delivery.
+Several works provide current consumption data of LoRa/LoRaWAN devices,
+	obtained from a datasheet or by empirical means  \cite{petajajarvi_evaluation_2017}
+\cite{kim_cooperative_2017}
+\cite{mahmoud_study_2016}
+[LAMBS: Light and Motion Based Safety] \cite{bor_lora_2017}
+[omparación de Soluciones Basadas en LPWAN e IEEE 802.15.4 Para Aplicaciones de Salud Móvil (“m-Health”)] \cite{neumann_indoor_2016}
+[Design and implementation of the plug\&play enabled ﬂexible modular wireless sensor and actuator network platform] \cite{magno_wulora_2017}
+\cite{dongare_openchirp_2017}
+\cite{conus_event-driven_2016}
+Such details,
+	which are summarized in Table 1,
+	correspond to sleep,
+	transmission and reception device states.
+As it can be seen,
+	sleep current ranges from 7.66 μA to 34 mA (or between 30.9 μA and 3.4 mA excluding LoRa-only and custom devices).
+Sleep current for the considered hardware platforms is up to several orders of magnitude greater than that of their transceivers (see Table 2),
+	which can be near or even lower than 1 μA.
+One important conclusion is that current LoRa/LoRaWAN nodes are far from the degree of optimization exhibited by platforms that use other low power technologies.
+For example,
+	IEEE 802.15.4 and Bluetooth Low Energy (BLE) commercial devices feature a sleep current near 1 μA [AN079-Measuring Power Consumption of CC2530 with Z-Stack]\cite{aguilar_opportunistic_2017}.
+Therefore,
+	in order to achieve attractive node lifetime figures (e.g.,
+	in the order of years),
+	current LoRaWAN nodes need batteries with greater capacity than typical button cell batteries,
+	e.g.,
+	of AA type,
+	which however have bigger size and are more expensive.
+We attribute the sleep current in LoRaWAN devices to suboptimal hardware integration of device components,
+	e.g.,
+	the microcontroller and the transceiver.
+Based on the characterization of sleep,
+	transmit and receive states of a LoRa/LoRaWAN device,
+	a few analytical models of LoRa/LoRaWAN energy consumption,
+	node lifetime or energy cost of data delivery have been published  \cite{kim_cooperative_2017}
+\cite{conus_event-driven_2016}
+\cite{sartori_smart_2016}
+\cite{toussaint_performance_2016}.
+However,
+	these models are too simple,
+	since there exist several other states for a LoRa/LoRaWAN device involved in a communication that need to be considered (see Section 4).
+Next,
+	we briefly present the main results and other limitations of these works.
+An accurate calculation of message transmission time is only provided in \cite{sartori_smart_2016},
+	however the study only focuses on LoRa,
+	and therefore it does not model the MAC layer mechanisms defined in LoRaWAN,
+	such as use of acknowledgments,
+	receive windows,
+	and retransmissions (see Section 3).
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{barro_lorawan_nodate} LRLSSXZL
+
+
+% -----------------------------------------------------
+
+
+
+\cite{blaszczyszyn_analyzing_2019} QTLET7Q6
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+A real platform to test capture in LoRa networks is used in \cite{bor_lora_2016}.
+The conclusions drawn from the tests lead to a collision model close to that derived in \cite{jetmir_haxhibeqiri_lora_2017} and to similar scalability evaluation results.
+We recall the collision rules established in \cite{jetmir_haxhibeqiri_lora_2017} and \cite{bor_lora_2016} in Section 3.2 since we integrate them in our stochastic-geometric LoRa network model.
+
+\cite{piva_impact_2017} D35WN7JM
+
+Since LoRa is quite a recent technology,
+	relatively few works have already been published on its performance.
+
+% -----------------------------------------------------
+Specifically,
+	\cite{atanasovski_long-range_2015}focus on LoRa applications and PHY,
+	while in \cite{augustin_study_2016} some test-bed and simulation results are presented but with a low number of devices.
+
+% -----------------------------------------------------
+
+
+% -----------------------------------------------------
+
+\cite{dix-matthews_lora_2018} 9AZ7VKCG
+
+Since LoRa has so many transmission parameters to confgure,
+	the crucial task of fnding a parameter combination to balance packet delivery performance and energy consumption can be difcult.
+The pTunes framework is a general modelling framework for selecting optimal MAC parameters based on measurements \cite{zimmerling_ptunes_2012}.
+We propose a similar approach for selecting LoRa parameters.
+Several
+
+studies have studied the capability of LoRa technology measuring performance for diferent parameter settings in indoor 
+
+\cite{bor_lora_2017}
+\cite{bor_lora_2016}
+\cite{hutchison_data-aware_2013}
+\cite{cardell-oliver_error_2012}
+\cite{marco_cattani_experimental_2017}
+[LoRa from the city to the mountains:
+	Exploration of hardware and environmental factors] [LoRaWANTM Specification] \cite{marcelis_dare_2017}
+\cite{petajajarvi_coverage_2015}
+\cite{petajajarvi_evaluation_2017}
+
+or outdoor \cite{augustin_study_2016}[LoRa from the city to the mountains:
+	Exploration of hardware and environmental factors]\cite{marcelis_dare_2017} settings.
+
+% -----------------------------------------------------
+Bor and Roedig propose an algorithm for fnding the best transmission setting for a specifc transmission channel \cite{bor_lora_2017}.
+It performs a type of binary search of the parameter space,
+	testing each setting for its packet reception rate until a good setting is found.
+The aim is to balance the cost of fnding good parameters against the packet delivery rate achieved.
+The ground truth for optimal settings are determined from a large look up table of receive probabilities based on in situ experiments with all combinations of the transmission parameters.
+
+% -----------------------------------------------------
+Cattani considered optimal parameter settings by measuring the packet reception rate and energy efciency for three types of channel (indoor,
+	outdoor and underground) under diferent LoRa parameter settings \cite{marco_cattani_experimental_2017}.
+An interesting fnding was that it was not worth tuning LoRa parameters to reduce the data rate in order to maximise the probability of successful reception.
+Instead lower energy settings which have a high data rate are preferred.
+They also considered the efect of environmental parameters on channel performance and found that high temperature at the node reduced packet delivery rate signifcantly.
+LoRaWAN is a mesh protocol for LoRa nodes.
+It specifes message scheduling and supports an Adaptive Data Rate (ADR) protocol for adjusting LoRa transmission parameters [LoRaWANTM Specification].
+Our paper uses LoRa physical layer without the LoRaWAN protocols,
+	but some results from LoRaWAN papers also apply in our case.
+LoRaWAN nodes start with a default parameter setting and then after reception of some messages the receiver can instruct a transmitter node to step up or down its spreading factor or transmission power.
+ADR uses 8 data rate settings and 6 transmission energy settings selected for a balance between packet delivery success and energy saving.
+
+% -----------------------------------------------------
+
+\cite{farooq_search_2018} ZC5I8BLQ
+
+LoRa is a physical layer radio modulation technique based on chirp spread spectrum (CSS).
+The goal is to enable low throughput communication across long distances with low power consumption.
+LoRa features include long range,
+	multipath resistance,
+	robustness,
+	low power consumption,
+	forward error correction (FEC),
+	and Doppler resistance.
+LoRa provides several physical layer parameters that can be customized.
+These parameters include spreading factor (SF),
+	bandwidth (BW),
+	transmission power (TP),
+	and code rate (CR).
+These parameters affect the available bit rate,
+	resilience against interference,
+	and ease of decoding.
+LoRa uses seven different SFs,
+	namely:
+	[SF 6 ,
+	SF 7 ,
+	SF 8 ,
+	SF 9 ,
+	SF 10 ,
+	SF 11 ,
+	SF 12].
+In LoRa a transceiver can select a BW in the range [-7.8, 500] kHz.
+However,
+	LoRa transceivers typically operate at 125 KHz, 250 KHz,
+	or 500 KHz.
+LoRa defines four different coding rates, 45 , 46 , 47 ,
+	and 48 .
+Higher CR implies higher protection against burst interference,
+	and vice versa.
+LoRaWAN [LoRaWAN Speciﬁcations] is a MAC layer protocol and network architecture designed to be used with the LoRa physical layer.
+LoRaWAN uses pure Aloha
+
+(PA) as a channel access protocol.
+A LoRaWAN gateway can decode eight simultaneous transmissions based on different combinations of SFs and BWs,
+	however at any given time a node in a LoRaWAN network uses particular combination of SF,
+	BW,
+	TP,
+	and CR.
+
+
+% -----------------------------------------------------
+LoRa throughput is analyzed in \cite{adelantado_understanding_2017},
+	\cite{bor_lora_2016},
+	\cite{jetmir_haxhibeqiri_lora_2017},
+	and \cite{mikhaylov_analysis_2016},
+	which have primarily focused on Class A LoRaWAN devices.
+It has been shown that although LoRaWAN uses PA channel access control protocol,
+	due to LoRa’s robust modulation technique an increase of up to 1000 nodes per gateway results in only 32\% more packet losses,
+whereas for the same scenario the losses are up to 90\% in other PA-based networks \cite{jetmir_haxhibeqiri_lora_2017}.
+As LoRa allows customization of transmission parameters,
+	therefore recently some research efforts focused on devising algorithms for effective LoRa’s transmission parameter selection by considering a specific goal.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{gupta_battery_2019} D6JC9B4S
+
+As LoRa is considerably new technology,
+	only limited work has been done in the area of battery optimization.
+
+% -----------------------------------------------------
+
+
+% -----------------------------------------------------
+LoRa is used for obtaining battery status in moving Electric Vehicles in [An efﬁcient electric vehicle charging architecture based on lora communication],
+	tracking system for moving vehicles in [Design and implementation of object tracking system based on lora]–[Efﬁcient,
+	real-time tracking of public transport,
+	using lorawan and rf transceivers],
+	[Long-range wireless sensor networks for geo-location tracking:
+	Design and evaluation],
+	and human monitoring in [We-safe:
+	A wearable iot sensor node for safety applications via lora] and [The experimental trial of lora system for tracking and monitoring patient with mental disorder].
+However,
+	none of the aforementioned works account for energy optimization in transmission settings for moving nodes.
+All of them use conventional method of using a fixed preconfigured setting for transmissions throughout the movement.
+This conventional mechanism is highly energy inefficient as it uses high power settings even when the node is close to a gateway.
+Besides,
+	battery optimization techniques [Performance-aware energy optimization on mobile devices in cellular network],
+	[etime:Energy-efﬁcient transmission between cloud and mobile devices] for moving nodes used in other wireless communications such as LTE,
+	Wi-Fi, 5G,
+	require frequent exchanges of information about channel conditions,
+	previous communication history,
+	user traffic,
+	etc.
+However,
+	such methods become inapplicable for LoRa due to its duty-cycle restriction,
+	in which each LoRa node is allowed to only send a few messages a day to avoid interference.
+
+\cite{hauser_proposal_2017} CNASAVPC
+
+Wireless transmission parameters in the unlicensed spectra are regulated regionally with occasional additions by countrylevel regulators.
+Regulations typically include,
+	but are not limited to,
+	definition of maximal effective radiated power (ERP) and duty-cycle,
+	and medium access methods.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{hoeller_exploiting_2018} RJ28KVZT
+
+The Internet-of-Things (IoT) is pushing a paradigm shift in the design of connectivity solutions for smart devices.
+Nowadays,
+	the community widely accepts that current connectivity solutions like WiFi,
+	Bluetooth,
+	and ZigBee alone cannot cope with the billions of devices expected to integrate the IoT in the forthcoming years [Long-range commun.
+in unlicensed bands:
+	the rising stars in the IoT and smart city scenarios].
+The IoT is emerging as a solution to integrate different communication technologies,
+	each focusing on the requirements of specific applications.
+The so-called Massive IoT (mIoT) figures within this context as a network scenario with thousands of connected devices running noncritical,
+	low-power,
+	and low-cost applications tolerant to high latency and small data-rates [Cellular netw.for massive IoT enabling low power wide area appl].
+New communication technology must address such peculiar scenario,
+	and this is the case of Low-Power Wide-Area Network (LPWAN) technologies like LoRa WAN,
+	S IG F OX ,
+	NB-I O T,
+	and RPMA [Understanding the IoT connectivity landscape:
+	a contemporary M2M radio technology roadmap].
+This paper concerns the assessment of the uplink channel of the LoRa (Long-Range) technology,
+	which forms the physical layer (PHY) of the LoRa WAN protocol stack [lora-alliance.org].
+Although LoRa is in fast-paced adoption,
+	reports on deployments with large numbers of stations are yet to come out,
+	making their performance and capacity models still an open problem.
+Recent related work has sought to assess the performance of LoRa networks using both analytic modelings [Do LoRa low-power wide-area netw.
+scale?]–\cite{georgiou_low_2017}\cite{pop_does_2017} and real measurements  [Performance of a low-power wide-area netw.
+based on LoRa technol.:
+	Doppler robustness,
+	scalability,
+	and coverage] \cite{wang_performance_2017}
+\cite{neumann_indoor_2016}
+\cite{angrisani_lora_2017}
+\cite{jorke_urban_2017}
+[Long range commun.
+in urban and rural environ].
+Analytic models have been proposed for a variety of scenarios and communication phenomena.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+There are similar measurement reports in other environments,
+	including a university campus \cite{wang_performance_2017},
+	indoor applications \cite{neumann_indoor_2016},
+	industry \cite{angrisani_lora_2017},
+	dense cities downtown \cite{jorke_urban_2017},
+	and rural areas \cite{oliveira_long_2017}.
+These measurements show interesting results,
+	however,
+	none of them used a large numbers of nodes and,
+	thus,
+	it is impossible to use the results to validate dense network models.
+As reports on the performance of LoRa and other LPWAN started to reveal the limitations of such networks,
+	a few techniques were proposed to enhance the performance of LoRa \cite{cuomo_explora_2017} \cite{bor_lora_2017}\cite{qin_resource_2017} and other LPWAN technologies \cite{mo_optimization_2016}\cite{song_evaluation_2017}\cite{magrin_performance_2017}.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+\citet{bor_lora_2017} explore LoRa configuration
+
+\cite{marais_lora_2017} 3B3UUVC9
+
+Some of the LPWAN offerings are mainly proprietary but the LoRa Alliance develops LoRaWAN as an open standard.
+The physical layer (LoRa) was however developed by Semtech which remain the sole LoRa integrated circuit producer \cite{bankov_limits_2016}.
+LoRaWAN is the communication protocol (ALOHA-based) [A technical overview of LoRa and LoRaWAN] and system architecture for a network using the LoRa physical layer \cite{wixted_evaluation_2016}.
+LoRaWAN is not the only communication protocol that uses LoRa as the physical layer:
+	Symphony Link TM and LoRaBlink are other examples.
+LoRaBlink \cite{bor_lora_nodate} adds multi-hop support while Symphony Link offers guaranteed Acknowledgements (ACKs),
+	over the air firmware updates and many other features.
+The DASH7 stack can also be configured to use LoRa as its physical layer and can potentially run side-by-side with a LoRaWAN stack [DASH7 Speciﬁcation-DRAFT 16-An Advanced Communication System for Wide-Area Low Power Wireless Applications and Active RFID].
+A.
+Physical layer (LoRa) LoRa is a derivative of Chirp Spread Spectrum (CSS) modulation with integrated Forward Error Correction (FEC) \cite{reynders_chirp_2016}.
+LoRa uses sub one GHz ISM bands in Europe and North America and its wide band nature allows LoRa to better compensate for a low Signal to Noise Ratio (SNR) [LoRa Modulation Basics,].
+This allows LoRa to demodulate signals even when they are 19.5 dB below the noise floor \cite{bor_lora_2016}.
+CSS allows for a longer communication range than Frequency-Shift Keying (FSK) without an increase in power consumption [A technical overview of LoRa and LoRaWAN].
+
+Transmitting at higher power levels will increase a LoRa node’s range.
+Nodes can adjust their output power to meet regulatory requirements.
+In Europe +14 dBm is the maximum transmit power except in the G3 band (+27 dBm) [A technical overview of LoRa and LoRaWAN].
+LoRaWANs deployed in Europe have channel bandwidths of either 125 kHz or 250 kHz and a single FSK transmission channel providing a higher data rate is also available \cite{wixted_evaluation_2016}.
+Data rates are region (regulatory restrictions) as well as Spreading Factor (SF) dependent.
+Increasing the spreading factor improves the SNR but results in longer transmission times \cite{bor_lora_nodate}.
+Using a higher bandwidth shortens the transmission times but reduces the maximum receiver sensitivity \cite{bor_lora_2016}.
+Capacity calculations performed in \cite{mikhaylov_analysis_2016} revealed that when a single gateway must serve many devices the majority of them should be close to the gateway (SF = 7) as only a few nodes with the maximum SF can be supported given their long transmission times.
+LoRa uses FEC to allow the recovery from transmission errors due to bursts of interference,
+	but the use of FEC adds some encoding overhead [SX1272/3/6/7/8:
+	LoRa Modem Designer’s Guide,].
+LoRa’s coding rates are 4/(CR + 4) with CR ∈ {1, 2, 3, 4}.
+A LoRa packet’s header and its Cyclic Redundancy Check (CRC) will always be transmitted using a CR of 4/8 and the payload with its optional CRC at the chosen coding rate [SX1272/3/6/7/8:
+	LoRa Modem Designer’s Guide].
+When LoRa is transmitting with a BW of 125 kHz and a SF of 11 or 12 a low data rate optimization can be enabled.
+This reduces the impact on transmission due to drift in the reference frequency of the oscillator,
+	but does add additional data overhead [SX1272/3/6/7/8:
+	LoRa Modem Designer’s Guide,].
+LoRa can detect channel activity using Carrier Activity Detection (CAD) \cite{bor_lora_nodate}.
+This is faster than Received Signal Strength Indicator (RSSI) identification and can differentiate between noise or a desired LoRa signal [LoRa Modulation Basics].
+B.
+LoRaWAN LoRaWANs in Europe are limited to 10 channels,
+	has duty cycle restrictions but no channel dwell time limitations.
+LoRaWANs in North America have 64 channels,
+	also have duty cycle restrictions but no channel dwell time limitations [A technical overview of LoRa and LoRaWAN].
+LoRaWAN has 3 common 125 kHz channels for the 868 MHz band namely 868.10, 868.30 and 868.50 MHz that devices use to join the network [Indoor Deployment of LowPower Wide Area Networks (LPWAN):
+	a LoRaWAN case study].
+Once a node has joined the network,
+	the network server can provide additional channels to the device.
+In Europe,
+	the same channels are used for uplink and downlink.
+The network architecture is a star of stars topology in which end nodes connect directly communicate with gateways which in turn connect to a central network server \cite{bankov_limits_2016}.
+Gateways are always on devices and have LoRa capabilities and potentially Ethernet or cellular capabilities to connect to the network server.
+In a LoRaWAN transmissions are received by any nearby gateway(s).
+This allows mobile nodes to transmit to any gateway without any handover.
+The network server drops any copies of a message and replies using the optimum gateway [A technical overview of LoRa and LoRaWAN],
+	\cite{wixted_evaluation_2016}.
+
+\cite{slabicki_adaptive_2018} H6DXYYB9
+
+Even though several articles studied the scalability of LoRa networks [Long-range communications in unlicensed bands:
+	The rising stars in the IoT and smart city scenarios]\cite{petajajarvi_coverage_2015}\cite{augustin_study_2016},
+	none of them has considered the impact of ADR on performance.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+\citet{varsier_capacity_2017} analyzed the capacity limits of LoRaWAN networks for smart metering applications.
+The authors considered a distribution of spreading factors based on the median of the SNR values received at the gateway.
+However,
+	the exact details on how to configure the transmission parameters were not provided in their work.
+In contrast,
+	we have evaluated the impact of ADR on network performance and proposed modifications to the original ADR algorithms.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{to_simulation_2018} 253585LX
+
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+Other studies in the literature analyzed the performance of the LoRa modulation—Goursaud and Gorce \cite{goursaud_dedicated_2015} considered other technologies (SigFox,
+	Weightless,
+	and RPMA by Ingenu) in addition to LoRa to highlight their pros and cons.
+
+% -----------------------------------------------------
+
+\cite{zorbas_improving_2018} D8LVPLDY
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{abdelfadeel_fair_2018} S7MJTV2C
+
+Here we provide an overview of the LoRaWAN protocol stack and highlight related work in the LoRaWAN domain.
+A.
+Long Range (LoRa) LoRa is a proprietary low-cost implementation of Chirp Spread Spectrum (CSS) modulation by Semtech that provides long range wireless communication with low power characteristics [An1200.22,
+	lora modulation basics] and represents the physical layer of the LoRaWAN stack.
+CSS uses wideband linear frequency modulated pulses,
+	called chirps to encode symbols.
+A LoRa symbol covers the entire bandwidth,
+	making the modulation robust to channel noise and insensitive to frequency shifts.
+LoRa modulation
+
+is defined by two main parameters:
+	Spreading Factor sf ∈ SF s(7,
+	..., 12),
+	which affects the number of bits encoded per symbol,
+	and Bandwidth bw ∈ BW s(125, 250, 500)KHz,
+	which is the spectrum occupied by a symbol.
+A LoRa symbol consists of 2 sf chirps in which chirp rate equals bandwidth.
+LoRa supports forward error correction code rates cr equal to 4/(4 + n) where n ranges from 1 to 4 to increase resilience.
+The theoretical bit rate R b of LoRa is shown in Eq. 1 [An1200.22,
+	lora modulation basics].
+bw ∗ cr bits/s (1) 2 sf Moreover,
+	a LoRa transceiver allows adjusting the Transmission Power T P .
+Due to hardware limitations the adjustment range is limited from 2dBm to 14dBm in 1dB steps.
+A LoRa packet can be transmitted using a constant combination of SF ,
+	BW ,
+	CR and T P ,
+	resulting in over 936 possible combinations.
+Tuning these parameters has a direct effect on the bit rate and hence the airtime,
+	affecting reliability and energy consumption.
+Each increase in SF nearly halves the bit rate and doubles the airtime and energy consumption but enhances the link reliability as it slows the transmission.
+Whereas each increase in the BW doubles the bit rate and halves the airtime and energy consumption but reduces the link reliability as it adds more noise.
+The airtime of a LoRa packet can be precisely calculated by the LoRa airtime calculator [Lora modem design guide].
+Fig. 1a shows the effect of SF s and BW s at code rate CR = 4/5 on the airtime to transmit an 80 bytes packet length.
+As shown,
+	the fastest combination uses the lowest SF with the highest BW ,
+	whereas,
+	the highest SF with the lowest BW achieves the slowest combination.
+Fig. 1b shows the energy consumption for combinations of SF s and T P s at CR = 4/5 and BW = 500KHz to transmit an 80 bytes packet.
+As shown,
+	the SF has much higher impact than the T P on the energy consumption,
+	e.g.
+increasing SF consumes more energy than increasing T P especially for large SF s.
+LoRa modulation can enable concurrent transmissions,
+	exploiting the pseudo-orthogonality of SF s as long as none of the simultaneous transmissions is received with significantly higher power than the others \cite{goursaud_dedicated_2015}.
+Otherwise,
+	the strongest transmission suppresses weaker transmissions if the power difference is higher than the Co-channel Interference Rejection (CIR) of weaker SF s.
+In case of the same SF ,
+	all simultaneous transmissions are lost,
+	unless one of the transmissions is received with higher power than the CIR of the SF .
+This suppression of weaker signals by the strongest signal is called capture effect \cite{bor_lora_2016}.
+The CIR of all SF pairs has been calculated using simulations in \cite{goursaud_dedicated_2015} and validated by real LoRa link measurements in \cite{piva_impact_2017}.
+
+Recent research on LoRa/LoRaWAN has mainly focused on LoRa performance evaluation in terms of coverage,
+	capacity,
+	scalability and lifetime.
+The studies have been carried out using real deployments in \cite{oliveira_long_2017} and \cite{petajajarvi_performance_2017},
+	mathematical models in [Mathematical model of lorawan channel access] and \cite{georgiou_low_2017},
+	or computer simulations in \cite{bor_lora_2016} and \cite{magrin_performance_2017}.
+Almost all these works have assumed perfectly orthogonal SF s although it has been shown in \cite{mikhaylov_lorawan_2017} and \cite{piva_impact_2017} that this is not a valid assumption.
+Furthermore,
+	recent work has proposed transmission parameter allocation approaches for LoRaWAN with different objectives.
+For example,
+	authors in \cite{bor_lora_2017} proposed a transmission parameter selection approach for LoRa to achieve low energy consumption at a specific link reliability.
+Here a LoRa node probes a link using a transmission parameter combination to determine the link reliability.
+It then chooses the next probe combination based on whether the new combination achieves lower energy consumption while maintaining at least the same link reliability.
+Finally,
+	the approach terminates when reaching the optimal combination from an energy consumption perspective.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+The two aforementioned works \cite{bor_lora_2017} and \cite{cuomo_explora_2017} assumed perfectly orthogonal SF s,
+	which leads to a higher overall data rate than in reality.
+In the context of our work presented here,
+	allocating data rates and T P s to achieve data rate fairness in LoRaWAN is not well investigated,
+	with the exception of \cite{reynders_power_2017},
+	where authors proposed a power and spreading factor control approach to achieve fairness within a LoRaWAN cell.
+We provide an overview of \cite{reynders_power_2017} and a detailed comparison with our proposal in Section IV.
+While in general data rate and power control approaches have been well studied for cellular systems and WiFi [A framework for uplink power control in cellular radio systems] \cite{subramanian_joint_2005},
+	we argue that these solutions are not suitable for constrained systems like LoRaWAN.
+The reason is that cellular based approaches require fast feedback and high data rates to work,
+	which are not available in LoRaWAN.
+In the end,
+	an interesting work was done to ensure an interoperability between LoRaWAN and the native IoT stack i.e.
+IPv6/UDP/CoAP at the device level.
+The interoperability was done by adopting legacy solution like 6LoWPAN over LoRaWAN \cite{weber_ipv6_2016} or by developing a new header compression technique to be more suitable for the constraints of LoRaWAN [Lschc:
+	Layered static context header compression for lpwans].
+
+\cite{abeele_scalability_2017} J22SN85R
+
+A number of works have been published in literature that study the scalability of LoRa(WAN) LPWA networks.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+
+\cite{blenn_lorawan_2017} P8FP2R7R
+
+
+% -----------------------------------------------------
+
+
+In [Long-range communications in unlicensed bands:
+	the rising stars in the iot and smart city scenarios],
+	Centenaro et al.
+provide an overview of the LPWAN paradigm in the context of smart-city scenarios.
+The authors also test the coverage of a LoRaWAN gateway in a city in
+
+Italy,
+	by using a single base-station without antenna gain.
+The covered area had a diameter of 1.2 km.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{hoeller_analysis_2018} S33CL98I
+
+Several recent related works have sought to evaluate the performance of LoRa networks using analytic modeling  \cite{georgiou_low_2017}–  \cite{bor_lora_2016}
+\cite{gupta_modelling_2017}
+\cite{pop_does_2017}
+\cite{bankov_mathematical_2017}
+and real measurements  \cite{petajajarvi_performance_2017}
+\cite{petajajarvi_evaluation_2017}
+\cite{wang_performance_2017}
+\cite{neumann_indoor_2016}
+\cite{angrisani_lora_2017}
+\cite{jorke_urban_2017}
+\cite{radcliffe_usability_2017}
+\cite{rizzi_evaluation_2017}
+\cite{oliveira_long_2017}.
+Additionally,
+	a few techniques have been proposed to enhance the performance of LPWANs in general,
+	with potential modifications to the current technologies,
+	as for LoRa in \cite{cuomo_explora_2017}
+\cite{bor_lora_2017}
+\cite{qin_resource_2017}
+\cite{voigt_mitigating_2016},
+	UNB/S IG F OX in \cite{mo_optimization_2016},
+	and for others in \cite{song_evaluation_2017},
+	\cite{magrin_performance_2017}.
+Analytic models have been proposed for a variety of scenarios and communication phenomena.
+
+% -----------------------------------------------------
+
+
+% -----------------------------------------------------
+Concerning the modeling of communication fading,
+	only \citet{georgiou_low_2017} and \citet{pop_does_2017} take this impairment into account,
+	to the best of our knowledge.
+Several works have used measurements to evaluate the performance of LoRa networks.
+
+% -----------------------------------------------------
+\citet{petajajarvi_performance_2017},
+	\cite{petajajarvi_evaluation_2017} analyze Doppler robustness,
+	scalability,
+	and coverage of LoRa networks and report the experimental validation of such metrics in terrestrial and water environments for static and mobile nodes.
+Considering a delivery ratio of at least 60\% and
+LoRa most conservative configurations,
+	they were able to communicate to static nodes ranging up to 30 km over the water and up to 10 km on the ground.
+Regarding Doppler robustness,
+	they observed that communication degrades significantly when the velocity of the node in relation to the gateway is above 40 km/h.
+There are similar reports of LoRa measurements done in different environments,
+	including a university campus \cite{wang_performance_2017},
+	indoor applications [Indoor deployment of lowpower wide area networks (LPWAN):
+	A LoRaWAN case study],
+	industry \cite{angrisani_lora_2017},
+	dense cities downtown \cite{jorke_urban_2017},
+	[Usability of LoRaWAN technol],
+	smart metering \cite{rizzi_evaluation_2017},
+	and rural areas \cite{oliveira_long_2017}.
+Albeit these measurements show interesting results,
+	it is important to note that none of them used a large number of network nodes,
+	thus making it difficult to validate models for dense networks.
+A few recently published work also propose some enhancements to LoRa .
+
+
+% -----------------------------------------------------
+In this paper,
+	we model and validate the behavior of LoRa networks using message replication to exploit time diversity and using a single gateway with multiple receive antennas to exploit spatial diversity,
+	striving to maximize network performance.
+To do that,
+	we take the work of \cite{georgiou_low_2017} as baseline model and extend it to incorporate the proposed techniques.
+Our work on message replication differs from \cite{mo_optimization_2016} because that work considers UNB networks where each transmission uses a random central frequency – an assumption that changes the collision model.
+Moreover,
+	our work takes fading into account,
+	what \cite{mo_optimization_2016} does not.
+Our approach using multiple receive antennas differs from \cite{song_evaluation_2017} and \cite{magrin_performance_2017} because they consider spatial diversity generated by multiple gateways.
+Our work examines the case where multiple receive antennas in a single gateway create signal diversity able to enhance signal quality,
+	an approach that can be naturally extended to the case of multiple gateways in the future.
+To the best of our knowledge,
+	no work has investigated the use of multiple receive antennas and message replications in LoRa networks.
+
+\cite{kim_experiencing_2019} DFN3W8GF
+
+
+% -----------------------------------------------------
+\citet{noreen_study_2017} described LoRa PHY performance theoretically.
+They explained the transmission rate in terms of three basic parameters:
+	BW,
+	CR,
+	and SF.
+Their results show that increasing the packet length results in a sharp increase in ToA.
+SK Telecom [sktiot.com],
+	a leading telecommunication operator in Korea,
+	presented its experimental results on LoRa transmission ranges at the IoT-LPWA working conference in 2016.
+LoRa nodes that are located outdoors transmit packets to a LoRa gateway with an output power of 14 dBm.
+In the experiment,
+	the SF was set to 12,
+	and retransmission was not conducted.
+The company announced that transmission ranges of 1.09 km, 1.54 km,
+	and 3.03 km are achievable for dense urban,
+	urban,
+	and suburban areas,
+	respectively.
+These specified values satisfy the requirement for a LoRa transmission success rate of above 90\%.
+The researchers also deployed nodes inside the buildings on the first floor and performed a similar test.
+In this case,
+	the communication coverage was measured to be about 2/3 of the performance measured outdoors.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{lavric_performance_2018} EKZHXVKL
+
+% -----------------------------------------------------
+
+
+\cite{li_2d_2016} AAHXK9LU
+
+Multiple works exist for the performance evaluation of LPWANs \cite{mikhaylov_analysis_2016},
+	\cite{goursaud_random_2016},
+	\cite{adelantado_understanding_2017},
+	\cite{reynders_range_2016}.
+Most of these works use Poisson processes to model the packet arrival,
+	which we believe is not the most adapted for periodic packet sending scenarios in LPWANs.
+For example,
+	a device reporting on a daily basis would not send more than one message per day.
+However,
+	as Poisson models the intensity of packet arrival,
+	an intensity of one message per day represents in fact the mean value,
+	i.e.,
+	one message on average per day,
+	which is not quite the case described.
+
+
+% -----------------------------------------------------
+
+\cite{magrin_thorough_2019} J8NXUG9T
+
+In the last years,
+	the LoRaWAN technology has been the subject of many studies,
+	which analyzed its performance and features with empirical measurements,
+	mathematical analysis and simulative tools.
+
+% -----------------------------------------------------
+Some seminal papers on LoRaWAN such as \cite{petajajarvi_coverage_2015},
+	\cite{wixted_evaluation_2016} test the coverage range and packet loss ratio by means of empirical measurements,
+	but without investigating the impact of the parameters setting on the performance.
+
+
+
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+The authors in \cite{hauser_proposal_2017},
+	\cite{slabicki_adaptive_2018} target the original ADR algorithm proposed by [thethingsnetwork.org],
+	suggesting possible ameliorations.
+Generally,
+	the modified algorithms yield an increase of network scalability,
+	fairness among nodes,
+	packet delivery ratio and robustness to variable channel conditions.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+In \cite{zucchetto_uncoordinated_2017},
+	the authors investigate,
+	via simulation,
+	the impact of DC restrictions in LPWAN scenarios,
+	showing that rate adaptation capabilities are indeed pivotal to maintain reasonable level of performance when the coverage range and the cell load increase.
+However,
+	the effect of other parameters setting on the network performance is not considered.
+In this study we differ from the existing literature in that we target large networks with bidirectional traffic,
+	a scenario that makes it possible to observe some unforeseen effects rising from the interaction of multiple nodes served by one single GW and NS.
+Furthermore,
+	in our analysis we examine one by one the role played by the configurable network parameters,
+	as detailed in Sec.IV-A,
+	thus highlighting some pitfalls that can affect the network performance.
+We then propose possible counteractions that require some small changes at the MAC layer,
+	and we evaluate their effectiveness in some representative scenarios.
+As a side result,
+	we enriched the ns-3 lorawan module with new functionalities.
+
+\cite{marais_evaluating_2019} AXRU35IH
+
+Performance evaluations of the LoRaWAN protocol frequently consist of a network with a single gateway and one or two nodes with which measurements are taken at several identified points \cite{marais_lora_2017},
+	\cite{aref_free_2014},
+	\cite{petajajarvi_coverage_2015},
+	\cite{augustin_study_2016}.
+These provide valuable insights but can produce results impacted by device specific characteristics.
+Experiments on nodes in motion showed that at speeds higher than 40 km/h,
+	the communication performance worsens due to the Doppler effect \cite{petajajarvi_performance_2017},
+	\cite{sanchez-iborra_performance_2018}.
+Extensive research regarding the ADR scheme has resulted in additions and modifications targeting network performance metrics such as scalability \cite{kim_adaptive_2017},
+	throughput \cite{cuomo_explora_2017},
+	PDR \cite{reynders_power_2017},
+	and contention \cite{kim_contention-aware_2018}.
+As an example,
+	congestion estimation is achieved through evaluation of network throughput,
+	RSSI and the number of connections at a gateway before nodes are sent LinkADRReq messages \cite{kim_adaptive_2017}.
+Fair Adaptive Data Rate (FADR) uses Received Signal Strength Indicator (RSSI) values in its calculations when determining SF and Transmit Power (Tx) assignments [Poster:
+	A Fair Adaptive Data Rate Algorithm for LoRaWAN].
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+In \cite{sanchez-iborra_performance_2018},
+	the influence of variation in payload length was tested and a definite PDR improvement was observed,
+	which was however not consistent over the range of data rates evaluated.
+The payload length experiments conducted in \cite{aref_free_2014} found similar inconsistencies,
+	with similar PDRs for 10 and 100 bytes but a decrease for 50 bytes.
+Performance evaluations in urban,
+	suburban and rural environments resulted in coverage of around 6 km in urban and suburban areas with over 18 km in the rural scenario \cite{sanchez-iborra_performance_2018}.
+The urban evaluation,
+	which enabled ACKs,
+	showed a PDR of 100 \% for DR0 to DR5 for distances below 3 km,
+although over how many packets this was calculated was not specified.
+Even at distances between 5 km and 6 km,
+	a 100 \% PDR achieved
+when DR0 was used,
+	however,
+	other data rates resulted in lower PDRs of between 30 \% and 50 \%.
+Tests on ACK requests by nodes in an evaluation of a three gateway LoRaWAN,
+	found that in 2.5 \% of cases the data arrived but the device did not receive an ACK which could result in unnecessary retries \cite{wixted_evaluation_2016}.
+To investigate the impact of downlink traffic in which ACKs materially influence performance,
+	the popular LoRaSim simulator was extended into LoRaWANSim \cite{pop_does_2017}.
+Evaluation of the effects of increased network size showed that a gateway will reach its duty cycle limits when attempting to transmit all of the required ACKs.
+The use of ACKs has a major impact on performance in large networks and greatly reduce their capacity \cite{pop_does_2017}.
+Tests on a single gateway network found that ACKs only improved the PDR for a low number of devices (100, 500 and 1000) and only when data was sent every sixty thousand seconds \cite{abeele_scalability_2017}.
+
+\cite{pop_does_2017} TVTNCP95
+
+As we present a simulator for LoRaWAN LPWA networks,
+	we briefly discuss related tools and studies on LoRaWAN.
+A.
+LoRaWAN Analytical Models and Simulators Multiple analytical models [Analysis of the delay of conﬁrmed downlink frames in Class B of LoRaWAN],
+	\cite{georgiou_low_2017},
+	\cite{toussaint_performance_2016} and simulators \cite{bor_lora_2016},
+	[Massive Access for Machine-to-Machine Communication in Cellular Networks],
+	[github.com/maartenweyn/lpwansimulation] have been proposed to understand the performance of LoRaWAN.
+None of these models is provide any insights on the interplay between downlink traffic and the gateway’s duty cycle limit or effect of MAC parameter settings on the reliability of LoRaWAN.
+To bridge this gap,
+	we design LoRaWANSim,
+	which extends the functionalities of LoRaSim \cite{bor_lora_2016},
+	an existing discrete event simulator.
+Other simulators [Massive Access for Machine-to-Machine Communication in Cellular Networks],
+	[github.com/maartenweyn/lpwansimulation] including LoRaSim focus more on LoRa physical layer aspects,
+	including modulation,
+	channel effects,
+	and path loss.
+Unfortunately,
+	their MAC layer capabilities are very much limited to an implementation of the ALOHA protocol.
+With LoRaWANSim,
+	we take an important step forward by incorporating multiple MAC layer features that are part of the LoRaWAN standard.
+These features include the possibility to send downlink traffic,
+	special control messages,
+	confirmed messages,
+	acknowledgments,
+	and retransmissions.
+By doing so,
+	LoRaWANSim enables users to evaluate the performance of the LoRaWAN MAC layer,
+	derive useful insights about the effect of several MAC layer parameters,
+	and evaluate possible enhancements to the LoRaWAN standard.
+
+\cite{sandoval_optimal_2018} PVJDK4XI
+
+Long range technologies such as LoRa [lora-alliance.org] and Sigfox [sigfox.com] have started to draw significant attention from the academic and industrial communities.
+Some of the published works in this field devote their efforts to analyzing the performance of real LPWAN deployments under different conditions:
+	IoT devices monitoring civil infrastructures such as bridges [Vibrations powered LoRa sensor:
+	An electromechanical energy harvester working on a real bridge],
+	LoRa-based video surveillance systems [Deploying a pool of long-range wireless image sensor with shared activity time],
+	health monitoring motes \cite{petajajarvi_evaluation_2017},
+	etc.
+On the other hand,
+	some other studies are focused on analyzing the advantages,
+	disadvantages,
+	capabilities,
+	and limits of the current implementations of these technologies from a technological point of view.
+For example,
+	the real scalability of current LoRa networks [Do LoRa Low-Power Wide-Area Networks Scale],
+	\cite{georgiou_low_2017},
+	the performance of their different configurations \cite{bor_lora_2017},
+	and how these types of networks tolerate download traffic \cite{pop_does_2017},
+	amongst other things are being studied.
+Although they are very practical and illustrating,
+	none of these works optimizes or analyzes the performance of LPWAN in a generic and theoretic fashion,
+	which would allow their extrapolation to different technologies (LoRa,
+	Sigfox,
+	etc.) or their future implementations,
+	beyond current transceivers.
+As a notable exception,
+	[Analysis of Latency and MAC-layer Performance for Class A LoRaWAN,] studied the impact of sub-band selection on LoRa motes by modeling nodes as an infinite,
+	jockeying M/M/c queue (i.e.
+c servers,
+	arrivals determined by a Poisson process,
+	and exponentially distributed job services).
+Although the work is very well detailed,
+	mathematically neat and applicable to future deployments,
+	it does not capture the true,
+	complex nature of real Long-Range networks,
+	where resources are very scarce (i.e.
+infinite queues are impossible to implement) and traffic cannot always be assumed to follow a certain distribution.
+Regarding the TDC-limitation problem,
+	two works [QoS for Long-Range Wireless Sensors Under Duty-Cycle Regulations with Shared Activity Time Usage],
+	[Deploying a pool of long-range wireless image sensor with shared activity time] have recently highlighted the importance of TDC-aware networks by illustrating the problem of transmitting real-time video in Long-Range deployments.
+Although practical,
+	the solution proposed focuses on deliberately breaking the 36s/hour TDC limitation by complying with it in a network-aggregated fashion (i.e.
+the average network TDC is kept below 36s/hour,
+	not the per-node TDC).
+In fact,
+	\cite{adelantado_understanding_2017} highlighted that the effects of TDC limitations jeopardize the actual capacity of largescale deployments,
+	and the only de-facto proposal to manage it,
+	a fixed limit on the number of permitted messages per day,
+	fails to provide the network with enough flexibility.
+With the interest of contributing to fill the notable gap in research,
+	we propose an approach to derive MDP-based transmission policies that fully comply with the TDC regulations while maximizing the number of high-priority reported events.
+
+\cite{yang_smart_2018} U5RX6JLY
+
+LoRaWAN is a wireless communication protocol and has got more and more researches in recent years.
+Its application domains include smart agriculture,
+	security city,
+	river bank monitoring and street lighting control.
+However,
+	LoRaWAN employs simple random access schemes that may suffer from important latency and low data delivery,
+	which are key performance indicators in smart elderly care networks.
+Some researches focus on the features and performance of LoRaWAN.
+
+% -----------------------------------------------------
+Analytical models of energy consumption and the performance of LoRaWAN are analyzed by \citet{casals_modeling_2017}.
+The impact of LoRa transmission parameter selection on communication performance is presented by \citet{bor_lora_2017},
+	a link probing regime to save energy consumption and improve communication reliability is also developed.
+
+% -----------------------------------------------------
+Considering energy constraints of wireless sensor networks in IoT,
+	\citet{al-turjman_mobile_2017} propose a novel traffic model to investigate the effects of multi-hop communication of IoT.
+\citet{tunc_markov_2017} present a Markov fluid queue model for energy management to prolong the lifetime of IoT.
+For Markov model itself,
+	a classical single server vacation model is generalized by \citet{servi_m/m/1_2002} to consider a server in a WDM optical access network,
+	they exploit the equilibrium joining strategies for customers in an M/M/1 queue with working vacations and vacation interruptions \cite{li_equilibrium_2016}.
+\citet{kempa_transient_2018} consider a single-channel finite-buffer queuing model with a general independent input stream of customers.
+Besides the characteristics of LoRaWAN network researches,
+	the applications in industry and IoT are also attracted some researchers’ attention.
+A solution is proposed in article \cite{navarro-ortiz_integration_2018} aims to integrate LoRaWAN with 4G/5G mobile networks,
+	which will allow the current infrastructures of mobile network operators are reutilized.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+\citet{cruz_algorithm_2019} address the IoT utilization of the public transportation system in smart city.
+
+% -----------------------------------------------------
+The combined use of IoT with industrial sensors in structural health monitoring is given by \citet{alonso_middleware_2018}.
+
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+\cite{zhou_novel_2019} ZRKCKJY9
+
+Transmission parameter configuration mechanisms such as ADR scheme need to be executed on both LoRa node and LoRa network server.
+Taking into account low power consumption,
+	the mechanism running on LoRa node should be as simple as possible and has been detailed in LoRaWAN.
+However,
+	LoRa network server is responsible for the complex management mechanism,
+	which can be carefully designed to improve network performance.
+Therefore,
+	the discussed related works focus on server-side mechanism.
+In addition,
+	the mechanism running on LoRa node is in accordance with the definition of LoRaWAN 1.1 specification [LoRaWAN Speciﬁcation].
+The basic ADR scheme provided by LoRaWAN estimates channel conditions using the maximum value of the received signal-to-noise ratio (SNR) in several recent packets [LoRaWAN Speciﬁcation].
+When the variance of the channel is low,
+	using ADR scheme significantly reduces the interference and increases the system capacity compared with using the static data rate \cite{bor_lora_2016},
+	\cite{slabicki_adaptive_2018},
+	\cite{zheng_smdp-based_2015}.
+However,
+	the scheme may also have potential drawbacks.
+First,
+	SNR measurements are determined by different models of LoRa Gateway.
+Therefore,
+	the value of SNR is inaccurate as a result of hardware calibration and interfering transmissions.
+Second,
+	selecting the maximum SNR in the last 20 packets is not an desirable method.
+Because there may be a long time interval between consecutive packets for some IoT applications.
+The antiquated SNR information is not able to accurately estimate the channel condition for the next uplink packet.
+Third,
+	the scheme only considers the link of single node to decide whether to adjust transmission parameters.
+If massive LoRa nodes are densely distributed near LoRa Gateway,
+	it will cause most of nodes using the fastest data rate.
+With the number of LoRa nodes using the same data rate increases,
+	the possibility of collisions also increases dramatically.
+Moreover,
+	a lot of researchers propose various approaches to allocate transmission parameters with different objectives.
+Most of the approaches utilize SNR or RSSI information to control transmission power and spreading factor.
+The authors in \cite{slabicki_adaptive_2018} slightly modify the basic ADR scheme.
+The maximum operation in the SNR of several recent packets is replaced with the average function.
+
+% -----------------------------------------------------
+
+\cite{zhu_improving_2019} IWAC4Y9B
+
+LoRa,
+	a proprietary wireless communication standard promoted by the LoRa alliance,
+	enables long-range communications.
+Even though the typical topology in LoRa is a single-hop network named LoRaWAN [LoRaWAN specification],
+	\cite{pop_does_2017},
+	the SF allocation is an important issue because it improves the network efficiency in both single-hop and multi-hop LoRa networks.
+A.
+SF ALLOCATION IN A SINGLE-HOP NETWORK LoRaWAN,
+	which is a single-hop network,
+	implements an ALOHA or a slotted ALOHA mechanism on the Medium Access Control (MAC) layer with the physical design of LoRa technology \cite{mahmood_scalability_2019}.
+LoRaWAN ensures connectivity by standardizing the Adaptive Date Rate (ADR) mechanism to allow the node to step down its data rate.
+However,
+	the ADR,
+	which is based on the number of received acknowledgment (ACK) messages from gateways,
+	is a basic method.
+These methods are inaccurate for assessing the highlyvarying wireless environment,
+	and render data transmission inefficient \cite{kim_adaptive_2017}.
+Subsequent research  \cite{adelantado_understanding_2017}
+\cite{reynders_power_2017}
+\cite{reynders_improving_2018}
+\cite{slabicki_adaptive_2018}
+considered an SF distribution scheme based only on the distance from the node to gateways.
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+% -----------------------------------------------------
+
+

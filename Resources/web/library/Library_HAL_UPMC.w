@@ -1,1 +1,0 @@
-http://hal.upmc.fr/

@@ -1,0 +1,10 @@
+sed -ie 's/lora-z /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/lora-z /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/lora-power /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/lora-power /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/lora-new /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/lora-new /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/lora-channel /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/lora-channel /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/lora-adr-new /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/lora-adr-new /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/lora-adr-LoRaWAN /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/lora-adr-LoRaWAN /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/lora-adr /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/lora-adr /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/divers-new /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/divers-new /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/5g-slice /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/5g-slice /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt
+sed -ie 's/5g /ytre/g' .l.txt; sed -ie '0,/ytre/{s/ytre/5g /}' .l.txt; sed -ie 's/ytre/ /g' .l.txt

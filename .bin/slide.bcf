@@ -91,7 +91,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxbibnames</bcf:key>
-      <bcf:value>999</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
@@ -99,7 +99,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
-      <bcf:value>999</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxitems</bcf:key>
@@ -111,15 +111,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>3</bcf:value>
+      <bcf:value>1</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -383,7 +383,6 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
-    <bcf:option datatype="boolean">dashed</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
     <bcf:option datatype="integer">maxnames</bcf:option>
@@ -2000,19 +1999,19 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/Resources/bib/iot.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/Resources/bib/iotbis.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/Resources/bib/privacy.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/Resources/bib/petri.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
   </bcf:section>
   <!-- SECTION 1 -->
   <bcf:bibdata section="1">
-    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/Resources/bib/iot.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/Resources/bib/iotbis.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/Resources/bib/privacy.bib</bcf:datasource>
-    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/Resources/bib/petri.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="1">
     <bcf:citekey order="1">perera_mosden_2013</bcf:citekey>
@@ -2027,19 +2026,14 @@
     <bcf:citekey order="10">feltrin_lorawan_2018</bcf:citekey>
     <bcf:citekey order="11">venkatesan_design_2017</bcf:citekey>
     <bcf:citekey order="12">rizzi_evaluation_2017</bcf:citekey>
-    <bcf:citekey order="13">eriksson_investigating_2017</bcf:citekey>
+    <bcf:citekey order="13">marco_cattani_experimental_2017</bcf:citekey>
     <bcf:citekey order="14">marco_cattani_experimental_2017</bcf:citekey>
-    <bcf:citekey order="15">marco_cattani_experimental_2017</bcf:citekey>
-    <bcf:citekey order="16">bendaoud_network_2019</bcf:citekey>
-    <bcf:citekey order="17">chowdhury_survey_2018</bcf:citekey>
-    <bcf:citekey order="18">bendaoud_network_2019</bcf:citekey>
-    <bcf:citekey order="19">chowdhury_survey_2018</bcf:citekey>
+    <bcf:citekey order="15">bendaoud_network_2019</bcf:citekey>
+    <bcf:citekey order="16">chowdhury_survey_2018</bcf:citekey>
+    <bcf:citekey order="17">bendaoud_network_2019</bcf:citekey>
+    <bcf:citekey order="18">chowdhury_survey_2018</bcf:citekey>
+    <bcf:citekey order="19">dawaliby_adaptive_2019</bcf:citekey>
     <bcf:citekey order="20">simiscuka_relay_2018</bcf:citekey>
-    <bcf:citekey order="21">alkhawlani_access_2008</bcf:citekey>
-    <bcf:citekey order="22">bendaoud_network_2019</bcf:citekey>
-    <bcf:citekey order="23">chowdhury_survey_2018</bcf:citekey>
-    <bcf:citekey order="24">bendaoud_network_2019</bcf:citekey>
-    <bcf:citekey order="25">chowdhury_survey_2018</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

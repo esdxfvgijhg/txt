@@ -1,0 +1,20 @@
+{
+	"folders":
+	[
+		{
+			"name": "Folders",
+			"path": "plot",
+			"file_exclude_patterns": [".*", "*.gz", "*.pdf"],
+			"follow_symlinks": true
+		}
+	],
+	"settings":
+	{
+		"TEXroot": "plot/main.tex",
+		"builder_settings":
+		{
+			"options": "--shell-escape",
+			"program": "lualatex"
+		}
+	}
+}

@@ -1,126 +1,180 @@
 \BOOKMARK [0][-]{chapter*.1}{Abstract}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{Acknowledgements}{}% 2
-\BOOKMARK [0][-]{chapter*.4}{Dedication}{}% 3
-\BOOKMARK [0][-]{chapter*.5}{Contents}{}% 4
-\BOOKMARK [0][-]{chapter*.6}{List of Tables}{}% 5
-\BOOKMARK [0][-]{chapter*.7}{List of Figures}{}% 6
-\BOOKMARK [0][-]{chapter*.8}{List of Abbreviations}{}% 7
-\BOOKMARK [0][-]{chapter*.9}{List of Nomenclatures}{}% 8
-\BOOKMARK [0][-]{chapter*.10}{List of Publications}{}% 9
+\BOOKMARK [0][-]{chapter*.4}{Acknowledgements}{}% 2
+\BOOKMARK [0][-]{chapter*.5}{Dedication}{}% 3
+\BOOKMARK [0][-]{chapter*.6}{Contents}{}% 4
+\BOOKMARK [0][-]{chapter*.7}{List of Tables}{}% 5
+\BOOKMARK [0][-]{chapter*.8}{List of Figures}{}% 6
+\BOOKMARK [0][-]{chapter*.9}{List of Abbreviations}{}% 7
+\BOOKMARK [0][-]{chapter*.10}{List of Nomenclatures}{}% 8
+\BOOKMARK [0][-]{chapter*.11}{List of Publications}{}% 9
 \BOOKMARK [0][-]{chapter.1}{Introduction}{}% 10
 \BOOKMARK [1][-]{section.1.1}{Context and motivation}{chapter.1}% 11
 \BOOKMARK [1][-]{section.1.2}{Methodology and contributions}{chapter.1}% 12
 \BOOKMARK [1][-]{section.1.3}{Organization of the thesis}{chapter.1}% 13
-\BOOKMARK [0][-]{chapter.2}{Survey A}{}% 14
-\BOOKMARK [1][-]{section.2.1}{All}{chapter.2}% 15
-\BOOKMARK [1][-]{section.2.2}{IoT applications requirements bregellhardware2015}{chapter.2}% 16
-\BOOKMARK [2][-]{subsection.2.2.1}{Summary and discussion}{section.2.2}% 17
-\BOOKMARK [1][-]{section.2.3}{IoT Wireless Networks \(Norms \046 Standards\)}{chapter.2}% 18
-\BOOKMARK [2][-]{subsection.2.3.1}{SigFox}{section.2.3}% 19
-\BOOKMARK [2][-]{subsection.2.3.2}{IETF}{section.2.3}% 20
-\BOOKMARK [3][-]{subsubsection.2.3.2.1}{6LoWPAN}{subsection.2.3.2}% 21
-\BOOKMARK [2][-]{subsection.2.3.3}{3GPP}{section.2.3}% 22
-\BOOKMARK [3][-]{subsubsection.2.3.3.1}{NB-IoT}{subsection.2.3.3}% 23
-\BOOKMARK [3][-]{subsubsection.2.3.3.2}{EC-GSM}{subsection.2.3.3}% 24
-\BOOKMARK [3][-]{subsubsection.2.3.3.3}{e-MTC}{subsection.2.3.3}% 25
-\BOOKMARK [2][-]{subsection.2.3.4}{IEEE}{section.2.3}% 26
-\BOOKMARK [3][-]{subsubsection.2.3.4.1}{IEEE 802.11}{subsection.2.3.4}% 27
-\BOOKMARK [3][-]{subsubsection.2.3.4.2}{IEEE 802.15.4}{subsection.2.3.4}% 28
-\BOOKMARK [4][-]{paragraph.2.3.4.2.1}{Physical Layer}{subsubsection.2.3.4.2}% 29
-\BOOKMARK [4][-]{paragraph.2.3.4.2.2}{Definitions}{subsubsection.2.3.4.2}% 30
-\BOOKMARK [4][-]{paragraph.2.3.4.2.3}{Topologies}{subsubsection.2.3.4.2}% 31
-\BOOKMARK [3][-]{subsubsection.2.3.4.3}{ZigBee}{subsection.2.3.4}% 32
-\BOOKMARK [2][-]{subsection.2.3.5}{LoRaWAN}{section.2.3}% 33
-\BOOKMARK [3][-]{subsubsection.2.3.5.1}{ALIANCE}{subsection.2.3.5}% 34
-\BOOKMARK [4][-]{paragraph.2.3.5.1.1}{Class-A}{subsubsection.2.3.5.1}% 35
-\BOOKMARK [5][-]{subparagraph.2.3.5.1.1.1}{Uplink}{paragraph.2.3.5.1.1}% 36
-\BOOKMARK [5][-]{subparagraph.2.3.5.1.1.2}{Downlink}{paragraph.2.3.5.1.1}% 37
-\BOOKMARK [5][-]{subparagraph.2.3.5.1.1.3}{Confirmed data}{paragraph.2.3.5.1.1}% 38
-\BOOKMARK [4][-]{paragraph.2.3.5.1.2}{Class-B}{subsubsection.2.3.5.1}% 39
-\BOOKMARK [5][-]{subparagraph.2.3.5.1.2.1}{Downlink}{paragraph.2.3.5.1.2}% 40
-\BOOKMARK [5][-]{subparagraph.2.3.5.1.2.2}{Confirmed data}{paragraph.2.3.5.1.2}% 41
-\BOOKMARK [5][-]{subparagraph.2.3.5.1.2.3}{Requirements}{paragraph.2.3.5.1.2}% 42
-\BOOKMARK [4][-]{paragraph.2.3.5.1.3}{Class-C}{subsubsection.2.3.5.1}% 43
-\BOOKMARK [5][-]{subparagraph.2.3.5.1.3.1}{Downlink}{paragraph.2.3.5.1.3}% 44
-\BOOKMARK [5][-]{subparagraph.2.3.5.1.3.2}{Confirmed data}{paragraph.2.3.5.1.3}% 45
-\BOOKMARK [3][-]{subsubsection.2.3.5.2}{SEMTECH}{subsection.2.3.5}% 46
-\BOOKMARK [2][-]{subsection.2.3.6}{Divers}{section.2.3}% 47
-\BOOKMARK [3][-]{subsubsection.2.3.6.1}{IPLC}{subsection.2.3.6}% 48
-\BOOKMARK [3][-]{subsubsection.2.3.6.2}{BACnet}{subsection.2.3.6}% 49
-\BOOKMARK [3][-]{subsubsection.2.3.6.3}{Z-WAze}{subsection.2.3.6}% 50
-\BOOKMARK [3][-]{subsubsection.2.3.6.4}{Bluetooth LE}{subsection.2.3.6}% 51
-\BOOKMARK [2][-]{subsection.2.3.7}{Summary and discussion}{section.2.3}% 52
-\BOOKMARK [1][-]{section.2.4}{IoT Protocols}{chapter.2}% 53
-\BOOKMARK [2][-]{subsection.2.4.1}{Application}{section.2.4}% 54
-\BOOKMARK [3][-]{subsubsection.2.4.1.1}{LwM2M}{subsection.2.4.1}% 55
-\BOOKMARK [3][-]{subsubsection.2.4.1.2}{CBOR}{subsection.2.4.1}% 56
-\BOOKMARK [3][-]{subsubsection.2.4.1.3}{DTLS}{subsection.2.4.1}% 57
-\BOOKMARK [3][-]{subsubsection.2.4.1.4}{OSCOAP}{subsection.2.4.1}% 58
-\BOOKMARK [3][-]{subsubsection.2.4.1.5}{CoAP}{subsection.2.4.1}% 59
-\BOOKMARK [3][-]{subsubsection.2.4.1.6}{MQTT}{subsection.2.4.1}% 60
-\BOOKMARK [3][-]{subsubsection.2.4.1.7}{XMPP}{subsection.2.4.1}% 61
-\BOOKMARK [3][-]{subsubsection.2.4.1.8}{AMQP}{subsection.2.4.1}% 62
-\BOOKMARK [3][-]{subsubsection.2.4.1.9}{DDS}{subsection.2.4.1}% 63
-\BOOKMARK [3][-]{subsubsection.2.4.1.10}{mDNS}{subsection.2.4.1}% 64
-\BOOKMARK [3][-]{subsubsection.2.4.1.11}{COAP \(COnstrained Application Protocol\)}{subsection.2.4.1}% 65
-\BOOKMARK [4][-]{paragraph.2.4.1.11.1}{Overview}{subsubsection.2.4.1.11}% 66
-\BOOKMARK [4][-]{paragraph.2.4.1.11.2}{Coap Methods}{subsubsection.2.4.1.11}% 67
-\BOOKMARK [4][-]{paragraph.2.4.1.11.3}{Coap Transactions}{subsubsection.2.4.1.11}% 68
-\BOOKMARK [4][-]{paragraph.2.4.1.11.4}{Coap Messages}{subsubsection.2.4.1.11}% 69
-\BOOKMARK [3][-]{subsubsection.2.4.1.12}{MQTT}{subsection.2.4.1}% 70
-\BOOKMARK [3][-]{subsubsection.2.4.1.13}{XMPP}{subsection.2.4.1}% 71
-\BOOKMARK [3][-]{subsubsection.2.4.1.14}{AMQP}{subsection.2.4.1}% 72
-\BOOKMARK [3][-]{subsubsection.2.4.1.15}{DDS}{subsection.2.4.1}% 73
-\BOOKMARK [3][-]{subsubsection.2.4.1.16}{mDNS}{subsection.2.4.1}% 74
-\BOOKMARK [2][-]{subsection.2.4.2}{Network}{section.2.4}% 75
-\BOOKMARK [3][-]{subsubsection.2.4.2.1}{6TiSCH}{subsection.2.4.2}% 76
-\BOOKMARK [3][-]{subsubsection.2.4.2.2}{OLSRv2}{subsection.2.4.2}% 77
-\BOOKMARK [3][-]{subsubsection.2.4.2.3}{AODVv2}{subsection.2.4.2}% 78
-\BOOKMARK [3][-]{subsubsection.2.4.2.4}{LoRaWAN}{subsection.2.4.2}% 79
-\BOOKMARK [3][-]{subsubsection.2.4.2.5}{ROHC}{subsection.2.4.2}% 80
-\BOOKMARK [3][-]{subsubsection.2.4.2.6}{IPHC}{subsection.2.4.2}% 81
-\BOOKMARK [3][-]{subsubsection.2.4.2.7}{SCHC}{subsection.2.4.2}% 82
-\BOOKMARK [3][-]{subsubsection.2.4.2.8}{NHC}{subsection.2.4.2}% 83
-\BOOKMARK [3][-]{subsubsection.2.4.2.9}{ROLL}{subsection.2.4.2}% 84
-\BOOKMARK [3][-]{subsubsection.2.4.2.10}{RPL}{subsection.2.4.2}% 85
-\BOOKMARK [3][-]{subsubsection.2.4.2.11}{6LowPAN}{subsection.2.4.2}% 86
-\BOOKMARK [4][-]{paragraph.2.4.2.11.1}{Characteristics}{subsubsection.2.4.2.11}% 87
-\BOOKMARK [4][-]{paragraph.2.4.2.11.2}{Encapsulation Header format}{subsubsection.2.4.2.11}% 88
-\BOOKMARK [4][-]{paragraph.2.4.2.11.3}{Fragment Header}{subsubsection.2.4.2.11}% 89
-\BOOKMARK [4][-]{paragraph.2.4.2.11.4}{Mesh addressing header}{subsubsection.2.4.2.11}% 90
-\BOOKMARK [4][-]{paragraph.2.4.2.11.5}{Header compression \(RFC4944\)}{subsubsection.2.4.2.11}% 91
-\BOOKMARK [4][-]{paragraph.2.4.2.11.6}{Header compression Improved \(draft-hui-6lowpan-hc-01\)}{subsubsection.2.4.2.11}% 92
-\BOOKMARK [2][-]{subsection.2.4.3}{MAC}{section.2.4}% 93
-\BOOKMARK [3][-]{subsubsection.2.4.3.1}{Sharing the channel}{subsection.2.4.3}% 94
-\BOOKMARK [4][-]{paragraph.2.4.3.1.1}{TDMA, FDMA, CDMA, TSMA}{subsubsection.2.4.3.1}% 95
-\BOOKMARK [3][-]{subsubsection.2.4.3.2}{Transmitting information}{subsection.2.4.3}% 96
-\BOOKMARK [4][-]{paragraph.2.4.3.2.1}{TFDM, TDSSS, TFHSS}{subsubsection.2.4.3.2}% 97
-\BOOKMARK [2][-]{subsection.2.4.4}{Radio}{section.2.4}% 98
-\BOOKMARK [3][-]{subsubsection.2.4.4.1}{Digital modulation}{subsection.2.4.4}% 99
-\BOOKMARK [4][-]{paragraph.2.4.4.1.1}{ASK, APSK, CPM, FSK, MFSK, MSK, OOK, PPM, PSK, QAM, SC-FDE, TCM WDM}{subsubsection.2.4.4.1}% 100
-\BOOKMARK [3][-]{subsubsection.2.4.4.2}{Hierarchical modulation}{subsection.2.4.4}% 101
-\BOOKMARK [4][-]{paragraph.2.4.4.2.1}{QAM, WDM}{subsubsection.2.4.4.2}% 102
-\BOOKMARK [3][-]{subsubsection.2.4.4.3}{Spread spectrum}{subsection.2.4.4}% 103
-\BOOKMARK [4][-]{paragraph.2.4.4.3.1}{SS, DSSS, FHSS, THSS}{subsubsection.2.4.4.3}% 104
-\BOOKMARK [3][-]{subsubsection.2.4.4.4}{Radio performance}{subsection.2.4.4}% 105
-\BOOKMARK [4][-]{paragraph.2.4.4.4.1}{Power Level \(dB\)}{subsubsection.2.4.4.4}% 106
-\BOOKMARK [4][-]{paragraph.2.4.4.4.2}{Receive Signal Strength Indicator RSSI}{subsubsection.2.4.4.4}% 107
-\BOOKMARK [4][-]{paragraph.2.4.4.4.3}{Signal to Noise Ratio SNR}{subsubsection.2.4.4.4}% 108
-\BOOKMARK [4][-]{paragraph.2.4.4.4.4}{Signal Attenuation}{subsubsection.2.4.4.4}% 109
-\BOOKMARK [2][-]{subsection.2.4.5}{Summary and discussion}{section.2.4}% 110
-\BOOKMARK [1][-]{section.2.5}{SDN platforms}{chapter.2}% 111
-\BOOKMARK [1][-]{section.2.6}{Blockchain}{chapter.2}% 112
-\BOOKMARK [2][-]{subsection.2.6.1}{Application}{section.2.6}% 113
-\BOOKMARK [2][-]{subsection.2.6.2}{Summary and discussion}{section.2.6}% 114
-\BOOKMARK [0][-]{chapter.3}{Genetic Algorithm For LoRa}{}% 115
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}% 116
-\BOOKMARK [1][-]{section.3.2}{Related work}{chapter.3}% 117
-\BOOKMARK [1][-]{section.3.3}{Proposed Framework}{chapter.3}% 118
-\BOOKMARK [1][-]{section.3.4}{Experiments}{chapter.3}% 119
-\BOOKMARK [1][-]{section.3.5}{Discussion}{chapter.3}% 120
-\BOOKMARK [0][-]{chapter.4}{EES}{}% 121
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 122
-\BOOKMARK [1][-]{section.4.2}{Related work}{chapter.4}% 123
-\BOOKMARK [1][-]{section.4.3}{Background}{chapter.4}% 124
-\BOOKMARK [1][-]{section.4.4}{Architecture}{chapter.4}% 125
-\BOOKMARK [1][-]{section.4.5}{Conclusion}{chapter.4}% 126
+\BOOKMARK [0][-]{chapter.2}{Academic Survey}{}% 14
+\BOOKMARK [0][-]{chapter.3}{Industrial Survey}{}% 15
+\BOOKMARK [1][-]{section.3.1}{IoT applications requirements bregellhardware2015}{chapter.3}% 16
+\BOOKMARK [2][-]{subsection.3.1.1}{Summary and discussion}{section.3.1}% 17
+\BOOKMARK [1][-]{section.3.2}{IoT Wireless Networks \(Norms \046 Standards\)}{chapter.3}% 18
+\BOOKMARK [2][-]{subsection.3.2.1}{SigFox}{section.3.2}% 19
+\BOOKMARK [2][-]{subsection.3.2.2}{IETF}{section.3.2}% 20
+\BOOKMARK [3][-]{subsubsection.3.2.2.1}{6LoWPAN}{subsection.3.2.2}% 21
+\BOOKMARK [2][-]{subsection.3.2.3}{3GPP}{section.3.2}% 22
+\BOOKMARK [3][-]{subsubsection.3.2.3.1}{NB-IoT}{subsection.3.2.3}% 23
+\BOOKMARK [3][-]{subsubsection.3.2.3.2}{EC-GSM}{subsection.3.2.3}% 24
+\BOOKMARK [3][-]{subsubsection.3.2.3.3}{e-MTC}{subsection.3.2.3}% 25
+\BOOKMARK [2][-]{subsection.3.2.4}{IEEE}{section.3.2}% 26
+\BOOKMARK [3][-]{subsubsection.3.2.4.1}{IEEE 802.11}{subsection.3.2.4}% 27
+\BOOKMARK [3][-]{subsubsection.3.2.4.2}{IEEE 802.15.4}{subsection.3.2.4}% 28
+\BOOKMARK [4][-]{paragraph.3.2.4.2.1}{Physical Layer}{subsubsection.3.2.4.2}% 29
+\BOOKMARK [4][-]{paragraph.3.2.4.2.2}{Definitions}{subsubsection.3.2.4.2}% 30
+\BOOKMARK [4][-]{paragraph.3.2.4.2.3}{Topologies}{subsubsection.3.2.4.2}% 31
+\BOOKMARK [3][-]{subsubsection.3.2.4.3}{ZigBee}{subsection.3.2.4}% 32
+\BOOKMARK [2][-]{subsection.3.2.5}{LoRaWAN}{section.3.2}% 33
+\BOOKMARK [3][-]{subsubsection.3.2.5.1}{ALIANCE}{subsection.3.2.5}% 34
+\BOOKMARK [4][-]{paragraph.3.2.5.1.1}{Class-A}{subsubsection.3.2.5.1}% 35
+\BOOKMARK [5][-]{subparagraph.3.2.5.1.1.1}{Uplink}{paragraph.3.2.5.1.1}% 36
+\BOOKMARK [5][-]{subparagraph.3.2.5.1.1.2}{Downlink}{paragraph.3.2.5.1.1}% 37
+\BOOKMARK [5][-]{subparagraph.3.2.5.1.1.3}{Confirmed data}{paragraph.3.2.5.1.1}% 38
+\BOOKMARK [4][-]{paragraph.3.2.5.1.2}{Class-B}{subsubsection.3.2.5.1}% 39
+\BOOKMARK [5][-]{subparagraph.3.2.5.1.2.1}{Downlink}{paragraph.3.2.5.1.2}% 40
+\BOOKMARK [5][-]{subparagraph.3.2.5.1.2.2}{Confirmed data}{paragraph.3.2.5.1.2}% 41
+\BOOKMARK [5][-]{subparagraph.3.2.5.1.2.3}{Requirements}{paragraph.3.2.5.1.2}% 42
+\BOOKMARK [4][-]{paragraph.3.2.5.1.3}{Class-C}{subsubsection.3.2.5.1}% 43
+\BOOKMARK [5][-]{subparagraph.3.2.5.1.3.1}{Downlink}{paragraph.3.2.5.1.3}% 44
+\BOOKMARK [5][-]{subparagraph.3.2.5.1.3.2}{Confirmed data}{paragraph.3.2.5.1.3}% 45
+\BOOKMARK [3][-]{subsubsection.3.2.5.2}{SEMTECH}{subsection.3.2.5}% 46
+\BOOKMARK [2][-]{subsection.3.2.6}{Divers}{section.3.2}% 47
+\BOOKMARK [3][-]{subsubsection.3.2.6.1}{IPLC}{subsection.3.2.6}% 48
+\BOOKMARK [3][-]{subsubsection.3.2.6.2}{BACnet}{subsection.3.2.6}% 49
+\BOOKMARK [3][-]{subsubsection.3.2.6.3}{Z-WAze}{subsection.3.2.6}% 50
+\BOOKMARK [3][-]{subsubsection.3.2.6.4}{Bluetooth LE}{subsection.3.2.6}% 51
+\BOOKMARK [2][-]{subsection.3.2.7}{Summary and discussion}{section.3.2}% 52
+\BOOKMARK [1][-]{section.3.3}{IoT Protocols}{chapter.3}% 53
+\BOOKMARK [2][-]{subsection.3.3.1}{Application}{section.3.3}% 54
+\BOOKMARK [3][-]{subsubsection.3.3.1.1}{LwM2M}{subsection.3.3.1}% 55
+\BOOKMARK [3][-]{subsubsection.3.3.1.2}{CBOR}{subsection.3.3.1}% 56
+\BOOKMARK [3][-]{subsubsection.3.3.1.3}{DTLS}{subsection.3.3.1}% 57
+\BOOKMARK [3][-]{subsubsection.3.3.1.4}{OSCOAP}{subsection.3.3.1}% 58
+\BOOKMARK [3][-]{subsubsection.3.3.1.5}{CoAP}{subsection.3.3.1}% 59
+\BOOKMARK [3][-]{subsubsection.3.3.1.6}{MQTT}{subsection.3.3.1}% 60
+\BOOKMARK [3][-]{subsubsection.3.3.1.7}{XMPP}{subsection.3.3.1}% 61
+\BOOKMARK [3][-]{subsubsection.3.3.1.8}{AMQP}{subsection.3.3.1}% 62
+\BOOKMARK [3][-]{subsubsection.3.3.1.9}{DDS}{subsection.3.3.1}% 63
+\BOOKMARK [3][-]{subsubsection.3.3.1.10}{mDNS}{subsection.3.3.1}% 64
+\BOOKMARK [3][-]{subsubsection.3.3.1.11}{COAP \(COnstrained Application Protocol\)}{subsection.3.3.1}% 65
+\BOOKMARK [4][-]{paragraph.3.3.1.11.1}{Overview}{subsubsection.3.3.1.11}% 66
+\BOOKMARK [4][-]{paragraph.3.3.1.11.2}{Coap Methods}{subsubsection.3.3.1.11}% 67
+\BOOKMARK [4][-]{paragraph.3.3.1.11.3}{Coap Transactions}{subsubsection.3.3.1.11}% 68
+\BOOKMARK [4][-]{paragraph.3.3.1.11.4}{Coap Messages}{subsubsection.3.3.1.11}% 69
+\BOOKMARK [3][-]{subsubsection.3.3.1.12}{MQTT}{subsection.3.3.1}% 70
+\BOOKMARK [3][-]{subsubsection.3.3.1.13}{XMPP}{subsection.3.3.1}% 71
+\BOOKMARK [3][-]{subsubsection.3.3.1.14}{AMQP}{subsection.3.3.1}% 72
+\BOOKMARK [3][-]{subsubsection.3.3.1.15}{DDS}{subsection.3.3.1}% 73
+\BOOKMARK [3][-]{subsubsection.3.3.1.16}{mDNS}{subsection.3.3.1}% 74
+\BOOKMARK [2][-]{subsection.3.3.2}{Network}{section.3.3}% 75
+\BOOKMARK [3][-]{subsubsection.3.3.2.1}{6TiSCH}{subsection.3.3.2}% 76
+\BOOKMARK [3][-]{subsubsection.3.3.2.2}{OLSRv2}{subsection.3.3.2}% 77
+\BOOKMARK [3][-]{subsubsection.3.3.2.3}{AODVv2}{subsection.3.3.2}% 78
+\BOOKMARK [3][-]{subsubsection.3.3.2.4}{LoRaWAN}{subsection.3.3.2}% 79
+\BOOKMARK [3][-]{subsubsection.3.3.2.5}{ROHC}{subsection.3.3.2}% 80
+\BOOKMARK [3][-]{subsubsection.3.3.2.6}{IPHC}{subsection.3.3.2}% 81
+\BOOKMARK [3][-]{subsubsection.3.3.2.7}{SCHC}{subsection.3.3.2}% 82
+\BOOKMARK [3][-]{subsubsection.3.3.2.8}{NHC}{subsection.3.3.2}% 83
+\BOOKMARK [3][-]{subsubsection.3.3.2.9}{ROLL}{subsection.3.3.2}% 84
+\BOOKMARK [3][-]{subsubsection.3.3.2.10}{RPL}{subsection.3.3.2}% 85
+\BOOKMARK [3][-]{subsubsection.3.3.2.11}{6LowPAN}{subsection.3.3.2}% 86
+\BOOKMARK [4][-]{paragraph.3.3.2.11.1}{Characteristics}{subsubsection.3.3.2.11}% 87
+\BOOKMARK [4][-]{paragraph.3.3.2.11.2}{Encapsulation Header format}{subsubsection.3.3.2.11}% 88
+\BOOKMARK [4][-]{paragraph.3.3.2.11.3}{Fragment Header}{subsubsection.3.3.2.11}% 89
+\BOOKMARK [4][-]{paragraph.3.3.2.11.4}{Mesh addressing header}{subsubsection.3.3.2.11}% 90
+\BOOKMARK [4][-]{paragraph.3.3.2.11.5}{Header compression \(RFC4944\)}{subsubsection.3.3.2.11}% 91
+\BOOKMARK [4][-]{paragraph.3.3.2.11.6}{Header compression Improved \(draft-hui-6lowpan-hc-01\)}{subsubsection.3.3.2.11}% 92
+\BOOKMARK [2][-]{subsection.3.3.3}{MAC}{section.3.3}% 93
+\BOOKMARK [3][-]{subsubsection.3.3.3.1}{Sharing the channel}{subsection.3.3.3}% 94
+\BOOKMARK [4][-]{paragraph.3.3.3.1.1}{TDMA, FDMA, CDMA, TSMA}{subsubsection.3.3.3.1}% 95
+\BOOKMARK [3][-]{subsubsection.3.3.3.2}{Transmitting information}{subsection.3.3.3}% 96
+\BOOKMARK [4][-]{paragraph.3.3.3.2.1}{TFDM, TDSSS, TFHSS}{subsubsection.3.3.3.2}% 97
+\BOOKMARK [2][-]{subsection.3.3.4}{Radio}{section.3.3}% 98
+\BOOKMARK [3][-]{subsubsection.3.3.4.1}{Digital modulation}{subsection.3.3.4}% 99
+\BOOKMARK [4][-]{paragraph.3.3.4.1.1}{ASK, APSK, CPM, FSK, MFSK, MSK, OOK, PPM, PSK, QAM, SC-FDE, TCM WDM}{subsubsection.3.3.4.1}% 100
+\BOOKMARK [3][-]{subsubsection.3.3.4.2}{Hierarchical modulation}{subsection.3.3.4}% 101
+\BOOKMARK [4][-]{paragraph.3.3.4.2.1}{QAM, WDM}{subsubsection.3.3.4.2}% 102
+\BOOKMARK [3][-]{subsubsection.3.3.4.3}{Spread spectrum}{subsection.3.3.4}% 103
+\BOOKMARK [4][-]{paragraph.3.3.4.3.1}{SS, DSSS, FHSS, THSS}{subsubsection.3.3.4.3}% 104
+\BOOKMARK [3][-]{subsubsection.3.3.4.4}{Radio performance}{subsection.3.3.4}% 105
+\BOOKMARK [4][-]{paragraph.3.3.4.4.1}{Power Level \(dB\)}{subsubsection.3.3.4.4}% 106
+\BOOKMARK [4][-]{paragraph.3.3.4.4.2}{Receive Signal Strength Indicator RSSI}{subsubsection.3.3.4.4}% 107
+\BOOKMARK [4][-]{paragraph.3.3.4.4.3}{Signal to Noise Ratio SNR}{subsubsection.3.3.4.4}% 108
+\BOOKMARK [4][-]{paragraph.3.3.4.4.4}{Signal Attenuation}{subsubsection.3.3.4.4}% 109
+\BOOKMARK [2][-]{subsection.3.3.5}{Summary and discussion}{section.3.3}% 110
+\BOOKMARK [1][-]{section.3.4}{IoT end devices}{chapter.3}% 111
+\BOOKMARK [2][-]{subsection.3.4.1}{Software platform}{section.3.4}% 112
+\BOOKMARK [3][-]{subsubsection.3.4.1.1}{Contiki}{subsection.3.4.1}% 113
+\BOOKMARK [3][-]{subsubsection.3.4.1.2}{RIOT}{subsection.3.4.1}% 114
+\BOOKMARK [3][-]{subsubsection.3.4.1.3}{TinyOS}{subsection.3.4.1}% 115
+\BOOKMARK [3][-]{subsubsection.3.4.1.4}{freeRTOS}{subsection.3.4.1}% 116
+\BOOKMARK [3][-]{subsubsection.3.4.1.5}{Summary and conclusion}{subsection.3.4.1}% 117
+\BOOKMARK [2][-]{subsection.3.4.2}{Hardware platform}{section.3.4}% 118
+\BOOKMARK [3][-]{subsubsection.3.4.2.1}{Processing Unit}{subsection.3.4.2}% 119
+\BOOKMARK [4][-]{paragraph.3.4.2.1.1}{OpenMote}{subsubsection.3.4.2.1}% 120
+\BOOKMARK [4][-]{paragraph.3.4.2.1.2}{MSB430-H}{subsubsection.3.4.2.1}% 121
+\BOOKMARK [4][-]{paragraph.3.4.2.1.3}{Zolertia}{subsubsection.3.4.2.1}% 122
+\BOOKMARK [3][-]{subsubsection.3.4.2.2}{Radio Unit}{subsection.3.4.2}% 123
+\BOOKMARK [4][-]{paragraph.3.4.2.2.1}{Lora Tranceiver}{subsubsection.3.4.2.2}% 124
+\BOOKMARK [3][-]{subsubsection.3.4.2.3}{Sensing Unit}{subsection.3.4.2}% 125
+\BOOKMARK [4][-]{paragraph.3.4.2.3.1}{GPS}{subsubsection.3.4.2.3}% 126
+\BOOKMARK [4][-]{paragraph.3.4.2.3.2}{Humidity}{subsubsection.3.4.2.3}% 127
+\BOOKMARK [4][-]{paragraph.3.4.2.3.3}{Temperature}{subsubsection.3.4.2.3}% 128
+\BOOKMARK [2][-]{subsection.3.4.3}{Summary and discussion}{section.3.4}% 129
+\BOOKMARK [1][-]{section.3.5}{SDN platforms}{chapter.3}% 130
+\BOOKMARK [1][-]{section.3.6}{Blockchain}{chapter.3}% 131
+\BOOKMARK [2][-]{subsection.3.6.1}{Application}{section.3.6}% 132
+\BOOKMARK [2][-]{subsection.3.6.2}{Summary and discussion}{section.3.6}% 133
+\BOOKMARK [0][-]{chapter.4}{Fuzzy C-Means Clustering}{}% 134
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}% 135
+\BOOKMARK [1][-]{section.4.2}{Related work}{chapter.4}% 136
+\BOOKMARK [1][-]{section.4.3}{Use case example}{chapter.4}% 137
+\BOOKMARK [2][-]{subsection.4.3.1}{Reception Sensitivity}{section.4.3}% 138
+\BOOKMARK [2][-]{subsection.4.3.2}{Bit error rate}{section.4.3}% 139
+\BOOKMARK [2][-]{subsection.4.3.3}{ToA}{section.4.3}% 140
+\BOOKMARK [1][-]{section.4.4}{Approach}{chapter.4}% 141
+\BOOKMARK [2][-]{subsection.4.4.1}{Objective function:}{section.4.4}% 142
+\BOOKMARK [2][-]{subsection.4.4.2}{Performance Index:}{section.4.4}% 143
+\BOOKMARK [1][-]{section.4.5}{Simulation settings}{chapter.4}% 144
+\BOOKMARK [1][-]{section.4.6}{Results}{chapter.4}% 145
+\BOOKMARK [1][-]{section.4.7}{Conclusion}{chapter.4}% 146
+\BOOKMARK [0][-]{chapter.5}{Testbed}{}% 147
+\BOOKMARK [1][-]{section.5.1}{Introduction bregellhardware2015}{chapter.5}% 148
+\BOOKMARK [2][-]{subsection.5.1.1}{Problem Statement}{section.5.1}% 149
+\BOOKMARK [2][-]{subsection.5.1.2}{Background}{section.5.1}% 150
+\BOOKMARK [2][-]{subsection.5.1.3}{Purpose \(Goal\)}{section.5.1}% 151
+\BOOKMARK [2][-]{subsection.5.1.4}{Limitations}{section.5.1}% 152
+\BOOKMARK [2][-]{subsection.5.1.5}{Method}{section.5.1}% 153
+\BOOKMARK [1][-]{section.5.2}{Related work}{chapter.5}% 154
+\BOOKMARK [1][-]{section.5.3}{Background}{chapter.5}% 155
+\BOOKMARK [2][-]{subsection.5.3.1}{Hardware}{section.5.3}% 156
+\BOOKMARK [2][-]{subsection.5.3.2}{Operating system}{section.5.3}% 157
+\BOOKMARK [2][-]{subsection.5.3.3}{Communication protocol}{section.5.3}% 158
+\BOOKMARK [2][-]{subsection.5.3.4}{Workspace and tools}{section.5.3}% 159
+\BOOKMARK [1][-]{section.5.4}{Proposed ...}{chapter.5}% 160
+\BOOKMARK [2][-]{subsection.5.4.1}{Drivers and firmware}{section.5.4}% 161
+\BOOKMARK [2][-]{subsection.5.4.2}{CoAP server}{section.5.4}% 162
+\BOOKMARK [3][-]{subsubsection.5.4.2.1}{Testing}{subsection.5.4.2}% 163
+\BOOKMARK [3][-]{subsubsection.5.4.2.2}{Final prototype}{subsection.5.4.2}% 164
+\BOOKMARK [1][-]{section.5.5}{Experimentation}{chapter.5}% 165
+\BOOKMARK [2][-]{subsection.5.5.1}{Range}{section.5.5}% 166
+\BOOKMARK [2][-]{subsection.5.5.2}{Response time}{section.5.5}% 167
+\BOOKMARK [2][-]{subsection.5.5.3}{Connection speed}{section.5.5}% 168
+\BOOKMARK [2][-]{subsection.5.5.4}{Power consumption}{section.5.5}% 169
+\BOOKMARK [1][-]{section.5.6}{Results}{chapter.5}% 170
+\BOOKMARK [2][-]{subsection.5.6.1}{Range}{section.5.6}% 171
+\BOOKMARK [2][-]{subsection.5.6.2}{Response time}{section.5.6}% 172
+\BOOKMARK [2][-]{subsection.5.6.3}{Connection speed}{section.5.6}% 173
+\BOOKMARK [2][-]{subsection.5.6.4}{Power consumption}{section.5.6}% 174
+\BOOKMARK [2][-]{subsection.5.6.5}{Project execution}{section.5.6}% 175
+\BOOKMARK [1][-]{section.5.7}{Discussion}{chapter.5}% 176
+\BOOKMARK [0][-]{chapter.6}{Conclusion}{}% 177
+\BOOKMARK [1][-]{section.6.1}{Conclusion}{chapter.6}% 178
+\BOOKMARK [1][-]{section.6.2}{Perspectives}{chapter.6}% 179
+\BOOKMARK [0][-]{appendix.A}{Appendix}{}% 180

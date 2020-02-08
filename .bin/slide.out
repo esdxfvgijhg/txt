@@ -1,54 +1,38 @@
 \BOOKMARK [2][]{Outline0.1}{Introduction}{}% 1
-\BOOKMARK [3][]{Outline0.1.1.3}{IoT Devices}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.2.5}{IoT Applications}{Outline0.1}% 3
-\BOOKMARK [3][]{Outline0.1.3.9}{IoT Wireless Communications}{Outline0.1}% 4
-\BOOKMARK [4][]{Outline0.1.3.1.11}{LoRa}{Outline0.1.3.9}% 5
-\BOOKMARK [2][]{Outline0.2}{Survey A}{}% 6
-\BOOKMARK [3][]{Outline0.2.1.21}{A Relay and Mobility Scheme}{Outline0.2}% 7
-\BOOKMARK [2][]{Outline0.3}{Genetic Algorithm For LoRa}{}% 8
-\BOOKMARK [3][]{Outline0.3.1.24}{Background}{Outline0.3}% 9
-\BOOKMARK [4][]{Outline0.3.1.1.25}{MCDM}{Outline0.3.1.24}% 10
-\BOOKMARK [4][]{Outline0.3.1.2.27}{Genetic Algorithm}{Outline0.3.1.24}% 11
-\BOOKMARK [4][]{Outline0.3.1.3.29}{Fuzzy Logic}{Outline0.3.1.24}% 12
-\BOOKMARK [3][]{Outline0.3.2.31}{Method}{Outline0.3}% 13
-\BOOKMARK [3][]{Outline0.3.3.33}{Experiments}{Outline0.3}% 14
-\BOOKMARK [3][]{Outline0.3.4.35}{Results}{Outline0.3}% 15
-\BOOKMARK [3][]{Outline0.3.5.37}{Discussion}{Outline0.3}% 16
-\BOOKMARK [2][]{Outline0.4}{EES}{}% 17
-\BOOKMARK [3][]{Outline0.4.1.42}{Problem statement}{Outline0.4}% 18
-\BOOKMARK [3][]{Outline0.4.2.44}{Contagion process}{Outline0.4}% 19
-\BOOKMARK [3][]{Outline0.4.3.50}{Experimentation}{Outline0.4}% 20
-\BOOKMARK [3][]{Outline0.4.4.52}{Results exploitation}{Outline0.4}% 21
-\BOOKMARK [3][]{Outline0.4.5.54}{Discussion}{Outline0.4}% 22
-\BOOKMARK [2][]{Outline0.5}{Q-Learning}{}% 23
-\BOOKMARK [3][]{Outline0.5.1.57}{Problem statement}{Outline0.5}% 24
-\BOOKMARK [3][]{Outline0.5.2.59}{Background}{Outline0.5}% 25
-\BOOKMARK [4][]{Outline0.5.2.1.60}{Game Theory}{Outline0.5.2.59}% 26
-\BOOKMARK [4][]{Outline0.5.2.2.62}{Bandit Algorithm}{Outline0.5.2.59}% 27
-\BOOKMARK [4][]{Outline0.5.2.3.66}{Q-Learning}{Outline0.5.2.59}% 28
-\BOOKMARK [4][]{Outline0.5.2.4.68}{Marcov Chain}{Outline0.5.2.59}% 29
-\BOOKMARK [3][]{Outline0.5.3.71}{Contagion process}{Outline0.5}% 30
-\BOOKMARK [3][]{Outline0.5.4.77}{Experimentation}{Outline0.5}% 31
-\BOOKMARK [3][]{Outline0.5.5.79}{Results exploitation}{Outline0.5}% 32
-\BOOKMARK [3][]{Outline0.5.6.81}{Discussion}{Outline0.5}% 33
-\BOOKMARK [2][]{Outline0.6}{Q-Learning}{}% 34
-\BOOKMARK [3][]{Outline0.6.1.84}{Problem statement}{Outline0.6}% 35
-\BOOKMARK [3][]{Outline0.6.2.86}{Contagion process}{Outline0.6}% 36
-\BOOKMARK [3][]{Outline0.6.3.92}{Experimentation}{Outline0.6}% 37
-\BOOKMARK [3][]{Outline0.6.4.94}{Results exploitation}{Outline0.6}% 38
-\BOOKMARK [3][]{Outline0.6.5.96}{Discussion}{Outline0.6}% 39
-\BOOKMARK [2][]{Outline0.7}{...}{}% 40
-\BOOKMARK [3][]{Outline0.7.1.99}{Problem statement}{Outline0.7}% 41
-\BOOKMARK [3][]{Outline0.7.2.101}{Contagion process}{Outline0.7}% 42
-\BOOKMARK [3][]{Outline0.7.3.107}{Experimentation}{Outline0.7}% 43
-\BOOKMARK [3][]{Outline0.7.4.109}{Results exploitation}{Outline0.7}% 44
-\BOOKMARK [3][]{Outline0.7.5.111}{Discussion}{Outline0.7}% 45
-\BOOKMARK [2][]{Outline0.8}{Testbed}{}% 46
-\BOOKMARK [3][]{Outline0.8.1.114}{Problem statement}{Outline0.8}% 47
-\BOOKMARK [3][]{Outline0.8.2.116}{Contagion process}{Outline0.8}% 48
-\BOOKMARK [3][]{Outline0.8.3.122}{Experimentation}{Outline0.8}% 49
-\BOOKMARK [3][]{Outline0.8.4.124}{Results exploitation}{Outline0.8}% 50
-\BOOKMARK [3][]{Outline0.8.5.126}{Discussion}{Outline0.8}% 51
-\BOOKMARK [2][]{Outline0.9}{Conclusion}{}% 52
-\BOOKMARK [2][]{Outline0.10}{Survey plafforms}{}% 53
-\BOOKMARK [2][]{Outline0.11}{References}{}% 54
+\BOOKMARK [3][]{Outline0.1.1.4}{IoT Devices}{Outline0.1}% 2
+\BOOKMARK [3][]{Outline0.1.2.6}{IoT Applications}{Outline0.1}% 3
+\BOOKMARK [3][]{Outline0.1.3.10}{IoT Wireless Communications}{Outline0.1}% 4
+\BOOKMARK [4][]{Outline0.1.3.1.12}{LoRa}{Outline0.1.3.10}% 5
+\BOOKMARK [2][]{Outline0.2}{Academic Survey}{}% 6
+\BOOKMARK [2][]{Outline0.3}{Industrial Survey}{}% 7
+\BOOKMARK [2][]{Outline0.4}{Fuzzy C-Means Clustering}{}% 8
+\BOOKMARK [3][]{Outline0.4.1.22}{Adaptive dynamic slicing}{Outline0.4}% 9
+\BOOKMARK [3][]{Outline0.4.2.30}{Problem statement}{Outline0.4}% 10
+\BOOKMARK [3][]{Outline0.4.3.32}{Background}{Outline0.4}% 11
+\BOOKMARK [4][]{Outline0.4.3.1.33}{Fuzzy C-Means Clustering}{Outline0.4.3.32}% 12
+\BOOKMARK [4][]{Outline0.4.3.2.39}{Game Theory}{Outline0.4.3.32}% 13
+\BOOKMARK [4][]{Outline0.4.3.3.41}{Multi-Arm Bandits}{Outline0.4.3.32}% 14
+\BOOKMARK [4][]{Outline0.4.3.4.45}{Q-Learning}{Outline0.4.3.32}% 15
+\BOOKMARK [4][]{Outline0.4.3.5.47}{Marcov Chain}{Outline0.4.3.32}% 16
+\BOOKMARK [4][]{Outline0.4.3.6.50}{Best Response Dynamics}{Outline0.4.3.32}% 17
+\BOOKMARK [4][]{Outline0.4.3.7.51}{Fictitious Paly}{Outline0.4.3.32}% 18
+\BOOKMARK [4][]{Outline0.4.3.8.52}{Reinforcement Learning}{Outline0.4.3.32}% 19
+\BOOKMARK [4][]{Outline0.4.3.9.53}{Joint Utility Strategy}{Outline0.4.3.32}% 20
+\BOOKMARK [4][]{Outline0.4.3.10.54}{Trial and Error Learning}{Outline0.4.3.32}% 21
+\BOOKMARK [4][]{Outline0.4.3.11.55}{Regret Matching Learning}{Outline0.4.3.32}% 22
+\BOOKMARK [4][]{Outline0.4.3.12.56}{Imitation Learning}{Outline0.4.3.32}% 23
+\BOOKMARK [3][]{Outline0.4.4.57}{Selection framework}{Outline0.4}% 24
+\BOOKMARK [3][]{Outline0.4.5.63}{Experimentation}{Outline0.4}% 25
+\BOOKMARK [3][]{Outline0.4.6.66}{Results}{Outline0.4}% 26
+\BOOKMARK [3][]{Outline0.4.7.68}{Discussion}{Outline0.4}% 27
+\BOOKMARK [2][]{Outline0.5}{Testbed}{}% 28
+\BOOKMARK [3][]{Outline0.5.1.71}{Problem statement}{Outline0.5}% 29
+\BOOKMARK [3][]{Outline0.5.2.73}{Contagion process}{Outline0.5}% 30
+\BOOKMARK [3][]{Outline0.5.3.79}{Experimentation}{Outline0.5}% 31
+\BOOKMARK [3][]{Outline0.5.4.81}{Results exploitation}{Outline0.5}% 32
+\BOOKMARK [3][]{Outline0.5.5.83}{Discussion}{Outline0.5}% 33
+\BOOKMARK [2][]{Outline0.6}{Conclusion}{}% 34
+\BOOKMARK [1][]{Outline1}{Appendix}{}% 35
+\BOOKMARK [2][]{Outline1.7}{Appendix}{Outline1}% 36
+\BOOKMARK [2][]{Outline1.8}{References}{Outline1}% 37
+\BOOKMARK [3][]{Outline1.8.1.88}{Others}{Outline1.8}% 38

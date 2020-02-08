@@ -3,106 +3,70 @@
 \defcounter {refsection}{1}\relax 
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {1}{1}{IoT Devices}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{IoT Devices}{4}{0}{1}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {1}{2}{IoT Applications}{5}{0}{1}
+\beamer@subsectionintoc {1}{2}{IoT Applications}{6}{0}{1}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {1}{3}{IoT Wireless Communications}{9}{0}{1}
+\beamer@subsectionintoc {1}{3}{IoT Wireless Communications}{10}{0}{1}
 \defcounter {refsection}{1}\relax 
-\beamer@subsubsectionintoc {1}{3}{1}{LoRa}{11}{0}{1}
+\beamer@subsubsectionintoc {1}{3}{1}{LoRa}{12}{0}{1}
 \defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {2}{Survey A}{20}{0}{2}
+\beamer@sectionintoc {2}{Academic Survey}{19}{0}{2}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {2}{1}{A Relay and Mobility Scheme}{21}{0}{2}
+\beamer@sectionintoc {3}{Industrial Survey}{20}{0}{3}
 \defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {3}{Genetic Algorithm For LoRa}{23}{0}{3}
+\beamer@sectionintoc {4}{Fuzzy C-Means Clustering}{21}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {3}{1}{Background}{24}{0}{3}
+\beamer@subsectionintoc {4}{1}{Adaptive dynamic slicing}{22}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsubsectionintoc {3}{1}{1}{MCDM}{25}{0}{3}
+\beamer@subsectionintoc {4}{2}{Problem statement}{30}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsubsectionintoc {3}{1}{2}{Genetic Algorithm}{27}{0}{3}
+\beamer@subsectionintoc {4}{3}{Background}{32}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsubsectionintoc {3}{1}{3}{Fuzzy Logic}{29}{0}{3}
+\beamer@subsubsectionintoc {4}{3}{1}{Fuzzy C-Means Clustering}{33}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {3}{2}{Method}{31}{0}{3}
+\beamer@subsubsectionintoc {4}{3}{2}{Game Theory}{39}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {3}{3}{Experiments}{33}{0}{3}
+\beamer@subsubsectionintoc {4}{3}{3}{Multi-Arm Bandits}{41}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {3}{4}{Results}{35}{0}{3}
+\beamer@subsubsectionintoc {4}{3}{4}{Q-Learning}{45}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {3}{5}{Discussion}{37}{0}{3}
+\beamer@subsubsectionintoc {4}{3}{5}{Marcov Chain}{47}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {4}{EES}{41}{0}{4}
+\beamer@subsubsectionintoc {4}{3}{6}{Best Response Dynamics}{50}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {4}{1}{Problem statement}{42}{0}{4}
+\beamer@subsubsectionintoc {4}{3}{7}{Fictitious Paly}{51}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {4}{2}{Contagion process}{44}{0}{4}
+\beamer@subsubsectionintoc {4}{3}{8}{Reinforcement Learning}{52}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {4}{3}{Experimentation}{50}{0}{4}
+\beamer@subsubsectionintoc {4}{3}{9}{Joint Utility Strategy}{53}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {4}{4}{Results exploitation}{52}{0}{4}
+\beamer@subsubsectionintoc {4}{3}{10}{Trial and Error Learning}{54}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {4}{5}{Discussion}{54}{0}{4}
+\beamer@subsubsectionintoc {4}{3}{11}{Regret Matching Learning}{55}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {5}{Q-Learning}{56}{0}{5}
+\beamer@subsubsectionintoc {4}{3}{12}{Imitation Learning}{56}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {5}{1}{Problem statement}{57}{0}{5}
+\beamer@subsectionintoc {4}{4}{Selection framework}{57}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {5}{2}{Background}{59}{0}{5}
+\beamer@subsectionintoc {4}{5}{Experimentation}{63}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsubsectionintoc {5}{2}{1}{Game Theory}{60}{0}{5}
+\beamer@subsectionintoc {4}{6}{Results}{66}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsubsectionintoc {5}{2}{2}{Bandit Algorithm}{62}{0}{5}
+\beamer@subsectionintoc {4}{7}{Discussion}{68}{0}{4}
 \defcounter {refsection}{1}\relax 
-\beamer@subsubsectionintoc {5}{2}{3}{Q-Learning}{66}{0}{5}
+\beamer@sectionintoc {5}{Testbed}{70}{0}{5}
 \defcounter {refsection}{1}\relax 
-\beamer@subsubsectionintoc {5}{2}{4}{Marcov Chain}{68}{0}{5}
+\beamer@subsectionintoc {5}{1}{Problem statement}{71}{0}{5}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {5}{3}{Contagion process}{71}{0}{5}
+\beamer@subsectionintoc {5}{2}{Contagion process}{73}{0}{5}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {5}{4}{Experimentation}{77}{0}{5}
+\beamer@subsectionintoc {5}{3}{Experimentation}{79}{0}{5}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {5}{5}{Results exploitation}{79}{0}{5}
+\beamer@subsectionintoc {5}{4}{Results exploitation}{81}{0}{5}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {5}{6}{Discussion}{81}{0}{5}
+\beamer@subsectionintoc {5}{5}{Discussion}{83}{0}{5}
 \defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {6}{Q-Learning}{83}{0}{6}
+\beamer@sectionintoc {6}{Conclusion}{85}{0}{6}
 \defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {6}{1}{Problem statement}{84}{0}{6}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {6}{2}{Contagion process}{86}{0}{6}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {6}{3}{Experimentation}{92}{0}{6}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {6}{4}{Results exploitation}{94}{0}{6}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {6}{5}{Discussion}{96}{0}{6}
-\defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {7}{...}{98}{0}{7}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {7}{1}{Problem statement}{99}{0}{7}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {7}{2}{Contagion process}{101}{0}{7}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {7}{3}{Experimentation}{107}{0}{7}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {7}{4}{Results exploitation}{109}{0}{7}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {7}{5}{Discussion}{111}{0}{7}
-\defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {8}{Testbed}{113}{0}{8}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {8}{1}{Problem statement}{114}{0}{8}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {8}{2}{Contagion process}{116}{0}{8}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {8}{3}{Experimentation}{122}{0}{8}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {8}{4}{Results exploitation}{124}{0}{8}
-\defcounter {refsection}{1}\relax 
-\beamer@subsectionintoc {8}{5}{Discussion}{126}{0}{8}
-\defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {9}{Conclusion}{128}{0}{9}
-\defcounter {refsection}{1}\relax 
-\beamer@sectionintoc {10}{Survey plafforms}{131}{0}{10}
+\beamer@sectionintoc {7}{Appendix}{87}{1}{7}

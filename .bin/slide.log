@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  3 JAN 2020 20:39
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  8 FEB 2020 18:54
  system commands enabled.
 **main.tex
 (./main.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.077 seconds
+luaotfload | main : initialization completed in 0.072 seconds
 (/home/aghiles/.config/latex/slide.tex
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/beamer.cls
 Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
@@ -1523,27 +1523,6 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseTextstyle=\skip79
 \L@UnitsRaiseScriptstyle=\skip80
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty
-Package: tikz-timing 2017/12/20 v0.7f Digital Timing Diagrams using TikZ
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarybackgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-\tikztiming@numint=\count353
-\tikztiming@numfrac=\count354
-\tikztiming@xunit=\skip81
-\tikztiming@yunit=\skip82
-\tikztiming@debug=\count355
-\c@tikztiming@nrows=\count356
-\c@tikztimingrows=\count357
-\c@tikztimingtrans=\count358
-\c@tikztimingtranspos=\count359
-)
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplotstable 2018/03/28 v1.16 Table typesetting and Pretty-printing (1
@@ -1574,16 +1553,29 @@ File: ppluatex.def 2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
 \AM@pagebox=\box122
 \AM@global@opts=\toks60
 \AM@toc@title=\toks61
-\c@AM@survey=\count360
+\c@AM@survey=\count353
 \AM@templatesizebox=\box123
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count361
-\rotFPtop=\skip83
-\rotFPbot=\skip84
+\c@r@tfl@t=\count354
+\rotFPtop=\skip81
+\rotFPbot=\skip82
 \rot@float@box=\box124
 \rot@mess@toks=\toks62
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
+Package: tkz-graph 2018/09/19 ctan v 1.00 d base for graphs
+\c@tkz@gr@a=\count355
+\c@tkz@gr@b=\count356
+\c@tkz@gr@c=\count357
+\c@tkz@gr@e=\count358
+\c@tkz@gr@d=\count359
+\c@tkz@gr@p=\count360
+\c@tkz@gr@i=\count361
+\c@tkz@gr@n=\count362
+\c@tkz@gr@ta=\count363
+\c@tkz@gr@tb=\count364
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymindmap.code.tex
@@ -1593,6 +1585,10 @@ File: tikzlibrarymindmap.code.tex 2019/02/02 v3.1.1 (3.1.1)
 zlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -1618,6 +1614,10 @@ decoration libraries instead of the snakes library on input line 14.
 zlibrarydecorations.shapes.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.shapes.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/dat
 avisualization/tikzlibrarydatavisualization.code.tex
 File: tikzlibrarydatavisualization.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -1627,14 +1627,14 @@ on.code.tex
 File: pgfmoduledatavisualization.code.tex 2019/02/02 v3.1.1 (3.1.1)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleoo.code.tex
-\pgfoo@objectcount=\count362
-\pgfoothis@count=\count363
+\pgfoo@objectcount=\count365
+\pgfoothis@count=\count366
 \pgfoo@toks=\toks63
 )
-\pgf@lib@dv@cache@count=\count364
-\pgf@lib@dv@cache@count=\count365
+\pgf@lib@dv@cache@count=\count367
+\pgf@lib@dv@cache@count=\count368
 )
-\tikzdvvisualizercounter=\count366
+\tikzdvvisualizercounter=\count369
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymatrix.code.tex
@@ -1728,13 +1728,13 @@ decorations.text.code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/pgflibraryhobby.code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/hobby.code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/pml3array.sty
-\l_array_base_int=\count367
-\l_array_top_int=\count368
-\l_array_tmp_int=\count369
-\g_array_base_int=\count370
+\l_array_base_int=\count370
+\l_array_top_int=\count371
+\l_array_tmp_int=\count372
+\g_array_base_int=\count373
 )
-\l_hobby_npoints_int=\count371
-\l_hobby_draw_int=\count372
+\l_hobby_npoints_int=\count374
+\l_hobby_draw_int=\count375
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryautomata.code.tex
@@ -1743,8 +1743,8 @@ File: tikzlibraryautomata.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\tikz@lib@auto@number=\count373
-\tikz@qnode@count=\count374
+\tikz@lib@auto@number=\count376
+\tikz@qnode@count=\count377
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.standard.code.tex
@@ -1757,7 +1757,7 @@ File: tikzlibrarygraphdrawing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraph
 drawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@gd@parameter@stack@height=\count375
+\pgf@gd@parameter@stack@height=\count378
 \pgf@gd@node@box=\box147
 \pgf@gd@edge@box=\box148
 \pgf@gd@prekind@box=\box149
@@ -1765,33 +1765,20 @@ File: pgflibrarygraphdrawing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.gr
 oupplots.code.tex
-\pgfplots@group@current@plot=\count376
-\pgfplots@group@current@row=\count377
-\pgfplots@group@current@column=\count378
+\pgfplots@group@current@plot=\count379
+\pgfplots@group@current@row=\count380
+\pgfplots@group@current@column=\count381
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.pa
-tchplots.code.tex) (/home/aghiles/.config/latex/tikzset.tex
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
-Package: tkz-graph 2018/09/19 ctan v 1.00 d base for graphs
-\c@tkz@gr@a=\count379
-\c@tkz@gr@b=\count380
-\c@tkz@gr@c=\count381
-\c@tkz@gr@e=\count382
-\c@tkz@gr@d=\count383
-\c@tkz@gr@p=\count384
-\c@tkz@gr@i=\count385
-\c@tkz@gr@n=\count386
-\c@tkz@gr@ta=\count387
-\c@tkz@gr@tb=\count388
-)))
+tchplots.code.tex) (/home/aghiles/.config/latex/tikzset.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count389
-\algocf@hangindent=\skip85
+\c@AlgoLine=\count382
+\algocf@hangindent=\skip83
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count390
+\c@checkoddpage=\count383
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -1799,132 +1786,107 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\skiptotal=\skip86
-\skiplinenumber=\skip87
-\skiprule=\skip88
-\skiphlne=\skip89
-\skiptext=\skip90
-\skiplength=\skip91
-\algomargin=\skip92
-\skipalgocfslide=\skip93
+\skiptotal=\skip84
+\skiplinenumber=\skip85
+\skiprule=\skip86
+\skiphlne=\skip87
+\skiptext=\skip88
+\skiplength=\skip89
+\algomargin=\skip90
+\skipalgocfslide=\skip91
 \algowidth=\dimen336
 \inoutsize=\dimen337
 \inoutindent=\dimen338
 \interspacetitleruled=\dimen339
 \interspacealgoruled=\dimen340
 \interspacetitleboxruled=\dimen341
-\algocf@ruledwidth=\skip94
+\algocf@ruledwidth=\skip92
 \algocf@inoutbox=\box151
 \algocf@inputbox=\box152
-\AlCapSkip=\skip95
-\AlCapHSkip=\skip96
-\algoskipindent=\skip97
+\AlCapSkip=\skip93
+\AlCapHSkip=\skip94
+\algoskipindent=\skip95
 \algocf@nlbox=\box153
 \algocf@hangingbox=\box154
 \algocf@untilbox=\box155
-\algocf@skipuntil=\skip98
+\algocf@skipuntil=\skip96
 \algocf@capbox=\box156
-\algocf@lcaptionbox=\skip99
-\algoheightruledefault=\skip100
-\algoheightrule=\skip101
-\algotitleheightruledefault=\skip102
-\algotitleheightrule=\skip103
-\c@algocfline=\count391
-\c@algocfproc=\count392
-\c@algocf=\count393
+\algocf@lcaptionbox=\skip97
+\algoheightruledefault=\skip98
+\algoheightrule=\skip99
+\algotitleheightruledefault=\skip100
+\algotitleheightrule=\skip101
+\c@algocfline=\count384
+\c@algocfproc=\count385
+\c@algocf=\count386
 \algocf@algoframe=\box157
 \algocf@algobox=\box158
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count394
-\lst@gtempboxa=\box159
-\lst@token=\toks64
-\lst@length=\count395
-\lst@currlwidth=\dimen342
-\lst@column=\count396
-\lst@pos=\count397
-\lst@lostspace=\dimen343
-\lst@width=\dimen344
-\lst@newlines=\count398
-\lst@lineno=\count399
-\lst@maxwidth=\dimen345
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
-\c@lstnumber=\count400
-\lst@skipnumbers=\count401
-\lst@framebox=\box160
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2018/09/02 1.7 listings configuration
-))
-Package: listings 2018/09/02 1.7 (Carsten Heinz)
-
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip104
-\multirow@cntb=\count402
-\multirow@dima=\skip105
+\multirow@colwidth=\skip102
+\multirow@cntb=\count387
+\multirow@dima=\skip103
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen346
-\lightrulewidth=\dimen347
-\cmidrulewidth=\dimen348
-\belowrulesep=\dimen349
-\belowbottomsep=\dimen350
-\aboverulesep=\dimen351
-\abovetopsep=\dimen352
-\cmidrulesep=\dimen353
-\cmidrulekern=\dimen354
-\defaultaddspace=\dimen355
-\@cmidla=\count403
-\@cmidlb=\count404
-\@aboverulesep=\dimen356
-\@belowrulesep=\dimen357
-\@thisruleclass=\count405
-\@lastruleclass=\count406
-\@thisrulewidth=\dimen358
+\heavyrulewidth=\dimen342
+\lightrulewidth=\dimen343
+\cmidrulewidth=\dimen344
+\belowrulesep=\dimen345
+\belowbottomsep=\dimen346
+\aboverulesep=\dimen347
+\abovetopsep=\dimen348
+\cmidrulesep=\dimen349
+\cmidrulekern=\dimen350
+\defaultaddspace=\dimen351
+\@cmidla=\count388
+\@cmidlb=\count389
+\@aboverulesep=\dimen352
+\@belowrulesep=\dimen353
+\@thisruleclass=\count390
+\@lastruleclass=\count391
+\@thisrulewidth=\dimen354
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip106
-\LTright=\skip107
-\LTpre=\skip108
-\LTpost=\skip109
-\LTchunksize=\count407
-\LTcapwidth=\dimen359
-\LT@head=\box161
-\LT@firsthead=\box162
-\LT@foot=\box163
-\LT@lastfoot=\box164
-\LT@cols=\count408
-\LT@rows=\count409
-\c@LT@tables=\count410
-\c@LT@chunks=\count411
-\LT@p@ftn=\toks65
+\LTleft=\skip104
+\LTright=\skip105
+\LTpre=\skip106
+\LTpost=\skip107
+\LTchunksize=\count392
+\LTcapwidth=\dimen355
+\LT@head=\box159
+\LT@firsthead=\box160
+\LT@foot=\box161
+\LT@lastfoot=\box162
+\LT@cols=\count393
+\LT@rows=\count394
+\c@LT@tables=\count395
+\c@LT@chunks=\count396
+\LT@p@ftn=\toks64
 )
 (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
 Package: threeparttable 2003/06/13  v 3.0
-\@tempboxb=\box165
+\@tempboxb=\box163
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count412
-\TY@linewidth=\dimen360
-\tymin=\dimen361
-\tymax=\dimen362
-\TY@tablewidth=\dimen363
+\TY@count=\count397
+\TY@linewidth=\dimen356
+\tymin=\dimen357
+\tymax=\dimen358
+\TY@tablewidth=\dimen359
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
-\TX@col@width=\dimen364
-\TX@old@table=\dimen365
-\TX@old@col=\dimen366
-\TX@target=\dimen367
-\TX@delta=\dimen368
-\TX@cols=\count413
-\TX@ftn=\toks66
+\TX@col@width=\dimen360
+\TX@old@table=\dimen361
+\TX@old@col=\dimen362
+\TX@target=\dimen363
+\TX@delta=\dimen364
+\TX@cols=\count398
+\TX@ftn=\toks65
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
 Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
@@ -1932,26 +1894,26 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip110
-\RaggedLeftLeftskip=\skip111
-\RaggedRightLeftskip=\skip112
-\CenteringRightskip=\skip113
-\RaggedLeftRightskip=\skip114
-\RaggedRightRightskip=\skip115
-\CenteringParfillskip=\skip116
-\RaggedLeftParfillskip=\skip117
-\RaggedRightParfillskip=\skip118
-\JustifyingParfillskip=\skip119
-\CenteringParindent=\skip120
-\RaggedLeftParindent=\skip121
-\RaggedRightParindent=\skip122
-\JustifyingParindent=\skip123
+\CenteringLeftskip=\skip108
+\RaggedLeftLeftskip=\skip109
+\RaggedRightLeftskip=\skip110
+\CenteringRightskip=\skip111
+\RaggedLeftRightskip=\skip112
+\RaggedRightRightskip=\skip113
+\CenteringParfillskip=\skip114
+\RaggedLeftParfillskip=\skip115
+\RaggedRightParfillskip=\skip116
+\JustifyingParfillskip=\skip117
+\CenteringParindent=\skip118
+\RaggedLeftParindent=\skip119
+\RaggedRightParindent=\skip120
+\JustifyingParindent=\skip121
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 106.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 106.
-Package hyperref Info: Option `pdffitwindow' set `true' on input line 106.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 106.
-Package hyperref Info: Option `colorlinks' set `true' on input line 106.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 111.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 111.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 111.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 111.
+Package hyperref Info: Option `colorlinks' set `true' on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
@@ -1962,21 +1924,20 @@ Package: caption 2018/10/06 v3.3-154 Customizing captions (AR)
 (/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2018/09/12 v1.8c caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 64.
-\captionmargin=\dimen369
-\captionmargin@=\dimen370
-\captionwidth=\dimen371
-\caption@tempdima=\dimen372
-\caption@indent=\dimen373
-\caption@parindent=\dimen374
-\caption@hangindent=\dimen375
+\captionmargin=\dimen365
+\captionmargin@=\dimen366
+\captionwidth=\dimen367
+\caption@tempdima=\dimen368
+\caption@indent=\dimen369
+\caption@parindent=\dimen370
+\caption@hangindent=\dimen371
 )
-\c@caption@flags=\count414
-\c@ContinuedFloat=\count415
+\c@caption@flags=\count399
+\c@ContinuedFloat=\count400
 Package caption Info: beamer document class.
 Package caption Info: hyperref package is loaded.
 Package caption Info: Hyperref support is turned off
 (caption)             because hyperref has stopped early.
-Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
@@ -1985,82 +1946,88 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: threeparttable package is loaded.
 )
-\c@subfigure=\count416
-\c@subtable=\count417
+\c@subfigure=\count401
+\c@subtable=\count402
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
-\labelindent=\skip124
-\enit@outerparindent=\dimen376
-\enit@toks=\toks67
-\enit@inbox=\box166
-\enit@count@id=\count418
-\enitdp@description=\count419
+\labelindent=\skip122
+\enit@outerparindent=\dimen372
+\enit@toks=\toks66
+\enit@inbox=\box164
+\enit@count@id=\count403
+\enitdp@description=\count404
 )
+\c@enumv=\count405
+\c@enumvi=\count406
+\c@enumvii=\count407
+\c@enumviii=\count408
+\c@enumix=\count409
+
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count420
+\lrq@indent=\count410
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count421
-\c@listtotal=\count422
-\c@listcount=\count423
-\c@liststart=\count424
-\c@liststop=\count425
-\c@citecount=\count426
-\c@citetotal=\count427
-\c@multicitecount=\count428
-\c@multicitetotal=\count429
-\c@instcount=\count430
-\c@maxnames=\count431
-\c@minnames=\count432
-\c@maxitems=\count433
-\c@minitems=\count434
-\c@citecounter=\count435
-\c@maxcitecounter=\count436
-\c@savedcitecounter=\count437
-\c@uniquelist=\count438
-\c@uniquename=\count439
-\c@refsection=\count440
-\c@refsegment=\count441
-\c@maxextratitle=\count442
-\c@maxextratitleyear=\count443
-\c@maxextraname=\count444
-\c@maxextradate=\count445
-\c@maxextraalpha=\count446
-\c@abbrvpenalty=\count447
-\c@highnamepenalty=\count448
-\c@lownamepenalty=\count449
-\c@maxparens=\count450
-\c@parenlevel=\count451
-\blx@tempcnta=\count452
-\blx@tempcntb=\count453
-\blx@tempcntc=\count454
-\blx@maxsection=\count455
-\blx@maxsegment@0=\count456
-\blx@notetype=\count457
-\blx@parenlevel@text=\count458
-\blx@parenlevel@foot=\count459
-\blx@sectionciteorder@0=\count460
-\blx@entrysetcounter=\count461
-\labelnumberwidth=\skip125
-\labelalphawidth=\skip126
-\biblabelsep=\skip127
-\bibitemsep=\skip128
-\bibnamesep=\skip129
-\bibinitsep=\skip130
-\bibparsep=\skip131
-\bibhang=\skip132
+\c@tabx@nest=\count411
+\c@listtotal=\count412
+\c@listcount=\count413
+\c@liststart=\count414
+\c@liststop=\count415
+\c@citecount=\count416
+\c@citetotal=\count417
+\c@multicitecount=\count418
+\c@multicitetotal=\count419
+\c@instcount=\count420
+\c@maxnames=\count421
+\c@minnames=\count422
+\c@maxitems=\count423
+\c@minitems=\count424
+\c@citecounter=\count425
+\c@maxcitecounter=\count426
+\c@savedcitecounter=\count427
+\c@uniquelist=\count428
+\c@uniquename=\count429
+\c@refsection=\count430
+\c@refsegment=\count431
+\c@maxextratitle=\count432
+\c@maxextratitleyear=\count433
+\c@maxextraname=\count434
+\c@maxextradate=\count435
+\c@maxextraalpha=\count436
+\c@abbrvpenalty=\count437
+\c@highnamepenalty=\count438
+\c@lownamepenalty=\count439
+\c@maxparens=\count440
+\c@parenlevel=\count441
+\blx@tempcnta=\count442
+\blx@tempcntb=\count443
+\blx@tempcntc=\count444
+\blx@maxsection=\count445
+\blx@maxsegment@0=\count446
+\blx@notetype=\count447
+\blx@parenlevel@text=\count448
+\blx@parenlevel@foot=\count449
+\blx@sectionciteorder@0=\count450
+\blx@entrysetcounter=\count451
+\labelnumberwidth=\skip123
+\labelalphawidth=\skip124
+\biblabelsep=\skip125
+\bibitemsep=\skip126
+\bibnamesep=\skip127
+\bibinitsep=\skip128
+\bibparsep=\skip129
+\bibhang=\skip130
 \blx@bcfin=\read4
 \blx@bcfout=\write7
-\c@mincomprange=\count462
-\c@maxcomprange=\count463
-\c@mincompwidth=\count464
+\c@mincomprange=\count452
+\c@maxcomprange=\count453
+\c@mincompwidth=\count454
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -2068,91 +2035,91 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count465
-\c@savedafterword=\count466
-\c@annotator=\count467
-\c@savedannotator=\count468
-\c@author=\count469
-\c@savedauthor=\count470
-\c@bookauthor=\count471
-\c@savedbookauthor=\count472
-\c@commentator=\count473
-\c@savedcommentator=\count474
-\c@editor=\count475
-\c@savededitor=\count476
-\c@editora=\count477
-\c@savededitora=\count478
-\c@editorb=\count479
-\c@savededitorb=\count480
-\c@editorc=\count481
-\c@savededitorc=\count482
-\c@foreword=\count483
-\c@savedforeword=\count484
-\c@holder=\count485
-\c@savedholder=\count486
-\c@introduction=\count487
-\c@savedintroduction=\count488
-\c@namea=\count489
-\c@savednamea=\count490
-\c@nameb=\count491
-\c@savednameb=\count492
-\c@namec=\count493
-\c@savednamec=\count494
-\c@translator=\count495
-\c@savedtranslator=\count496
-\c@shortauthor=\count497
-\c@savedshortauthor=\count498
-\c@shorteditor=\count499
-\c@savedshorteditor=\count500
-\c@labelname=\count501
-\c@savedlabelname=\count502
-\c@institution=\count503
-\c@savedinstitution=\count504
-\c@lista=\count505
-\c@savedlista=\count506
-\c@listb=\count507
-\c@savedlistb=\count508
-\c@listc=\count509
-\c@savedlistc=\count510
-\c@listd=\count511
-\c@savedlistd=\count512
-\c@liste=\count513
-\c@savedliste=\count514
-\c@listf=\count515
-\c@savedlistf=\count516
-\c@location=\count517
-\c@savedlocation=\count518
-\c@organization=\count519
-\c@savedorganization=\count520
-\c@origlocation=\count521
-\c@savedoriglocation=\count522
-\c@origpublisher=\count523
-\c@savedorigpublisher=\count524
-\c@publisher=\count525
-\c@savedpublisher=\count526
-\c@language=\count527
-\c@savedlanguage=\count528
-\c@origlanguage=\count529
-\c@savedoriglanguage=\count530
-\c@pageref=\count531
-\c@savedpageref=\count532
-\shorthandwidth=\skip133
-\shortjournalwidth=\skip134
-\shortserieswidth=\skip135
-\shorttitlewidth=\skip136
-\shortauthorwidth=\skip137
-\shorteditorwidth=\skip138
-\locallabelnumberwidth=\skip139
-\locallabelalphawidth=\skip140
-\localshorthandwidth=\skip141
-\localshortjournalwidth=\skip142
-\localshortserieswidth=\skip143
-\localshorttitlewidth=\skip144
-\localshortauthorwidth=\skip145
-\localshorteditorwidth=\skip146
+\c@afterword=\count455
+\c@savedafterword=\count456
+\c@annotator=\count457
+\c@savedannotator=\count458
+\c@author=\count459
+\c@savedauthor=\count460
+\c@bookauthor=\count461
+\c@savedbookauthor=\count462
+\c@commentator=\count463
+\c@savedcommentator=\count464
+\c@editor=\count465
+\c@savededitor=\count466
+\c@editora=\count467
+\c@savededitora=\count468
+\c@editorb=\count469
+\c@savededitorb=\count470
+\c@editorc=\count471
+\c@savededitorc=\count472
+\c@foreword=\count473
+\c@savedforeword=\count474
+\c@holder=\count475
+\c@savedholder=\count476
+\c@introduction=\count477
+\c@savedintroduction=\count478
+\c@namea=\count479
+\c@savednamea=\count480
+\c@nameb=\count481
+\c@savednameb=\count482
+\c@namec=\count483
+\c@savednamec=\count484
+\c@translator=\count485
+\c@savedtranslator=\count486
+\c@shortauthor=\count487
+\c@savedshortauthor=\count488
+\c@shorteditor=\count489
+\c@savedshorteditor=\count490
+\c@labelname=\count491
+\c@savedlabelname=\count492
+\c@institution=\count493
+\c@savedinstitution=\count494
+\c@lista=\count495
+\c@savedlista=\count496
+\c@listb=\count497
+\c@savedlistb=\count498
+\c@listc=\count499
+\c@savedlistc=\count500
+\c@listd=\count501
+\c@savedlistd=\count502
+\c@liste=\count503
+\c@savedliste=\count504
+\c@listf=\count505
+\c@savedlistf=\count506
+\c@location=\count507
+\c@savedlocation=\count508
+\c@organization=\count509
+\c@savedorganization=\count510
+\c@origlocation=\count511
+\c@savedoriglocation=\count512
+\c@origpublisher=\count513
+\c@savedorigpublisher=\count514
+\c@publisher=\count515
+\c@savedpublisher=\count516
+\c@language=\count517
+\c@savedlanguage=\count518
+\c@origlanguage=\count519
+\c@savedoriglanguage=\count520
+\c@pageref=\count521
+\c@savedpageref=\count522
+\shorthandwidth=\skip131
+\shortjournalwidth=\skip132
+\shortserieswidth=\skip133
+\shorttitlewidth=\skip134
+\shortauthorwidth=\skip135
+\shorteditorwidth=\skip136
+\locallabelnumberwidth=\skip137
+\locallabelalphawidth=\skip138
+\localshorthandwidth=\skip139
+\localshortjournalwidth=\skip140
+\localshortserieswidth=\skip141
+\localshorttitlewidth=\skip142
+\localshortauthorwidth=\skip143
+\localshorteditorwidth=\skip144
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -2168,24 +2135,22 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count533
-\c@textcitetotal=\count534
-\c@textcitemaxnames=\count535
-\c@biburlnumpenalty=\count536
-\c@biburlucpenalty=\count537
-\c@biburllcpenalty=\count538
-\c@smartand=\count539
+\c@textcitecount=\count523
+\c@textcitetotal=\count524
+\c@textcitemaxnames=\count525
+\c@biburlnumpenalty=\count526
+\c@biburlucpenalty=\count527
+\c@biburllcpenalty=\count528
+\c@smartand=\count529
 )
-Package biblatex Info: Trying to load bibliography style 'ieee'...
-Package biblatex Info: ... file 'ieee.bbx' found.
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
-File: ieee.bbx 2018/08/20 v1.3 biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, 
+overwriting.
+)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -2196,21 +2161,16 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count540
-\c@bbx:relatedtotal=\count541
-))))
-Package biblatex Info: Trying to load citation style 'ieee'...
-Package biblatex Info: ... file 'ieee.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
-File: ieee.cbx 2018/08/20 v1.3 biblatex citation style
+\c@bbx:relatedcount=\count530
+\c@bbx:relatedtotal=\count531
+))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count542
-\c@cbx@tempcntb=\count543
+\c@cbx@tempcnta=\count532
+\c@cbx@tempcntb=\count533
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2223,9 +2183,6 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
 )
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\cites'.
-)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -2235,28 +2192,28 @@ File: biblatex.cfg
 (/home/aghiles/.config/latex/commands.tex
 (/usr/share/texlive/texmf-dist/tex/latex/bytefield/bytefield.sty
 Package: bytefield 2017/09/15 v2.4 Network protocol diagrams
-\bytefield@height=\skip147
-\bytefield@height@increment=\skip148
-\entire@bytefield@picture=\box167
-\bf@bitwidth=\skip149
-\bf@bitheight=\skip150
-\units@wide=\skip151
-\units@tall=\skip152
-\units@high=\skip153
-\header@xpos=\skip154
-\c@header@val=\count544
-\c@max@header@val=\count545
-\curly@box=\box168
-\wordlabelr@start=\skip155
-\wordlabelr@end=\skip156
-\wordlabell@start=\skip157
-\wordlabell@end=\skip158
-\total@lbox@width=\skip159
-\label@box@width=\skip160
-\label@box@height=\skip161
-\word@label@box=\box169
+\bytefield@height=\skip145
+\bytefield@height@increment=\skip146
+\entire@bytefield@picture=\box165
+\bf@bitwidth=\skip147
+\bf@bitheight=\skip148
+\units@wide=\skip149
+\units@tall=\skip150
+\units@high=\skip151
+\header@xpos=\skip152
+\c@header@val=\count534
+\c@max@header@val=\count535
+\curly@box=\box166
+\wordlabelr@start=\skip153
+\wordlabelr@end=\skip154
+\wordlabell@start=\skip155
+\wordlabell@end=\skip156
+\total@lbox@width=\skip157
+\label@box@width=\skip158
+\label@box@height=\skip159
+\word@label@box=\box167
 )
-\c@todo=\count546
+\c@todo=\count536
 
 (/usr/share/texlive/texmf-dist/tex/latex/acro/acro.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -2264,18 +2221,18 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 )
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2018-10-17 L3 Experimental prototype document functions
-\l__xtemplate_tmp_dim=\dimen377
-\l__xtemplate_tmp_int=\count547
+\l__xtemplate_tmp_dim=\dimen373
+\l__xtemplate_tmp_int=\count537
 \l__xtemplate_tmp_muskip=\muskip18
-\l__xtemplate_tmp_skip=\skip162
+\l__xtemplate_tmp_skip=\skip160
 )
 Package: acro 2019/02/17 v2.9 Typeset Acronyms
-\l__acro_tmpa_int=\count548
-\l__acro_tmpb_int=\count549
-\l__acro_tmpc_int=\count550
-\l__acro_tmpd_int=\count551
-\l__acro_page_space_skip=\skip163
-\l__acro_short_width_dim=\dimen378
+\l__acro_tmpa_int=\count538
+\l__acro_tmpb_int=\count539
+\l__acro_tmpc_int=\count540
+\l__acro_tmpd_int=\count541
+\l__acro_page_space_skip=\skip161
+\l__acro_short_width_dim=\dimen374
 
 Package xtemplate Info: Declaring object type 'acro-first' taking 2
 (xtemplate)             argument(s) on line 845.
@@ -2294,7 +2251,7 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count552
+\c@abspage=\count542
 Package zref Info: New property: abspage on input line 62.
 )
 
@@ -2309,7 +2266,7 @@ Package xtemplate Info: Declaring object type 'acro-title' taking 1
 Package xtemplate Info: Declaring object type 'acro-list' taking 2 argument(s)
 (xtemplate)             on line 1341.
 
-\g__acro_barrier_int=\count553
+\g__acro_barrier_int=\count543
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2017/08/31 v1.7a internationalization of LaTeX2e packages 
@@ -2467,7 +2424,7 @@ LaTeX Font Info:    Redeclaring math accent \mathring on input line 256.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/beamer/multimedia.sty
 Package: multimedia 2012/05/02 ver 0.02
-\mm@movie=\count554
+\mm@movie=\count544
 )
 (/usr/share/texlive/texmf-dist/tex/generic/luatex85/luatex85.sty
 Package: luatex85 2016/06/15 v1.4 pdftex aliases for luatex
@@ -2490,15 +2447,15 @@ Package scrextend Info: patch seems to be successfull on input line 1575.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfpages.sty
 Package: pgfpages 2011/01/05 ver 0.02
-\pgf@logicalpages=\count555
-\pgf@firstshipout=\count556
-\pgf@lastshipout=\count557
-\pgf@currentshipout=\count558
-\pgf@cpn=\count559
-\pgf@shipoutnextto=\count560
-\pgfphysicalheight=\dimen379
-\pgfphysicalwidth=\dimen380
-\pgfpages@shipoutbox=\box170
+\pgf@logicalpages=\count545
+\pgf@firstshipout=\count546
+\pgf@lastshipout=\count547
+\pgf@currentshipout=\count548
+\pgf@cpn=\count549
+\pgf@shipoutnextto=\count550
+\pgfphysicalheight=\dimen375
+\pgfphysicalwidth=\dimen376
+\pgfpages@shipoutbox=\box168
 )
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/palatino.sty
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
@@ -2506,49 +2463,28 @@ Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR)
 Package biblatex Info: Redefining '\supercite' on input line 64.
 \g__file_internal_ior=\read5
 
-(./00/10-firstpage.tex)) (/home/aghiles/.config/latex/bibliography.tex)
-
-Package biblatex Warning: File 'english-ieee.lbx' not found!
-(biblatex)                Ignoring mapping 'english' -> 'english-ieee'.
-
+(./00-abstract/10-firstpage.tex)) (/home/aghiles/.config/latex/bibliography.tex
+)
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+ (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count561
-\@quotereset=\count562
+\@quotelevel=\count551
+\@quotereset=\count552
 (./.bin/slide.aux
 
-LaTeX Warning: Label `tab:scheduling' multiply defined.
+LaTeX Warning: Label `fig:slice' multiply defined.
+
+
+LaTeX Warning: Label `fig:slice' multiply defined.
 
 
 LaTeX Warning: Label `tab:' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `tab:' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
 
 
 LaTeX Warning: Label `fig:mail.png' multiply defined.
@@ -2569,34 +2505,7 @@ LaTeX Warning: Label `fig:mail.png' multiply defined.
 LaTeX Warning: Label `fig:mail.png' multiply defined.
 
 
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
 LaTeX Warning: Label `tab:' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `tab:' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
-
-
-LaTeX Warning: Label `fig:mail.png' multiply defined.
 
 )
 \openout1 = slide.aux
@@ -2685,17 +2594,17 @@ File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count563
-\scratchdimen=\dimen381
-\scratchbox=\box171
-\nofMPsegments=\count564
-\nofMParguments=\count565
-\everyMPshowfont=\toks68
-\MPscratchCnt=\count566
-\MPscratchDim=\dimen382
-\MPnumerator=\count567
-\makeMPintoPDFobject=\count568
-\everyMPtoPDFconversion=\toks69
+\scratchcounter=\count553
+\scratchdimen=\dimen377
+\scratchbox=\box169
+\nofMPsegments=\count554
+\nofMParguments=\count555
+\everyMPshowfont=\toks67
+\MPscratchCnt=\count556
+\MPscratchDim=\dimen378
+\MPnumerator=\count557
+\makeMPintoPDFobject=\count558
+\everyMPtoPDFconversion=\toks68
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2714,7 +2623,7 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box172
+\AtBeginShipoutBox=\box170
 Package hyperref Info: Link coloring ON on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -2723,7 +2632,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count569
+\c@section@level=\count559
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -2811,8 +2720,6 @@ Package pgfplots notification 'compat/show suggested version=true': document has
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-\c@lstlisting=\count570
-
 ABD: EverySelectfont initializing macros
 LaTeX Info: Redefining \selectfont on input line 6.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2825,7 +2732,43 @@ Package biblatex Info: Automatic encoding selection.
 \openout7 = slide.bcf
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'slide.bbl' found.
- (./.bin/slide.bbl)
+ (./.bin/slide.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                bendaoud_network_2019
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                chowdhury_survey_2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                kouicem_internet_2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                perera_mosden_2013
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                simiscuka_relay_2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
 
@@ -2839,23 +2782,23 @@ r `english'. on input line 6.
  (./.bin/slide.nav)
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <3.75> not available
 (Font)              Font shape `T1/phv/b/n' tried instead on input line 6.
-\blx@maxsegment@1=\count571
-\blx@sectionciteorder@1=\count572
+\blx@maxsegment@1=\count560
+\blx@sectionciteorder@1=\count561
 Package biblatex Info: Reference section=1 on input line 7.
 Package biblatex Info: Setting label 'refsection:1' on input line 7.
-</home/aghiles/Aghiles/job/txt/Resources/img/icon/wsn-IoT.png, id=231, 1060.9637
+</home/aghiles/Aghiles/job/txt/resources/img/icon/wsn-IoT.png, id=166, 1060.9637
 5pt x 381.425pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/wsn-IoT.png Graphic file 
+File: /home/aghiles/Aghiles/job/txt/resources/img/icon/wsn-IoT.png Graphic file 
 (type png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/wsn-IoT.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/wsn-Io
-T.png  used on input line 8.
+<use /home/aghiles/Aghiles/job/txt/resources/img/icon/wsn-IoT.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/wsn-Io
+T.png  used on input line 9.
 (luatex.def)             Requested size: 170.71652pt x 61.37262pt.
  [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}</home/aghiles/Aghiles/job/tx
-t/Resources/img/icon/wsn-IoT.png>]
-(./01-Introduction/authors.tex
+t/resources/img/icon/wsn-IoT.png>]
+(./01-introduction/authors.tex
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 6.
@@ -2926,34 +2869,90 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5.69995> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <4.50005> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 8.
-(./.bin/slide.toc) (./.bin/slide.toc) [2
+(./.bin/slide.toc) (./.bin/slide.toc)
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-])
-(./01-Introduction/10_introduction.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [3
+ [2
 
 ]
-</home/aghiles/Aghiles/job/txt/Resources/img/devices1.png, id=294, 1881.0275pt x
+Overfull \vbox (10.1537pt too high) has occurred while \output is active []
+
+
+[3]) (./01-introduction/10_introduction.tex (./.bin/slide.toc)
+(./.bin/slide.toc) (./.bin/slide.toc) [4
+
+]
+</home/aghiles/Aghiles/job/txt/resources/img/devices1.png, id=225, 1881.0275pt x
  693.59125pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/devices1.png Graphic file (typ
+File: /home/aghiles/Aghiles/job/txt/resources/img/devices1.png Graphic file (typ
 e png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/devices1.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/devices1.pn
+<use /home/aghiles/Aghiles/job/txt/resources/img/devices1.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/devices1.pn
 g  used on input line 32.
 (luatex.def)             Requested size: 324.17361pt x 119.5282pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/devices.png, id=295, 1871.99374pt x
+</home/aghiles/Aghiles/job/txt/resources/img/devices.png, id=226, 1871.99374pt x
  324.21124pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/devices.png Graphic file (type
+File: /home/aghiles/Aghiles/job/txt/resources/img/devices.png Graphic file (type
  png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/devices.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/devices.png
+<use /home/aghiles/Aghiles/job/txt/resources/img/devices.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/devices.png
   used on input line 32.
 (luatex.def)             Requested size: 360.19536pt x 62.3824pt.
- [4
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6.8438> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 32.
+LaTeX Font Info:    Calculating math sizes for size <3.75> on input line 32.
 
-</home/aghiles/Aghiles/job/txt/Resources/img/devices1.png></home/aghiles/Aghiles
-/job/txt/Resources/img/devices.png>]
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [5
+
+LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <2.25002> not available
+(Font)              size <3> substituted on input line 32.
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.44998pt on input line 32.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 2.62196pt on input line 32.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 2.07pt on input line 32.
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <2.84998> not available
+(Font)              size <5> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <2.25002> not available
+(Font)              size <5> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <3.75> not available
+(Font)              size <5> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <2.84998> not available
+(Font)              size <5> substituted on input line 32.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <2.25002> not available
+(Font)              size <5> substituted on input line 32.
+
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.44998pt on input line 32.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 2.62196pt on input line 32.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 2.07pt on input line 32.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <3.75> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 32.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <2.84998> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 32.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <2.25002> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 32.
+[5
+
+</home/aghiles/Aghiles/job/txt/resources/img/devices1.png></home/aghiles/Aghiles
+/job/txt/resources/img/devices.png>] (./.bin/slide.toc) (./.bin/slide.toc)
+(./.bin/slide.toc) [6
 
 ]
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <5.00003> not available
@@ -2994,150 +2993,153 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <3.79999> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 56.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <3.00005> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 56.
-</home/aghiles/Aghiles/job/txt/Resources/img/application.png, id=332, 1415.2875p
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 56.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 56.
+</home/aghiles/Aghiles/job/txt/resources/img/application.png, id=257, 1415.2875p
 t x 1434.35875pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/application.png Graphic file (
+File: /home/aghiles/Aghiles/job/txt/resources/img/application.png Graphic file (
 type png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/application.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/application
+<use /home/aghiles/Aghiles/job/txt/resources/img/application.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/application
 .png  used on input line 56.
 (luatex.def)             Requested size: 144.07594pt x 146.005pt.
-[6
+[7
 
-</home/aghiles/Aghiles/job/txt/Resources/img/application.png>]
-</home/aghiles/Aghiles/job/txt/Resources/img/context.png, id=345, 853.1875pt x 3
+</home/aghiles/Aghiles/job/txt/resources/img/application.png>]
+</home/aghiles/Aghiles/job/txt/resources/img/context.png, id=269, 853.1875pt x 3
 48.30125pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/context.png Graphic file (type
+File: /home/aghiles/Aghiles/job/txt/resources/img/context.png Graphic file (type
  png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/context.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/context.png
+<use /home/aghiles/Aghiles/job/txt/resources/img/context.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/context.png
   used on input line 64.
 (luatex.def)             Requested size: 288.15738pt x 117.6396pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/iotChallenges.png, id=346, 1733.476
+</home/aghiles/Aghiles/job/txt/resources/img/iotChallenges.png, id=270, 1733.476
 26pt x 336.25626pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/iotChallenges.png Graphic file
+File: /home/aghiles/Aghiles/job/txt/resources/img/iotChallenges.png Graphic file
  (type png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/iotChallenges.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/iotChalleng
+<use /home/aghiles/Aghiles/job/txt/resources/img/iotChallenges.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/iotChalleng
 es.png  used on input line 64.
 (luatex.def)             Requested size: 324.17361pt x 62.87857pt.
 
-Overfull \vbox (11.05576pt too high) detected at line 64
+Overfull \vbox (3.94478pt too high) detected at line 64
  []
 
-[7
+[8
 
-</home/aghiles/Aghiles/job/txt/Resources/img/context.png></home/aghiles/Aghiles/
-job/txt/Resources/img/iotChallenges.png>] [8
+</home/aghiles/Aghiles/job/txt/resources/img/context.png></home/aghiles/Aghiles/
+job/txt/resources/img/iotChallenges.png>]
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 100.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 100.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 100.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 100.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 100.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 100.
+ [9
 
 ] (./.bin/slide.toc)
-(./.bin/slide.toc) (./.bin/slide.toc) [9
+(./.bin/slide.toc) (./.bin/slide.toc) [10
 
 ]
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/new-LPWAN.png, id=393, 727.71
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/new-LPWAN.png, id=315, 727.71
 875pt x 326.21875pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/new-LPWAN.png Graphic fi
+File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/new-LPWAN.png Graphic fi
 le (type png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/new-LPWAN.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/new-L
+<use /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/new-LPWAN.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/new-L
 PWAN.png  used on input line 110.
 (luatex.def)             Requested size: 252.13565pt x 113.02841pt.
- [10
+ [11
 
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/new-LPWAN.png>] (./.bin/slid
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/new-LPWAN.png>] (./.bin/slid
 e.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [11
+(./.bin/slide.toc) [12
 
 ]
-</home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.pdf, id=423, 499.8424pt 
-x 513.87984pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.pdf Graphic file (t
-ype pdf)
-<use /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.pdf>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.
-pdf  used on input line 121.
-(luatex.def)             Requested size: 198.10854pt x 203.67424pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_stack.png, id=424, 845.1
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png, id=345, 845.1
 575pt x 597.23125pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_stack.png Graphic f
+File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png Graphic f
 ile (type png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_stack.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/C-RAN/lora_
-stack.png  used on input line 121.
+<use /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_
+stack.png  used on input line 122.
 (luatex.def)             Requested size: 162.0868pt x 114.53221pt.
-
-Overfull \vbox (5.3097pt too high) detected at line 121
- []
-
-[12
-
-</home/aghiles/Aghiles/job/txt/Resources/plot/pdf/LPWAN.pdf></home/aghiles/Aghil
-es/job/txt/Resources/img/C-RAN/lora_stack.png>]
-LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7.5> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 157.
  [13
 
-]
-Overfull \hbox (7.32465pt too wide) in paragraph at lines 198--198
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png>]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <7.5> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 162.
+
+Overfull \hbox (7.32465pt too wide) in paragraph at lines 162--162
 []|$\T1/phv/m/n/7.5 7\FML/futmi/m/it/7.5 :\T1/phv/m/n/7.5 8$| 
  []
 
 
-Overfull \hbox (4.99382pt too wide) in paragraph at lines 198--198
+Overfull \hbox (4.99382pt too wide) in paragraph at lines 162--162
 []|$\T1/phv/m/n/7.5 2[]$| 
  []
 
 
-Overfull \hbox (9.21344pt too wide) in paragraph at lines 198--198
+Overfull \hbox (9.21344pt too wide) in paragraph at lines 162--162
 []|$\T1/phv/m/n/7.5 4\OT1/cmss/m/n/7 /\T1/phv/m/n/7.5 5$| 
  []
 
 
-Overfull \hbox (6.28969pt too wide) in paragraph at lines 198--198
+Overfull \hbox (6.28969pt too wide) in paragraph at lines 162--162
 []|$\FMS/futm/m/n/7.5  \T1/phv/m/n/7.5 4$| 
  []
 
 
-Overfull \hbox (5.49464pt too wide) in paragraph at lines 198--198
+Overfull \hbox (5.49464pt too wide) in paragraph at lines 162--162
 []|$\T1/phv/m/n/7.5 59$| 
  []
 
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 162.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 162.
 [14
 
 ] [15
 
-] [16
-
 ]
-Overfull \vbox (170.10977pt too high) detected at line 266
+Overfull \hbox (28.69606pt too wide) detected at line 246
+[]
  []
 
-[17
+[16
 
 ]
-</home/aghiles/Aghiles/job/txt/Resources/img/loraframe1.png, id=686, 1809.76125p
+</home/aghiles/Aghiles/job/txt/resources/img/loraframe1.png, id=498, 1809.76125p
 t x 496.85625pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/loraframe1.png Graphic file (t
+File: /home/aghiles/Aghiles/job/txt/resources/img/loraframe1.png Graphic file (t
 ype png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/loraframe1.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/loraframe1.
-png  used on input line 273.
+<use /home/aghiles/Aghiles/job/txt/resources/img/loraframe1.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/loraframe1.
+png  used on input line 370.
 (luatex.def)             Requested size: 360.19536pt x 98.88428pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/loraframe2.png, id=687, 1816.7875pt
+</home/aghiles/Aghiles/job/txt/resources/img/loraframe2.png, id=499, 1816.7875pt
  x 497.86pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/loraframe2.png Graphic file (t
+File: /home/aghiles/Aghiles/job/txt/resources/img/loraframe2.png Graphic file (t
 ype png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/loraframe2.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/loraframe2.
-png  used on input line 273.
+<use /home/aghiles/Aghiles/job/txt/resources/img/loraframe2.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/loraframe2.
+png  used on input line 370.
 (luatex.def)             Requested size: 360.19536pt x 98.70421pt.
- [18
+ [17
 
-</home/aghiles/Aghiles/job/txt/Resources/img/loraframe1.png></home/aghiles/Aghil
-es/job/txt/Resources/img/loraframe2.png>] [19
+</home/aghiles/Aghiles/job/txt/resources/img/loraframe1.png></home/aghiles/Aghil
+es/job/txt/resources/img/loraframe2.png>] [18
 
 ])
-(./02-Survey/authors.tex
+(./02-literature-survey/authors.tex
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 6.
+
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [19
+
+])
+(./03-technical-survey/authors.tex
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 6.
@@ -3145,383 +3147,344 @@ Package hyperref Warning: Option `pdfauthor' has already been used,
 (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [20
 
 ])
-(./02-Survey/13_relay.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [21
+(./05-isncc/authors.tex
+
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 6.
+
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [21
+
+])
+(./05-isncc/10_lora-slice.tex (./.bin/slide.toc) (./.bin/slide.toc)
+(./.bin/slide.toc) [22
 
 ]
-LaTeX Font Info:    Calculating math sizes for size <6.25008> on input line 23.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.75005pt on input line 23.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 4.37pt on input line 23.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 3.45006pt on input line 23.
+</home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf, id=595, 148.45865pt x 18
+6.67741pt>
+File: /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf Graphic file (type p
+df)
+<use /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf  
+used on input line 34.
+(luatex.def)             Requested size: 122.46542pt x 153.99652pt.
+ [23
 
+</home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf>]
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <2.84998> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <2.25002> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 70.
+ [24
+
+]
+File: /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf Graphic file (type p
+df)
+<use /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf  
+used on input line 88.
+(luatex.def)             Requested size: 122.46542pt x 153.99652pt.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:slice'
+
+[25
+
+]
+File: /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf Graphic file (type p
+df)
+<use /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf  
+used on input line 109.
+(luatex.def)             Requested size: 122.46542pt x 153.99652pt.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'fig:slice'
+
+LaTeX Font Info:    Calculating math sizes for size <6.25008> on input line 109.
+
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.75005pt on input line 109.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.37pt on input line 109.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.45006pt on input line 109.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <6.25008> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 109.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <4.75002> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 109.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <3.75008> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 109.
 
 LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3.75008> not available
-(Font)              size <5> substituted on input line 23.
+(Font)              size <5> substituted on input line 109.
 
 
 LaTeX Font Warning: Font shape `U/wasy/m/n' in size <3.75008> not available
-(Font)              size <5> substituted on input line 23.
+(Font)              size <5> substituted on input line 109.
 
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.75005pt on input line 23.
+(Font)              scaled to size 5.75005pt on input line 109.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 4.37pt on input line 23.
+(Font)              scaled to size 4.37pt on input line 109.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 3.45006pt on input line 23.
+(Font)              scaled to size 3.45006pt on input line 109.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6.25008> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 109.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <4.75002> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 109.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <3.75008> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
-LaTeX Font Info:    Calculating math sizes for size <3.75> on input line 23.
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 109.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 109.
+[26
 
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <2.25002> not available
-(Font)              size <3> substituted on input line 23.
-
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 3.44998pt on input line 23.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 2.62196pt on input line 23.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 2.07pt on input line 23.
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 23.
-
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <2.84998> not available
-(Font)              size <5> substituted on input line 23.
-
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <2.25002> not available
-(Font)              size <5> substituted on input line 23.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <3.75> not available
-(Font)              size <5> substituted on input line 23.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <2.84998> not available
-(Font)              size <5> substituted on input line 23.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <2.25002> not available
-(Font)              size <5> substituted on input line 23.
-
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 3.44998pt on input line 23.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 2.62196pt on input line 23.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 2.07pt on input line 23.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <3.75> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <2.84998> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <2.25002> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 23.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 23.
-[22
-
-]) (./02-Survey/16_discussion.tex) (./03-ICSNC-2019/authors.tex
-
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 6.
-
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [23
-
-])
-(./03-ICSNC-2019/11_introduction.tex) (./03-ICSNC-2019/13_background.tex
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [24
-
-] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [25
-
-] [26
-
-] (./.bin/slide.toc)
-(./.bin/slide.toc) (./.bin/slide.toc) [27
+] [27
 
 ] [28
 
-] (./.bin/slide.toc)
-(./.bin/slide.toc) (./.bin/slide.toc) [29
+] [29
 
-]
-LaTeX Font Info:    Try loading font information for TS1+phv on input line 143.
+]) (./05-isncc/11_introduction.tex (./.bin/slide.toc)
+(./.bin/slide.toc) (./.bin/slide.toc) [30
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1phv.fd
-File: ts1phv.fd 2001/06/04 scalable font definitions for TS1/phv.
-)
-</home/aghiles/Aghiles/job/txt/Resources/img/Model//fuzzy-temperature.jpg, id=90
-0, 215.1293pt x 80.0012pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/Model//fuzzy-temperature.jpg G
-raphic file (type jpg)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/Model//fuzzy-temperature.jpg>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/Model//fuzz
-y-temperature.jpg  used on input line 143.
-(luatex.def)             Requested size: 180.09767pt x 66.9747pt.
- [30
+] [31
 
-</home/aghiles/Aghiles/job/txt/Resources/img/Model//fuzzy-temperature.jpg>])
-(./03-ICSNC-2019/14_method.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [31
+]) (./05-isncc/12_related.tex
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [32
 
-]
-</home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf, id=930, 1026.1025pt x
- 457.04752pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf Graphic file (typ
-e pdf)
-<use /home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pd
-f  used on input line 46.
-(luatex.def)             Requested size: 360.19536pt x 160.43628pt.
- [32
-
-</home/aghiles/Aghiles/job/txt/Resources/plot/genetic.pdf>]) (./03-ICSNC-2019/1
-5_experimentation.tex (./.bin/slide.toc)
-(./.bin/slide.toc) (./.bin/slide.toc) [33
+] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [33
 
 ] [34
 
-])
-(./03-ICSNC-2019/16_results.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [35
+] [35
 
 ]
-</home/aghiles/Aghiles/job/txt/Resources/img/toa-sf.png, id=1017, 483.8075pt x 2
-60.975pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/toa-sf.png Graphic file (type 
-png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/toa-sf.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/toa-sf.png 
- used on input line 12.
-(luatex.def)             Requested size: 153.0841pt x 82.5779pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/toa-bw.png, id=1018, 476.78125pt x 
-257.96375pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/toa-bw.png Graphic file (type 
-png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/toa-bw.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/toa-bw.png 
- used on input line 12.
-(luatex.def)             Requested size: 153.0841pt x 82.8256pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/toa-cr.png, id=1019, 480.79625pt x 
-260.975pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/toa-cr.png Graphic file (type 
-png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/toa-cr.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/toa-cr.png 
- used on input line 12.
-(luatex.def)             Requested size: 153.0841pt x 83.09558pt.
-</home/aghiles/Aghiles/job/txt/Resources/img/toa-toa.png, id=1020, 482.80376pt x
- 259.97125pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/toa-toa.png Graphic file (type
- png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/toa-toa.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/toa-toa.png
-  used on input line 12.
-(luatex.def)             Requested size: 153.0841pt x 82.43086pt.
+LaTeX Font Info:    Try loading font information for T1+ppl on input line 120.
 
-Overfull \vbox (5.26244pt too high) detected at line 12
- []
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
+File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
+)
+LaTeX Font Info:    Font shape `T1/phv/bx/it' in size <7.5> not available
+(Font)              Font shape `T1/phv/b/it' tried instead on input line 120.
+LaTeX Font Info:    Font shape `T1/phv/b/it' in size <7.5> not available
+(Font)              Font shape `T1/phv/b/sl' tried instead on input line 120.
+ [36
 
-[36
+] [37
 
-</home/aghiles/Aghiles/job/txt/Resources/img/toa-sf.png></home/aghiles/Aghiles/j
-ob/txt/Resources/img/toa-bw.png></home/aghiles/Aghiles/job/txt/Resources/img/toa
--cr.png></home/aghiles/Aghiles/job/txt/Resources/img/toa-toa.png>])
-(./03-ICSNC-2019/17_discussion.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [37
+] [38
 
 ]
-warning  (pdf backend): ignoring duplicate destination with the name 'tab:schedu
-ling'
-[38
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [39
 
-] [39
+] [40
 
 ]
-Overfull \vbox (170.10977pt too high) detected at line 105
- []
-
-[40
-
-]) (./04-ICT-DM/authors.tex
-
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 6.
-
 (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [41
 
-])
-(./04-ICT-DM/11_introduction.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [42
+] [42
+
+] [43
 
 ]
-</home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png, id=1191, 845.0772pt 
-x 597.9138pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
- [43
+[44
 
-</home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>]) (./04-ICT-DM/13_m
-ethod.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [44
-
-] [45
+] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [45
 
 ] [46
 
-] [47
+]
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [47
 
 ] [48
 
-]
-
-Package tabulary Warning: No suitable columns! on input line 83.
-
-
-warning  (pdf backend): ignoring duplicate destination with the name 'tab:'
-[49
-
-]) (./04-ICT-DM/14_experimentation.tex (./.bin/slide.toc) (./.bin/slide.toc) (.
-/.bin/slide.toc) [50
+] [49
 
 ]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [50
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[51
+] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [51
 
-]) (./04-ICT-DM/15_results.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [52
+] (./.bin/slide.toc)
+(./.bin/slide.toc) (./.bin/slide.toc) [52
 
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
+] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [53
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[53
-
-]) (./04-ICT-DM/16_discussion.tex (./.bin/slide.toc) (./.bin/slide.toc)
+] (./.bin/slide.toc) (./.bin/slide.toc)
 (./.bin/slide.toc) [54
 
+] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [55
+
+] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [56
+
+])
+(./05-isncc/13_method.tex (./.bin/slide.toc) (./.bin/slide.toc)
+(./.bin/slide.toc) [57
+
 ]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
+</home/aghiles/Aghiles/job/txt/resources/plt/genetic.pdf, id=1278, 1026.1025pt x
+ 457.04752pt>
+File: /home/aghiles/Aghiles/job/txt/resources/plt/genetic.pdf Graphic file (type
+ pdf)
+<use /home/aghiles/Aghiles/job/txt/resources/plt/genetic.pdf>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/plt/genetic.pdf
+  used on input line 4.
+(luatex.def)             Requested size: 360.19536pt x 160.43628pt.
+LaTeX Font Info:    Calculating math sizes for size <6.8438> on input line 4.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.29626pt on input line 4.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 4.78511pt on input line 4.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 3.77779pt on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <5.20123> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <4.10631> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 4.
+
+
+LaTeX Font Warning: Font shape `U/stmry/m/n' in size <4.10631> not available
+(Font)              size <5> substituted on input line 4.
+
+
+LaTeX Font Warning: Font shape `U/wasy/m/n' in size <4.10631> not available
+(Font)              size <5> substituted on input line 4.
+
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.29626pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 4.78511pt on input line 4.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 3.77779pt on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <6.8438> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <5.20123> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <4.10631> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 4.
+[58
+
+</home/aghiles/Aghiles/job/txt/resources/plt/genetic.pdf>] [59
+
+] [60
+
+]
+[61
+
+]
+
+Package tabulary Warning: No suitable columns! on input line 80.
+
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <3.79999> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 80.
+LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <3.00005> not available
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 80.
+
+warning  (pdf backend): ignoring duplicate destination with the name 'tab:'
+[62
+
+]) (./05-isncc/14_experimentation.tex (./.bin/slide.toc) (./.bin/slide.toc)
+(./.bin/slide.toc) [63
+
+]
+</home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png, id=1371, 845.0772pt 
+x 597.9138pt>
+File: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png Graphic file (ty
 pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
+<use /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.p
+ng  used on input line 12.
+(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
+ [64
+
+</home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png>] [65
+
+]) (./05-isncc/15_results.tex (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/sli
+de.toc) [66
+
+]
+</home/aghiles/Aghiles/job/txt/resources/img/toa-sf.png, id=1410, 483.8075pt x 2
+60.975pt>
+File: /home/aghiles/Aghiles/job/txt/resources/img/toa-sf.png Graphic file (type 
+png)
+<use /home/aghiles/Aghiles/job/txt/resources/img/toa-sf.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/toa-sf.png 
+ used on input line 12.
+(luatex.def)             Requested size: 153.0841pt x 82.5779pt.
+</home/aghiles/Aghiles/job/txt/resources/img/toa-bw.png, id=1411, 476.78125pt x 
+257.96375pt>
+File: /home/aghiles/Aghiles/job/txt/resources/img/toa-bw.png Graphic file (type 
+png)
+<use /home/aghiles/Aghiles/job/txt/resources/img/toa-bw.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/toa-bw.png 
+ used on input line 12.
+(luatex.def)             Requested size: 153.0841pt x 82.8256pt.
+</home/aghiles/Aghiles/job/txt/resources/img/toa-cr.png, id=1412, 480.79625pt x 
+260.975pt>
+File: /home/aghiles/Aghiles/job/txt/resources/img/toa-cr.png Graphic file (type 
+png)
+<use /home/aghiles/Aghiles/job/txt/resources/img/toa-cr.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/toa-cr.png 
+ used on input line 12.
+(luatex.def)             Requested size: 153.0841pt x 83.09558pt.
+</home/aghiles/Aghiles/job/txt/resources/img/toa-toa.png, id=1413, 482.80376pt x
+ 259.97125pt>
+File: /home/aghiles/Aghiles/job/txt/resources/img/toa-toa.png Graphic file (type
+ png)
+<use /home/aghiles/Aghiles/job/txt/resources/img/toa-toa.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/toa-toa.png
+  used on input line 12.
+(luatex.def)             Requested size: 153.0841pt x 82.43086pt.
+ [67
+
+</home/aghiles/Aghiles/job/txt/resources/img/toa-sf.png></home/aghiles/Aghiles/j
+ob/txt/resources/img/toa-bw.png></home/aghiles/Aghiles/job/txt/resources/img/toa
+-cr.png></home/aghiles/Aghiles/job/txt/resources/img/toa-toa.png>]) (./05-isncc
+/16_discussion.tex (./.bin/slide.toc)
+(./.bin/slide.toc) (./.bin/slide.toc) [68
+
+]
+File: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png Graphic file (ty
+pe png)
+<use /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.p
 ng  used on input line 13.
 (luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
 ng'
-[55
+[69
 
-]) (./05-ICC/authors.tex
+]) (./08-testbed/authors.tex
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 6.
 
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [56
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [70
 
 ])
-(./05-ICC/11_introduction.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [57
+(./08-testbed/11_introduction.tex (./.bin/slide.toc) (./.bin/slide.toc)
+(./.bin/slide.toc) [71
 
 ]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
+File: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png Graphic file (ty
 pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
+<use /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.p
+ng  used on input line 13.
 (luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
 ng'
-[58
+[72
 
-]) (./05-ICC/12_related.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [59
+]) (./08-testbed/13_method.tex (./.bin/slide.toc) (./.bin/slide.toc)
+(./.bin/slide.toc) [73
 
-] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [60
-
-] [61
-
-] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [62
-
-]
-[63
-
-] [64
-
-] [65
-
-] (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc)
-[66
-
-]
-</home/aghiles/Aghiles/job/txt/Resources/plot/pdf/qlearning.pdf, id=1527, 286.33
-072pt x 144.06725pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/qlearning.pdf Graphic fil
-e (type pdf)
-<use /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/qlearning.pdf>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/qlearn
-ing.pdf  used on input line 170.
-(luatex.def)             Requested size: 180.09767pt x 90.61554pt.
- [67
-
-</home/aghiles/Aghiles/job/txt/Resources/plot/pdf/qlearning.pdf>]
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [68
-
-]
-LaTeX Font Info:    Try loading font information for T1+ppl on input line 205.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ppl.fd
-File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
-) [69
-
-]
-</home/aghiles/Aghiles/job/txt/Resources/plot/pdf/marcov.pdf, id=1582, 118.94739
-pt x 60.34846pt>
-File: /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/marcov.pdf Graphic file (
-type pdf)
-<use /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/marcov.pdf>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/plot/pdf/marcov
-.pdf  used on input line 237.
-(luatex.def)             Requested size: 144.07594pt x 73.10287pt.
- [70
-
-</home/aghiles/Aghiles/job/txt/Resources/plot/pdf/marcov.pdf>]) (./05-ICC/13_me
-thod.tex
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [71
-
-] [72
-
-] [73
-
-]
-[74
+] [74
 
 ] [75
+
+] [76
+
+] [77
 
 ]
 
@@ -3529,31 +3492,15 @@ Package tabulary Warning: No suitable columns! on input line 83.
 
 
 warning  (pdf backend): ignoring duplicate destination with the name 'tab:'
-[76
-
-]) (./05-ICC/14_experimentation.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [77
-
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
 [78
 
-]) (./05-ICC/15_results.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [79
+]) (./08-testbed/14_experimentation.tex (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [79
 
 ]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
+File: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png Graphic file (ty
 pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
+<use /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.p
 ng  used on input line 12.
 (luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
@@ -3561,370 +3508,130 @@ warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
 ng'
 [80
 
-]) (./05-ICC/16_discussion.tex (./.bin/slide.toc) (./.bin/slide.toc)
+]) (./08-testbed/15_results.tex (./.bin/slide.toc) (./.bin/slide.toc)
 (./.bin/slide.toc) [81
 
 ]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
+File: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png Graphic file (ty
 pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 13.
+<use /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.p
+ng  used on input line 12.
 (luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
 ng'
 [82
 
-]) (./06-InfoCom/authors.tex
-
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 6.
-
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [83
-
-])
-(./06-InfoCom/11_introduction.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [84
+]) (./08-testbed/16_discussion.tex (./.bin/slide.toc) (./.bin/slide.toc)
+(./.bin/slide.toc) [83
 
 ]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
+File: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png Graphic file (ty
 pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
+<use /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png>
+Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/mail.p
+ng  used on input line 13.
 (luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
 warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
 ng'
-[85
+[84
 
-]) (./06-InfoCom/13_method.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [86
+]) (./09-conclusion/authors.tex
 
-] [87
+Package hyperref Warning: Option `pdfauthor' has already been used,
+(hyperref)                setting the option has no effect on input line 6.
 
-] [88
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [85
 
-] [89
-
-] [90
-
-]
-
-Package tabulary Warning: No suitable columns! on input line 83.
-
-
+])
+(./09-conclusion/10_conclusion.tex
 warning  (pdf backend): ignoring duplicate destination with the name 'tab:'
-[91
+[86
 
-]) (./06-InfoCom/14_experimentation.tex (./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [92
-
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[93
-
-]) (./06-InfoCom/15_results.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [94
-
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[95
-
-]) (./06-InfoCom/16_discussion.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [96
-
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 13.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[97
-
-]) (./07-/authors.tex
+]) (./a-appendix/authors.tex
 
 Package hyperref Warning: Option `pdfauthor' has already been used,
 (hyperref)                setting the option has no effect on input line 6.
 
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [98
+(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [87
 
 ])
-(./07-/11_introduction.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [99
+\c@framenumberappendix=\count562
 
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
+(/home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[100
+Package biblatex Warning: Keyword '5g' not found on input line 1.
 
-]) (./07-/13_method.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [101
 
-] [102
+LaTeX Warning: Empty bibliography on input line 1.
 
-] [103
 
-] [104
+Package biblatex Warning: Keyword '5g-slice' not found on input line 2.
 
-] [105
 
-]
+LaTeX Warning: Empty bibliography on input line 2.
 
-Package tabulary Warning: No suitable columns! on input line 83.
 
+Package biblatex Warning: Keyword 'divers-new' not found on input line 3.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'tab:'
-[106
 
-]) (./07-/14_experimentation.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [107
+LaTeX Warning: Empty bibliography on input line 3.
 
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[108
+Package biblatex Warning: Keyword 'lora-adr' not found on input line 4.
 
-]) (./07-/15_results.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [109
 
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
+LaTeX Warning: Empty bibliography on input line 4.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[110
 
-]) (./07-/16_discussion.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [111
+Package biblatex Warning: Keyword 'lora-adr-LoRaWAN' not found on input line 5.
 
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 13.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[112
+LaTeX Warning: Empty bibliography on input line 5.
 
-]) (./08-Testbed/authors.tex
 
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 6.
+Package biblatex Warning: Keyword 'lora-adr-new' not found on input line 6.
 
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [113
 
-])
-(./08-Testbed/11_introduction.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [114
+LaTeX Warning: Empty bibliography on input line 6.
 
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 13.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[115
+Package biblatex Warning: Keyword 'lora-channel' not found on input line 7.
 
-]) (./08-Testbed/13_method.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [116
 
-] [117
+LaTeX Warning: Empty bibliography on input line 7.
 
-] [118
 
-] [119
+Package biblatex Warning: Keyword 'lora-new' not found on input line 8.
 
-] [120
 
-]
+LaTeX Warning: Empty bibliography on input line 8.
 
-Package tabulary Warning: No suitable columns! on input line 83.
 
+Package biblatex Warning: Keyword 'lora-power' not found on input line 9.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'tab:'
-[121
 
-]) (./08-Testbed/14_experimentation.tex (./.bin/slide.toc)
-(./.bin/slide.toc) (./.bin/slide.toc) [122
+LaTeX Warning: Empty bibliography on input line 9.
 
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[123
+Package biblatex Warning: Keyword 'lora-z' not found on input line 10.
 
-]) (./08-Testbed/15_results.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [124
 
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 12.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
+LaTeX Warning: Empty bibliography on input line 10.
 
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[125
-
-]) (./08-Testbed/16_discussion.tex (./.bin/slide.toc) (./.bin/slide.toc)
-(./.bin/slide.toc) [126
-
-]
-File: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png Graphic file (ty
-pe png)
-<use /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.png>
-Package luatex.def Info: /home/aghiles/Aghiles/job/txt/Resources/img/icon/mail.p
-ng  used on input line 13.
-(luatex.def)             Requested size: 126.07057pt x 89.19054pt.
-
-warning  (pdf backend): ignoring duplicate destination with the name 'fig:mail.p
-ng'
-[127
-
-]) (./09-Conclusion/authors.tex
-
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 6.
-
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [128
-
-])
-(./09-Conclusion/10_conclusion.tex [129
-
-] [130
-
-]) (./A-Protocols/authors.tex
-
-Package hyperref Warning: Option `pdfauthor' has already been used,
-(hyperref)                setting the option has no effect on input line 6.
-
-(./.bin/slide.toc) (./.bin/slide.toc) (./.bin/slide.toc) [131
-
-])
-\c@framenumberappendix=\count573
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 27.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-)
-LaTeX Font Info:    Calculating math sizes for size <3.65002> on input line 27.
-
-
-LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <2.19003> not available
-(Font)              size <3> substituted on input line 27.
-
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 3.358pt on input line 27.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 2.55205pt on input line 27.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 2.01482pt on input line 27.
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <3.65002> not available
-(Font)              size <5> substituted on input line 27.
-
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <2.77399> not available
-(Font)              size <5> substituted on input line 27.
-
-
-LaTeX Font Warning: Font shape `U/stmry/m/n' in size <2.19003> not available
-(Font)              size <5> substituted on input line 27.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <3.65002> not available
-(Font)              size <5> substituted on input line 27.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <2.77399> not available
-(Font)              size <5> substituted on input line 27.
-
-
-LaTeX Font Warning: Font shape `U/wasy/m/n' in size <2.19003> not available
-(Font)              size <5> substituted on input line 27.
-
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 3.358pt on input line 27.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 2.55205pt on input line 27.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 2.01482pt on input line 27.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <3.65002> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <2.77399> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <2.19003> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
-[132
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+) [88
 
 ]
-Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference section=0 on input line 21.
 \tf@nav=\write9
 
 \openout9 = slide.nav
@@ -3934,17 +3641,323 @@ Package biblatex Info: Reference section=0 on input line 28.
 \tf@snm=\write11
 
 \openout11 = slide.snm
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 29.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 29.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
  (./.bin/slide.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 29.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 29.
-Package rerunfilecheck Info: File `slide.out' has not changed.
-(rerunfilecheck)             Checksum: 75EBAB29DD08371F8CCFE436AE7B975E;3373.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
 
+
+ *File List*
+   slide.tex
+  beamer.cls    2018/12/02 v3.55 A class for typesetting presentations
+beamerbasemodes.sty    
+etoolbox.sty    2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+beamerbasedecode.sty    
+   ifpdf.sty    2018/09/07 v3.3 Provides the ifpdf switch
+beamerbaseoptions.sty    
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+geometry.sty    2018/04/16 v5.8 Page Geometry
+  ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+   size8.clo    1999/11/11 v1.4a NON-Standard LaTeX file (size option)
+ pgfcore.sty    2019/02/02 v3.1.1 (3.1.1)
+graphicx.sty    2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  luatex.def    2018/01/08 v1.0l Graphics/color driver for luatex
+  pgfsys.sty    2019/02/02 v3.1.1 (3.1.1)
+  pgfrcs.sty    2019/02/02 v3.1.1 (3.1.1)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2019/02/02 v3.1.1 (3.1.1)
+pgfsysprotocol.code.tex    2019/02/02 v3.1.1 (3.1.1)
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+ pgfcore.code.tex
+ xxcolor.sty    2003/10/24 ver 0.1
+atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+hyperref.sty    2018/11/30 v6.88e Hypertext links for LaTeX
+hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
+ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
+ intcalc.sty    2016/05/16 v1.2 Expandable calculations with integers (HO)
+etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
+kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
+luatex-loader.sty    2016/05/16 v0.6 Lua module loader (HO)
+pdftexcmds.sty    2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
+  bitset.sty    2016/05/16 v1.2 Handle bit-vector datatype (HO)
+uniquecounter.sty    2016/05/16 v1.3 Provide unlimited unique counter (HO)
+letltxmacro.sty    2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2016/05/16 v1.3 Wrapper for package hooks (HO)
+xcolor-patch.sty    2016/05/16 xcolor patch
+atveryend.sty    2016/05/16 v1.9 Hooks at the very end of document (HO)
+refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
+ hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+ auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
+kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
+  pd1enc.def    2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+ hluatex.def    2018/11/30 v6.88e Hyperref driver for luaTeX
+rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+beamerbaserequires.sty    
+beamerbasecompatibility.sty    
+beamerbasefont.sty    
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+sansmathaccent.sty    2013/03/28
+filehook.sty    2011/10/12 v0.5d Hooks for input files
+beamerbasetranslator.sty    
+translator.sty    2018/01/04 v1.12 Easy translation of strings in LaTeX
+beamerbasemisc.sty    
+beamerbasetwoscreens.sty    
+beamerbaseoverlay.sty    
+beamerbasetitle.sty    
+beamerbasesection.sty    
+beamerbaseframe.sty    
+beamerbaseverbatim.sty    
+beamerbaseframesize.sty    
+beamerbaseframecomponents.sty    
+beamerbasecolor.sty    
+beamerbasenotes.sty    
+beamerbasetoc.sty    
+beamerbasetemplates.sty    
+beamerbaseauxtemplates.sty    
+beamerbaseboxes.sty    
+beamerbaselocalstructure.sty    
+enumerate.sty    2015/07/23 v3.00 enumerate extensions (DPC)
+beamerbasenavigation.sty    
+beamerbasetheorems.sty    
+ amsmath.sty    2018/12/01 v2.17b AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+  amsthm.sty    2017/10/31 v2.20.4
+beamerbasethemes.sty    
+beamerthemedefault.sty    
+beamerfontthemedefault.sty    
+beamercolorthemedefault.sty    
+beamerinnerthemedefault.sty    
+beamerouterthemedefault.sty    
+   setup.tex
+inputenc.sty    2018/08/11 v1.3c Input encoding file
+ fontenc.sty
+   t1enc.def    2018/08/11 v2.0j Standard LaTeX file
+  t1lmss.fd    2009/10/30 v1.6 Font defs for Latin Modern
+   babel.sty    2018/11/13 3.27 The Babel package
+ english.ldf    2017/06/06 v3.3r English support from the babel system
+ xstring.sty    2019/02/06 v1.83 String manipulations (CT)
+mathtools.sty    2018/01/08 v1.21 mathematical typesetting tools
+    calc.sty    2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+ mhsetup.sty    2017/03/31 v1.3 programming setup (MH)
+  pifont.sty    2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+    upzd.fd    2001/06/04 font definitions for U/pzd.
+    upsy.fd    2001/06/04 font definitions for U/psy.
+multicol.sty    2018/12/27 v1.8v multicolumn formatting (FMi)
+blkarray.sty    2015/02/27 v0.07 Block array (dpc)
+subfiles.sty    2018/07/31 Federico Garcia, Gernot Salzer
+verbatim.sty    2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+  xparse.sty    2018-10-17 L3 Experimental document command parser
+   expl3.sty    2019-02-15 L3 programming layer (loader) 
+expl3-code.tex    2019-02-15 L3 programming layer 
+l3pdfmode.def    2019-02-15 v L3 Experimental driver: PDF mode
+/home/aghiles/.config/latex/rgb.tex
+colortbl.sty    2018/12/12 v1.0d Color table columns (DPC)
+   array.sty    2018/12/30 v2.4k Tabular extension package (FMi)
+tcolorbox.sty    2018/12/07 version 4.15 text color boxes
+     pgf.sty    2019/02/02 v3.1.1 (3.1.1)
+pgfcomp-version-0-65.sty    2019/02/02 v3.1.1 (3.1.1)
+pgfcomp-version-1-18.sty    2019/02/02 v3.1.1 (3.1.1)
+ environ.sty    2014/05/04 v0.3 A new way to define environments
+trimspaces.sty    2009/09/17 v1.1 Trim spaces around a token list
+/home/aghiles/.config/latex/plot.tex
+    tikz.sty    2019/02/02 v3.1.1 (3.1.1)
+  pgffor.sty    2019/02/02 v3.1.1 (3.1.1)
+ pgfkeys.sty    
+ pgfkeys.code.tex
+ pgfmath.sty    
+ pgfmath.code.tex
+  pgffor.code.tex
+    tikz.code.tex
+pgfplots.sty    2018/03/28 v1.16 Data Visualization (1.16)
+    etex.sty    2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+bigstrut.sty    2019/01/01 v2.4 Provide larger struts in tabulars
+ eso-pic.sty    2018/04/12 v2.0h eso-pic (RN)
+stmaryrd.sty    1994/03/03 St Mary's Road symbol package
+/home/aghiles/.config/latex/styles/gantt.sty
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+  ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+ forloop.sty    2006/09/18 v3.0 For Loops for LaTeX
+  lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
+textcomp.sty    2018/08/11 v2.0j Standard LaTeX package
+  ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+  bbding.sty    1999/04/15 v1.01 Dingbats symbols
+  cancel.sty    2013/04/12 v2.2 Cancel math terms
+makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+nicefrac.sty    1998/08/04 v0.9b Nice fractions
+pgfplotstable.sty    2018/03/28 v1.16 Table typesetting and Pretty-printing (1.1
+6)
+ wasysym.sty    2003/10/30 v2.0 Wasy-2 symbol support package
+filecontents.sty    2018/05/30 v1.4 Create an external file from within a LaTeX 
+document
+pdfpages.sty    2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+ppluatex.def    2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
+rotating.sty    2016/08/11 v2.16d rotated objects in LaTeX
+tkz-graph.sty    2018/09/19 ctan v 1.00 d base for graphs
+   hobby.code.tex
+pml3array.sty    
+/home/aghiles/.config/latex/tikzset.tex
+algorithm2e.sty    2017/07/18 v5.2 algorithms environments
+ifoddpage.sty    2016/04/23 v1.1 Conditionals for odd/even page detection
+  xspace.sty    2014/10/28 v1.13 Space after command names (DPC,MH)
+ relsize.sty    2013/03/29 ver 4.1
+multirow.sty    2019/01/01 v2.4 Span multiple rows of a table
+booktabs.sty    2016/04/27 v1.618033 publication quality tables
+longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+threeparttable.sty    2003/06/13  v 3.0
+tabulary.sty    2014/06/11 v0.10 tabulary package (DPC)
+tabularx.sty    2016/02/03 v2.11b `tabularx' package (DPC)
+ragged2e.sty    2009/05/21 v2.1 ragged2e Package (MS)
+everysel.sty    2011/10/28 v1.2 EverySelectfont Package (MS)
+subcaption.sty    2018/05/01 v1.1-162 Sub-captions (AR)
+ caption.sty    2018/10/06 v3.3-154 Customizing captions (AR)
+caption3.sty    2018/09/12 v1.8c caption3 kernel (AR)
+ltcaption.sty    2018/08/26 v1.4-95 longtable captions (AR)
+enumitem.sty    2019/02/04 v3.8 Customized lists
+biblatex.sty    2018/11/02 v3.12 programmable bibliographies (PK/MW)
+  logreq.sty    2010/08/04 v1.0 xml request logger
+  logreq.def    2010/08/04 v1.0 logreq spec v1.0
+  blx-dm.def    2018/11/02 v3.12 biblatex localization (PK/MW)
+blx-unicode.def
+blx-compat.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+biblatex.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+blx-natbib.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+standard.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+ numeric.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+numeric-comp.cbx    2018/11/02 v3.12 biblatex citation style (PK/MW)
+biblatex.cfg    
+/home/aghiles/.config/latex/commands.tex
+bytefield.sty    2017/09/15 v2.4 Network protocol diagrams
+    acro.sty    2019/02/17 v2.9 Typeset Acronyms
+l3keys2e.sty    2018-10-17 LaTeX2e option processing using LaTeX3 keys
+xtemplate.sty    2018-10-17 L3 Experimental prototype document functions
+zref-abspage.sty    2018/11/21 v2.27 Module abspage for zref (HO)
+zref-base.sty    2018/11/21 v2.27 Module base for zref (HO)
+translations.sty    2017/08/31 v1.7a internationalization of LaTeX2e packages (C
+N)
+scrlfile.sty    2019/02/01 v3.26b KOMA-Script package (loading files)
+filehook-scrlfile.sty    2011/01/03 v0.1 filehook patch for scrlfile package
+/home/aghiles/.config/latex/nomenclature.tex
+ fourier.sty    2005/01/01 1.4 fourier-GUTenberg package
+ fontenc.sty
+   t1enc.def    2018/08/11 v2.0j Standard LaTeX file
+fourier-orns.sty    2004/01/30 1.1 fourier-ornaments package
+multimedia.sty    2012/05/02 ver 0.02
+luatex85.sty    2016/06/15 v1.4 pdftex aliases for luatex
+scrextend.sty    2019/02/01 v3.26b KOMA-Script package (extend other classes wit
+h features of KOMA-Script classes)
+scrkbase.sty    2019/02/01 v3.26b KOMA-Script package (KOMA-Script-dependent bas
+ics and keyval usage)
+ scrbase.sty    2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent b
+asics and keyval usage)
+pgfpages.sty    2011/01/05 ver 0.02
+palatino.sty    2005/04/12 PSNFSS-v9.2a (SPQR) 
+00-abstract/10-firstpage.tex
+bibliography.tex
+ english.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
+  ts1cmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
+ fmlfutm.fd    2004/10/30 Fontinst v1.926 font definitions for FML/futm.
+ fmsfutm.fd    2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
+ fmxfutm.fd    futm-extension
+   t1phv.fd    2001/06/04 scalable font definitions for T1/phv.
+supp-pdf.mkii
+epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
+  grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ nameref.sty    2016/05/21 v2.44 Cross-referencing by name of section
+gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
+   slide.out
+   slide.out
+translator-basic-dictionary-English.dict    
+translator-bibliography-dictionary-English.dict    
+translator-environment-dictionary-English.dict    
+translator-months-dictionary-English.dict    
+translator-numbers-dictionary-English.dict    
+translator-theorem-dictionary-English.dict    
+pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+   slide.bbl
+translations-basic-dictionary-english.trsl    (english translation file `transla
+tions-basic-dictionary')
+/home/aghiles/Aghiles/job/txt/resources/img/icon/wsn-IoT.png
+01-introduction/authors.tex
+fmlfutmi.fd    2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+  Ustmry.fd
+   uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
+01-introduction/10_introduction.tex
+/home/aghiles/Aghiles/job/txt/resources/img/devices1.png
+/home/aghiles/Aghiles/job/txt/resources/img/devices.png
+/home/aghiles/Aghiles/job/txt/resources/img/application.png
+/home/aghiles/Aghiles/job/txt/resources/img/context.png
+/home/aghiles/Aghiles/job/txt/resources/img/iotChallenges.png
+/home/aghiles/Aghiles/job/txt/resources/img/C-RAN/new-LPWAN.png
+/home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png
+/home/aghiles/Aghiles/job/txt/resources/img/loraframe1.png
+/home/aghiles/Aghiles/job/txt/resources/img/loraframe2.png
+02-literature-survey/authors.tex
+03-technical-survey/authors.tex
+05-isncc/authors.tex
+05-isncc/10_lora-slice.tex
+/home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf
+/home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf
+/home/aghiles/Aghiles/job/txt/resources/plt/slice.pdf
+05-isncc/11_introduction.tex
+05-isncc/12_related.tex
+   t1ppl.fd    2001/06/04 font definitions for T1/ppl.
+05-isncc/13_method.tex
+/home/aghiles/Aghiles/job/txt/resources/plt/genetic.pdf
+05-isncc/14_experimentation.tex
+/home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png
+05-isncc/15_results.tex
+/home/aghiles/Aghiles/job/txt/resources/img/toa-sf.png
+/home/aghiles/Aghiles/job/txt/resources/img/toa-bw.png
+/home/aghiles/Aghiles/job/txt/resources/img/toa-cr.png
+/home/aghiles/Aghiles/job/txt/resources/img/toa-toa.png
+05-isncc/16_discussion.tex
+/home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png
+08-testbed/authors.tex
+08-testbed/11_introduction.tex
+/home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png
+08-testbed/13_method.tex
+08-testbed/14_experimentation.tex
+/home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png
+08-testbed/15_results.tex
+/home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png
+08-testbed/16_discussion.tex
+/home/aghiles/Aghiles/job/txt/resources/img/icon/mail.png
+09-conclusion/authors.tex
+09-conclusion/10_conclusion.tex
+a-appendix/authors.tex
+/home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
+Package rerunfilecheck Info: File `slide.out' has not changed.
+(rerunfilecheck)             Checksum: 1A75B1F929931E038A28E85CE0906B6F;2477.
 
 LaTeX Font Warning: Size substitutions with differences
-(Font)              up to 2.80997pt have occurred.
+(Font)              up to 2.74998pt have occurred.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -3955,18 +3968,18 @@ Package logreq Info: Writing requests to 'slide.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 79410 strings out of 494383
- 125007,2848258 words of node,token memory allocated
- 27837 words of node memory still in use:
-   58 hlist, 9 vlist, 6 rule, 200 disc, 13 local_par, 2 math, 567 glue, 214 kern
-, 135 penalty, 2196 glyph, 625 attribute, 116 glue_spec, 625 attribute_list, 8 w
-rite, 12 pdf_start_link, 12 pdf_end_link, 12 pdf_dest, 12 pdf_action, 152 pdf_co
-lorstack nodes
-   avail lists: 1:25,2:1056,3:740,4:623,5:707,6:241,7:8019,8:650,9:1598,10:36,11
-:257,12:2
- 76912 multiletter control sequences out of 65536+600000
- 342 fonts using 27115935 bytes
- 90i,15n,142p,1675b,3808s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 76095 strings out of 494383
+ 125007,2373549 words of node,token memory allocated
+ 14890 words of node memory still in use:
+   36 hlist, 9 vlist, 8 rule, 111 disc, 7 local_par, 259 glue, 162 kern, 60 pena
+lty, 1099 glyph, 385 attribute, 114 glue_spec, 385 attribute_list, 11 write, 5 p
+df_start_link, 5 pdf_end_link, 7 pdf_dest, 5 pdf_action, 78 pdf_colorstack nodes
+
+   avail lists: 1:25,2:1538,3:821,4:778,5:757,6:234,7:9420,8:665,9:1007,10:35,11
+:346,12:1
+ 75101 multiletter control sequences out of 65536+600000
+ 373 fonts using 29632999 bytes
+ 91i,17n,142p,1675b,3375s stack positions out of 5000i,500n,10000p,200000b,100000s
 
 warning  (pdf backend): unreferenced destination with name 'MCDM'
 
@@ -3974,23 +3987,7 @@ warning  (pdf backend): unreferenced destination with name 'FL'
 
 warning  (pdf backend): unreferenced destination with name 'GA'
 
-warning  (pdf backend): unreferenced destination with name 'PRR'
-
-warning  (pdf backend): unreferenced destination with name 'NDCG'
-
-warning  (pdf backend): unreferenced destination with name 'ROC'
-
-warning  (pdf backend): unreferenced destination with name 'FPR'
-
-warning  (pdf backend): unreferenced destination with name 'TPR'
-
-warning  (pdf backend): unreferenced destination with name 'MAE'
-
-warning  (pdf backend): unreferenced destination with name 'RMSE'
-
-warning  (pdf backend): unreferenced destination with name 'MSE'
-
-warning  (pdf backend): unreferenced destination with name 'SIR'
+warning  (pdf backend): unreferenced destination with name 'Sen'
 
 warning  (pdf backend): unreferenced destination with name 'PL'
 
@@ -3998,11 +3995,9 @@ warning  (pdf backend): unreferenced destination with name 'SINR'
 
 warning  (pdf backend): unreferenced destination with name 'ToA'
 
-warning  (pdf backend): unreferenced destination with name 'RSSI'
-
 warning  (pdf backend): unreferenced destination with name 'DC'
 
-warning  (pdf backend): unreferenced destination with name 'Sen'
+warning  (pdf backend): unreferenced destination with name 'SIR'
 
 warning  (pdf backend): unreferenced destination with name 'CCI'
 
@@ -4030,7 +4025,7 @@ warning  (pdf backend): unreferenced destination with name 'Jit'
 
 warning  (pdf backend): unreferenced destination with name 'SC'
 
-warning  (pdf backend): unreferenced destination with name 'S_{rx}'
+warning  (pdf backend): unreferenced destination with name 'RSSI'
 
 warning  (pdf backend): unreferenced destination with name 'AT'
 
@@ -4038,15 +4033,15 @@ warning  (pdf backend): unreferenced destination with name 'DR'
 
 warning  (pdf backend): unreferenced destination with name 'SNR'
 
+warning  (pdf backend): unreferenced destination with name 'PS'
+
 warning  (pdf backend): unreferenced destination with name 'P^{tx}'
 
 warning  (pdf backend): unreferenced destination with name 'CR'
 
-warning  (pdf backend): unreferenced destination with name 'BW'
-
 warning  (pdf backend): unreferenced destination with name 'SF'
 
-warning  (pdf backend): unreferenced destination with name 'PS'
+warning  (pdf backend): unreferenced destination with name 'BW'
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
 exmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texlive/texmf-dis
 t/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist/fonts
@@ -4054,16 +4049,16 @@ t/fonts/type1/public/fourier/fourier-bb.pfb></usr/share/texlive/texmf-dist/fonts
 /public/fourier/fourier-ml.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /fourier/fourier-mlit.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/four
 ier/fourier-ms.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/utopia/putr8
-a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw
-/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzd
-r.pfb>
-Output written on slide.pdf (132 pages, 4118162 bytes).
+a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvb8a.pfb></usr/s
+hare/texlive/texmf-dist/fonts/type1/urw/helvetic/uhvbo8a.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/helvetic/uhvro8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/u
+rw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/u
+zdr.pfb>
+Output written on slide.pdf (88 pages, 3958685 bytes).
 
-PDF statistics: 2440 PDF objects out of 2487 (max. 8388607)
- 2138 compressed objects within 22 object streams
- 396 named destinations out of 1000 (max. 131072)
- 453 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 1749 PDF objects out of 2073 (max. 8388607)
+ 1568 compressed objects within 16 object streams
+ 269 named destinations out of 1000 (max. 131072)
+ 325 words of extra memory for PDF output out of 10000 (max. 100000000)
 
