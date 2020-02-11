@@ -1,30 +1,30 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is '.bin/paper.blg'
-[24] biber:315> INFO - === sam. janv. 18, 2020, 18:59:14
-[45] Biber.pm:371> INFO - Reading '.bin/paper.bcf'
-[105] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[105] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
-[105] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[105] Biber.pm:889> INFO - Found 1 citekeys in bib section 2
-[105] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[130] Biber.pm:4093> INFO - Processing section 2
-[140] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib' for section 2
-[191] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1080] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib'
-[1104] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib' for section 2
-[1105] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1112] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib'
-[1113] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib' for section 2
-[1129] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1416] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib'
-[1427] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib' for section 2
-[1428] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1451] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib'
-[1452] Utils.pm:193> WARN - I didn't find a database entry for 'bregell_hardware_2015' (section 2)
-[1457] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1457] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1457] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1457] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1458] bbl.pm:636> INFO - Writing '.bin/paper.bbl' with encoding 'UTF-8'
-[1458] bbl.pm:739> INFO - Output to .bin/paper.bbl
-[1458] Biber.pm:110> INFO - WARNINGS: 1
+[77] biber:315> INFO - === sam. févr.  8, 2020, 20:21:17
+[131] Biber.pm:371> INFO - Reading '.bin/paper.bcf'
+[353] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[365] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
+[365] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[365] Biber.pm:889> INFO - Found 1 citekeys in bib section 2
+[365] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[442] Biber.pm:4093> INFO - Processing section 2
+[476] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib' for section 2
+[571] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2344] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/iot.bib'
+[2372] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib' for section 2
+[2372] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2378] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/iotbis.bib'
+[2379] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib' for section 2
+[2395] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2692] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/privacy.bib'
+[2703] Biber.pm:4254> INFO - Looking for bibtex format file '/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib' for section 2
+[2704] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2726] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/resources/bib/petri.bib'
+[2727] Utils.pm:193> WARN - I didn't find a database entry for 'bregell_hardware_2015' (section 2)
+[2732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2732] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2732] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2732] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[2732] bbl.pm:636> INFO - Writing '.bin/paper.bbl' with encoding 'UTF-8'
+[2733] bbl.pm:739> INFO - Output to .bin/paper.bbl
+[2733] Biber.pm:110> INFO - WARNINGS: 1

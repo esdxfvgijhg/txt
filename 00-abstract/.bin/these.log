@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  8 FEB 2020 17:14
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  9 FEB 2020 01:13
  system commands enabled.
 **main.tex
 (./main.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.076 seconds
+luaotfload | main : initialization completed in 0.074 seconds
 (/home/aghiles/.config/latex/these.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
@@ -2224,6 +2224,40 @@ Package fontspec Info: Font family 'NotoNaskhArabic(0)' created for font 'Noto
 ;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 
+luaotfload | aux : font no 38 (nil) defines no feature for script tfng
+luaotfload | aux : no font with id 38
+
+Package fontspec Warning: Font "NotoSansTifinagh" does not contain requested
+(fontspec)                Script "Tifinagh".
+
+luaotfload | aux : font no 38 (nil) defines no feature for script latn
+luaotfload | aux : no font with id 38
+
+Package fontspec Info: Could not resolve font "NotoSansTifinagh/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "NotoSansTifinagh/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "NotoSansTifinagh/I" (it
+(fontspec)             probably doesn't exist).
+
+luaotfload | aux : font no 38 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : no font with id 38
+
+Package fontspec Info: Font family 'NotoSansTifinagh(0)' created for font
+(fontspec)             'Noto Sans Tifinagh' with options [Script=Tifinagh].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"NotoSansTifinagh:mode=node;script=DFLT;language=DFLT;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
@@ -2239,6 +2273,41 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layouthoffset=\dimen364
 \Gm@layoutvoffset=\dimen365
 \Gm@dimlist=\toks55
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -2513,62 +2582,6 @@ slations-basic-dictionary')
 Package translations Info: loading dictionary `translations-basic-dictionary' fo
 r `english'. on input line 6.
 
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 6.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 6.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 6.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 6.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 6.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 6.
-LaTeX Font Info:    Redeclaring math accent \check on input line 6.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 6.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 6.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 6.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 6.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
@@ -2680,7 +2693,7 @@ Package minitoc(hints) Warning: W0023
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-</home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.png, id=23, 188.20313pt x
+</home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.png, id=19, 188.20313pt x
  135.50626pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.png Graphic file (ty
 pe png)
@@ -2688,7 +2701,7 @@ pe png)
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.p
 ng  used on input line 8.
 (luatex.def)             Requested size: 102.42836pt x 73.75122pt.
-</home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png, id=24, 354.32375
+</home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png, id=20, 354.32375
 pt x 143.53625pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png Graphic file
  (type png)
@@ -2701,7 +2714,33 @@ ne.png  used on input line 8.
 LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
 (Font)              using `TU/lmr/bx/n' instead on input line 8.
 
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 8.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 8.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 8.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 8.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 8.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 8.
 LaTeX Font Info:    Try loading font information for U+stmry on input line 8.
+
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 LaTeX Font Info:    Try loading font information for U+msa on input line 8.
 
@@ -2718,7 +2757,7 @@ LaTeX Font Info:    Try loading font information for U+wasy on input line 8.
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
 )
-</home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png, id=25, 63.23625pt
+</home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png, id=21, 63.23625pt
  x 522.95375pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png Graphic file 
 (type png)
@@ -2739,60 +2778,80 @@ s/img/icon/sorbonne.png>] [2
 
 ] [2
 
-] (./01-2-french.tex)
-<./01-3-amazigh.pdf, id=52, 597.50829pt x 845.0471pt>
-File: ./01-3-amazigh.pdf Graphic file (type pdf)
-<use ./01-3-amazigh.pdf>
-Package luatex.def Info: ./01-3-amazigh.pdf  used on input line 9.
-(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./01-3-amazigh.pdf Graphic file (type pdf)
-<use ./01-3-amazigh.pdf>
-Package luatex.def Info: ./01-3-amazigh.pdf  used on input line 9.
-(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
-<./01-3-amazigh.pdf, id=55, page=1, 597.50829pt x 845.0471pt>
-File: ./01-3-amazigh.pdf Graphic file (type pdf)
-<use ./01-3-amazigh.pdf, page 1>
-Package luatex.def Info: ./01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: ./01-3-amazigh.pdf Graphic file (type pdf)
-<use ./01-3-amazigh.pdf, page 1>
-Package luatex.def Info: ./01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
- [3]
-File: ./01-3-amazigh.pdf Graphic file (type pdf)
-<use ./01-3-amazigh.pdf, page 1>
-Package luatex.def Info: ./01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./01-3-amazigh.pdf Graphic file (type pdf)
-<use ./01-3-amazigh.pdf, page 1>
-Package luatex.def Info: ./01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: ./01-3-amazigh.pdf Graphic file (type pdf)
-<use ./01-3-amazigh.pdf, page 1>
-Package luatex.def Info: ./01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
- [4<./01-3-amazigh.pdf>]
+] (./01-2-french.tex) [3] [4
 
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\arb' on input line 9.
+]
 
-(./01-4-arabic.tex) [5
+LaTeX Font Warning: Font shape `TU/NotoSansTifinagh(0)/bx/n' undefined
+(Font)              using `TU/NotoSansTifinagh(0)/m/n' instead on input line 8.
 
+(./01-3-amazigh.tex) [5
+Missing character: There is no 0 (U+0030) in font NotoSansTifinagh!
+Missing character: There is no 1 (U+0031) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no 3 (U+0033) in font NotoSansTifinagh!
+Missing character: There is no 4 (U+0034) in font NotoSansTifinagh!
+Missing character: There is no 5 (U+0035) in font NotoSansTifinagh!
+Missing character: There is no 6 (U+0036) in font NotoSansTifinagh!
+Missing character: There is no 7 (U+0037) in font NotoSansTifinagh!
+Missing character: There is no 8 (U+0038) in font NotoSansTifinagh!
+Missing character: There is no 9 (U+0039) in font NotoSansTifinagh!
+Missing character: There is no A (U+0041) in font NotoSansTifinagh!
+Missing character: There is no B (U+0042) in font NotoSansTifinagh!
+Missing character: There is no C (U+0043) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no E (U+0045) in font NotoSansTifinagh!
+Missing character: There is no F (U+0046) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 3 (U+0033) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 4 (U+0034) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 5 (U+0035) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 6 (U+0036) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 7 (U+0037) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
 ] [6
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-|\TU/lmr/bx/n/24.88 Ac-knowl-edge-ments|
- []
-
-(./02-acknowledgements.tex) [7] [8
+] (./01-4-arabic.tex) [7] [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 9--9
-|\TU/lmr/bx/n/24.88 Ded-i-ca-tion|
- []
+(./02-acknowledgements.tex) [9] [10
 
-(./03-dedication.tex)
+] (./03-dedication.tex
+LaTeX Font Info:    Try loading font information for T1+LobsterTwo-LF on input l
+ine 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lobster2/T1LobsterTwo-LF.fd
+File: T1LobsterTwo-LF.fd 2014/01/08 (autoinst) Font definitions for T1/LobsterTw
+o-LF.
+)
+LaTeX Font Info:    Font shape `T1/LobsterTwo-LF/bx/it' in size <10> not availab
+le
+(Font)              Font shape `T1/LobsterTwo-LF/b/it' tried instead on input li
+ne 8.
+) [11]
 
 Package caption Warning: Unused \captionsetup[table] on input line 120.
 See the caption package documentation for explanation.
@@ -2807,11 +2866,10 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the these.log file.
 
-[9]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
- (./.bin/these.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 14.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 13.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 13.
+(./.bin/these.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 13.
 
 
  *File List*
@@ -3005,6 +3063,7 @@ collectbox.sty    2012/05/17 v0.4b Collect macro arguments as boxes
   tc-pgf.def    2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
 varwidth.sty    2009/03/30 ver 0.92;  Variable-width minipages
 geometry.sty    2018/04/16 v5.8 Page Geometry
+ lmodern.sty    2009/10/30 v1.6 Latin Modern Fonts
 setspace.sty    2011/12/19 v6.7a set line spacing
 epigraph.sty    2009/09/02 v1.5c typesetting epigraphs
  tocloft.sty    2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -3034,6 +3093,10 @@ tions-basic-dictionary')
 ./00-firstpage.tex
 /home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.png
 /home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png
+  ot1lmr.fd    2009/10/30 v1.6 Font defs for Latin Modern
+  omllmm.fd    2009/10/30 v1.6 Font defs for Latin Modern
+ omslmsy.fd    2009/10/30 v1.6 Font defs for Latin Modern
+ omxlmex.fd    2009/10/30 v1.6 Font defs for Latin Modern
   Ustmry.fd
     umsa.fd    2013/01/14 v3.01 AMS symbols A
     umsb.fd    2013/01/14 v3.01 AMS symbols B
@@ -3041,18 +3104,17 @@ tions-basic-dictionary')
 /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png
 ./01-1-english.tex
 ./01-2-french.tex
-./01-3-amazigh.pdf
-./01-3-amazigh.pdf
-./01-3-amazigh.pdf
-./01-3-amazigh.pdf
+./01-3-amazigh.tex
 ./01-4-arabic.tex
 ./02-acknowledgements.tex
 ./03-dedication.tex
+T1LobsterTwo-LF.fd    2014/01/08 (autoinst) Font definitions for T1/LobsterTwo-L
+F.
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 14.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 13.
 Package rerunfilecheck Info: File `these.out' has not changed.
-(rerunfilecheck)             Checksum: B89A9809405D9A7EACD29E8082B8B10A;186.
+(rerunfilecheck)             Checksum: F023281DE4FE2D1702D2746978FF5701;142.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -3062,26 +3124,30 @@ Package logreq Info: Writing requests to 'these.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 73846 strings out of 494383
+ 74028 strings out of 494383
  125171,2848258 words of node,token memory allocated
- 1126 words of node memory still in use:
-   10 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 21 attribute, 162 glue_sp
-ec, 12 attribute_list, 1 write nodes
-   avail lists: 1:13,2:405,3:49,4:52,5:226,6:30,7:4556,8:26,9:139,10:33,11:375
- 75100 multiletter control sequences out of 65536+600000
- 73 fonts using 10871567 bytes
- 85i,18n,136p,1148b,1702s stack positions out of 5000i,500n,10000p,200000b,100000s
-</usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf></usr/share/fonts/tr
-uetype/noto/NotoNaskhArabic-Bold.ttf></usr/share/texmf/fonts/opentype/public/lm/
-lmroman10-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-itali
-c.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/
-texmf/fonts/opentype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/openty
-pe/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lm
-roman17-regular.otf>
-Output written on these.pdf (11 pages, 136654 bytes).
+ 1110 words of node memory still in use:
+   10 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 23 attribute, 157 glue_sp
+ec, 13 attribute_list, 2 write nodes
+   avail lists: 1:13,2:1053,3:48,4:52,5:231,6:30,7:4556,8:114,9:143,10:33,11:375
 
-PDF statistics: 162 PDF objects out of 1000 (max. 8388607)
- 107 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 131072)
- 48 words of extra memory for PDF output out of 10000 (max. 100000000)
+ 75187 multiletter control sequences out of 65536+600000
+ 77 fonts using 10907543 bytes
+ 85i,13n,136p,1148b,1702s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lobster2/lbst2_2vl4dw.enc}</usr/s
+hare/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf></usr/share/fonts/truetype/
+noto/NotoNaskhArabic-Bold.ttf></usr/share/fonts/truetype/noto/NotoSansTifinagh-R
+egular.ttf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></us
+r/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fo
+nts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/publi
+c/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-reg
+ular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/
+share/texlive/texmf-dist/fonts/type1/impallari/lobster2/LobsterTwo-BoldItalic.pf
+b>
+Output written on these.pdf (13 pages, 148482 bytes).
+
+PDF statistics: 157 PDF objects out of 1000 (max. 8388607)
+ 106 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 131072)
+ 40 words of extra memory for PDF output out of 10000 (max. 100000000)
 

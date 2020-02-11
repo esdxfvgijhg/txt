@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  11 JAN 2020 16:54
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  8 FEB 2020 21:18
  system commands enabled.
 **main.tex
 (./main.tex
@@ -48,7 +48,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.083 seconds
+luaotfload | main : initialization completed in 0.077 seconds
 (/home/aghiles/.config/latex/these.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2018/09/03 v1.4i Standard LaTeX document class
@@ -1227,27 +1227,6 @@ Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseTextstyle=\skip68
 \L@UnitsRaiseScriptstyle=\skip69
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty
-Package: tikz-timing 2017/12/20 v0.7f Digital Timing Diagrams using TikZ
-
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarycalc.code.tex
-File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
-zlibrarybackgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2019/02/02 v3.1.1 (3.1.1)
-)
-\tikztiming@numint=\count310
-\tikztiming@numfrac=\count311
-\tikztiming@xunit=\skip70
-\tikztiming@yunit=\skip71
-\tikztiming@debug=\count312
-\c@tikztiming@nrows=\count313
-\c@tikztimingrows=\count314
-\c@tikztimingtrans=\count315
-\c@tikztimingtranspos=\count316
-)
 (/usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
 Package: pgfplotstable 2018/03/28 v1.16 Table typesetting and Pretty-printing (1
@@ -1277,16 +1256,29 @@ File: ppluatex.def 2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
 \AM@pagebox=\box103
 \AM@global@opts=\toks46
 \AM@toc@title=\toks47
-\c@AM@survey=\count317
+\c@AM@survey=\count310
 \AM@templatesizebox=\box104
 )
 (/usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count318
-\rotFPtop=\skip72
-\rotFPbot=\skip73
+\c@r@tfl@t=\count311
+\rotFPtop=\skip70
+\rotFPbot=\skip71
 \rot@float@box=\box105
 \rot@mess@toks=\toks48
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
+Package: tkz-graph 2018/09/19 ctan v 1.00 d base for graphs
+\c@tkz@gr@a=\count312
+\c@tkz@gr@b=\count313
+\c@tkz@gr@c=\count314
+\c@tkz@gr@e=\count315
+\c@tkz@gr@d=\count316
+\c@tkz@gr@p=\count317
+\c@tkz@gr@i=\count318
+\c@tkz@gr@n=\count319
+\c@tkz@gr@ta=\count320
+\c@tkz@gr@tb=\count321
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymindmap.code.tex
@@ -1296,6 +1288,10 @@ File: tikzlibrarymindmap.code.tex 2019/02/02 v3.1.1 (3.1.1)
 zlibrarytrees.code.tex
 File: tikzlibrarytrees.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrary3d.code.tex
 File: tikzlibrary3d.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -1321,6 +1317,10 @@ decoration libraries instead of the snakes library on input line 14.
 zlibrarydecorations.shapes.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
 decorations.shapes.code.tex)))
+(/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/dat
 avisualization/tikzlibrarydatavisualization.code.tex
 File: tikzlibrarydatavisualization.code.tex 2019/02/02 v3.1.1 (3.1.1)
@@ -1330,14 +1330,14 @@ on.code.tex
 File: pgfmoduledatavisualization.code.tex 2019/02/02 v3.1.1 (3.1.1)
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduleoo.code.tex
-\pgfoo@objectcount=\count319
-\pgfoothis@count=\count320
+\pgfoo@objectcount=\count322
+\pgfoothis@count=\count323
 \pgfoo@toks=\toks49
 )
-\pgf@lib@dv@cache@count=\count321
-\pgf@lib@dv@cache@count=\count322
+\pgf@lib@dv@cache@count=\count324
+\pgf@lib@dv@cache@count=\count325
 )
-\tikzdvvisualizercounter=\count323
+\tikzdvvisualizercounter=\count326
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibrarymatrix.code.tex
@@ -1431,13 +1431,13 @@ decorations.text.code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/pgflibraryhobby.code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/hobby.code.tex
 (/usr/share/texlive/texmf-dist/tex/latex/hobby/pml3array.sty
-\l_array_base_int=\count324
-\l_array_top_int=\count325
-\l_array_tmp_int=\count326
-\g_array_base_int=\count327
+\l_array_base_int=\count327
+\l_array_top_int=\count328
+\l_array_tmp_int=\count329
+\g_array_base_int=\count330
 )
-\l_hobby_npoints_int=\count328
-\l_hobby_draw_int=\count329
+\l_hobby_npoints_int=\count331
+\l_hobby_draw_int=\count332
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
 zlibraryautomata.code.tex
@@ -1446,8 +1446,8 @@ File: tikzlibraryautomata.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.code.tex
 File: tikzlibrarygraphs.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\tikz@lib@auto@number=\count330
-\tikz@qnode@count=\count331
+\tikz@lib@auto@number=\count333
+\tikz@qnode@count=\count334
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/gra
 phs/tikzlibrarygraphs.standard.code.tex
@@ -1460,7 +1460,7 @@ File: tikzlibrarygraphdrawing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/graphdrawing/tex/pgflibrarygraph
 drawing.code.tex
 File: pgflibrarygraphdrawing.code.tex 2019/02/02 v3.1.1 (3.1.1)
-\pgf@gd@parameter@stack@height=\count332
+\pgf@gd@parameter@stack@height=\count335
 \pgf@gd@node@box=\box128
 \pgf@gd@edge@box=\box129
 \pgf@gd@prekind@box=\box130
@@ -1468,33 +1468,20 @@ File: pgflibrarygraphdrawing.code.tex 2019/02/02 v3.1.1 (3.1.1)
 ))
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.gr
 oupplots.code.tex
-\pgfplots@group@current@plot=\count333
-\pgfplots@group@current@row=\count334
-\pgfplots@group@current@column=\count335
+\pgfplots@group@current@plot=\count336
+\pgfplots@group@current@row=\count337
+\pgfplots@group@current@column=\count338
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.pa
-tchplots.code.tex) (/home/aghiles/.config/latex/tikzset.tex
-(/usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
-Package: tkz-graph 2018/09/19 ctan v 1.00 d base for graphs
-\c@tkz@gr@a=\count336
-\c@tkz@gr@b=\count337
-\c@tkz@gr@c=\count338
-\c@tkz@gr@e=\count339
-\c@tkz@gr@d=\count340
-\c@tkz@gr@p=\count341
-\c@tkz@gr@i=\count342
-\c@tkz@gr@n=\count343
-\c@tkz@gr@ta=\count344
-\c@tkz@gr@tb=\count345
-)))
+tchplots.code.tex) (/home/aghiles/.config/latex/tikzset.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count346
-\algocf@hangindent=\skip74
+\c@AlgoLine=\count339
+\algocf@hangindent=\skip72
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count347
+\c@checkoddpage=\count340
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -1502,47 +1489,47 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 (/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\skiptotal=\skip75
-\skiplinenumber=\skip76
-\skiprule=\skip77
-\skiphlne=\skip78
-\skiptext=\skip79
-\skiplength=\skip80
-\algomargin=\skip81
-\skipalgocfslide=\skip82
+\skiptotal=\skip73
+\skiplinenumber=\skip74
+\skiprule=\skip75
+\skiphlne=\skip76
+\skiptext=\skip77
+\skiplength=\skip78
+\algomargin=\skip79
+\skipalgocfslide=\skip80
 \algowidth=\dimen298
 \inoutsize=\dimen299
 \inoutindent=\dimen300
 \interspacetitleruled=\dimen301
 \interspacealgoruled=\dimen302
 \interspacetitleboxruled=\dimen303
-\algocf@ruledwidth=\skip83
+\algocf@ruledwidth=\skip81
 \algocf@inoutbox=\box132
 \algocf@inputbox=\box133
-\AlCapSkip=\skip84
-\AlCapHSkip=\skip85
-\algoskipindent=\skip86
+\AlCapSkip=\skip82
+\AlCapHSkip=\skip83
+\algoskipindent=\skip84
 \algocf@nlbox=\box134
 \algocf@hangingbox=\box135
 \algocf@untilbox=\box136
-\algocf@skipuntil=\skip87
+\algocf@skipuntil=\skip85
 \algocf@capbox=\box137
-\algocf@lcaptionbox=\skip88
-\algoheightruledefault=\skip89
-\algoheightrule=\skip90
-\algotitleheightruledefault=\skip91
-\algotitleheightrule=\skip92
-\c@algocfline=\count348
-\c@algocfproc=\count349
-\c@algocf=\count350
+\algocf@lcaptionbox=\skip86
+\algoheightruledefault=\skip87
+\algoheightrule=\skip88
+\algotitleheightruledefault=\skip89
+\algotitleheightrule=\skip90
+\c@algocfline=\count341
+\c@algocfproc=\count342
+\c@algocf=\count343
 \algocf@algoframe=\box138
 \algocf@algobox=\box139
 )
 (/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
-\multirow@colwidth=\skip93
-\multirow@cntb=\count351
-\multirow@dima=\skip94
+\multirow@colwidth=\skip91
+\multirow@cntb=\count344
+\multirow@dima=\skip92
 )
 (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
@@ -1556,30 +1543,30 @@ Package: booktabs 2016/04/27 v1.618033 publication quality tables
 \cmidrulesep=\dimen311
 \cmidrulekern=\dimen312
 \defaultaddspace=\dimen313
-\@cmidla=\count352
-\@cmidlb=\count353
+\@cmidla=\count345
+\@cmidlb=\count346
 \@aboverulesep=\dimen314
 \@belowrulesep=\dimen315
-\@thisruleclass=\count354
-\@lastruleclass=\count355
+\@thisruleclass=\count347
+\@lastruleclass=\count348
 \@thisrulewidth=\dimen316
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
 Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
-\LTleft=\skip95
-\LTright=\skip96
-\LTpre=\skip97
-\LTpost=\skip98
-\LTchunksize=\count356
+\LTleft=\skip93
+\LTright=\skip94
+\LTpre=\skip95
+\LTpost=\skip96
+\LTchunksize=\count349
 \LTcapwidth=\dimen317
 \LT@head=\box140
 \LT@firsthead=\box141
 \LT@foot=\box142
 \LT@lastfoot=\box143
-\LT@cols=\count357
-\LT@rows=\count358
-\c@LT@tables=\count359
-\c@LT@chunks=\count360
+\LT@cols=\count350
+\LT@rows=\count351
+\c@LT@tables=\count352
+\c@LT@chunks=\count353
 \LT@p@ftn=\toks50
 )
 (/usr/share/texlive/texmf-dist/tex/latex/threeparttable/threeparttable.sty
@@ -1588,7 +1575,7 @@ Package: threeparttable 2003/06/13  v 3.0
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tabulary/tabulary.sty
 Package: tabulary 2014/06/11 v0.10 tabulary package (DPC)
-\TY@count=\count361
+\TY@count=\count354
 \TY@linewidth=\dimen318
 \tymin=\dimen319
 \tymax=\dimen320
@@ -1601,7 +1588,7 @@ Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 \TX@old@col=\dimen324
 \TX@target=\dimen325
 \TX@delta=\dimen326
-\TX@cols=\count362
+\TX@cols=\count355
 \TX@ftn=\toks51
 )
 (/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
@@ -1610,20 +1597,20 @@ Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
 (/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
 Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
-\CenteringLeftskip=\skip99
-\RaggedLeftLeftskip=\skip100
-\RaggedRightLeftskip=\skip101
-\CenteringRightskip=\skip102
-\RaggedLeftRightskip=\skip103
-\RaggedRightRightskip=\skip104
-\CenteringParfillskip=\skip105
-\RaggedLeftParfillskip=\skip106
-\RaggedRightParfillskip=\skip107
-\JustifyingParfillskip=\skip108
-\CenteringParindent=\skip109
-\RaggedLeftParindent=\skip110
-\RaggedRightParindent=\skip111
-\JustifyingParindent=\skip112
+\CenteringLeftskip=\skip97
+\RaggedLeftLeftskip=\skip98
+\RaggedRightLeftskip=\skip99
+\CenteringRightskip=\skip100
+\RaggedLeftRightskip=\skip101
+\RaggedRightRightskip=\skip102
+\CenteringParfillskip=\skip103
+\RaggedLeftParfillskip=\skip104
+\RaggedRightParfillskip=\skip105
+\JustifyingParfillskip=\skip106
+\CenteringParindent=\skip107
+\RaggedLeftParindent=\skip108
+\RaggedRightParindent=\skip109
+\JustifyingParindent=\skip110
 )
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
@@ -1679,13 +1666,13 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
 )
 \@linkdim=\dimen327
-\Hy@linkcounter=\count363
-\Hy@pagecounter=\count364
+\Hy@linkcounter=\count356
+\Hy@pagecounter=\count357
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
 )
-\Hy@SavedSpaceFactor=\count365
+\Hy@SavedSpaceFactor=\count358
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
@@ -1697,7 +1684,7 @@ Package hyperref Info: Plain pages OFF on input line 4534.
 Package hyperref Info: Backreferencing OFF on input line 4539.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4772.
-\c@Hy@tempcnt=\count366
+\c@Hy@tempcnt=\count359
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
@@ -1705,7 +1692,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5125.
 \XeTeXLinkMargin=\dimen328
-\Fld@menulength=\count367
+\Fld@menulength=\count360
 \Field@Width=\dimen329
 \Fld@charsize=\dimen330
 Package hyperref Info: Hyper figures OFF on input line 6380.
@@ -1717,29 +1704,29 @@ Package hyperref Info: Link coloring with OCG OFF on input line 6405.
 Package hyperref Info: PDF/A mode OFF on input line 6410.
 LaTeX Info: Redefining \ref on input line 6450.
 LaTeX Info: Redefining \pageref on input line 6454.
-\Hy@abspage=\count368
-\c@Item=\count369
-\c@Hfootnote=\count370
+\Hy@abspage=\count361
+\c@Item=\count362
+\c@Hfootnote=\count363
 )
 Package hyperref Info: Driver (autodetected): hluatex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hluatex.def
 File: hluatex.def 2018/11/30 v6.88e Hyperref driver for luaTeX
-\Fld@listcount=\count371
-\c@bookmark@seq@number=\count372
+\Fld@listcount=\count364
+\c@bookmark@seq@number=\count365
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 2.
 )
-\Hy@SectionHShift=\skip113
+\Hy@SectionHShift=\skip111
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 112.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 112.
-Package hyperref Info: Option `pdffitwindow' set `true' on input line 112.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 112.
-Package hyperref Info: Option `colorlinks' set `true' on input line 112.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 111.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 111.
+Package hyperref Info: Option `pdffitwindow' set `true' on input line 111.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 111.
+Package hyperref Info: Option `colorlinks' set `true' on input line 111.
 
 (/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
 Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
@@ -1758,8 +1745,8 @@ Package caption3 Info: TeX engine: e-TeX on input line 64.
 \caption@parindent=\dimen336
 \caption@hangindent=\dimen337
 )
-\c@caption@flags=\count373
-\c@ContinuedFloat=\count374
+\c@caption@flags=\count366
+\c@ContinuedFloat=\count367
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -1769,82 +1756,88 @@ Package: ltcaption 2018/08/26 v1.4-95 longtable captions (AR)
 Package caption Info: rotating package is loaded.
 Package caption Info: threeparttable package is loaded.
 )
-\c@subfigure=\count375
-\c@subtable=\count376
+\c@subfigure=\count368
+\c@subtable=\count369
 )
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/02/04 v3.8 Customized lists
-\labelindent=\skip114
+\labelindent=\skip112
 \enit@outerparindent=\dimen338
 \enit@toks=\toks53
 \enit@inbox=\box145
-\enit@count@id=\count377
-\enitdp@description=\count378
+\enit@count@id=\count370
+\enitdp@description=\count371
 )
+\c@enumv=\count372
+\c@enumvi=\count373
+\c@enumvii=\count374
+\c@enumviii=\count375
+\c@enumix=\count376
+
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.sty
 Package: biblatex 2018/11/02 v3.12 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count379
+\lrq@indent=\count377
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count380
-\c@listtotal=\count381
-\c@listcount=\count382
-\c@liststart=\count383
-\c@liststop=\count384
-\c@citecount=\count385
-\c@citetotal=\count386
-\c@multicitecount=\count387
-\c@multicitetotal=\count388
-\c@instcount=\count389
-\c@maxnames=\count390
-\c@minnames=\count391
-\c@maxitems=\count392
-\c@minitems=\count393
-\c@citecounter=\count394
-\c@maxcitecounter=\count395
-\c@savedcitecounter=\count396
-\c@uniquelist=\count397
-\c@uniquename=\count398
-\c@refsection=\count399
-\c@refsegment=\count400
-\c@maxextratitle=\count401
-\c@maxextratitleyear=\count402
-\c@maxextraname=\count403
-\c@maxextradate=\count404
-\c@maxextraalpha=\count405
-\c@abbrvpenalty=\count406
-\c@highnamepenalty=\count407
-\c@lownamepenalty=\count408
-\c@maxparens=\count409
-\c@parenlevel=\count410
-\blx@tempcnta=\count411
-\blx@tempcntb=\count412
-\blx@tempcntc=\count413
-\blx@maxsection=\count414
-\blx@maxsegment@0=\count415
-\blx@notetype=\count416
-\blx@parenlevel@text=\count417
-\blx@parenlevel@foot=\count418
-\blx@sectionciteorder@0=\count419
-\blx@entrysetcounter=\count420
-\labelnumberwidth=\skip115
-\labelalphawidth=\skip116
-\biblabelsep=\skip117
-\bibitemsep=\skip118
-\bibnamesep=\skip119
-\bibinitsep=\skip120
-\bibparsep=\skip121
-\bibhang=\skip122
+\c@tabx@nest=\count378
+\c@listtotal=\count379
+\c@listcount=\count380
+\c@liststart=\count381
+\c@liststop=\count382
+\c@citecount=\count383
+\c@citetotal=\count384
+\c@multicitecount=\count385
+\c@multicitetotal=\count386
+\c@instcount=\count387
+\c@maxnames=\count388
+\c@minnames=\count389
+\c@maxitems=\count390
+\c@minitems=\count391
+\c@citecounter=\count392
+\c@maxcitecounter=\count393
+\c@savedcitecounter=\count394
+\c@uniquelist=\count395
+\c@uniquename=\count396
+\c@refsection=\count397
+\c@refsegment=\count398
+\c@maxextratitle=\count399
+\c@maxextratitleyear=\count400
+\c@maxextraname=\count401
+\c@maxextradate=\count402
+\c@maxextraalpha=\count403
+\c@abbrvpenalty=\count404
+\c@highnamepenalty=\count405
+\c@lownamepenalty=\count406
+\c@maxparens=\count407
+\c@parenlevel=\count408
+\blx@tempcnta=\count409
+\blx@tempcntb=\count410
+\blx@tempcntc=\count411
+\blx@maxsection=\count412
+\blx@maxsegment@0=\count413
+\blx@notetype=\count414
+\blx@parenlevel@text=\count415
+\blx@parenlevel@foot=\count416
+\blx@sectionciteorder@0=\count417
+\blx@entrysetcounter=\count418
+\labelnumberwidth=\skip113
+\labelalphawidth=\skip114
+\biblabelsep=\skip115
+\bibitemsep=\skip116
+\bibnamesep=\skip117
+\bibinitsep=\skip118
+\bibparsep=\skip119
+\bibhang=\skip120
 \blx@bcfin=\read4
 \blx@bcfout=\write6
-\c@mincomprange=\count421
-\c@maxcomprange=\count422
-\c@mincompwidth=\count423
+\c@mincomprange=\count419
+\c@maxcomprange=\count420
+\c@mincompwidth=\count421
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -1852,91 +1845,91 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'ieee.dbx' not found.
+Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count424
-\c@savedafterword=\count425
-\c@annotator=\count426
-\c@savedannotator=\count427
-\c@author=\count428
-\c@savedauthor=\count429
-\c@bookauthor=\count430
-\c@savedbookauthor=\count431
-\c@commentator=\count432
-\c@savedcommentator=\count433
-\c@editor=\count434
-\c@savededitor=\count435
-\c@editora=\count436
-\c@savededitora=\count437
-\c@editorb=\count438
-\c@savededitorb=\count439
-\c@editorc=\count440
-\c@savededitorc=\count441
-\c@foreword=\count442
-\c@savedforeword=\count443
-\c@holder=\count444
-\c@savedholder=\count445
-\c@introduction=\count446
-\c@savedintroduction=\count447
-\c@namea=\count448
-\c@savednamea=\count449
-\c@nameb=\count450
-\c@savednameb=\count451
-\c@namec=\count452
-\c@savednamec=\count453
-\c@translator=\count454
-\c@savedtranslator=\count455
-\c@shortauthor=\count456
-\c@savedshortauthor=\count457
-\c@shorteditor=\count458
-\c@savedshorteditor=\count459
-\c@labelname=\count460
-\c@savedlabelname=\count461
-\c@institution=\count462
-\c@savedinstitution=\count463
-\c@lista=\count464
-\c@savedlista=\count465
-\c@listb=\count466
-\c@savedlistb=\count467
-\c@listc=\count468
-\c@savedlistc=\count469
-\c@listd=\count470
-\c@savedlistd=\count471
-\c@liste=\count472
-\c@savedliste=\count473
-\c@listf=\count474
-\c@savedlistf=\count475
-\c@location=\count476
-\c@savedlocation=\count477
-\c@organization=\count478
-\c@savedorganization=\count479
-\c@origlocation=\count480
-\c@savedoriglocation=\count481
-\c@origpublisher=\count482
-\c@savedorigpublisher=\count483
-\c@publisher=\count484
-\c@savedpublisher=\count485
-\c@language=\count486
-\c@savedlanguage=\count487
-\c@origlanguage=\count488
-\c@savedoriglanguage=\count489
-\c@pageref=\count490
-\c@savedpageref=\count491
-\shorthandwidth=\skip123
-\shortjournalwidth=\skip124
-\shortserieswidth=\skip125
-\shorttitlewidth=\skip126
-\shortauthorwidth=\skip127
-\shorteditorwidth=\skip128
-\locallabelnumberwidth=\skip129
-\locallabelalphawidth=\skip130
-\localshorthandwidth=\skip131
-\localshortjournalwidth=\skip132
-\localshortserieswidth=\skip133
-\localshorttitlewidth=\skip134
-\localshortauthorwidth=\skip135
-\localshorteditorwidth=\skip136
+\c@afterword=\count422
+\c@savedafterword=\count423
+\c@annotator=\count424
+\c@savedannotator=\count425
+\c@author=\count426
+\c@savedauthor=\count427
+\c@bookauthor=\count428
+\c@savedbookauthor=\count429
+\c@commentator=\count430
+\c@savedcommentator=\count431
+\c@editor=\count432
+\c@savededitor=\count433
+\c@editora=\count434
+\c@savededitora=\count435
+\c@editorb=\count436
+\c@savededitorb=\count437
+\c@editorc=\count438
+\c@savededitorc=\count439
+\c@foreword=\count440
+\c@savedforeword=\count441
+\c@holder=\count442
+\c@savedholder=\count443
+\c@introduction=\count444
+\c@savedintroduction=\count445
+\c@namea=\count446
+\c@savednamea=\count447
+\c@nameb=\count448
+\c@savednameb=\count449
+\c@namec=\count450
+\c@savednamec=\count451
+\c@translator=\count452
+\c@savedtranslator=\count453
+\c@shortauthor=\count454
+\c@savedshortauthor=\count455
+\c@shorteditor=\count456
+\c@savedshorteditor=\count457
+\c@labelname=\count458
+\c@savedlabelname=\count459
+\c@institution=\count460
+\c@savedinstitution=\count461
+\c@lista=\count462
+\c@savedlista=\count463
+\c@listb=\count464
+\c@savedlistb=\count465
+\c@listc=\count466
+\c@savedlistc=\count467
+\c@listd=\count468
+\c@savedlistd=\count469
+\c@liste=\count470
+\c@savedliste=\count471
+\c@listf=\count472
+\c@savedlistf=\count473
+\c@location=\count474
+\c@savedlocation=\count475
+\c@organization=\count476
+\c@savedorganization=\count477
+\c@origlocation=\count478
+\c@savedoriglocation=\count479
+\c@origpublisher=\count480
+\c@savedorigpublisher=\count481
+\c@publisher=\count482
+\c@savedpublisher=\count483
+\c@language=\count484
+\c@savedlanguage=\count485
+\c@origlanguage=\count486
+\c@savedoriglanguage=\count487
+\c@pageref=\count488
+\c@savedpageref=\count489
+\shorthandwidth=\skip121
+\shortjournalwidth=\skip122
+\shortserieswidth=\skip123
+\shorttitlewidth=\skip124
+\shortauthorwidth=\skip125
+\shorteditorwidth=\skip126
+\locallabelnumberwidth=\skip127
+\locallabelalphawidth=\skip128
+\localshorthandwidth=\skip129
+\localshortjournalwidth=\skip130
+\localshortserieswidth=\skip131
+\localshorttitlewidth=\skip132
+\localshortauthorwidth=\skip133
+\localshorteditorwidth=\skip134
 Package biblatex Info: Trying to load enhanced support for Unicode engines...
 Package biblatex Info: ... file 'blx-unicode.def' found.
 
@@ -1952,24 +1945,22 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
-\c@textcitecount=\count492
-\c@textcitetotal=\count493
-\c@textcitemaxnames=\count494
-\c@biburlnumpenalty=\count495
-\c@biburlucpenalty=\count496
-\c@biburllcpenalty=\count497
-\c@smartand=\count498
+\c@textcitecount=\count490
+\c@textcitetotal=\count491
+\c@textcitemaxnames=\count492
+\c@biburlnumpenalty=\count493
+\c@biburlucpenalty=\count494
+\c@biburllcpenalty=\count495
+\c@smartand=\count496
 )
-Package biblatex Info: Trying to load bibliography style 'ieee'...
-Package biblatex Info: ... file 'ieee.bbx' found.
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
 
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.bbx
-File: ieee.bbx 2018/08/20 v1.3 biblatex bibliography style
-Package biblatex Info: Trying to load bibliography style 'numeric-comp'...
-Package biblatex Info: ... file 'numeric-comp.bbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/numeric-comp.bbx
-File: numeric-comp.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+(/usr/share/texlive/texmf-dist/tex/latex/biblatex/blx-natbib.def
+File: blx-natbib.def 2018/11/02 v3.12 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, 
+overwriting.
+)
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
 
@@ -1980,21 +1971,16 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2018/11/02 v3.12 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count499
-\c@bbx:relatedtotal=\count500
-))))
-Package biblatex Info: Trying to load citation style 'ieee'...
-Package biblatex Info: ... file 'ieee.cbx' found.
-
-(/usr/share/texlive/texmf-dist/tex/latex/biblatex-ieee/ieee.cbx
-File: ieee.cbx 2018/08/20 v1.3 biblatex citation style
+\c@bbx:relatedcount=\count497
+\c@bbx:relatedtotal=\count498
+))
 Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/cbx/numeric-comp.cbx
 File: numeric-comp.cbx 2018/11/02 v3.12 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count501
-\c@cbx@tempcntb=\count502
+\c@cbx@tempcnta=\count499
+\c@cbx@tempcntb=\count500
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -2007,9 +1993,6 @@ Package biblatex Info: Redefining '\cites'.
 Package biblatex Info: Redefining '\parencites'.
 Package biblatex Info: Redefining '\smartcites'.
 )
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\cites'.
-)
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
@@ -2019,28 +2002,28 @@ File: biblatex.cfg
 (/home/aghiles/.config/latex/commands.tex
 (/usr/share/texlive/texmf-dist/tex/latex/bytefield/bytefield.sty
 Package: bytefield 2017/09/15 v2.4 Network protocol diagrams
-\bytefield@height=\skip137
-\bytefield@height@increment=\skip138
+\bytefield@height=\skip135
+\bytefield@height@increment=\skip136
 \entire@bytefield@picture=\box146
-\bf@bitwidth=\skip139
-\bf@bitheight=\skip140
-\units@wide=\skip141
-\units@tall=\skip142
-\units@high=\skip143
-\header@xpos=\skip144
-\c@header@val=\count503
-\c@max@header@val=\count504
+\bf@bitwidth=\skip137
+\bf@bitheight=\skip138
+\units@wide=\skip139
+\units@tall=\skip140
+\units@high=\skip141
+\header@xpos=\skip142
+\c@header@val=\count501
+\c@max@header@val=\count502
 \curly@box=\box147
-\wordlabelr@start=\skip145
-\wordlabelr@end=\skip146
-\wordlabell@start=\skip147
-\wordlabell@end=\skip148
-\total@lbox@width=\skip149
-\label@box@width=\skip150
-\label@box@height=\skip151
+\wordlabelr@start=\skip143
+\wordlabelr@end=\skip144
+\wordlabell@start=\skip145
+\wordlabell@end=\skip146
+\total@lbox@width=\skip147
+\label@box@width=\skip148
+\label@box@height=\skip149
 \word@label@box=\box148
 )
-\c@todo=\count505
+\c@todo=\count503
 
 (/usr/share/texlive/texmf-dist/tex/latex/acro/acro.sty
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
@@ -2049,16 +2032,16 @@ Package: l3keys2e 2018-10-17 LaTeX2e option processing using LaTeX3 keys
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xtemplate/xtemplate.sty
 Package: xtemplate 2018-10-17 L3 Experimental prototype document functions
 \l__xtemplate_tmp_dim=\dimen339
-\l__xtemplate_tmp_int=\count506
+\l__xtemplate_tmp_int=\count504
 \l__xtemplate_tmp_muskip=\muskip18
-\l__xtemplate_tmp_skip=\skip152
+\l__xtemplate_tmp_skip=\skip150
 )
 Package: acro 2019/02/17 v2.9 Typeset Acronyms
-\l__acro_tmpa_int=\count507
-\l__acro_tmpb_int=\count508
-\l__acro_tmpc_int=\count509
-\l__acro_tmpd_int=\count510
-\l__acro_page_space_skip=\skip153
+\l__acro_tmpa_int=\count505
+\l__acro_tmpb_int=\count506
+\l__acro_tmpc_int=\count507
+\l__acro_tmpd_int=\count508
+\l__acro_page_space_skip=\skip151
 \l__acro_short_width_dim=\dimen340
 
 Package xtemplate Info: Declaring object type 'acro-first' taking 2
@@ -2078,7 +2061,7 @@ Package zref Info: New property list: main on input line 759.
 Package zref Info: New property: default on input line 760.
 Package zref Info: New property: page on input line 761.
 )
-\c@abspage=\count511
+\c@abspage=\count509
 Package zref Info: New property: abspage on input line 62.
 )
 
@@ -2093,7 +2076,7 @@ Package xtemplate Info: Declaring object type 'acro-title' taking 1
 Package xtemplate Info: Declaring object type 'acro-list' taking 2 argument(s)
 (xtemplate)             on line 1341.
 
-\g__acro_barrier_int=\count512
+\g__acro_barrier_int=\count510
 
 (/usr/share/texlive/texmf-dist/tex/latex/translations/translations.sty
 Package: translations 2017/08/31 v1.7a internationalization of LaTeX2e packages 
@@ -2103,20 +2086,159 @@ Package: translations 2017/08/31 v1.7a internationalization of LaTeX2e packages
 Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
 ))))
 (/home/aghiles/.config/latex/nomenclature.tex))
+(/usr/share/texlive/texmf-dist/tex/lualatex/arabluatex/arabluatex.sty
+Package: arabluatex 2018/10/11 v1.15.1 An ArabTeX-like interface for LuaLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/luacolor.sty
+Package: luacolor 2018/11/22 v1.11 Color support via LuaTeX's attributes (HO)
+\LuaCol@Attribute=\attribute5
+)
+(/usr/share/texlive/texmf-dist/tex/lualatex/arabluatex/arabluatex-patch.sty
+Package: arabluatex-patch 2016/11/14 v1.0 patches for arabluatex
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty
+Package: fontspec 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
+Lua module: fontspec 2019/02/12 2.7b Font selection for XeLaTeX and LuaLaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
+Package: fontspec-luatex 2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count511
+\l__fontspec_language_int=\count512
+\l__fontspec_strnum_int=\count513
+\l__fontspec_tmp_int=\count514
+\l__fontspec_tmpa_int=\count515
+\l__fontspec_tmpb_int=\count516
+\l__fontspec_tmpc_int=\count517
+\l__fontspec_em_int=\count518
+\l__fontspec_emdef_int=\count519
+\l__fontspec_strong_int=\count520
+\l__fontspec_strongdef_int=\count521
+\l__fontspec_tmpa_dim=\dimen341
+\l__fontspec_tmpb_dim=\dimen342
+\l__fontspec_tmpc_dim=\dimen343
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 3776.
+LaTeX Info: Redefining \slshape on input line 3781.
+LaTeX Info: Redefining \scshape on input line 3786.
+LaTeX Info: Redefining \upshape on input line 3791.
+LaTeX Info: Redefining \em on input line 3821.
+LaTeX Info: Redefining \emph on input line 3846.
+))
+(/usr/share/texlive/texmf-dist/tex/lualatex/luacode/luacode.sty
+Package: luacode 2012/01/23 v1.2a lua-in-tex helpers (mpg)
+
+(/usr/share/texlive/texmf-dist/tex/luatex/luatexbase/luatexbase.sty
+Package: luatexbase 2015/10/04 v1.3 luatexbase interface to LuaTeX 
+
+(/usr/share/texlive/texmf-dist/tex/luatex/ctablestack/ctablestack.sty
+Package: ctablestack 2015/10/01 v1.0 Catcode table stable support
+\@catcodetablestackcnt=\count522
+)
+\CatcodeTableOther=\catcodetable7
+\CatcodeTableExpl=\catcodetable8
+)
+\luacode@lines=\toks54
+\luacode@table@soft=\catcodetable9
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back-
+ends (calc, etex, pgfmath)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2018/04/08 v1.1 Trim and clip general TeX material
+
+(/usr/share/texlive/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box149
+)
+\tc@llx=\dimen344
+\tc@lly=\dimen345
+\tc@urx=\dimen346
+\tc@ury=\dimen347
+
+(/usr/share/texlive/texmf-dist/tex/latex/adjustbox/tc-pgf.def
+File: tc-pgf.def 2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
+)
+Package trimclip Info: No clipping driver 'tc-luatex.def' available.
+(trimclip)             Using fall-back PGF driver.
+)
+\adjbox@Width=\dimen348
+\adjbox@Height=\dimen349
+\adjbox@Depth=\dimen350
+\adjbox@Totalheight=\dimen351
+\adjbox@pwidth=\dimen352
+\adjbox@pheight=\dimen353
+\adjbox@pdepth=\dimen354
+\adjbox@ptotalheight=\dimen355
+
+(/usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box150
+\sift@deathcycles=\count523
+\@vwid@loff=\dimen356
+\@vwid@roff=\dimen357
+))
+\al@bayt@width=\skip152
+\al@gutter@width=\skip153
+)
+luaotfload | cache : Lookup cache loaded from /home/aghiles/.texlive2018/texmf-v
+ar/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
+
+Package fontspec Info: Could not resolve font "NotoNaskhArabic/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "NotoNaskhArabic/I" (it probably
+(fontspec)             doesn't exist).
+
+luaotfload | aux : font no 33 (nil) does not define feature smcp for script arab
+ with language dflt
+luaotfload | aux : no font with id 33
+luaotfload | aux : font no 36 (nil) does not define feature smcp for script arab
+ with language dflt
+luaotfload | aux : no font with id 36
+
+Package fontspec Info: Font family 'NotoNaskhArabic(0)' created for font 'Noto
+(fontspec)             Naskh Arabic' with options [Script=Arabic].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"NotoNaskhArabic:mode=node;script=arab;language=DFLT;"
+
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->"NotoNaskhArabic/B:mode=node;script=arab;language=DFLT
+;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+
+
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
-\Gm@cnth=\count513
-\Gm@cntv=\count514
-\c@Gm@tempcnt=\count515
-\Gm@bindingoffset=\dimen341
-\Gm@wd@mp=\dimen342
-\Gm@odd@mp=\dimen343
-\Gm@even@mp=\dimen344
-\Gm@layoutwidth=\dimen345
-\Gm@layoutheight=\dimen346
-\Gm@layouthoffset=\dimen347
-\Gm@layoutvoffset=\dimen348
-\Gm@dimlist=\toks54
+\Gm@cnth=\count524
+\Gm@cntv=\count525
+\c@Gm@tempcnt=\count526
+\Gm@bindingoffset=\dimen358
+\Gm@wd@mp=\dimen359
+\Gm@odd@mp=\dimen360
+\Gm@even@mp=\dimen361
+\Gm@layoutwidth=\dimen362
+\Gm@layoutheight=\dimen363
+\Gm@layouthoffset=\dimen364
+\Gm@layoutvoffset=\dimen365
+\Gm@dimlist=\toks55
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -2160,51 +2282,51 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip184
 \cftfigindent=\skip185
 \cftfignumwidth=\skip186
-\c@lofdepth=\count516
-\c@lotdepth=\count517
+\c@lofdepth=\count527
+\c@lotdepth=\count528
 \cftbeforelottitleskip=\skip187
 \cftafterlottitleskip=\skip188
 \cftbeforetabskip=\skip189
 \cfttabindent=\skip190
 \cfttabnumwidth=\skip191
 )
-\c@subsubparagraph=\count518
+\c@subsubparagraph=\count529
 \cftbeforesubsubparagraphskip=\skip192
 \cftsubsubparagraphindent=\skip193
 \cftsubsubparagraphnumwidth=\skip194
 
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2016/03/21 v2.10.2 Sectioning titles
-\ttl@box=\box149
+\ttl@box=\box151
 \beforetitleunit=\skip195
 \aftertitleunit=\skip196
-\ttl@plus=\dimen349
-\ttl@minus=\dimen350
-\ttl@toksa=\toks55
-\titlewidth=\dimen351
-\titlewidthlast=\dimen352
-\titlewidthfirst=\dimen353
+\ttl@plus=\dimen366
+\ttl@minus=\dimen367
+\ttl@toksa=\toks56
+\titlewidth=\dimen368
+\titlewidthlast=\dimen369
+\titlewidthfirst=\dimen370
 )
 (/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
 Package: blindtext 2012/01/06 V2.0 blindtext-Package
-\c@blindtext=\count519
-\c@Blindtext=\count520
-\c@blind@countparstart=\count521
-\blind@countxx=\count522
-\blindtext@numBlindtext=\count523
-\blind@countyy=\count524
-\c@blindlist=\count525
-\c@blindlistlevel=\count526
-\c@blindlist@level=\count527
-\blind@listitem=\count528
-\c@blind@listcount=\count529
-\c@blind@levelcount=\count530
-\blind@mathformula=\count531
-\blind@Mathformula=\count532
-\c@blind@randomcount=\count533
-\c@blind@randommax=\count534
-\c@blind@pangramcount=\count535
-\c@blind@pangrammax=\count536
+\c@blindtext=\count530
+\c@Blindtext=\count531
+\c@blind@countparstart=\count532
+\blind@countxx=\count533
+\blindtext@numBlindtext=\count534
+\blind@countyy=\count535
+\c@blindlist=\count536
+\c@blindlistlevel=\count537
+\c@blindlist@level=\count538
+\blind@listitem=\count539
+\c@blind@listcount=\count540
+\c@blind@levelcount=\count541
+\blind@mathformula=\count542
+\blind@Mathformula=\count543
+\c@blind@randomcount=\count544
+\c@blind@randommax=\count545
+\c@blind@pangramcount=\count546
+\c@blind@pangrammax=\count547
 )
 (/usr/share/texlive/texmf-dist/tex/latex/placeins/placeins.sty
 Package: placeins 2005/04/18  v 2.2
@@ -2226,9 +2348,9 @@ Package minitoc Info: I0023
 (minitoc)             part level macros available.
 Package minitoc Info: I0003
 (minitoc)             chapter level macros available.
-\mtc@toks=\toks56
-\mtc@strutbox=\box150
-\mtc@hstrutbox=\box151
+\mtc@toks=\toks57
+\mtc@strutbox=\box152
+\mtc@hstrutbox=\box153
 Package minitoc Info: I0002
 (minitoc)             Autoconfiguration of extensions.
 
@@ -2246,10 +2368,10 @@ Package minitoc Info: I0031
 \openout7 = these.mtc
 
 \openout7 = these.mtc0
-\c@mtc=\count537
-\c@minitocdepth=\count538
-\c@ptc=\count539
-\c@parttocdepth=\count540
+\c@mtc=\count548
+\c@minitocdepth=\count549
+\c@ptc=\count550
+\c@parttocdepth=\count551
 \ptcindent=\skip199
 Package minitoc Info: I0010
 (minitoc)             The english language is selected.
@@ -2269,12 +2391,9 @@ Package tocbibind Info: The document has chapter divisions on input line 50.
 Package tocbibind Note: Using chapter style headings, unless overridden.
 
 )) (/home/aghiles/.config/latex/bibliography.tex)
-
-Package biblatex Warning: File 'english-ieee.lbx' not found!
-(biblatex)                Ignoring mapping 'english' -> 'english-ieee'.
-
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
+
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/lbx/english.lbx
 File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 )
@@ -2282,8 +2401,8 @@ File: english.lbx 2018/11/02 v3.12 biblatex localization (PK/MW)
 Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (biblatex)                Loading 'csquotes' recommended.
 
-\@quotelevel=\count541
-\@quotereset=\count542
+\@quotelevel=\count552
+\@quotereset=\count553
 
 LaTeX Warning: Unused global option(s):
     [92pt].
@@ -2316,17 +2435,17 @@ LaTeX Font Info:    ... okay on input line 6.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count543
-\scratchdimen=\dimen354
-\scratchbox=\box152
-\nofMPsegments=\count544
-\nofMParguments=\count545
-\everyMPshowfont=\toks57
-\MPscratchCnt=\count546
-\MPscratchDim=\dimen355
-\MPnumerator=\count547
-\makeMPintoPDFobject=\count548
-\everyMPtoPDFconversion=\toks58
+\scratchcounter=\count554
+\scratchdimen=\dimen371
+\scratchbox=\box154
+\nofMPsegments=\count555
+\nofMParguments=\count556
+\everyMPshowfont=\toks58
+\MPscratchCnt=\count557
+\MPscratchDim=\dimen372
+\MPnumerator=\count558
+\makeMPintoPDFobject=\count559
+\everyMPtoPDFconversion=\toks59
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -2348,7 +2467,7 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': document has
  been generated with the most recent feature set (\pgfplotsset{compat=1.16}).
 
-\AtBeginShipoutBox=\box153
+\AtBeginShipoutBox=\box155
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
@@ -2363,7 +2482,7 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count549
+\c@section@level=\count560
 )
 LaTeX Info: Redefining \ref on input line 6.
 LaTeX Info: Redefining \pageref on input line 6.
@@ -2394,6 +2513,62 @@ slations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' fo
 r `english'. on input line 6.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 6.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 6.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 6.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 6.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 6.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 6.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 6.
+LaTeX Font Info:    Redeclaring math accent \check on input line 6.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 6.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 6.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 6.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 6.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 6.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 6.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 6.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 6.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2429,12 +2604,12 @@ r `english'. on input line 6.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@minilofdepth=\count550
-\c@minilotdepth=\count551
-\c@partlofdepth=\count552
-\c@partlotdepth=\count553
-\c@sectlofdepth=\count554
-\c@sectlotdepth=\count555
+\c@minilofdepth=\count561
+\c@minilotdepth=\count562
+\c@partlofdepth=\count563
+\c@partlotdepth=\count564
+\c@sectlofdepth=\count565
+\c@sectlotdepth=\count566
 Package minitoc(hints) Info: I0049
 (minitoc(hints))             ==> You requested the hints option. 
 (minitoc(hints))             Some hints are eventually given below.
@@ -2472,23 +2647,108 @@ Package minitoc(hints) Warning: W0023
 (minitoc(hints))                --- It may be the consequence 
 (minitoc(hints))                of loading the ``hyperref'' package.
 
-\blx@maxsegment@1=\count556
-\blx@sectionciteorder@1=\count557
+\blx@maxsegment@1=\count567
+\blx@sectionciteorder@1=\count568
 Package biblatex Info: Reference section=1 on input line 7.
 Package biblatex Info: Setting label 'refsection:1' on input line 7.
 \g__file_internal_ior=\read5
 (./authors.tex
 Chapter 1.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 9.
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
+LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+))
 Package minitoc Info: I0006
 (minitoc)             these.mtc1 is empty on input line 11.
- (./00_introduction.tex)
 
-LaTeX Warning: Empty bibliography on input line 12.
+(./00_introduction.tex) [1
 
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+] (/home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
+
+Package biblatex Warning: Keyword '5g' not found on input line 1.
+
+
+LaTeX Warning: Empty bibliography on input line 1.
+
+
+Package biblatex Warning: Keyword '5g-slice' not found on input line 2.
+
+
+LaTeX Warning: Empty bibliography on input line 2.
+
+
+Package biblatex Warning: Keyword 'divers-new' not found on input line 3.
+
+
+LaTeX Warning: Empty bibliography on input line 3.
+
+
+Package biblatex Warning: Keyword 'lora-adr' not found on input line 4.
+
+
+LaTeX Warning: Empty bibliography on input line 4.
+
+
+Package biblatex Warning: Keyword 'lora-adr-LoRaWAN' not found on input line 5.
+
+
+LaTeX Warning: Empty bibliography on input line 5.
+
+
+Package biblatex Warning: Keyword 'lora-adr-new' not found on input line 6.
+
+
+LaTeX Warning: Empty bibliography on input line 6.
+
+
+Package biblatex Warning: Keyword 'lora-channel' not found on input line 7.
+
+
+LaTeX Warning: Empty bibliography on input line 7.
+
+
+Package biblatex Warning: Keyword 'lora-new' not found on input line 8.
+
+
+LaTeX Warning: Empty bibliography on input line 8.
+
+
+Package biblatex Warning: Keyword 'lora-power' not found on input line 9.
+
+
+LaTeX Warning: Empty bibliography on input line 9.
+
+
+Package biblatex Warning: Keyword 'lora-z' not found on input line 10.
+
+
+LaTeX Warning: Empty bibliography on input line 10.
+
+
+LaTeX Warning: Empty bibliography on input line 11.
+
+)
 Package biblatex Info: Reference section=0 on input line 13.
 
-Package caption Warning: Unused \captionsetup[table] on input line 121.
+
+Package caption Warning: Unused \captionsetup[table] on input line 120.
 See the caption package documentation for explanation.
 
 Package minitoc Info: I0009
@@ -2512,14 +2772,240 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the these.log file.
 
-[1
-
-
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+[3]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
  (./.bin/these.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 14.
+
+
+ *File List*
+   these.tex
+  report.cls    2018/09/03 v1.4i Standard LaTeX document class
+  size10.clo    2018/09/03 v1.4i Standard LaTeX file (size option)
+   setup.tex
+inputenc.sty    2018/08/11 v1.3c Input encoding file
+ fontenc.sty
+   t1enc.def    2018/08/11 v2.0j Standard LaTeX file
+   t1lmr.fd    2009/10/30 v1.6 Font defs for Latin Modern
+   babel.sty    2018/11/13 3.27 The Babel package
+ english.ldf    2017/06/06 v3.3r English support from the babel system
+ xstring.sty    2019/02/06 v1.83 String manipulations (CT)
+mathtools.sty    2018/01/08 v1.21 mathematical typesetting tools
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+    calc.sty    2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+ mhsetup.sty    2017/03/31 v1.3 programming setup (MH)
+ amsmath.sty    2018/12/01 v2.17b AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+  pifont.sty    2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+    upzd.fd    2001/06/04 font definitions for U/pzd.
+    upsy.fd    2001/06/04 font definitions for U/psy.
+multicol.sty    2018/12/27 v1.8v multicolumn formatting (FMi)
+blkarray.sty    2015/02/27 v0.07 Block array (dpc)
+subfiles.sty    2018/07/31 Federico Garcia, Gernot Salzer
+verbatim.sty    2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+  xparse.sty    2018-10-17 L3 Experimental document command parser
+   expl3.sty    2019-02-15 L3 programming layer (loader) 
+expl3-code.tex    2019-02-15 L3 programming layer 
+l3pdfmode.def    2019-02-15 v L3 Experimental driver: PDF mode
+/home/aghiles/.config/latex/rgb.tex
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+  luatex.def    2018/01/08 v1.0l Graphics/color driver for luatex
+colortbl.sty    2018/12/12 v1.0d Color table columns (DPC)
+   array.sty    2018/12/30 v2.4k Tabular extension package (FMi)
+tcolorbox.sty    2018/12/07 version 4.15 text color boxes
+     pgf.sty    2019/02/02 v3.1.1 (3.1.1)
+  pgfrcs.sty    2019/02/02 v3.1.1 (3.1.1)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+ pgfcore.sty    2019/02/02 v3.1.1 (3.1.1)
+graphicx.sty    2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+graphics.sty    2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  pgfsys.sty    2019/02/02 v3.1.1 (3.1.1)
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2019/02/02 v3.1.1 (3.1.1)
+pgfsysprotocol.code.tex    2019/02/02 v3.1.1 (3.1.1)
+ pgfcore.code.tex
+pgfcomp-version-0-65.sty    2019/02/02 v3.1.1 (3.1.1)
+pgfcomp-version-1-18.sty    2019/02/02 v3.1.1 (3.1.1)
+ environ.sty    2014/05/04 v0.3 A new way to define environments
+trimspaces.sty    2009/09/17 v1.1 Trim spaces around a token list
+etoolbox.sty    2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+/home/aghiles/.config/latex/plot.tex
+    tikz.sty    2019/02/02 v3.1.1 (3.1.1)
+  pgffor.sty    2019/02/02 v3.1.1 (3.1.1)
+ pgfkeys.sty    
+ pgfkeys.code.tex
+ pgfmath.sty    
+ pgfmath.code.tex
+  pgffor.code.tex
+    tikz.code.tex
+pgfplots.sty    2018/03/28 v1.16 Data Visualization (1.16)
+    etex.sty    2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+bigstrut.sty    2019/01/01 v2.4 Provide larger struts in tabulars
+ eso-pic.sty    2018/04/12 v2.0h eso-pic (RN)
+atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+   ifpdf.sty    2018/09/07 v3.3 Provides the ifpdf switch
+stmaryrd.sty    1994/03/03 St Mary's Road symbol package
+/home/aghiles/.config/latex/styles/gantt.sty
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+  ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+ forloop.sty    2006/09/18 v3.0 For Loops for LaTeX
+  lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
+textcomp.sty    2018/08/11 v2.0j Standard LaTeX package
+  ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+  bbding.sty    1999/04/15 v1.01 Dingbats symbols
+  cancel.sty    2013/04/12 v2.2 Cancel math terms
+makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+nicefrac.sty    1998/08/04 v0.9b Nice fractions
+pgfplotstable.sty    2018/03/28 v1.16 Table typesetting and Pretty-printing (1.1
+6)
+ wasysym.sty    2003/10/30 v2.0 Wasy-2 symbol support package
+filecontents.sty    2018/05/30 v1.4 Create an external file from within a LaTeX 
+document
+pdfpages.sty    2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+ppluatex.def    2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
+rotating.sty    2016/08/11 v2.16d rotated objects in LaTeX
+tkz-graph.sty    2018/09/19 ctan v 1.00 d base for graphs
+   hobby.code.tex
+pml3array.sty    
+/home/aghiles/.config/latex/tikzset.tex
+algorithm2e.sty    2017/07/18 v5.2 algorithms environments
+ifoddpage.sty    2016/04/23 v1.1 Conditionals for odd/even page detection
+  xspace.sty    2014/10/28 v1.13 Space after command names (DPC,MH)
+ relsize.sty    2013/03/29 ver 4.1
+multirow.sty    2019/01/01 v2.4 Span multiple rows of a table
+booktabs.sty    2016/04/27 v1.618033 publication quality tables
+longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+threeparttable.sty    2003/06/13  v 3.0
+tabulary.sty    2014/06/11 v0.10 tabulary package (DPC)
+tabularx.sty    2016/02/03 v2.11b `tabularx' package (DPC)
+ragged2e.sty    2009/05/21 v2.1 ragged2e Package (MS)
+everysel.sty    2011/10/28 v1.2 EverySelectfont Package (MS)
+hyperref.sty    2018/11/30 v6.88e Hypertext links for LaTeX
+hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
+ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
+  ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+ intcalc.sty    2016/05/16 v1.2 Expandable calculations with integers (HO)
+etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
+kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
+luatex-loader.sty    2016/05/16 v0.6 Lua module loader (HO)
+pdftexcmds.sty    2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
+  bitset.sty    2016/05/16 v1.2 Handle bit-vector datatype (HO)
+uniquecounter.sty    2016/05/16 v1.3 Provide unlimited unique counter (HO)
+letltxmacro.sty    2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2016/05/16 v1.3 Wrapper for package hooks (HO)
+xcolor-patch.sty    2016/05/16 xcolor patch
+atveryend.sty    2016/05/16 v1.9 Hooks at the very end of document (HO)
+refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
+ hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+ auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
+kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
+  pd1enc.def    2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+ hluatex.def    2018/11/30 v6.88e Hyperref driver for luaTeX
+rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+subcaption.sty    2018/05/01 v1.1-162 Sub-captions (AR)
+ caption.sty    2018/10/06 v3.3-154 Customizing captions (AR)
+caption3.sty    2018/09/12 v1.8c caption3 kernel (AR)
+ltcaption.sty    2018/08/26 v1.4-95 longtable captions (AR)
+enumitem.sty    2019/02/04 v3.8 Customized lists
+biblatex.sty    2018/11/02 v3.12 programmable bibliographies (PK/MW)
+  logreq.sty    2010/08/04 v1.0 xml request logger
+  logreq.def    2010/08/04 v1.0 logreq spec v1.0
+  blx-dm.def    2018/11/02 v3.12 biblatex localization (PK/MW)
+blx-unicode.def
+blx-compat.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+biblatex.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+blx-natbib.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+standard.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+ numeric.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+numeric-comp.cbx    2018/11/02 v3.12 biblatex citation style (PK/MW)
+biblatex.cfg    
+/home/aghiles/.config/latex/commands.tex
+bytefield.sty    2017/09/15 v2.4 Network protocol diagrams
+    acro.sty    2019/02/17 v2.9 Typeset Acronyms
+l3keys2e.sty    2018-10-17 LaTeX2e option processing using LaTeX3 keys
+xtemplate.sty    2018-10-17 L3 Experimental prototype document functions
+zref-abspage.sty    2018/11/21 v2.27 Module abspage for zref (HO)
+zref-base.sty    2018/11/21 v2.27 Module base for zref (HO)
+translations.sty    2017/08/31 v1.7a internationalization of LaTeX2e packages (C
+N)
+scrlfile.sty    2019/02/01 v3.26b KOMA-Script package (loading files)
+/home/aghiles/.config/latex/nomenclature.tex
+arabluatex.sty    2018/10/11 v1.15.1 An ArabTeX-like interface for LuaLaTeX
+luacolor.sty    2018/11/22 v1.11 Color support via LuaTeX's attributes (HO)
+arabluatex-patch.sty    2016/11/14 v1.0 patches for arabluatex
+fontspec.sty    2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
+fontspec-luatex.sty    2019/02/12 v2.7b Font selection for XeLaTeX and LuaLaTeX
+ fontenc.sty
+   tuenc.def    2018/08/11 v2.0j Standard LaTeX file
+fontspec.cfg
+ luacode.sty    2012/01/23 v1.2a lua-in-tex helpers (mpg)
+luatexbase.sty    2015/10/04 v1.3 luatexbase interface to LuaTeX 
+ctablestack.sty    2015/10/01 v1.0 Catcode table stable support
+adjustbox.sty    2019/01/04 v1.2 Adjusting TeX boxes (trim, clip, ...)
+ adjcalc.sty    2012/05/16 v1.1 Provides advanced setlength with multiple back-e
+nds (calc, etex, pgfmath)
+trimclip.sty    2018/04/08 v1.1 Trim and clip general TeX material
+collectbox.sty    2012/05/17 v0.4b Collect macro arguments as boxes
+  tc-pgf.def    2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
+varwidth.sty    2009/03/30 ver 0.92;  Variable-width minipages
+geometry.sty    2018/04/16 v5.8 Page Geometry
+setspace.sty    2011/12/19 v6.7a set line spacing
+epigraph.sty    2009/09/02 v1.5c typesetting epigraphs
+ tocloft.sty    2017/08/31 v2.3i parameterised ToC, etc., typesetting
+titlesec.sty    2016/03/21 v2.10.2 Sectioning titles
+blindtext.sty    2012/01/06 V2.0 blindtext-Package
+placeins.sty    2005/04/18  v 2.2
+ minitoc.sty    2018/07/12 v62 Package minitoc
+ mtcmess.sty    2006/03/14
+   these.mtc0
+ english.mld    2006/01/13
+ english.mld    2006/01/13
+tocbibind.sty    2010/10/13 v1.5k extra ToC listings
+/home/aghiles/.config/latex/bibliography.tex
+ english.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
+  ts1cmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
+supp-pdf.mkii
+epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
+  grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+ nameref.sty    2016/05/21 v2.44 Cross-referencing by name of section
+gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
+   these.out
+   these.out
+   these.bbl
+translations-basic-dictionary-english.trsl    (english translation file `transla
+tions-basic-dictionary')
+./authors.tex
+  Ustmry.fd
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+   uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
+./00_introduction.tex
+/home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
+ ***********
+
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 14.
 Package rerunfilecheck Info: File `these.out' has not changed.
 (rerunfilecheck)             Checksum: 2772925AB246AB6A88B16419A514F41C;262.
@@ -2529,21 +3015,22 @@ Package logreq Info: Writing requests to 'these.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 70989 strings out of 494383
- 125171,2373549 words of node,token memory allocated
- 1079 words of node memory still in use:
-   10 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 11 attribute, 157 glue_sp
-ec, 11 attribute_list, 1 write nodes
-   avail lists: 1:16,2:196,3:51,4:22,5:39,6:7,7:176,8:19,9:37,10:1,11:17
- 72606 multiletter control sequences out of 65536+600000
- 33 fonts using 6188967 bytes
- 84i,6n,136p,1148b,1673s stack positions out of 5000i,500n,10000p,200000b,100000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/pub
-lic/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb>
-Output written on these.pdf (1 page, 42673 bytes).
+ 73650 strings out of 494383
+ 125171,2848258 words of node,token memory allocated
+ 1101 words of node memory still in use:
+   10 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 21 attribute, 157 glue_sp
+ec, 12 attribute_list, 1 write nodes
+   avail lists: 1:13,2:345,3:83,4:18,5:65,6:11,7:377,8:20,9:54,10:14,11:25
+ 75081 multiletter control sequences out of 65536+600000
+ 66 fonts using 9694871 bytes
+ 85i,6n,136p,1148b,1700s stack positions out of 5000i,500n,10000p,200000b,100000s
+</usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/share/tex
+mf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/fonts/opentyp
+e/public/lm/lmroman12-bold.otf>
+Output written on these.pdf (3 pages, 13560 bytes).
 
-PDF statistics: 42 PDF objects out of 1000 (max. 8388607)
- 36 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 131072)
+PDF statistics: 63 PDF objects out of 1000 (max. 8388607)
+ 48 compressed objects within 1 object stream
+ 9 named destinations out of 1000 (max. 131072)
  48 words of extra memory for PDF output out of 10000 (max. 100000000)
 

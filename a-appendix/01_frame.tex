@@ -1,15 +1,20 @@
 %\textheight 10.5in
 %\setlength{\voffset}{-0.4in}
-% \setlength{\hoffset}{-1in}
+%\setlength{\hoffset}{-.3in}
+\newgeometry{top=.2cm, bottom=.5cm, left=.5cm, right=.2cm}
+% \pagestyle{empty}
+% \clearpage
+% \newpage
+\onecolumn
+%\changefontsizes{6pt}
+\cite{_evaluation_} Nous avons vu en effet plus haut qu’il a été démontré que la méthode CSMA est plus efficace pour le traitement des faibles trafics,
+	tandis que TDMA est nettement plus appropriée pour supporter les trafics intensesj.
 
 \ac{CSS} \ac{CF} \ac{FEC}  \ac{PL} \ac{LS} \ac{BS} \ac{CSS} \ac{DSSS} \ac{UNB} \ac{DR} \ac{ADR} \ac{CR} \ac{BW}
-	% \                                  &        			 &          &                & unslotted ALOHA                 &unslotted ALOHA&             		& CDMA-like       &                 \\\hline
+\ac{PS}\ac{SINR}
 
-\newgeometry{top=.5cm, bottom=.5cm, left=.5cm, right=.5cm}
 
-% \pagestyle{empty}
 \begin{landscape}
-
 \begin{figure}
 \tiny
 \begin{bytefield}[bitwidth=6.3em]{22}
@@ -116,25 +121,7 @@
 
 \end{landscape}
 
-% \appendix
 
-
-
-
-
-
-
-
-
-
-
-
-
-\setlength{\hoffset}{-.2in}
-% \pagestyle{empty}
-
-\onecolumn
-%\changefontsizes{6pt}
 \begin{longtable}{l|l|l|l|l|l|l|l}
 	\bf{Characteristics}                 & $\ac{CF}_{[Hz]}$ & \bf{6LoWPAN} & \bf{LoRaWAN}           & \bf{SigFox}   & \bf{NB-IoT}                            & \textbf{INGENU}   & \textbf{TELENSA}\\\hline
 	\multirow{3}{*}{$\bf{Modulation}$}   & 2.4G             & O-QPSK       & -                      & -             & QSPSK\d                                &                   & 2-FSK           \\
@@ -203,10 +190,6 @@
 
 \caption{\label{tab:LPWan_characteristics} LPWAN Characteristics \cite{al-kashoash_comparison_2016}, \cite{lopes_design_2019}, \cite{raza_low_22}, \cite{ayoub_internet_2019}}
 \end{longtable}
-\setlength{\hoffset}{+.2in}
-
-\clearpage
-\newpage
 
 \begin{longtable}{l|l|l|l|l|l|l|l}
 	\bf{Characteristics}               & $\ac{CF}_{[Hz]}$ & \bf{ZigBee}  & \bf{LoRaWAN} & \bf{SigFox} & \bf{NB-IoT} & \textbf{INGENU} & \textbf{TELENSA}\\\hline
@@ -257,12 +240,6 @@
 
 \caption{\label{tab:LPWan_characteristics} LPWAN Characteristics \cite{berder_reseaux_2014}}
 \end{longtable}
-
-\clearpage
-\newpage
-
-
-% \Figure{!htb}{1}{B36RRXJQ-097}{}
 
 % \begin{table}[h!]
 % \scriptsize
@@ -333,7 +310,6 @@
 \caption{\label{tab:IEEE_802.15.4_standards} IEEE 802.15.4 standards \cite{sarwar_iot_2015}}
 \end{table}
 
-% \changefontsizes{7pt}
 \begin{table}[h!]
 \scriptsize
 	\begin{tabulary}{\columnwidth}{L|L|L|L|L|L}
@@ -355,12 +331,6 @@
 	\caption{\label{tab:Tableppp} An example table.}
 \end{table}
 
-
-
-\clearpage
-\newpage
-\ac{PS}\ac{SINR}
-
 \begin{table}[h!]
 \scriptsize
 	\begin{tabular}{l|lllll|llll|llll}
@@ -378,14 +348,6 @@
 	\end{tabular}
 \caption{\label{tab:EE} Receiver sensitivity [dBm]}
 \end{table}
-
-
-
-
-\cite{_evaluation_} Nous avons vu en effet plus haut qu’il a été démontré que la méthode CSMA est plus efficace pour le traitement des faibles trafics,
-	tandis que TDMA est nettement plus appropriée pour supporter les trafics intensesj.
-\ac{PS}
-
 
 
 \begin{table}[h!]
@@ -407,5 +369,5 @@
 
 \clearpage
 \newpage
-\setlength{\hoffset}{-0in}
-% \twocolumn
+\twocolumn
+\restoregeometry

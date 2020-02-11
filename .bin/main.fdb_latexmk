@@ -1,0 +1,33 @@
+# Fdb version 3
+["xdvipdfmx"] 1581203008 ".bin/main.xdv" ".bin/main.pdf" ".bin/main" 1581203009
+  ".bin/main.xdv" 1581203008 2528 b2701cff3ff5a88d4e174b41f28dc3bb "xelatex"
+  (generated)
+  ".bin/main.pdf"
+["xelatex"] 1581203008 "main.tex" ".bin/main.xdv" "main" 1581203009
+  ".bin/main.aux" 1581203008 8 a94a2480d3289e625eea47cd1b285758 ""
+  "/dev/null" 1581122384 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/etc/texmf/web2c/texmf.cnf" 1577236747 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1511824771 3332 103109f5612ad95229751940c61aada0 ""
+  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm" 1136768653 1296 45809c5a464d5f32c8f98ba97c1bb47f ""
+  "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/CaseFolding.txt" 1528926238 82264 414436796cf097df55f798e1585448ee ""
+  "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/SpecialCasing.txt" 1528926238 16830 6aa212ab1dfb2cde4b68c186ab08bd42 ""
+  "/usr/share/texlive/texmf-dist/tex/generic/unicode-data/UnicodeData.txt" 1528926238 1769137 acc291106c3758d2025f8d7bd5518bee ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/article.cls" 1544567569 19933 3097d1b31d3c45dc957096f554529032 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty" 1544567569 4573 e9e01f5b11821a77b916dad378cb86b8 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo" 1544567569 8294 6d6e23d5169c0d89d173f6c7e08a005a ""
+  "/usr/share/texlive/texmf-dist/tex/latex/base/tuenc.def" 1544567569 27445 ec1f19bc4e214ac5c829242794cff400 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty" 1550009053 162540 b5bb142cf8f5ea10bb86dc2584f54c36 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.cfg" 1532898934 549 c4adac819276241fea8eb79c5ab7b99e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/fontspec/fontspec.sty" 1550009053 1655 7f4de003c24c1fa5433a85de9278dc91 ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3-code.tex" 1550356774 978969 ea00779a4e924fc996eabfce5826905e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty" 1550356774 9824 221c10456d7fdfd5013036a3b991642e ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def" 1550356774 17323 df68d718da6c76b7105df6ea62b04faa ""
+  "/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty" 1539894719 78679 0f13caccf8fc0a14ee080e185fe4bd6e ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1551493644 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1551493644 34566 ab5be96bde1a5acfd4f881dbe566b5fb ""
+  "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1577236786 3739690 12e18fd2ff40b7574bc44214829f3b03 ""
+  "main.tex" 1581203007 610 babe8bcdee43c2e3f767287e94925d0c ""
+  (generated)
+  ".bin/main.xdv"
+  ".bin/main.aux"
+  ".bin/main.log"

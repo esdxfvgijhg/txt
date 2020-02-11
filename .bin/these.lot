@@ -11,72 +11,72 @@
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {xchapter}{Industrial Survey}{19}{chapter.3}% 
+\contentsline {xchapter}{Industrial Survey}{33}{chapter.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.1}{\ignorespaces Main IoT challenges\cite {kouicem_internet_2018} + \cite {venkatesan_design_2017} \cite {hancke_role_2012} \cite {alba_intelligent_2016}\relax }}{22}{table.caption.12}% 
+\contentsline {table}{\numberline {3.1}{\ignorespaces Main IoT challenges\cite {kouicem_internet_2018} + \cite {venkatesan_design_2017} \cite {hancke_role_2012} \cite {alba_intelligent_2016}\relax }}{36}{table.caption.13}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.2}{\ignorespaces uyuyuy\relax }}{27}{table.caption.20}% 
+\contentsline {table}{\numberline {3.2}{\ignorespaces uyuyuy\relax }}{41}{table.caption.21}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.3}{\ignorespaces \cite {gaddam_comparative_2018}\relax }}{28}{table.caption.21}% 
+\contentsline {table}{\numberline {3.3}{\ignorespaces \cite {gaddam_comparative_2018}\relax }}{42}{table.caption.22}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.4}{\ignorespaces Standardization efforts that support the IoT\relax }}{28}{table.caption.22}% 
+\contentsline {table}{\numberline {3.4}{\ignorespaces Standardization efforts that support the IoT\relax }}{42}{table.caption.23}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.5}{\ignorespaces Application protocols comparison\relax }}{32}{table.caption.25}% 
+\contentsline {table}{\numberline {3.5}{\ignorespaces Application protocols comparison\relax }}{46}{table.caption.26}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.6}{\ignorespaces Routing protocols comparison \cite {_rpl2_}\relax }}{36}{table.caption.26}% 
+\contentsline {table}{\numberline {3.6}{\ignorespaces Routing protocols comparison \cite {_rpl2_}\relax }}{50}{table.caption.27}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.7}{\ignorespaces Routing protocols comparison \cite {_rpl2_}\relax }}{36}{table.caption.27}% 
+\contentsline {table}{\numberline {3.7}{\ignorespaces Routing protocols comparison \cite {_rpl2_}\relax }}{50}{table.caption.28}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.8}{\ignorespaces \relax }}{36}{table.caption.28}% 
+\contentsline {table}{\numberline {3.8}{\ignorespaces \relax }}{50}{table.caption.29}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.9}{\ignorespaces Common operating systems used in IoT environment \cite {al-fuqaha_internet_24}\relax }}{40}{table.caption.30}% 
+\contentsline {table}{\numberline {3.9}{\ignorespaces Common operating systems used in IoT environment \cite {al-fuqaha_internet_24}\relax }}{54}{table.caption.31}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.10}{\ignorespaces Common operating systems used in IoT environment \cite {al-fuqaha_internet_24}\relax }}{40}{table.caption.31}% 
+\contentsline {table}{\numberline {3.10}{\ignorespaces Common operating systems used in IoT environment \cite {al-fuqaha_internet_24}\relax }}{54}{table.caption.32}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.11}{\ignorespaces \relax }}{41}{table.caption.32}% 
+\contentsline {table}{\numberline {3.11}{\ignorespaces \relax }}{55}{table.caption.33}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.12}{\ignorespaces An example table.\relax }}{42}{table.caption.33}% 
+\contentsline {table}{\numberline {3.12}{\ignorespaces An example table.\relax }}{56}{table.caption.34}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {3.13}{\ignorespaces SDN-based network and topology management architectures. \cite {ndiaye_software_2017}\relax }}{42}{table.caption.34}% 
-\defcounter {refsection}{1}\relax 
-\addvspace {10\p@ }
-\defcounter {refsection}{1}\relax 
-\contentsline {xchapter}{Fuzzy C-Means Clustering}{45}{chapter.4}% 
-\defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Application requirements in \ac {IoT} \cite {feltrin_lorawan_2018} \cite {venkatesan_design_2017} \cite {rizzi_evaluation_2017}\relax }}{47}{table.caption.35}% 
-\defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces \ac {LoRa} transmission parameters\relax }}{49}{table.caption.38}% 
-\defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Samples of membership values of \ac {LoRa} transmission settings to 3 different applications\relax }}{50}{table.caption.39}% 
-\defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Cluster centers\relax }}{50}{table.caption.40}% 
-\defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.5}{\ignorespaces Clustering performance\relax }}{50}{table.caption.41}% 
+\contentsline {table}{\numberline {3.13}{\ignorespaces SDN-based network and topology management architectures. \cite {ndiaye_software_2017}\relax }}{56}{table.caption.35}% 
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {xchapter}{Testbed}{55}{chapter.5}% 
+\contentsline {xchapter}{Fuzzy C-Means Clustering}{59}{chapter.4}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Application requirements in \ac {IoT} \cite {feltrin_lorawan_2018} \cite {venkatesan_design_2017} \cite {rizzi_evaluation_2017}\relax }}{61}{table.caption.36}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.2}{\ignorespaces \ac {LoRa} transmission parameters\relax }}{63}{table.caption.39}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Samples of membership values of \ac {LoRa} transmission settings to 3 different applications\relax }}{64}{table.caption.40}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Cluster centers\relax }}{64}{table.caption.41}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {4.5}{\ignorespaces Clustering performance\relax }}{64}{table.caption.42}% 
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {xchapter}{Conclusion}{67}{chapter.6}% 
+\contentsline {xchapter}{Testbed}{69}{chapter.5}% 
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {xchapter}{Appendix}{69}{appendix.A}% 
+\contentsline {xchapter}{Conclusion}{81}{chapter.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.1}{\ignorespaces LPWAN Characteristics \cite {al-kashoash_comparison_2016}, \cite {lopes_design_2019}, \cite {raza_low_22}, \cite {ayoub_internet_2019}\relax }}{71}{table.A.1}% 
+\addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.2}{\ignorespaces LPWAN Characteristics \cite {berder_reseaux_2014}\relax }}{72}{table.A.2}% 
+\contentsline {xchapter}{Appendix}{83}{appendix.A}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.3}{\ignorespaces \cite {raza_low_22}\relax }}{73}{table.caption.46}% 
+\contentsline {table}{\numberline {A.1}{\ignorespaces LPWAN Characteristics \cite {al-kashoash_comparison_2016}, \cite {lopes_design_2019}, \cite {raza_low_22}, \cite {ayoub_internet_2019}\relax }}{86}{table.A.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.4}{\ignorespaces IoT cloud platforms and their characteristics \cite {al-fuqaha_internet_24}\relax }}{73}{table.caption.47}% 
+\contentsline {table}{\numberline {A.2}{\ignorespaces LPWAN Characteristics \cite {berder_reseaux_2014}\relax }}{87}{table.A.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.5}{\ignorespaces IEEE 802.15.4 standards \cite {sarwar_iot_2015}\relax }}{73}{table.caption.48}% 
+\contentsline {table}{\numberline {A.3}{\ignorespaces \cite {raza_low_22}\relax }}{87}{table.caption.47}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.6}{\ignorespaces An example table.\relax }}{73}{table.caption.49}% 
+\contentsline {table}{\numberline {A.4}{\ignorespaces IoT cloud platforms and their characteristics \cite {al-fuqaha_internet_24}\relax }}{88}{table.caption.48}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.7}{\ignorespaces Receiver sensitivity [dBm]\relax }}{74}{table.caption.50}% 
+\contentsline {table}{\numberline {A.5}{\ignorespaces IEEE 802.15.4 standards \cite {sarwar_iot_2015}\relax }}{88}{table.caption.49}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.8}{\ignorespaces oioioi \relax }}{74}{table.caption.51}% 
+\contentsline {table}{\numberline {A.6}{\ignorespaces An example table.\relax }}{88}{table.caption.50}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {A.7}{\ignorespaces Receiver sensitivity [dBm]\relax }}{88}{table.caption.51}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {table}{\numberline {A.8}{\ignorespaces oioioi \relax }}{88}{table.caption.52}% 

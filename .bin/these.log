@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  8 FEB 2020 17:40
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  9 FEB 2020 08:52
  system commands enabled.
 **main.tex
 (./main.tex
@@ -2224,6 +2224,40 @@ Package fontspec Info: Font family 'NotoNaskhArabic(0)' created for font 'Noto
 ;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 
+luaotfload | aux : font no 38 (nil) defines no feature for script tfng
+luaotfload | aux : no font with id 38
+
+Package fontspec Warning: Font "NotoSansTifinagh" does not contain requested
+(fontspec)                Script "Tifinagh".
+
+luaotfload | aux : font no 38 (nil) defines no feature for script latn
+luaotfload | aux : no font with id 38
+
+Package fontspec Info: Could not resolve font "NotoSansTifinagh/BI" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "NotoSansTifinagh/B" (it
+(fontspec)             probably doesn't exist).
+
+
+Package fontspec Info: Could not resolve font "NotoSansTifinagh/I" (it
+(fontspec)             probably doesn't exist).
+
+luaotfload | aux : font no 38 (nil) does not define feature smcp for script dflt
+ with language dflt
+luaotfload | aux : no font with id 38
+
+Package fontspec Info: Font family 'NotoSansTifinagh(0)' created for font
+(fontspec)             'Noto Sans Tifinagh' with options [Script=Tifinagh].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"NotoSansTifinagh:mode=node;script=DFLT;language=DFLT;
+"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
 (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2018/04/16 v5.8 Page Geometry
@@ -2239,6 +2273,41 @@ Package: geometry 2018/04/16 v5.8 Page Geometry
 \Gm@layouthoffset=\dimen364
 \Gm@layoutvoffset=\dimen365
 \Gm@dimlist=\toks55
+)
+(/usr/share/texmf/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
@@ -2597,6 +2666,20 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 1):
+(biblatex)                callebaut_*cross-layer_2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                capuzzo_*confirmed_2018
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
 (biblatex)                costanzo_software_2012
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -2605,6 +2688,13 @@ Package biblatex Warning: The following entry could not be found
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 1):
 (biblatex)                cruz_algorithm_2019
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                das_link_2008
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2716,7 +2806,21 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 1):
+(biblatex)                noauthor_survey_2013
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
 (biblatex)                petajajarvi_coverage_2015-1
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                petric_measurements_2016-1
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2744,6 +2848,13 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 1):
+(biblatex)                robyns_*physical-layer_2017
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
 (biblatex)                sarwar_iot_2015
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -2759,6 +2870,20 @@ Package biblatex Warning: The following entry could not be found
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database (refsection 1):
 (biblatex)                subramanian_joint_2005
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                terrasson_system_2014
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database (refsection 1):
+(biblatex)                tzounis_internet_2017
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
 
@@ -2794,62 +2919,6 @@ slations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' fo
 r `english'. on input line 6.
-
-Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
-(fontspec)             this).
-
-\symlegacymaths=\mathgroup8
-LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 6.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 6.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 6.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 6.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 6.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 6.
-LaTeX Font Info:    Redeclaring math accent \check on input line 6.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 6.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 6.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 6.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 6.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 6.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/bx/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 6.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/bx/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/bx/it on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 6.
-LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 6.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: luatex
@@ -2933,7 +3002,7 @@ Package minitoc(hints) Warning: W0023
 Package biblatex Info: Reference section=1 on input line 7.
 Package biblatex Info: Setting label 'refsection:1' on input line 7.
 \g__file_internal_ior=\read5
-(./00/00-firstpage.tex)
+(./00-abstract/00-firstpage.tex)
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: luatex
 * paper: a4paper
@@ -2972,7 +3041,7 @@ File: /home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.png Graphic file (ty
 pe png)
 <use /home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.png>
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.p
-ng  used on input line 9.
+ng  used on input line 10.
 (luatex.def)             Requested size: 102.42836pt x 73.75122pt.
 </home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png, id=731, 354.3237
 5pt x 143.53625pt>
@@ -2980,26 +3049,52 @@ File: /home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png Graphic file
  (type png)
 <use /home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png>
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/sorbon
-ne.png  used on input line 9.
+ne.png  used on input line 10.
 (luatex.def)             Requested size: 102.42836pt x 41.49303pt.
 
 
 LaTeX Font Warning: Font shape `TU/lmr/bx/sc' undefined
-(Font)              using `TU/lmr/bx/n' instead on input line 9.
+(Font)              using `TU/lmr/bx/n' instead on input line 10.
 
-LaTeX Font Info:    Try loading font information for U+stmry on input line 9.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 10.
+(/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 10.
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 10.
+
+(/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 10.
+
+(/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 10.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 10.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 10.
+
 (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
-LaTeX Font Info:    Try loading font information for U+msa on input line 9.
+LaTeX Font Info:    Try loading font information for U+msa on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 9.
+LaTeX Font Info:    Try loading font information for U+msb on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-LaTeX Font Info:    Try loading font information for U+wasy on input line 9.
+LaTeX Font Info:    Try loading font information for U+wasy on input line 10.
 
 (/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
@@ -3010,7 +3105,7 @@ File: /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png Graphic file
 (type png)
 <use /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png>
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordur
-e.png  used on input line 9.
+e.png  used on input line 10.
 (luatex.def)             Requested size: 45.98355pt x 380.2685pt.
  [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -3020,55 +3115,94 @@ iles/job/txt/resources/img/icon/upmc.png></home/aghiles/Aghiles/job/txt/resource
 s/img/icon/sorbonne.png>] [2
 
 ]
-(./00/01-1-english.tex) [1
+(./00-abstract/01-1-english.tex) [1
 
 
 ] [2
 
-] (./00/01-2-french.tex)
-<00/01-3-amazigh.pdf, id=759, 597.50829pt x 845.0471pt>
-File: 00/01-3-amazigh.pdf Graphic file (type pdf)
-<use 00/01-3-amazigh.pdf>
-Package luatex.def Info: 00/01-3-amazigh.pdf  used on input line 9.
-(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: 00/01-3-amazigh.pdf Graphic file (type pdf)
-<use 00/01-3-amazigh.pdf>
-Package luatex.def Info: 00/01-3-amazigh.pdf  used on input line 9.
-(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
-<00/01-3-amazigh.pdf, id=762, page=1, 597.50829pt x 845.0471pt>
-File: 00/01-3-amazigh.pdf Graphic file (type pdf)
-<use 00/01-3-amazigh.pdf, page 1>
-Package luatex.def Info: 00/01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.50682pt x 845.04504pt.
-File: 00/01-3-amazigh.pdf Graphic file (type pdf)
-<use 00/01-3-amazigh.pdf, page 1>
-Package luatex.def Info: 00/01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
- [3]
-File: 00/01-3-amazigh.pdf Graphic file (type pdf)
-<use 00/01-3-amazigh.pdf, page 1>
-Package luatex.def Info: 00/01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: 00/01-3-amazigh.pdf Graphic file (type pdf)
-<use 00/01-3-amazigh.pdf, page 1>
-Package luatex.def Info: 00/01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: 00/01-3-amazigh.pdf Graphic file (type pdf)
-<use 00/01-3-amazigh.pdf, page 1>
-Package luatex.def Info: 00/01-3-amazigh.pdf , page1 used on input line 9.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
- [4<./00/01-3-amazigh.pdf>] (./00/01-4-arabic.tex) [5
+] (./00-abstract/01-2-french.tex)
+[3] [4
 
+]
+
+LaTeX Font Warning: Font shape `TU/NotoSansTifinagh(0)/bx/n' undefined
+(Font)              using `TU/NotoSansTifinagh(0)/m/n' instead on input line 10.
+
+
+(./00-abstract/01-3-amazigh.tex) [5
+Missing character: There is no 0 (U+0030) in font NotoSansTifinagh!
+Missing character: There is no 1 (U+0031) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no 3 (U+0033) in font NotoSansTifinagh!
+Missing character: There is no 4 (U+0034) in font NotoSansTifinagh!
+Missing character: There is no 5 (U+0035) in font NotoSansTifinagh!
+Missing character: There is no 6 (U+0036) in font NotoSansTifinagh!
+Missing character: There is no 7 (U+0037) in font NotoSansTifinagh!
+Missing character: There is no 8 (U+0038) in font NotoSansTifinagh!
+Missing character: There is no 9 (U+0039) in font NotoSansTifinagh!
+Missing character: There is no A (U+0041) in font NotoSansTifinagh!
+Missing character: There is no B (U+0042) in font NotoSansTifinagh!
+Missing character: There is no C (U+0043) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no E (U+0045) in font NotoSansTifinagh!
+Missing character: There is no F (U+0046) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 3 (U+0033) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 4 (U+0034) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 5 (U+0035) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 6 (U+0036) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
+Missing character: There is no U (U+0055) in font NotoSansTifinagh!
+Missing character: There is no + (U+002B) in font NotoSansTifinagh!
+Missing character: There is no 2 (U+0032) in font NotoSansTifinagh!
+Missing character: There is no D (U+0044) in font NotoSansTifinagh!
+Missing character: There is no 7 (U+0037) in font NotoSansTifinagh!
+Missing character: There is no x (U+0078) in font NotoSansTifinagh!
 ] [6
 
-] (./00/02-acknowledgements.tex) [7]
-[8
+] (./00-abstract/01-4-arabic.tex)
+[7] [8
 
-] (./00/03-dedication.tex) [9] [10
+] (./00-abstract/02-acknowledgements.tex) [9] [10
+
+]
+(./00-abstract/03-dedication.tex
+LaTeX Font Info:    Try loading font information for T1+LobsterTwo-LF on input l
+ine 8.
+
+(/usr/share/texlive/texmf-dist/tex/latex/lobster2/T1LobsterTwo-LF.fd
+File: T1LobsterTwo-LF.fd 2014/01/08 (autoinst) Font definitions for T1/LobsterTw
+o-LF.
+)
+LaTeX Font Info:    Font shape `T1/LobsterTwo-LF/bx/it' in size <10> not availab
+le
+(Font)              Font shape `T1/LobsterTwo-LF/b/it' tried instead on input li
+ne 8.
+) [11]
+[12
+
 
 ]
 Package minitoc Info: I0024
-(minitoc)             PREPARING MINITOCS FROM these.toc on input line 10.
+(minitoc)             PREPARING MINITOCS FROM these.toc on input line 11.
 Package minitoc Info: I0033
 (minitoc)             Writing these.mtc1.
 
@@ -3133,25 +3267,25 @@ Package minitoc Info: I0033
 (minitoc)             Writing these.mtc16.
 
 \openout7 = these.mtc16
- (./.bin/these.toc [11
+ (./.bin/these.toc [13
 
 ]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[12]
+[14]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[13])
+[15])
 \tf@toc=\write9
 
 \openout9 = these.toc
- [14]
+ [16]
 Package minitoc Info: I0037
-(minitoc)             PREPARING MINILOTS FROM these.lot on input line 10.
+(minitoc)             PREPARING MINILOTS FROM these.lot on input line 11.
 Package minitoc Info: I0033
 (minitoc)             Writing these.mlt1.
 
@@ -3184,7 +3318,7 @@ Package minitoc Info: I0033
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 16.
 
 Overfull \hbox (78.89127pt too wide) in paragraph at lines 16--16
- [][] [][]\TU/lmr/m/n/10 Main IoT chal-lenges[[]] + [[]116[]] [[]] [[]][] []  
+ [][] [][]\TU/lmr/m/n/10 Main IoT chal-lenges[[]] + [[]220[]] [[]] [[]][] []  
  []
 
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 46.
@@ -3196,14 +3330,14 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 68.
 \tf@lot=\write10
 
 \openout10 = these.lot
- [15
+ [17
 
 
-] [16
+] [18
 
 ]
 Package minitoc Info: I0034
-(minitoc)             PREPARING MINILOFS FROM these.lof on input line 10.
+(minitoc)             PREPARING MINILOFS FROM these.lof on input line 11.
 Package minitoc Info: I0033
 (minitoc)             Writing these.mlf1.
 
@@ -3236,11 +3370,7 @@ Package minitoc Info: I0033
 \tf@lof=\write11
 
 \openout11 = these.lof
- [17
-
-] [18
-
-] [19
+ [19
 
 ] [20
 
@@ -3248,10 +3378,14 @@ Package minitoc Info: I0033
 
 ] [22
 
-]
-(./00/04-publications.tex) [23
+] [23
 
 ] [24
+
+]
+(./00-abstract/04-publications.tex) [25
+
+] [26
 
 ] (./01-introduction/authors.tex
 Chapter 1.
@@ -3259,6 +3393,11 @@ Chapter 1.
 \openout7 = these.mtc
 
 \openout7 = these.mtc
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 12.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 12.
  (./.bin/these.mtc10) (./01-introduction/00_introduction.tex)
 (./02-literature-survey/authors.tex
 warning  (pdf backend): ignoring duplicate destination with the name 'page.1'
@@ -3277,8 +3416,8 @@ warning  (pdf backend): ignoring duplicate destination with the name 'page.2'
 Chapter 2.
 )
 Package minitoc Info: I0006
-(minitoc)             these.mtc11 is empty on input line 12.
- (./02-literature-survey/01_all.tex
+(minitoc)             these.mtc11 is empty on input line 13.
+ (./02-literature-survey/01_papers.tex
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 9.
  [3]
@@ -3712,17 +3851,623 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1630.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1631.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1632.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1633.
-) (./03-technical-survey/authors.tex
+) (./02-literature-survey/02_papers.tex
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
 [17]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: luatex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
+* v-part:(T,H,B)=(14.22636pt, 816.59412pt, 14.22636pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=569.05515pt
+* \textheight=816.59412pt
+* \oddsidemargin=-58.04362pt
+* \evensidemargin=-58.04362pt
+* \topmargin=-98.04362pt
+* \headheight=15.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=111.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 6.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 6.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 8.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 9.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 10.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 12.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 13.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 14.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 15.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 16.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 17.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 18.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 19.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 20.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 21.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 22.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 23.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 24.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 25.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 26.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 28.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 29.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 30.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 31.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 32.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 33.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 34.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 35.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 36.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 37.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 38.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 39.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 40.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 41.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 42.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 43.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 44.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 45.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 46.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 47.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 48.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 49.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 50.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 51.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 52.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 53.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 54.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 55.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 56.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 57.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 58.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 59.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 60.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 61.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 62.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 63.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 64.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 64.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 68.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 69.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 70.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 71.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 72.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 73.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 74.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 75.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 77.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 80.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 81.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 81.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 82.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 83.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 84.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 84.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 84.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 85.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 85.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 85.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 86.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 86.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 86.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 86.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 86.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 87.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 87.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 87.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 88.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 88.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 88.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 88.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 88.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 88.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 88.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 89.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 89.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 90.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 90.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 91.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 92.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 92.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 94.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 95.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 96.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 97.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 98.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 99.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 100.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 101.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 102.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 103.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 104.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 105.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 106.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 107.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 108.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 109.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 110.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 111.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 112.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 113.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 113.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 114.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 114.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 114.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 114.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 115.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 115.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 115.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 116.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 116.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 117.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 117.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 118.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 119.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 119.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 119.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 120.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 120.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 121.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 121.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 122.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 123.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 123.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 123.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 124.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 125.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 127.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 128.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 129.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 130.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 131.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 132.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 133.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 134.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 135.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 135.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 136.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 136.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 136.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 136.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 136.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 136.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 136.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 136.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 137.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 137.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 137.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 137.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 137.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 137.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 138.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 138.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 139.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 139.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 140.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 140.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 141.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 141.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 142.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 142.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 143.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 143.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 144.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 145.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 146.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 147.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 148.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 149.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 150.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 152.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 153.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 154.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 155.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 156.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 156.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 157.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 157.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 157.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 157.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 157.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 158.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 158.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 159.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 159.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 160.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 161.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 161.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 162.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 162.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 162.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 162.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 163.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 164.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 165.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 166.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 167.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 168.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 169.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 170.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 170.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 171.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 171.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 171.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 172.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 172.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 172.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 172.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 173.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 173.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 173.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 173.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 174.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 174.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 175.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 175.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 175.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 175.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 176.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 176.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 177.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 177.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 178.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 179.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 179.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 180.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 180.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 181.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 181.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 182.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 182.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 183.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 183.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 183.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 184.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 184.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 185.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 185.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 185.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 185.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 185.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 185.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 186.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 186.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 187.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 187.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 187.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 188.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 188.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 188.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 189.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 190.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 190.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 191.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 191.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 191.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 192.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 192.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 193.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 193.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 194.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 194.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 195.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 195.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 196.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 196.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 196.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 196.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 197.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 197.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 198.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 198.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 199.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 200.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 201.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 202.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 203.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 204.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 205.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 206.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 207.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 208.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 209.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 210.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 211.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 212.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 213.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 214.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 215.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 216.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 217.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 218.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 219.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 220.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 221.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 222.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 222.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 222.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 222.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 222.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 223.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 224.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 225.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 226.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 226.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 226.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 227.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 227.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 228.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 228.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 229.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 229.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 230.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 230.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 231.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 231.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 232.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 232.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 232.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 232.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 232.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 233.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 233.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 234.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 234.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 234.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 234.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 235.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 235.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 236.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 236.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 237.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 238.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 239.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 240.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 241.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 242.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 243.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 244.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 245.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 246.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 247.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 248.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 249.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 250.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 251.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 252.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 253.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 254.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 255.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 256.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 258.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 259.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 260.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 260.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 260.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 260.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 260.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 260.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 260.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 260.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 261.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 261.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 261.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 261.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 261.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 261.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 261.
+
+Overfull \hbox (45.7471pt too wide) in paragraph at lines 6--262
+\TU/lmr/m/n/10 [[]170[]] \TU/lmr/bx/sc/10 An-no-ta-tions ex-traites (15/01/2020
+ à 15:24:26)\TU/lmr/m/n/10 ”to re-al-ize the service-oriented 5G vi-sion.
+” ([]Chang and Nikaein 2018:34018[])”serviced-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--262
+
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
 [18
+
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[21]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[22]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[23]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[24]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[25]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[26]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[29]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[30]
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[31]) (./03-technical-survey/authors.tex
+Overfull \hbox (11.1pt too wide) has occurred while \output is active
+ $[]$ 
+ []
+
+[32
+
 
 ]
 Chapter 3.
@@ -3730,12 +4475,12 @@ Chapter 3.
 \openout7 = these.mtc
 
 \openout7 = these.mtc
- (./.bin/these.mtc12 [19]
+ (./.bin/these.mtc12 [33]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[20]) (./03-technical-survey/01_usecases.tex
+[34]) (./03-technical-survey/01_usecases.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `\cite' on input line 1.
@@ -3753,7 +4498,7 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[21]
+[35]
 Overfull \hbox (2.2968pt too wide) in paragraph at lines 41--41
  []\TU/lmr/m/n/7 QoS| 
  []
@@ -3778,10 +4523,10 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[22
+[36
 
 ]
-</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png, id=1765, 845.
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png, id=2303, 845.
 1575pt x 597.23125pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png Graphic f
 ile (type png)
@@ -3798,8 +4543,8 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[23]
-</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_a.png, id=1773, 981.667
+[37]
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_a.png, id=2310, 981.667
 5pt x 209.78375pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_a.png Graphic file
  (type png)
@@ -3812,8 +4557,8 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[24</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png>]
-</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_b.png, id=1781, 1025.83
+[38</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png>]
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_b.png, id=2318, 1025.83
 25pt x 196.735pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_b.png Graphic file
  (type png)
@@ -3821,7 +4566,7 @@ File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_b.png Graphic file
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class
 _b.png  used on input line 219.
 (luatex.def)             Requested size: 441.01773pt x 84.57938pt.
-</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_c.png, id=1782, 1028.84
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_c.png, id=2319, 1028.84
 375pt x 185.69376pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_c.png Graphic file
  (type png)
@@ -3829,15 +4574,15 @@ File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_c.png Graphic file
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class
 _c.png  used on input line 235.
 (luatex.def)             Requested size: 441.01773pt x 79.60023pt.
-</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lorawan_parameters.png, id=17
-83, 1027.84pt x 566.115pt>
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lorawan_parameters.png, id=23
+20, 1027.84pt x 566.115pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lorawan_parameters.png G
 raphic file (type png)
 <use /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lorawan_parameters.png>
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/loraw
 an_parameters.png  used on input line 242.
 (luatex.def)             Requested size: 441.01773pt x 242.9064pt.
-</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/loraparam.png, id=1784, 1219.
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/loraparam.png, id=2321, 1219.
 55624pt x 638.385pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/loraparam.png Graphic fi
 le (type png)
@@ -3850,10 +4595,10 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[25</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_a.png></home/aghiles
+[39</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/class_a.png></home/aghiles
 /Aghiles/job/txt/resources/img/C-RAN/class_b.png></home/aghiles/Aghiles/job/txt/
 resources/img/C-RAN/class_c.png>]
-</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/bw.png, id=1795, 722.7pt x 45
+</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/bw.png, id=2331, 722.7pt x 45
 9.7175pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/bw.png Graphic file (typ
 e png)
@@ -3870,7 +4615,7 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[26</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lorawan_parameters.png></h
+[40</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lorawan_parameters.png></h
 ome/aghiles/Aghiles/job/txt/resources/img/C-RAN/loraparam.png>]
 Overfull \hbox (4.42937pt too wide) in paragraph at lines 316--316
  []|\TU/lmr/bx/n/7 SF|
@@ -4087,12 +4832,14 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[27</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/bw.png>])
+[41</home/aghiles/Aghiles/job/txt/resources/img/C-RAN/bw.png>])
 (./03-technical-survey/03_protocols.tex
 \height=\dimen373
 \depth=\dimen374
 \totalheight=\dimen375
 \width=\dimen376
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 48.
 \height=\dimen377
 \depth=\dimen378
 \totalheight=\dimen379
@@ -4162,22 +4909,22 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[28]
+[42]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[29]
+[43]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[30]
+[44]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[31]
+[45]
 Overfull \hbox (1.28162pt too wide) in paragraph at lines 471--471
  []\TU/lmr/m/n/7 QoS| 
  []
@@ -4190,17 +4937,17 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[32]
+[46]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[33]
+[47]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[34]
+[48]
 Overfull \hbox (0.12627pt too wide) in paragraph at lines 661--679
 []  |\TU/lmr/bx/n/12 F) Header com-pres-sion Im-proved (draft-hui-6lowpan-hc-01
 ) \TU/lmr/m/n/10 To pro-vide bet-
@@ -4211,17 +4958,17 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[35]
+[49]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[36]) (./03-technical-survey/04_sensors.tex
+[50]) (./03-technical-survey/04_sensors.tex
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 5.
 
-</home/aghiles/Aghiles/job/txt/resources/img/os-timeline.png, id=1872, 594.0594p
+</home/aghiles/Aghiles/job/txt/resources/img/os-timeline.png, id=2407, 594.0594p
 t x 179.7114pt>
 File: /home/aghiles/Aghiles/job/txt/resources/img/os-timeline.png Graphic file (
 type png)
@@ -4234,12 +4981,12 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[37]
+[51]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[38</home/aghiles/Aghiles/job/txt/resources/img/os-timeline.png>]
+[52</home/aghiles/Aghiles/job/txt/resources/img/os-timeline.png>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -4301,12 +5048,12 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[39]
+[53]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[40]
+[54]
 Overfull \hbox (16.62311pt too wide) in paragraph at lines 342--342
 [][]|  
  []
@@ -4326,7 +5073,7 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[41]
+[55]
 Overfull \hbox (3.5851pt too wide) in paragraph at lines 54--54
 []\TU/lmr/bx/n/7 [[]] 
  []
@@ -4356,17 +5103,17 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[42]) (./05-isncc/authors.tex
+[56]) (./05-isncc/authors.tex
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[43]
+[57]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[44
+[58
 
 ]
 Chapter 4.
@@ -4377,7 +5124,7 @@ Chapter 4.
  (./.bin/these.mtc13) (./05-isncc/00_abstract.tex)
 (./05-isncc/01_introduction.tex
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 13.
- [45]
+ [59]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 27.
 ) (./05-isncc/02_related.tex
@@ -4399,7 +5146,7 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[46]
+[60]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 53.
 ) (./05-isncc/03_background.tex
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 34.
@@ -4411,20 +5158,27 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 34.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 37.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 38.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 38.
-) (./05-isncc/04_approach.tex
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 56.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\ensuremath' on input line 56.
+
+
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[47]
-</home/aghiles/Aghiles/job/txt/resources/plt/fcm.pdf, id=2106, 101.98903pt x 129
+[61]) (./05-isncc/04_approach.tex
+</home/aghiles/Aghiles/job/txt/resources/plt/fcm.pdf, id=2643, 101.98903pt x 129
 .8722pt>
 File: /home/aghiles/Aghiles/job/txt/resources/plt/fcm.pdf Graphic file (type pdf
 )
 <use /home/aghiles/Aghiles/job/txt/resources/plt/fcm.pdf>
 Package luatex.def Info: /home/aghiles/Aghiles/job/txt/resources/plt/fcm.pdf  us
 ed on input line 60.
-(luatex.def)             Requested size: 176.40439pt x 224.64012pt.
+(luatex.def)             Requested size: 132.30666pt x 168.48505pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -4434,7 +5188,7 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[48]) (./05-isncc/06_results.tex
+[62]) (./05-isncc/06_results.tex
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -4443,8 +5197,8 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[49</home/aghiles/Aghiles/job/txt/resources/plt/fcm.pdf>]
-</home/aghiles/Aghiles/job/txt/resources/plt/metrics1.pdf, id=2198, 180.11993pt 
+[63</home/aghiles/Aghiles/job/txt/resources/plt/fcm.pdf>]
+</home/aghiles/Aghiles/job/txt/resources/plt/metrics1.pdf, id=2737, 180.11993pt 
 x 164.59692pt>
 File: /home/aghiles/Aghiles/job/txt/resources/plt/metrics1.pdf Graphic file (typ
 e pdf)
@@ -4456,7 +5210,7 @@ f  used on input line 79.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-</home/aghiles/Aghiles/job/txt/resources/plt/metrics2.pdf, id=2213, 177.91267pt 
+</home/aghiles/Aghiles/job/txt/resources/plt/metrics2.pdf, id=2752, 177.91267pt 
 x 165.1249pt>
 File: /home/aghiles/Aghiles/job/txt/resources/plt/metrics2.pdf Graphic file (typ
 e pdf)
@@ -4467,7 +5221,7 @@ f  used on input line 90.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-</home/aghiles/Aghiles/job/txt/resources/plt/metrics3.pdf, id=2222, 189.03122pt 
+</home/aghiles/Aghiles/job/txt/resources/plt/metrics3.pdf, id=2761, 189.03122pt 
 x 154.43596pt>
 File: /home/aghiles/Aghiles/job/txt/resources/plt/metrics3.pdf Graphic file (typ
 e pdf)
@@ -4483,31 +5237,31 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[50]
+[64]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[51</home/aghiles/Aghiles/job/txt/resources/plt/metrics1.pdf></home/aghiles/Aghi
+[65</home/aghiles/Aghiles/job/txt/resources/plt/metrics1.pdf></home/aghiles/Aghi
 les/job/txt/resources/plt/metrics2.pdf>]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[52</home/aghiles/Aghiles/job/txt/resources/plt/metrics3.pdf>])
+[66</home/aghiles/Aghiles/job/txt/resources/plt/metrics3.pdf>])
 (./08-testbed/authors.tex
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[53
+[67
 
 ]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[54
+[68
 
 ]
 Chapter 5.
@@ -4529,17 +5283,17 @@ Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
 (hyperref)                removing `subscript' on input line 1.
 
-[55]
+[69]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[56]) (./08-testbed/02_related.tex) (./08-testbed/03_background.tex
+[70]) (./08-testbed/02_related.tex) (./08-testbed/03_background.tex
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[57
+[71
 Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:+tlig;!
 ]) (./08-testbed/04_approach.tex
@@ -4547,17 +5301,17 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[58]
+[72]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[59]) (./08-testbed/05_experimentation.tex
+[73]) (./08-testbed/05_experimentation.tex
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[60
+[74
 Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no λ (U+03BB) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no π (U+03C0) in font [lmroman10-regular]:+tlig;!
@@ -4569,14 +5323,14 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[61
+[75
 Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:+tlig;!
 ]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[62
+[76
 Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:+tlig;!
 ]) (./08-testbed/06_results.tex
@@ -4584,26 +5338,26 @@ Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[63
+[77
 Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:+tlig;!
 ]) (./08-testbed/07_conclusion.tex
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[64
+[78
 Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:+tlig;!
 ]) (./09-conclusion/authors.tex
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[65]
+[79]
 Overfull \hbox (11.1pt too wide) has occurred while \output is active
  $[]$ 
  []
 
-[66
+[80
 
 ]
 Chapter 6.
@@ -4612,29 +5366,29 @@ Chapter 6.
 
 \openout7 = these.mtc
  (./.bin/these.mtc15) (./09-conclusion/00_conclusion.tex)
-(./a-appendix/authors.tex [67] [68
+(./a-appendix/authors.tex [81] [82
 
 ]
 Appendix A.
 )
 Package minitoc Info: I0006
-(minitoc)             these.mtc16 is empty on input line 18.
- (./a-appendix/01_frame.tex [69]
+(minitoc)             these.mtc16 is empty on input line 19.
+ (./a-appendix/01_frame.tex [83]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: luatex
 * paper: a4paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: twoside 
-* h-part:(L,W,R)=(14.22636pt, 569.05515pt, 14.22636pt)
-* v-part:(T,H,B)=(14.22636pt, 816.59412pt, 14.22636pt)
+* h-part:(L,W,R)=(14.22636pt, 577.59105pt, 5.69046pt)
+* v-part:(T,H,B)=(5.69046pt, 825.13002pt, 14.22636pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=569.05515pt
-* \textheight=816.59412pt
+* \textwidth=577.59105pt
+* \textheight=825.13002pt
 * \oddsidemargin=-58.04362pt
-* \evensidemargin=-58.04362pt
-* \topmargin=-98.04362pt
+* \evensidemargin=-66.57953pt
+* \topmargin=-106.57953pt
 * \headheight=15.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -4652,6 +5406,10 @@ Package minitoc Info: I0006
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+ [84
+
+
+]
 \height=\dimen437
 \depth=\dimen438
 \totalheight=\dimen439
@@ -4928,76 +5686,141 @@ Package minitoc Info: I0006
 \depth=\dimen710
 \totalheight=\dimen711
 \width=\dimen712
- [70
-
+ [85
 
 ]
-Overfull \hbox (28.84697pt too wide) in alignment at lines 138--159
+Overfull \hbox (20.31128pt too wide) in alignment at lines 125--146
  [][][][][][][][] 
  []
 
 
-Overfull \hbox (28.84697pt too wide) in alignment at lines 159--178
+Overfull \hbox (20.31128pt too wide) in alignment at lines 146--165
  [][][][][][][][] 
  []
 
 
-Overfull \hbox (28.84697pt too wide) in alignment at lines 178--200
+Overfull \hbox (20.31128pt too wide) in alignment at lines 165--187
  [][][][][][][][] 
  []
 
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 204.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 204.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 204.
-Package hyperref Info: Option `pdfnewwindow' set `true' on input line 204.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 191.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 191.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 191.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 191.
 
-Overfull \hbox (28.84697pt too wide) in alignment at lines 200--205
+Overfull \hbox (20.31128pt too wide) in alignment at lines 187--192
  [][][][][][][][] 
  []
 
-[71
-
+[86
 
 Missing character: There is no π (U+03C0) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no ∼ (U+223C) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:+tlig;!
 Missing character: There is no μ (U+03BC) in font [lmroman10-regular]:+tlig;!
-] [72
-
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 []|\TU/lmr/bx/n/7 Dif-fer-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 332--332
+Underfull \hbox (badness 10000) in paragraph at lines 309--309
 []|\TU/lmr/bx/n/7 Dif-fer-
  []
 
 
-Overfull \hbox (8.39838pt too wide) in paragraph at lines 332--333
+Overfull \hbox (7.8435pt too wide) in paragraph at lines 309--310
 [][] 
  []
 
-[73
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (6.26471pt too wide) in paragraph at lines 336--349
+[][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[87] [88]) (/home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+ [89
+
+
 
 ]
-Overfull \hbox (4.18504pt too wide) in paragraph at lines 366--379
-[][] 
- []
-
-[74
-
-]) (/home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 1.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+ [90]
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
 
-
-Package biblatex Warning: Keyword '5g-slice' not found on input line 2.
-
-
-LaTeX Warning: Empty bibliography on input line 2.
+[91]
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 2.
 
 
 Package biblatex Warning: Keyword 'divers-new' not found on input line 3.
@@ -5031,6 +5854,22 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+
+Overfull \hbox (17.51596pt too wide) in paragraph at lines 7--7
+[]\TU/lmr/m/n/9 Yong Cui, Wei Li, and Xi-uzhen Cheng. []Par-tially Over-lap-pin
+g Chan-nel As-sign-ment Based on &#x201C;Node
+ []
+
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 7.
+[92]
 
 Package biblatex Warning: Keyword 'lora-new' not found on input line 8.
 
@@ -5055,10 +5894,6 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
-[75
-
-
-]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
@@ -5071,6 +5906,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+[93]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
@@ -5084,12 +5920,12 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
- [76]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+ [94]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
@@ -5111,7 +5947,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
- [77]
+ [95]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
@@ -5127,6 +5963,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+ [96]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
@@ -5135,7 +5972,6 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
- [78]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
@@ -5147,6 +5983,7 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+ [97]
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
@@ -5166,8 +6003,72 @@ Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
 Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
- [79])
-Package biblatex Info: Reference section=0 on input line 21.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+ [98]
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+ [99]
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+ [100]
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+Package hyperref Info: Option `pdfnewwindow' set `true' on input line 11.
+)
+Package biblatex Info: Reference section=0 on input line 22.
 Package minitoc Info: I0009
 (minitoc)             Listing minitoc auxiliary files. 
 (minitoc)             Creating the these.maf file.
@@ -5189,11 +6090,11 @@ Package minitoc(hints) Warning: W0024
 (minitoc(hints))                Some hints have been written 
 (minitoc(hints))                in the these.log file.
 
-[80]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 22.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 22.
+[101]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 23.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 23.
  (./.bin/these.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 22.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 23.
 
 
  *File List*
@@ -5387,6 +6288,7 @@ collectbox.sty    2012/05/17 v0.4b Collect macro arguments as boxes
   tc-pgf.def    2019/01/04 v2.2 trimclip fall-back clipping driver using PGF
 varwidth.sty    2009/03/30 ver 0.92;  Variable-width minipages
 geometry.sty    2018/04/16 v5.8 Page Geometry
+ lmodern.sty    2009/10/30 v1.6 Latin Modern Fonts
 setspace.sty    2011/12/19 v6.7a set line spacing
 epigraph.sty    2009/09/02 v1.5c typesetting epigraphs
  tocloft.sty    2017/08/31 v2.3i parameterised ToC, etc., typesetting
@@ -5414,28 +6316,32 @@ gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
    these.bbl
 translations-basic-dictionary-english.trsl    (english translation file `transla
 tions-basic-dictionary')
-00/00-firstpage.tex
+00-abstract/00-firstpage.tex
 /home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.png
 /home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png
+  ot1lmr.fd    2009/10/30 v1.6 Font defs for Latin Modern
+  omllmm.fd    2009/10/30 v1.6 Font defs for Latin Modern
+ omslmsy.fd    2009/10/30 v1.6 Font defs for Latin Modern
+ omxlmex.fd    2009/10/30 v1.6 Font defs for Latin Modern
   Ustmry.fd
     umsa.fd    2013/01/14 v3.01 AMS symbols A
     umsb.fd    2013/01/14 v3.01 AMS symbols B
    uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
 /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png
-00/01-1-english.tex
-00/01-2-french.tex
-00/01-3-amazigh.pdf
-00/01-3-amazigh.pdf
-00/01-3-amazigh.pdf
-00/01-3-amazigh.pdf
-00/01-4-arabic.tex
-00/02-acknowledgements.tex
-00/03-dedication.tex
-00/04-publications.tex
+00-abstract/01-1-english.tex
+00-abstract/01-2-french.tex
+00-abstract/01-3-amazigh.tex
+00-abstract/01-4-arabic.tex
+00-abstract/02-acknowledgements.tex
+00-abstract/03-dedication.tex
+T1LobsterTwo-LF.fd    2014/01/08 (autoinst) Font definitions for T1/LobsterTwo-L
+F.
+00-abstract/04-publications.tex
 01-introduction/authors.tex
 01-introduction/00_introduction.tex
 02-literature-survey/authors.tex
-02-literature-survey/01_all.tex
+02-literature-survey/01_papers.tex
+02-literature-survey/02_papers.tex
 03-technical-survey/authors.tex
 03-technical-survey/01_usecases.tex
 03-technical-survey/02_standards.tex
@@ -5479,9 +6385,9 @@ a-appendix/01_frame.tex
 /home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 22.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 23.
 Package rerunfilecheck Info: File `these.out' has not changed.
-(rerunfilecheck)             Checksum: DEEE8816E54AC8942C5B1F41CE8B4EB5;12812.
+(rerunfilecheck)             Checksum: 08B14380F28C0EC760F8E0EE36F7AA0E;12813.
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -5502,50 +6408,55 @@ Package logreq Info: Writing requests to 'these.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 76417 strings out of 494383
- 156469,3417909 words of node,token memory allocated
- 1570 words of node memory still in use:
-   11 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 123 attribute, 159 glue_s
-pec, 63 attribute_list, 1 write, 24 pdf_action nodes
-   avail lists: 1:25,2:8107,3:957,4:67,5:1175,6:541,7:11254,8:1871,9:2387,10:33,
-11:743
- 76099 multiletter control sequences out of 65536+600000
- 115 fonts using 14661831 bytes
- 85i,18n,136p,5599b,3677s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 77044 strings out of 494383
+ 1165945,3417909 words of node,token memory allocated
+ 3322 words of node memory still in use:
+   11 hlist, 2 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 415 attribute, 159 glue_s
+pec, 209 attribute_list, 1 write, 170 pdf_action nodes
+   avail lists: 1:22,2:10979,3:1387,4:88,5:5708,6:506,7:119538,8:1982,9:2387,10:
+41,11:8346
+ 76453 multiletter control sequences out of 65536+600000
+ 128 fonts using 15443183 bytes
+ 85i,15n,136p,5954b,3675s stack positions out of 5000i,500n,10000p,200000b,100000s
 
 warning  (pdf backend): unreferenced destination with name 'BR'
-</usr/share/texmf/fonts/opentype/public/lm/lmmono9-regular.otf></usr/share/texmf
-/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/open
-type/public/lm/lmroman9-italic.otf></usr/share/texmf/fonts/opentype/public/lm/lm
-roman5-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-bolditalic.
-otf></usr/share/texmf/fonts/opentype/public/lm/lmroman8-regular.otf></usr/share/
-texmf/fonts/opentype/public/lm/lmroman5-regular.otf></usr/share/texmf/fonts/open
-type/public/lm/lmroman7-regular.otf></usr/share/texmf/fonts/opentype/public/lm/l
-mroman7-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-bold.otf></
-usr/share/texmf/fonts/opentype/public/lm/lmroman9-regular.otf></usr/share/texmf/
-fonts/opentype/public/lm/lmromanslant10-regular.otf></usr/share/fonts/truetype/n
-oto/NotoNaskhArabic-Regular.ttf></usr/share/fonts/truetype/noto/NotoNaskhArabic-
-Bold.ttf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regular.otf></usr/
-share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/share/texmf/font
-s/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/opentype/public/
-lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-regul
-ar.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regular.otf></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/share/texlive/texmf-dist
-/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/amsfonts/cm/cmr5.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfo
-nts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-sy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy5.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/s
-hare/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/share/tex
-live/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on these.pdf (106 pages, 1894927 bytes).
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/share/texmf/fonts/opent
+ype/public/lm/lmromancaps10-regular.otf></usr/share/texmf/fonts/opentype/public/
+lm/lmmono9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman9-itali
+c.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman5-bold.otf></usr/share/t
+exmf/fonts/opentype/public/lm/lmroman10-bolditalic.otf>{/usr/share/texmf/fonts/e
+nc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
+hare/texmf/fonts/enc/dvips/lm/lm-mathex.enc}</usr/share/texmf/fonts/opentype/pub
+lic/lm/lmroman8-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman5-
+regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman7-regular.otf></us
+r/share/texmf/fonts/opentype/public/lm/lmroman7-bold.otf></usr/share/texmf/fonts
+/opentype/public/lm/lmroman9-bold.otf></usr/share/texmf/fonts/opentype/public/lm
+/lmroman9-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmromanslant10-
+regular.otf>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/lobster2/lbst2_2vl4dw
+.enc}</usr/share/fonts/truetype/noto/NotoNaskhArabic-Regular.ttf></usr/share/fon
+ts/truetype/noto/NotoNaskhArabic-Bold.ttf></usr/share/fonts/truetype/noto/NotoSa
+nsTifinagh-Regular.ttf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-regu
+lar.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman10-italic.otf></usr/sh
+are/texmf/fonts/opentype/public/lm/lmroman10-bold.otf></usr/share/texmf/fonts/op
+entype/public/lm/lmroman12-bold.otf></usr/share/texmf/fonts/opentype/public/lm/l
+mroman12-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman17-regula
+r.otf></usr/share/texlive/texmf-dist/fonts/type1/impallari/lobster2/LobsterTwo-B
+oldItalic.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmbx7.pfb></usr/share/texmf/fonts/type1/public/lm/lmex1
+0.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi5.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmmi7.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmmi9.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/
+texmf/fonts/type1/public/lm/lmr5.pfb></usr/share/texmf/fonts/type1/public/lm/lmr
+7.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsy5.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmsy9.pfb></usr/share/texlive/texmf-dist/fo
+nts/type1/public/amsfonts/symbols/msbm10.pfb></usr/share/texlive/texmf-dist/font
+s/type1/urw/zapfding/uzdr.pfb>
+Output written on these.pdf (129 pages, 2143792 bytes).
 
-PDF statistics: 3121 PDF objects out of 3580 (max. 8388607)
- 2827 compressed objects within 29 object streams
- 527 named destinations out of 1000 (max. 131072)
+PDF statistics: 4131 PDF objects out of 4296 (max. 8388607)
+ 3806 compressed objects within 39 object streams
+ 676 named destinations out of 1000 (max. 131072)
  1456 words of extra memory for PDF output out of 10000 (max. 100000000)
 

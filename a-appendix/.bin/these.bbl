@@ -16,5 +16,172 @@
   {}
 \endgroup
 
+
+\refsection{1}
+  \datalist[entry]{none/global//global/global}
+    \entry{al-kashoash_comparison_2016}{article}{}
+      \name{author}{2}{}{%
+        {{hash=e60cb8fa61db391c0f9697c7ee2bfad3}{%
+           family={Al-Kashoash},
+           familyi={A\bibinithyphendelim K\bibinitperiod},
+           given={H.\bibnamedelimi A.\bibnamedelimi A.},
+           giveni={H\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=7ced864d4acf1fdcd851e9d9e4d34d0d}{%
+           family={Kemp},
+           familyi={K\bibinitperiod},
+           given={Andrew\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{061842bc39c59a20626b871b09c21776}
+      \strng{fullhash}{061842bc39c59a20626b871b09c21776}
+      \strng{bibnamehash}{061842bc39c59a20626b871b09c21776}
+      \strng{authorbibnamehash}{061842bc39c59a20626b871b09c21776}
+      \strng{authornamehash}{061842bc39c59a20626b871b09c21776}
+      \strng{authorfullhash}{061842bc39c59a20626b871b09c21776}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By 2020, 50 billion devices (things) are expected to be connected to the Internet to form the Internet of Things (IoT) world. In general, two main categories of networks are used in the IoT: short-range and long-range low-power networks. IPv6 over low-power wireless personal area networks (6LoWPAN) are considered to be a crucial network in short-range low-power networks where 6LoWPAN motes will account for the majority of short-range low-power things. Also, LoRaWAN and SigFox are two major networking landscapes and players in long-range, low-power networks or oftentimes called low-power wide area networks (LPWAN). This paper reviews and compares 6LoWPAN and LPWAN in terms of network architecture, protocol stack, applications and security. In general, LPWAN networks are more demanding in terms of node and link constraints than 6LoWPAN networks (e.g. very low payload size, very low data rate and very limited resources). Also, as yet, LPWAN networks do not have IPv6 addressing capabilities. Each network category has its unique characteristics and strengths and each category has its important role in the IoT world.}
+      \field{issn}{1448-837X, 2205-362X}
+      \field{journaltitle}{Australian Journal of Electrical and Electronics Engineering}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{note}{00026}
+      \field{number}{4}
+      \field{title}{Comparison of {{6LoWPAN}} and {{LPWAN}} for the {{Internet}} of {{Things}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{13}
+      \field{year}{2016}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{268\bibrangedash 274}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1080/1448837X.2017.1409920
+      \endverb
+      \verb{file}
+      \verb Al-Kashoash and Kemp - 2016 - Comparison of 6LoWPAN and LPWAN for the Internet o.pdf:/home/aghiles/Aghiles/tool/tools/r-bibliography/storage/L8672SPT/Al-Kashoash and Kemp - 2016 - Comparison of 6LoWPAN and LPWAN for the Internet o.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://www.tandfonline.com/doi/full/10.1080/1448837X.2017.1409920
+      \endverb
+      \verb{url}
+      \verb https://www.tandfonline.com/doi/full/10.1080/1448837X.2017.1409920
+      \endverb
+      \keyw{,lora-new-3}
+    \endentry
+    \entry{ayoub_internet_2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=536da0f8669b6e202ce054d2cd531f1c}{%
+           family={Ayoub},
+           familyi={A\bibinitperiod},
+           given={Wael},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b3261c5c85b28f39a05bc03757e50d8f}{%
+           family={Samhat},
+           familyi={S\bibinitperiod},
+           given={Abed\bibnamedelima Ellatif},
+           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=f69aae018eea4ca9f72aea1d076858b0}{%
+           family={Nouvel},
+           familyi={N\bibinitperiod},
+           given={Fabienne},
+           giveni={F\bibinitperiod}}}%
+        {{hash=8efa6a6df4be89c46a3d695e1c2962d4}{%
+           family={Mroue},
+           familyi={M\bibinitperiod},
+           given={Mohamad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=36e8317097cc5e268245b7c980e2f141}{%
+           family={Prevotet},
+           familyi={P\bibinitperiod},
+           given={Jean-Christophe},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0d8774ab409e50a887859bcc0bac746}
+      \strng{fullhash}{94b18d3ae838ecdd6ee024a73f939fd3}
+      \strng{bibnamehash}{e0d8774ab409e50a887859bcc0bac746}
+      \strng{authorbibnamehash}{e0d8774ab409e50a887859bcc0bac746}
+      \strng{authornamehash}{e0d8774ab409e50a887859bcc0bac746}
+      \strng{authorfullhash}{94b18d3ae838ecdd6ee024a73f939fd3}
+      \field{sortinit}{4}
+      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Low-power Wide Area Networks (LPWANs) constitute a type of networks which is used to connect things to the Internet from a wide variety of sectors. These types of technologies provide the Internet of Things (IoT) devices with the ability to transmit few bytes of data for long ranges, taking into consideration minimum power consumption. In parallel, IoT applications will cover a wide range of human and life needs from smart environments (cities, home, transportation etc.) to health and quality of life. Among these popular LPWANs technologies, we have identified the unlicensed frequency band (LoRa, DASH7, SigFox, Wi-SUN, etc.), and the licensed frequency band standards (NB-IoT, LTE Cat-M, EC-GSM-IoT, etc.). In general, both types of standards only consider fixed interconnected things, and less attention has been provided to the mobility of the things or devices. In this paper, we address the mobility of the things and the connectivity in each of the three LPWAN standards: LoRaWAN, DASH7, and NB-IoT. In particular, we show how the mobility of things can be achieved when transmitting and receiving data. Then, we provide a general and technical comparison for the three standards. Finally, we illustrate several application scenarios where the mobility is required, and we show how to select the most suited standard. We also discuss the research challenges and perspectives.}
+      \field{endyear}{2019}
+      \field{issn}{1553-877X, 2373-745X}
+      \field{journaltitle}{IEEE Commun. Surv. Tutorials}
+      \field{langid}{english}
+      \field{note}{00030}
+      \field{number}{2}
+      \field{shorttitle}{Internet of {{Mobile Things}}}
+      \field{title}{Internet of {{Mobile Things}}: {{Overview}} of {{LoRaWAN}}, {{DASH7}}, and {{NB}}-{{IoT}} in {{LPWANs Standards}} and {{Supported Mobility}}}
+      \field{urlday}{20}
+      \field{urlmonth}{11}
+      \field{urlyear}{2019}
+      \field{volume}{21}
+      \field{year}{22}
+      \field{enddateera}{ce}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{1561\bibrangedash 1581}
+      \range{pages}{21}
+      \verb{doi}
+      \verb 10.1109/COMST.2018.2877382
+      \endverb
+      \verb{file}
+      \verb Ayoub et al. - 2019 - Internet of Mobile Things Overview of LoRaWAN, DA.pdf:/home/aghiles/Aghiles/tool/tools/r-bibliography/storage/P9DA545J/Ayoub et al. - 2019 - Internet of Mobile Things Overview of LoRaWAN, DA.pdf:application/pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/document/8502812/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/document/8502812/
+      \endverb
+      \keyw{,lora-new-3}
+    \endentry
+    \entry{loraaliance}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{note}{[Online; accessed 10. Sep. 2019]}
+      \field{title}{{LoRaWAN{\ifmmode\circledR\else®\fi} for Developers {$\vert$} LoRa Alliance{\texttrademark}}}
+      \verb{urlraw}
+      \verb https://lora-alliance.org/lorawan-for-developers
+      \endverb
+      \verb{url}
+      \verb https://lora-alliance.org/lorawan-for-developers
+      \endverb
+      \keyw{}
+    \endentry
+    \entry{lorasite}{misc}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{labeltitlesource}{title}
+      \field{month}{8}
+      \field{note}{[Online; accessed 10. Sep. 2019]}
+      \field{title}{{All About LoRa and LoRaWAN}}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.sghoslya.com
+      \endverb
+      \verb{url}
+      \verb https://www.sghoslya.com
+      \endverb
+      \keyw{}
+    \endentry
+  \enddatalist
+  \missing{_evaluation_}
+  \missing{al-fuqaha_internet_24}
+  \missing{berder_reseaux_2014}
+  \missing{lopes_design_2019}
+  \missing{raza_low_22}
+  \missing{sarwar_iot_2015}
+  \missing{varsier_capacity_2017}
+\endrefsection
 \endinput
 

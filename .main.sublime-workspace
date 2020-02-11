@@ -196,19 +196,26 @@
 	"expanded_folders":
 	[
 		"/home/aghiles/Aghiles/job/txt",
-		"/home/aghiles/Aghiles/job/txt/05-isncc"
+		"/home/aghiles/Aghiles/job/txt/05-isncc",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/figures"
 	],
 	"file_history":
 	[
-		"/home/aghiles/Aghiles/job/txt/00/01-4-arabic.tex",
-		"/home/aghiles/Aghiles/job/txt/main.tex",
-		"/home/aghiles/Aghiles/job/txt/05-isncc/00_abstract.tex",
-		"/home/aghiles/Aghiles/job/txt/05-isncc/01_introduction.tex",
-		"/home/aghiles/Aghiles/job/txt/05-isncc/02_related.tex",
-		"/home/aghiles/Aghiles/job/txt/05-isncc/03_background.tex",
 		"/home/aghiles/Aghiles/job/txt/05-isncc/04_approach.tex",
-		"/home/aghiles/Aghiles/job/txt/05-isncc/05_experimentation.tex",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/03_background.tex",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/00_abstract.tex",
 		"/home/aghiles/Aghiles/job/txt/05-isncc/06_results.tex",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/main.tex",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/authors.tex",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/02_related.tex",
+		"/home/aghiles/Aghiles/job/txt/01-introduction/authors.tex",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/01_introduction.tex",
+		"/home/aghiles/Aghiles/job/txt/02-literature-survey/authors.tex",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/05_experimentation.tex",
+		"/home/aghiles/Aghiles/job/txt/main.tex",
+		"/home/aghiles/Aghiles/job/txt/00-abstract/01-3-amazigh.tex",
+		"/home/aghiles/.config/latex/these.tex",
+		"/home/aghiles/Aghiles/job/txt/00/01-4-arabic.tex",
 		"/home/aghiles/Aghiles/job/txt/05-isncc/07_conclusion.tex",
 		"/home/aghiles/.config/latex/plot.tex",
 		"/usr/local/lib/R/site-library/imptree/R/imptree.rdb",
@@ -228,7 +235,6 @@
 		"/home/aghiles/Aghiles/job/txt/a-appendix/01_frame.tex",
 		"/home/aghiles/Aghiles/job/txt/05-icc/00_abstract.tex",
 		"/home/aghiles/Aghiles/job/txt/05-icc/01_introduction.tex",
-		"/home/aghiles/Aghiles/job/txt/02-literature-survey/authors.tex",
 		"/home/aghiles/Aghiles/job/txt/03-technical-survey/authors.tex",
 		"/home/aghiles/Aghiles/job/txt/02-survey/00_all.tex",
 		"/home/aghiles/Aghiles/job/txt/a-protocols/04_frame.tex",
@@ -322,16 +328,11 @@
 		"/home/aghiles/Aghiles/Research/Writing/src/01-Introduction/10_introduction.tex",
 		"/home/aghiles/Aghiles/Research/Writing/lib/nomenclature.tex",
 		"/home/aghiles/Aghiles/Research/Writing/lib/tikzset.tex",
-		"/home/aghiles/Aghiles/Research/Writing/res/plot.tex",
-		"/home/aghiles/Aghiles/Research/Writing/res/plot/slice1.tex",
-		"/home/aghiles/Aghiles/Research/Writing/res/plot/slice.tex",
-		"/home/aghiles/Aghiles/Research/Writing/res/plot/marcov.tex",
-		"/home/aghiles/Aghiles/Research/Writing/res/plot/genetic.tex",
-		"/home/aghiles/Aghiles/Research/Writing/res/plot/qlearning.tex"
+		"/home/aghiles/Aghiles/Research/Writing/res/plot.tex"
 	],
 	"find":
 	{
-		"height": 25.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -345,6 +346,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"centers",
+			"with",
+			"modu",
+			"toa",
 			"\\\\\\\\",
 			"\\\\",
 			"\\\\\\\\",
@@ -364,6 +369,7 @@
 		"regex": true,
 		"replace_history":
 		[
+			"heads",
 			"\\\\\\\\\\n",
 			"\\\\cr\\n",
 			"\\\\citeauthor",
@@ -388,7 +394,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 25.0
+		"height": 26.0
 	},
 	"input":
 	{
@@ -483,7 +489,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 165.0,
+	"side_bar_width": 182.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{

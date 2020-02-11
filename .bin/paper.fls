@@ -202,6 +202,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/subfiles/subfiles.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/changepage/changepage.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
@@ -840,41 +842,61 @@ INPUT /home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
 INPUT ls 02*/0*.tex
 INPUT ls 02*/0*.tex
 INPUT ls 02*/0*.tex
-INPUT ./02-literature-survey/01_all.tex
-INPUT ./02-literature-survey/01_all.tex
-INPUT ls 03*/authors.tex
-INPUT ls 03*/authors.tex
-INPUT ls 03*/authors.tex
-INPUT ./03-technical-survey/authors.tex
-INPUT ./03-technical-survey/authors.tex
-INPUT /home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
-INPUT /home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT ./02-literature-survey/01_papers.tex
+INPUT ./02-literature-survey/01_papers.tex
+INPUT ./02-literature-survey/02_papers.tex
+INPUT ./02-literature-survey/02_papers.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
+INPUT ls 03*/authors.tex
+INPUT ls 03*/authors.tex
+INPUT ls 03*/authors.tex
+INPUT ./03-technical-survey/authors.tex
+INPUT ./03-technical-survey/authors.tex
+INPUT /home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
+INPUT /home/aghiles/Aghiles/job/txt/resources/bib/ref.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary9.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy9.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8t.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/courier/pcrr8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/courier/pcrr8r.tfm
-INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
-INPUT /usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8r.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmr8c.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmr8c.vf
 INPUT ls 03*/0*.tex
@@ -882,14 +904,6 @@ INPUT ls 03*/0*.tex
 INPUT ls 03*/0*.tex
 INPUT ./03-technical-survey/01_usecases.tex
 INPUT ./03-technical-survey/01_usecases.tex
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy7.tfm
 INPUT ./03-technical-survey/02_standards.tex
 INPUT ./03-technical-survey/02_standards.tex
 INPUT /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/lora_stack.png
@@ -913,14 +927,6 @@ INPUT /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/loraparam.png
 INPUT /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/bw.png
 INPUT /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/bw.png
 INPUT /home/aghiles/Aghiles/job/txt/resources/img/C-RAN/bw.png
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
 INPUT ./03-technical-survey/03_protocols.tex
 INPUT ./03-technical-survey/03_protocols.tex
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm
@@ -969,15 +975,18 @@ INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmb8t.vf
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmb8r.tfm
 INPUT ./05-isncc/06_results.tex
 INPUT ./05-isncc/06_results.tex
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics1.pdf
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics1.pdf
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics1.pdf
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics2.pdf
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics2.pdf
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics2.pdf
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics3.pdf
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics3.pdf
-INPUT /home/aghiles/Aghiles/job/txt/resources/plt/metrics3.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/rssi_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/rssi_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/rssi_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/toa_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/toa_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/toa_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/sf_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/sf_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/sf_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/snr_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/snr_ber.pdf
+INPUT /home/aghiles/Aghiles/job/txt/resources/plt/snr_ber.pdf
 INPUT ./05-isncc/07_conclusion.tex
 INPUT ./05-isncc/07_conclusion.tex
 INPUT ls 08*/authors.tex
@@ -1043,6 +1052,8 @@ INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb
 INPUT /usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb

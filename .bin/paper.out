@@ -20,7 +20,7 @@
 \BOOKMARK [3][-]{subsubsection.3.2.4.3}{ZigBee}{subsection.3.2.4}% 20
 \BOOKMARK [2][-]{subsection.3.2.5}{LoRaWAN}{section.3.2}% 21
 \BOOKMARK [3][-]{subsubsection.3.2.5.1}{ALIANCE}{subsection.3.2.5}% 22
-\BOOKMARK [3][-]{figure.caption.21}{SEMTECH}{subsection.3.2.5}% 23
+\BOOKMARK [3][-]{figure.caption.22}{SEMTECH}{subsection.3.2.5}% 23
 \BOOKMARK [2][-]{subsection.3.2.6}{Divers}{section.3.2}% 24
 \BOOKMARK [3][-]{subsubsection.3.2.6.1}{IPLC}{subsection.3.2.6}% 25
 \BOOKMARK [3][-]{subsubsection.3.2.6.2}{BACnet}{subsection.3.2.6}% 26
@@ -33,8 +33,8 @@
 \BOOKMARK [3][-]{subsubsection.3.3.1.2}{CBOR}{subsection.3.3.1}% 33
 \BOOKMARK [3][-]{subsubsection.3.3.1.3}{DTLS}{subsection.3.3.1}% 34
 \BOOKMARK [3][-]{subsubsection.3.3.1.4}{OSCOAP}{subsection.3.3.1}% 35
-\BOOKMARK [3][-]{figure.caption.26}{CoAP}{subsection.3.3.1}% 36
-\BOOKMARK [3][-]{figure.caption.27}{MQTT}{subsection.3.3.1}% 37
+\BOOKMARK [3][-]{figure.caption.27}{CoAP}{subsection.3.3.1}% 36
+\BOOKMARK [3][-]{figure.caption.28}{MQTT}{subsection.3.3.1}% 37
 \BOOKMARK [3][-]{subsubsection.3.3.1.7}{XMPP}{subsection.3.3.1}% 38
 \BOOKMARK [3][-]{subsubsection.3.3.1.8}{AMQP}{subsection.3.3.1}% 39
 \BOOKMARK [3][-]{subsubsection.3.3.1.9}{DDS}{subsection.3.3.1}% 40
@@ -72,7 +72,7 @@
 \BOOKMARK [3][-]{subsubsection.3.4.1.2}{RIOT}{subsection.3.4.1}% 72
 \BOOKMARK [3][-]{subsubsection.3.4.1.3}{TinyOS}{subsection.3.4.1}% 73
 \BOOKMARK [3][-]{subsubsection.3.4.1.4}{freeRTOS}{subsection.3.4.1}% 74
-\BOOKMARK [3][-]{table.caption.37}{Summary and conclusion}{subsection.3.4.1}% 75
+\BOOKMARK [3][-]{table.caption.38}{Summary and conclusion}{subsection.3.4.1}% 75
 \BOOKMARK [2][-]{subsection.3.4.2}{Hardware platform}{section.3.4}% 76
 \BOOKMARK [3][-]{subsubsection.3.4.2.1}{Processing Unit}{subsection.3.4.2}% 77
 \BOOKMARK [3][-]{subsubsection.3.4.2.2}{Radio Unit}{subsection.3.4.2}% 78
@@ -128,5 +128,5 @@
 \BOOKMARK [0][-]{part.6}{6 Conclusion}{}% 128
 \BOOKMARK [1][-]{section.6.1}{Conclusion}{part.6}% 129
 \BOOKMARK [1][-]{section.6.2}{Perspectives}{part.6}% 130
-\BOOKMARK [1][-]{section*.62}{Appendix}{part.6}% 131
+\BOOKMARK [1][-]{section*.64}{Appendix}{part.6}% 131
 \BOOKMARK [0][-]{part.7}{7 Appendix}{}% 132

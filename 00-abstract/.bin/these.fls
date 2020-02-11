@@ -1,4 +1,4 @@
-PWD /home/aghiles/Aghiles/job/txt/00
+PWD /home/aghiles/Aghiles/job/txt/00-abstract
 INPUT /var/lib/texmf/web2c/luatex/lualatex.fmt
 INPUT ./main.tex
 OUTPUT .bin/these.log
@@ -572,8 +572,11 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/varwidth/varwidth.sty
 INPUT /usr/share/texlive/texmf-dist/tex/lualatex/arabluatex/arabluatex.lua
 INPUT /home/aghiles/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/notonaskharabic-regular.luc
 INPUT /home/aghiles/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/notonaskharabic-bold.luc
+INPUT /home/aghiles/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/notosanstifinagh-regular.luc
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
+INPUT /usr/share/texmf/tex/latex/lm/lmodern.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/epigraph/epigraph.sty
@@ -852,9 +855,9 @@ INPUT .bin/these.bbl
 INPUT .bin/these.bbl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
-INPUT ls ./00-firstpage.tex
-INPUT ls ./00-firstpage.tex
-INPUT ls ./00-firstpage.tex
+INPUT ls .*/00-firstpage.tex
+INPUT ls .*/00-firstpage.tex
+INPUT ls .*/00-firstpage.tex
 INPUT ./00-firstpage.tex
 INPUT ./00-firstpage.tex
 INPUT /home/aghiles/Aghiles/job/txt/resources/img/icon/upmc.png
@@ -866,17 +869,24 @@ INPUT /home/aghiles/Aghiles/job/txt/resources/img/icon/sorbonne.png
 INPUT /home/aghiles/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-regular.luc
 INPUT /home/aghiles/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman17-regular.luc
 INPUT /home/aghiles/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman12-bold.luc
-INPUT /home/aghiles/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman7-regular.luc
-INPUT /home/aghiles/.texlive2018/texmf-var/luatex-cache/generic/fonts/otl/lmroman5-regular.luc
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
+INPUT /usr/share/texmf/tex/latex/lm/ot1lmr.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/rm-lmr5.tfm
+INPUT /usr/share/texmf/tex/latex/lm/omllmm.fd
+INPUT /usr/share/texmf/tex/latex/lm/omllmm.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmmi5.tfm
+INPUT /usr/share/texmf/tex/latex/lm/omslmsy.fd
+INPUT /usr/share/texmf/tex/latex/lm/omslmsy.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy10.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy7.tfm
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmsy5.tfm
+INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
+INPUT /usr/share/texmf/tex/latex/lm/omxlmex.fd
+INPUT /usr/share/texmf/fonts/tfm/public/lm/lmex10.tfm
 INPUT /usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
 INPUT /usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
@@ -897,44 +907,51 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy7.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy5.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr10.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr7.tfm
-INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr5.tfm
 INPUT /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png
 INPUT /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png
 INPUT /home/aghiles/Aghiles/job/txt/resources/img/icon/Bordure.png
+INPUT ls .*/01-1-english.tex
+INPUT ls .*/01-1-english.tex
+INPUT ls .*/01-1-english.tex
 INPUT ./01-1-english.tex
 INPUT ./01-1-english.tex
+INPUT ls .*/01-2-french.tex
+INPUT ls .*/01-2-french.tex
+INPUT ls .*/01-2-french.tex
 INPUT ./01-2-french.tex
 INPUT ./01-2-french.tex
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
-INPUT ./01-3-amazigh.pdf
+INPUT ls .*/01-3-amazigh.tex
+INPUT ls .*/01-3-amazigh.tex
+INPUT ls .*/01-3-amazigh.tex
+INPUT ./01-3-amazigh.tex
+INPUT ./01-3-amazigh.tex
+INPUT ls .*/01-4-arabic.tex
+INPUT ls .*/01-4-arabic.tex
+INPUT ls .*/01-4-arabic.tex
 INPUT ./01-4-arabic.tex
 INPUT ./01-4-arabic.tex
+INPUT ls .*/02-acknowledgements.tex
+INPUT ls .*/02-acknowledgements.tex
+INPUT ls .*/02-acknowledgements.tex
 INPUT ./02-acknowledgements.tex
 INPUT ./02-acknowledgements.tex
+INPUT ls .*/03-dedication.tex
+INPUT ls .*/03-dedication.tex
+INPUT ls .*/03-dedication.tex
 INPUT ./03-dedication.tex
 INPUT ./03-dedication.tex
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lobster2/T1LobsterTwo-LF.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/lobster2/T1LobsterTwo-LF.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/lobster2/LobsterTwo-BoldItalic-lf-t1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/impallari/lobster2/LobsterTwo-BoldItalic-lf-t1.vf
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/lobster2/LobsterTwo-BoldItalic-lf-t1--base.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/lobster2/LobsterTwo-BoldItalic-lf-t1--lcdfj.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/impallari/lobster2/LobsterTwo-BoldItalic-lf-t1.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/impallari/lobster2/LobsterTwo-BoldItalic-lf-t1.vf
 OUTPUT .bin/these.maf
 INPUT .bin/these.mtc
 INPUT .bin/these.mtc0
 INPUT .bin/these.aux
 INPUT .bin/these.run.xml
 OUTPUT .bin/these.run.xml
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/impallari/lobster2/LobsterTwo-BoldItalic.pfb

@@ -342,12 +342,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/units/nicefrac.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tikz-timing/tikz-timing.sty
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
-INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pgfplots/pgfplotstable.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex
@@ -364,10 +358,14 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/pdfpages/ppluatex.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics/rotating.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
+INPUT /usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymindmap.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarymindmap.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytrees.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary3d.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
@@ -379,6 +377,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarydecorations.shapes.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.shapes.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorations.shapes.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
+INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgrounds.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/datavisualization/tikzlibrarydatavisualization.code.tex
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgf/modules/pgfmoduledatavisualization.code.tex
@@ -443,8 +443,6 @@ INPUT /usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplot
 INPUT /usr/share/texlive/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.patchplots.code.tex
 INPUT /home/aghiles/.config/latex/tikzset.tex
 INPUT /home/aghiles/.config/latex/tikzset.tex
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
-INPUT /usr/share/texlive/texmf-dist/tex/latex/tkz-graph/tkz-graph.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 INPUT /usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty

@@ -3,21 +3,21 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {chapter}{Abstract}{i}{chapter*.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{Acknowledgements}{vii}{chapter*.4}% 
+\contentsline {chapter}{Acknowledgements}{ix}{chapter*.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{Dedication}{ix}{chapter*.5}% 
+\contentsline {chapter}{Dedication}{xi}{chapter*.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{Contents}{xi}{chapter*.6}% 
+\contentsline {chapter}{Contents}{xiii}{chapter*.7}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{List of Tables}{xv}{chapter*.7}% 
+\contentsline {chapter}{List of Tables}{xvii}{chapter*.8}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{List of Figures}{xvii}{chapter*.8}% 
+\contentsline {chapter}{List of Figures}{xix}{chapter*.9}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{List of Abbreviations}{xix}{chapter*.9}% 
+\contentsline {chapter}{List of Abbreviations}{xxi}{chapter*.10}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{List of Nomenclatures}{xxi}{chapter*.10}% 
+\contentsline {chapter}{List of Nomenclatures}{xxiii}{chapter*.11}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{List of Publications}{xxiii}{chapter*.11}% 
+\contentsline {chapter}{List of Publications}{xxv}{chapter*.12}% 
 \defcounter {refsection}{1}\relax 
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}% 
 \defcounter {refsection}{1}\relax 
@@ -29,334 +29,334 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {chapter}{\numberline {2}Academic Survey}{3}{chapter.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {3}Industrial Survey}{19}{chapter.3}% 
+\contentsline {chapter}{\numberline {3}Industrial Survey}{33}{chapter.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1}IoT applications requirements \cite {bregell_hardware_2015}}{21}{section.3.1}% 
+\contentsline {section}{\numberline {1}IoT applications requirements \cite {bregell_hardware_2015}}{35}{section.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.1}Summary and discussion}{22}{subsection.3.1.1}% 
+\contentsline {subsection}{\numberline {1.1}Summary and discussion}{36}{subsection.3.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2}IoT Wireless Networks (Norms \& Standards)}{22}{section.3.2}% 
+\contentsline {section}{\numberline {2}IoT Wireless Networks (Norms \& Standards)}{36}{section.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.1}SigFox}{22}{subsection.3.2.1}% 
+\contentsline {subsection}{\numberline {2.1}SigFox}{36}{subsection.3.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.2}IETF}{22}{subsection.3.2.2}% 
+\contentsline {subsection}{\numberline {2.2}IETF}{36}{subsection.3.2.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}6LoWPAN}{22}{subsubsection.3.2.2.1}% 
+\contentsline {subsubsection}{\numberline {2.2.1}6LoWPAN}{36}{subsubsection.3.2.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.3}3GPP}{23}{subsection.3.2.3}% 
+\contentsline {subsection}{\numberline {2.3}3GPP}{37}{subsection.3.2.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}NB-IoT}{23}{subsubsection.3.2.3.1}% 
+\contentsline {subsubsection}{\numberline {2.3.1}NB-IoT}{37}{subsubsection.3.2.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}EC-GSM}{23}{subsubsection.3.2.3.2}% 
+\contentsline {subsubsection}{\numberline {2.3.2}EC-GSM}{37}{subsubsection.3.2.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.3.3}e-MTC}{23}{subsubsection.3.2.3.3}% 
+\contentsline {subsubsection}{\numberline {2.3.3}e-MTC}{37}{subsubsection.3.2.3.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.4}IEEE}{23}{subsection.3.2.4}% 
+\contentsline {subsection}{\numberline {2.4}IEEE}{37}{subsection.3.2.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}IEEE 802.11}{23}{subsubsection.3.2.4.1}% 
+\contentsline {subsubsection}{\numberline {2.4.1}IEEE 802.11}{37}{subsubsection.3.2.4.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}IEEE 802.15.4}{23}{subsubsection.3.2.4.2}% 
+\contentsline {subsubsection}{\numberline {2.4.2}IEEE 802.15.4}{37}{subsubsection.3.2.4.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}Physical Layer}{23}{paragraph.3.2.4.2.1}% 
+\contentsline {paragraph}{\numberline {A)}Physical Layer}{37}{paragraph.3.2.4.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {B)}Definitions}{23}{paragraph.3.2.4.2.2}% 
+\contentsline {paragraph}{\numberline {B)}Definitions}{37}{paragraph.3.2.4.2.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {C)}Topologies}{23}{paragraph.3.2.4.2.3}% 
+\contentsline {paragraph}{\numberline {C)}Topologies}{37}{paragraph.3.2.4.2.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.4.3}ZigBee}{23}{subsubsection.3.2.4.3}% 
+\contentsline {subsubsection}{\numberline {2.4.3}ZigBee}{37}{subsubsection.3.2.4.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.5}LoRaWAN}{23}{subsection.3.2.5}% 
+\contentsline {subsection}{\numberline {2.5}LoRaWAN}{37}{subsection.3.2.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1}ALIANCE}{24}{subsubsection.3.2.5.1}% 
+\contentsline {subsubsection}{\numberline {2.5.1}ALIANCE}{38}{subsubsection.3.2.5.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}Class-A}{24}{paragraph.3.2.5.1.1}% 
+\contentsline {paragraph}{\numberline {A)}Class-A}{38}{paragraph.3.2.5.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subparagraph}{\numberline {A.1)}Uplink}{24}{subparagraph.3.2.5.1.1.1}% 
+\contentsline {subparagraph}{\numberline {A.1)}Uplink}{38}{subparagraph.3.2.5.1.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subparagraph}{\numberline {A.2)}Downlink}{24}{subparagraph.3.2.5.1.1.2}% 
+\contentsline {subparagraph}{\numberline {A.2)}Downlink}{38}{subparagraph.3.2.5.1.1.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subparagraph}{\numberline {A.3)}Confirmed data}{24}{subparagraph.3.2.5.1.1.3}% 
+\contentsline {subparagraph}{\numberline {A.3)}Confirmed data}{38}{subparagraph.3.2.5.1.1.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {B)}Class-B}{24}{paragraph.3.2.5.1.2}% 
+\contentsline {paragraph}{\numberline {B)}Class-B}{38}{paragraph.3.2.5.1.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subparagraph}{\numberline {B.1)}Downlink}{25}{subparagraph.3.2.5.1.2.1}% 
+\contentsline {subparagraph}{\numberline {B.1)}Downlink}{39}{subparagraph.3.2.5.1.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subparagraph}{\numberline {B.2)}Confirmed data}{25}{subparagraph.3.2.5.1.2.2}% 
+\contentsline {subparagraph}{\numberline {B.2)}Confirmed data}{39}{subparagraph.3.2.5.1.2.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subparagraph}{\numberline {B.3)}Requirements}{25}{subparagraph.3.2.5.1.2.3}% 
+\contentsline {subparagraph}{\numberline {B.3)}Requirements}{39}{subparagraph.3.2.5.1.2.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {C)}Class-C}{25}{paragraph.3.2.5.1.3}% 
+\contentsline {paragraph}{\numberline {C)}Class-C}{39}{paragraph.3.2.5.1.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subparagraph}{\numberline {C.1)}Downlink}{25}{subparagraph.3.2.5.1.3.1}% 
+\contentsline {subparagraph}{\numberline {C.1)}Downlink}{39}{subparagraph.3.2.5.1.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subparagraph}{\numberline {C.2)}Confirmed data}{25}{subparagraph.3.2.5.1.3.2}% 
+\contentsline {subparagraph}{\numberline {C.2)}Confirmed data}{39}{subparagraph.3.2.5.1.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.5.2}SEMTECH}{25}{subsubsection.3.2.5.2}% 
+\contentsline {subsubsection}{\numberline {2.5.2}SEMTECH}{39}{subsubsection.3.2.5.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.6}Divers}{28}{subsection.3.2.6}% 
+\contentsline {subsection}{\numberline {2.6}Divers}{42}{subsection.3.2.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.6.1}IPLC}{28}{subsubsection.3.2.6.1}% 
+\contentsline {subsubsection}{\numberline {2.6.1}IPLC}{42}{subsubsection.3.2.6.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.6.2}BACnet}{28}{subsubsection.3.2.6.2}% 
+\contentsline {subsubsection}{\numberline {2.6.2}BACnet}{42}{subsubsection.3.2.6.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.6.3}Z-WAze}{28}{subsubsection.3.2.6.3}% 
+\contentsline {subsubsection}{\numberline {2.6.3}Z-WAze}{42}{subsubsection.3.2.6.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {2.6.4}Bluetooth LE}{28}{subsubsection.3.2.6.4}% 
+\contentsline {subsubsection}{\numberline {2.6.4}Bluetooth LE}{42}{subsubsection.3.2.6.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {2.7}Summary and discussion}{28}{subsection.3.2.7}% 
+\contentsline {subsection}{\numberline {2.7}Summary and discussion}{42}{subsection.3.2.7}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {3}IoT Protocols}{28}{section.3.3}% 
+\contentsline {section}{\numberline {3}IoT Protocols}{42}{section.3.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.1}Application}{28}{subsection.3.3.1}% 
+\contentsline {subsection}{\numberline {3.1}Application}{42}{subsection.3.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}LwM2M}{28}{subsubsection.3.3.1.1}% 
+\contentsline {subsubsection}{\numberline {3.1.1}LwM2M}{42}{subsubsection.3.3.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}CBOR}{28}{subsubsection.3.3.1.2}% 
+\contentsline {subsubsection}{\numberline {3.1.2}CBOR}{42}{subsubsection.3.3.1.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3}DTLS}{28}{subsubsection.3.3.1.3}% 
+\contentsline {subsubsection}{\numberline {3.1.3}DTLS}{42}{subsubsection.3.3.1.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.4}OSCOAP}{28}{subsubsection.3.3.1.4}% 
+\contentsline {subsubsection}{\numberline {3.1.4}OSCOAP}{42}{subsubsection.3.3.1.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.5}CoAP}{28}{subsubsection.3.3.1.5}% 
+\contentsline {subsubsection}{\numberline {3.1.5}CoAP}{42}{subsubsection.3.3.1.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.6}MQTT}{29}{subsubsection.3.3.1.6}% 
+\contentsline {subsubsection}{\numberline {3.1.6}MQTT}{43}{subsubsection.3.3.1.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.7}XMPP}{29}{subsubsection.3.3.1.7}% 
+\contentsline {subsubsection}{\numberline {3.1.7}XMPP}{43}{subsubsection.3.3.1.7}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.8}AMQP}{29}{subsubsection.3.3.1.8}% 
+\contentsline {subsubsection}{\numberline {3.1.8}AMQP}{43}{subsubsection.3.3.1.8}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.9}DDS}{29}{subsubsection.3.3.1.9}% 
+\contentsline {subsubsection}{\numberline {3.1.9}DDS}{43}{subsubsection.3.3.1.9}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.10}mDNS}{30}{subsubsection.3.3.1.10}% 
+\contentsline {subsubsection}{\numberline {3.1.10}mDNS}{44}{subsubsection.3.3.1.10}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.11}COAP (COnstrained Application Protocol)}{30}{subsubsection.3.3.1.11}% 
+\contentsline {subsubsection}{\numberline {3.1.11}COAP (COnstrained Application Protocol)}{44}{subsubsection.3.3.1.11}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}Overview}{30}{paragraph.3.3.1.11.1}% 
+\contentsline {paragraph}{\numberline {A)}Overview}{44}{paragraph.3.3.1.11.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {B)}Coap Methods}{30}{paragraph.3.3.1.11.2}% 
+\contentsline {paragraph}{\numberline {B)}Coap Methods}{44}{paragraph.3.3.1.11.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {C)}Coap Transactions}{30}{paragraph.3.3.1.11.3}% 
+\contentsline {paragraph}{\numberline {C)}Coap Transactions}{44}{paragraph.3.3.1.11.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {D)}Coap Messages}{30}{paragraph.3.3.1.11.4}% 
+\contentsline {paragraph}{\numberline {D)}Coap Messages}{44}{paragraph.3.3.1.11.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.12}MQTT}{31}{subsubsection.3.3.1.12}% 
+\contentsline {subsubsection}{\numberline {3.1.12}MQTT}{45}{subsubsection.3.3.1.12}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.13}XMPP}{31}{subsubsection.3.3.1.13}% 
+\contentsline {subsubsection}{\numberline {3.1.13}XMPP}{45}{subsubsection.3.3.1.13}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.14}AMQP}{31}{subsubsection.3.3.1.14}% 
+\contentsline {subsubsection}{\numberline {3.1.14}AMQP}{45}{subsubsection.3.3.1.14}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.15}DDS}{31}{subsubsection.3.3.1.15}% 
+\contentsline {subsubsection}{\numberline {3.1.15}DDS}{45}{subsubsection.3.3.1.15}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.1.16}mDNS}{32}{subsubsection.3.3.1.16}% 
+\contentsline {subsubsection}{\numberline {3.1.16}mDNS}{46}{subsubsection.3.3.1.16}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.2}Network}{33}{subsection.3.3.2}% 
+\contentsline {subsection}{\numberline {3.2}Network}{47}{subsection.3.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}6TiSCH}{33}{subsubsection.3.3.2.1}% 
+\contentsline {subsubsection}{\numberline {3.2.1}6TiSCH}{47}{subsubsection.3.3.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}OLSRv2}{33}{subsubsection.3.3.2.2}% 
+\contentsline {subsubsection}{\numberline {3.2.2}OLSRv2}{47}{subsubsection.3.3.2.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}AODVv2}{33}{subsubsection.3.3.2.3}% 
+\contentsline {subsubsection}{\numberline {3.2.3}AODVv2}{47}{subsubsection.3.3.2.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.4}LoRaWAN}{33}{subsubsection.3.3.2.4}% 
+\contentsline {subsubsection}{\numberline {3.2.4}LoRaWAN}{47}{subsubsection.3.3.2.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.5}ROHC}{33}{subsubsection.3.3.2.5}% 
+\contentsline {subsubsection}{\numberline {3.2.5}ROHC}{47}{subsubsection.3.3.2.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.6}IPHC}{33}{subsubsection.3.3.2.6}% 
+\contentsline {subsubsection}{\numberline {3.2.6}IPHC}{47}{subsubsection.3.3.2.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.7}SCHC}{33}{subsubsection.3.3.2.7}% 
+\contentsline {subsubsection}{\numberline {3.2.7}SCHC}{47}{subsubsection.3.3.2.7}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.8}NHC}{33}{subsubsection.3.3.2.8}% 
+\contentsline {subsubsection}{\numberline {3.2.8}NHC}{47}{subsubsection.3.3.2.8}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.9}ROLL}{33}{subsubsection.3.3.2.9}% 
+\contentsline {subsubsection}{\numberline {3.2.9}ROLL}{47}{subsubsection.3.3.2.9}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.10}RPL}{33}{subsubsection.3.3.2.10}% 
+\contentsline {subsubsection}{\numberline {3.2.10}RPL}{47}{subsubsection.3.3.2.10}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.2.11}6LowPAN}{34}{subsubsection.3.3.2.11}% 
+\contentsline {subsubsection}{\numberline {3.2.11}6LowPAN}{48}{subsubsection.3.3.2.11}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}Characteristics}{34}{paragraph.3.3.2.11.1}% 
+\contentsline {paragraph}{\numberline {A)}Characteristics}{48}{paragraph.3.3.2.11.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {B)}Encapsulation Header format}{34}{paragraph.3.3.2.11.2}% 
+\contentsline {paragraph}{\numberline {B)}Encapsulation Header format}{48}{paragraph.3.3.2.11.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {C)}Fragment Header}{34}{paragraph.3.3.2.11.3}% 
+\contentsline {paragraph}{\numberline {C)}Fragment Header}{48}{paragraph.3.3.2.11.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {D)}Mesh addressing header}{34}{paragraph.3.3.2.11.4}% 
+\contentsline {paragraph}{\numberline {D)}Mesh addressing header}{48}{paragraph.3.3.2.11.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {E)}Header compression (RFC4944)}{34}{paragraph.3.3.2.11.5}% 
+\contentsline {paragraph}{\numberline {E)}Header compression (RFC4944)}{48}{paragraph.3.3.2.11.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {F)}Header compression Improved (draft-hui-6lowpan-hc-01)}{35}{paragraph.3.3.2.11.6}% 
+\contentsline {paragraph}{\numberline {F)}Header compression Improved (draft-hui-6lowpan-hc-01)}{49}{paragraph.3.3.2.11.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.3}MAC}{36}{subsection.3.3.3}% 
+\contentsline {subsection}{\numberline {3.3}MAC}{50}{subsection.3.3.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1}Sharing the channel}{36}{subsubsection.3.3.3.1}% 
+\contentsline {subsubsection}{\numberline {3.3.1}Sharing the channel}{50}{subsubsection.3.3.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}TDMA, FDMA, CDMA, TSMA}{36}{paragraph.3.3.3.1.1}% 
+\contentsline {paragraph}{\numberline {A)}TDMA, FDMA, CDMA, TSMA}{50}{paragraph.3.3.3.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2}Transmitting information}{36}{subsubsection.3.3.3.2}% 
+\contentsline {subsubsection}{\numberline {3.3.2}Transmitting information}{50}{subsubsection.3.3.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}TFDM, TDSSS, TFHSS}{36}{paragraph.3.3.3.2.1}% 
+\contentsline {paragraph}{\numberline {A)}TFDM, TDSSS, TFHSS}{50}{paragraph.3.3.3.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.4}Radio}{37}{subsection.3.3.4}% 
+\contentsline {subsection}{\numberline {3.4}Radio}{51}{subsection.3.3.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.4.1}Digital modulation}{37}{subsubsection.3.3.4.1}% 
+\contentsline {subsubsection}{\numberline {3.4.1}Digital modulation}{51}{subsubsection.3.3.4.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}ASK, APSK, CPM, FSK, MFSK, MSK, OOK, PPM, PSK, QAM, SC-FDE, TCM WDM}{37}{paragraph.3.3.4.1.1}% 
+\contentsline {paragraph}{\numberline {A)}ASK, APSK, CPM, FSK, MFSK, MSK, OOK, PPM, PSK, QAM, SC-FDE, TCM WDM}{51}{paragraph.3.3.4.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.4.2}Hierarchical modulation}{37}{subsubsection.3.3.4.2}% 
+\contentsline {subsubsection}{\numberline {3.4.2}Hierarchical modulation}{51}{subsubsection.3.3.4.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}QAM, WDM}{37}{paragraph.3.3.4.2.1}% 
+\contentsline {paragraph}{\numberline {A)}QAM, WDM}{51}{paragraph.3.3.4.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.4.3}Spread spectrum}{37}{subsubsection.3.3.4.3}% 
+\contentsline {subsubsection}{\numberline {3.4.3}Spread spectrum}{51}{subsubsection.3.3.4.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}SS, DSSS, FHSS, THSS}{37}{paragraph.3.3.4.3.1}% 
+\contentsline {paragraph}{\numberline {A)}SS, DSSS, FHSS, THSS}{51}{paragraph.3.3.4.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {3.4.4}Radio performance}{37}{subsubsection.3.3.4.4}% 
+\contentsline {subsubsection}{\numberline {3.4.4}Radio performance}{51}{subsubsection.3.3.4.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}Power Level (dB)}{37}{paragraph.3.3.4.4.1}% 
+\contentsline {paragraph}{\numberline {A)}Power Level (dB)}{51}{paragraph.3.3.4.4.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {B)}Receive Signal Strength Indicator RSSI}{37}{paragraph.3.3.4.4.2}% 
+\contentsline {paragraph}{\numberline {B)}Receive Signal Strength Indicator RSSI}{51}{paragraph.3.3.4.4.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {C)}Signal to Noise Ratio SNR}{37}{paragraph.3.3.4.4.3}% 
+\contentsline {paragraph}{\numberline {C)}Signal to Noise Ratio SNR}{51}{paragraph.3.3.4.4.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {D)}Signal Attenuation}{37}{paragraph.3.3.4.4.4}% 
+\contentsline {paragraph}{\numberline {D)}Signal Attenuation}{51}{paragraph.3.3.4.4.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.5}Summary and discussion}{38}{subsection.3.3.5}% 
+\contentsline {subsection}{\numberline {3.5}Summary and discussion}{52}{subsection.3.3.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {4}IoT end devices}{38}{section.3.4}% 
+\contentsline {section}{\numberline {4}IoT end devices}{52}{section.3.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.1}Software platform}{38}{subsection.3.4.1}% 
+\contentsline {subsection}{\numberline {4.1}Software platform}{52}{subsection.3.4.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Contiki}{38}{subsubsection.3.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1}Contiki}{52}{subsubsection.3.4.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}RIOT}{39}{subsubsection.3.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.2}RIOT}{53}{subsubsection.3.4.1.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3}TinyOS}{39}{subsubsection.3.4.1.3}% 
+\contentsline {subsubsection}{\numberline {4.1.3}TinyOS}{53}{subsubsection.3.4.1.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4}freeRTOS}{39}{subsubsection.3.4.1.4}% 
+\contentsline {subsubsection}{\numberline {4.1.4}freeRTOS}{53}{subsubsection.3.4.1.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.1.5}Summary and conclusion}{39}{subsubsection.3.4.1.5}% 
+\contentsline {subsubsection}{\numberline {4.1.5}Summary and conclusion}{53}{subsubsection.3.4.1.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2}Hardware platform}{39}{subsection.3.4.2}% 
+\contentsline {subsection}{\numberline {4.2}Hardware platform}{53}{subsection.3.4.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Processing Unit}{39}{subsubsection.3.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Processing Unit}{53}{subsubsection.3.4.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}OpenMote}{40}{paragraph.3.4.2.1.1}% 
+\contentsline {paragraph}{\numberline {A)}OpenMote}{54}{paragraph.3.4.2.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {B)}MSB430-H}{40}{paragraph.3.4.2.1.2}% 
+\contentsline {paragraph}{\numberline {B)}MSB430-H}{54}{paragraph.3.4.2.1.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {C)}Zolertia}{40}{paragraph.3.4.2.1.3}% 
+\contentsline {paragraph}{\numberline {C)}Zolertia}{54}{paragraph.3.4.2.1.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Radio Unit}{40}{subsubsection.3.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Radio Unit}{54}{subsubsection.3.4.2.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}Lora Tranceiver}{40}{paragraph.3.4.2.2.1}% 
+\contentsline {paragraph}{\numberline {A)}Lora Tranceiver}{54}{paragraph.3.4.2.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Sensing Unit}{41}{subsubsection.3.4.2.3}% 
+\contentsline {subsubsection}{\numberline {4.2.3}Sensing Unit}{55}{subsubsection.3.4.2.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {A)}GPS}{41}{paragraph.3.4.2.3.1}% 
+\contentsline {paragraph}{\numberline {A)}GPS}{55}{paragraph.3.4.2.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {B)}Humidity}{41}{paragraph.3.4.2.3.2}% 
+\contentsline {paragraph}{\numberline {B)}Humidity}{55}{paragraph.3.4.2.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {paragraph}{\numberline {C)}Temperature}{41}{paragraph.3.4.2.3.3}% 
+\contentsline {paragraph}{\numberline {C)}Temperature}{55}{paragraph.3.4.2.3.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.3}Summary and discussion}{41}{subsection.3.4.3}% 
+\contentsline {subsection}{\numberline {4.3}Summary and discussion}{55}{subsection.3.4.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {5}SDN platforms}{42}{section.3.5}% 
+\contentsline {section}{\numberline {5}SDN platforms}{56}{section.3.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {6}Blockchain}{42}{section.3.6}% 
+\contentsline {section}{\numberline {6}Blockchain}{56}{section.3.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {6.1}Application}{42}{subsection.3.6.1}% 
+\contentsline {subsection}{\numberline {6.1}Application}{56}{subsection.3.6.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {6.2}Summary and discussion}{43}{subsection.3.6.2}% 
+\contentsline {subsection}{\numberline {6.2}Summary and discussion}{57}{subsection.3.6.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {4}Fuzzy C-Means Clustering}{45}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Fuzzy C-Means Clustering}{59}{chapter.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1}Introduction}{45}{section.4.1}% 
+\contentsline {section}{\numberline {1}Introduction}{59}{section.4.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2}Related work}{46}{section.4.2}% 
+\contentsline {section}{\numberline {2}Related work}{60}{section.4.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {3}Use case example}{47}{section.4.3}% 
+\contentsline {section}{\numberline {3}Use case example}{61}{section.4.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.1}Reception Sensitivity}{47}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {3.1}Reception Sensitivity}{61}{subsection.4.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.2}Bit error rate}{47}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {3.2}Bit error rate}{61}{subsection.4.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.3}\ac {ToA}}{47}{subsection.4.3.3}% 
+\contentsline {subsection}{\numberline {3.3}\ac {ToA}}{61}{subsection.4.3.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {4}Approach}{48}{section.4.4}% 
+\contentsline {section}{\numberline {4}Approach}{62}{section.4.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.1}Objective function:}{48}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.1}Objective function:}{62}{subsection.4.4.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2}Performance Index:}{48}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.2}Performance Index:}{62}{subsection.4.4.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {5}Simulation settings}{49}{section.4.5}% 
+\contentsline {section}{\numberline {5}Simulation settings}{63}{section.4.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {6}Results}{49}{section.4.6}% 
+\contentsline {section}{\numberline {6}Results}{63}{section.4.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {7}Conclusion}{53}{section.4.7}% 
+\contentsline {section}{\numberline {7}Conclusion}{67}{section.4.7}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {5}Testbed}{55}{chapter.5}% 
+\contentsline {chapter}{\numberline {5}Testbed}{69}{chapter.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1}Introduction \cite {bregell_hardware_2015}}{55}{section.5.1}% 
+\contentsline {section}{\numberline {1}Introduction \cite {bregell_hardware_2015}}{69}{section.5.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.1}Problem Statement}{55}{subsection.5.1.1}% 
+\contentsline {subsection}{\numberline {1.1}Problem Statement}{69}{subsection.5.1.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.2}Background}{55}{subsection.5.1.2}% 
+\contentsline {subsection}{\numberline {1.2}Background}{69}{subsection.5.1.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.3}Purpose (Goal)}{56}{subsection.5.1.3}% 
+\contentsline {subsection}{\numberline {1.3}Purpose (Goal)}{70}{subsection.5.1.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.4}Limitations}{56}{subsection.5.1.4}% 
+\contentsline {subsection}{\numberline {1.4}Limitations}{70}{subsection.5.1.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {1.5}Method}{56}{subsection.5.1.5}% 
+\contentsline {subsection}{\numberline {1.5}Method}{70}{subsection.5.1.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2}Related work}{57}{section.5.2}% 
+\contentsline {section}{\numberline {2}Related work}{71}{section.5.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {3}Background}{57}{section.5.3}% 
+\contentsline {section}{\numberline {3}Background}{71}{section.5.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.1}Hardware}{57}{subsection.5.3.1}% 
+\contentsline {subsection}{\numberline {3.1}Hardware}{71}{subsection.5.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.2}Operating system}{57}{subsection.5.3.2}% 
+\contentsline {subsection}{\numberline {3.2}Operating system}{71}{subsection.5.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.3}Communication protocol}{58}{subsection.5.3.3}% 
+\contentsline {subsection}{\numberline {3.3}Communication protocol}{72}{subsection.5.3.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.4}Workspace and tools}{58}{subsection.5.3.4}% 
+\contentsline {subsection}{\numberline {3.4}Workspace and tools}{72}{subsection.5.3.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {4}Proposed ...}{58}{section.5.4}% 
+\contentsline {section}{\numberline {4}Proposed ...}{72}{section.5.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.1}Drivers and firmware}{59}{subsection.5.4.1}% 
+\contentsline {subsection}{\numberline {4.1}Drivers and firmware}{73}{subsection.5.4.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2}CoAP server}{59}{subsection.5.4.2}% 
+\contentsline {subsection}{\numberline {4.2}CoAP server}{73}{subsection.5.4.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Testing}{59}{subsubsection.5.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.1}Testing}{73}{subsubsection.5.4.2.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Final prototype}{59}{subsubsection.5.4.2.2}% 
+\contentsline {subsubsection}{\numberline {4.2.2}Final prototype}{73}{subsubsection.5.4.2.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {5}Experimentation}{60}{section.5.5}% 
+\contentsline {section}{\numberline {5}Experimentation}{74}{section.5.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {5.1}Range}{60}{subsection.5.5.1}% 
+\contentsline {subsection}{\numberline {5.1}Range}{74}{subsection.5.5.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {5.2}Response time}{60}{subsection.5.5.2}% 
+\contentsline {subsection}{\numberline {5.2}Response time}{74}{subsection.5.5.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {5.3}Connection speed}{61}{subsection.5.5.3}% 
+\contentsline {subsection}{\numberline {5.3}Connection speed}{75}{subsection.5.5.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {5.4}Power consumption}{61}{subsection.5.5.4}% 
+\contentsline {subsection}{\numberline {5.4}Power consumption}{75}{subsection.5.5.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {6}Results}{63}{section.5.6}% 
+\contentsline {section}{\numberline {6}Results}{77}{section.5.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {6.1}Range}{63}{subsection.5.6.1}% 
+\contentsline {subsection}{\numberline {6.1}Range}{77}{subsection.5.6.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {6.2}Response time}{63}{subsection.5.6.2}% 
+\contentsline {subsection}{\numberline {6.2}Response time}{77}{subsection.5.6.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {6.3}Connection speed}{63}{subsection.5.6.3}% 
+\contentsline {subsection}{\numberline {6.3}Connection speed}{77}{subsection.5.6.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {6.4}Power consumption}{64}{subsection.5.6.4}% 
+\contentsline {subsection}{\numberline {6.4}Power consumption}{78}{subsection.5.6.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {6.5}Project execution}{64}{subsection.5.6.5}% 
+\contentsline {subsection}{\numberline {6.5}Project execution}{78}{subsection.5.6.5}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {7}Discussion}{64}{section.5.7}% 
+\contentsline {section}{\numberline {7}Discussion}{78}{section.5.7}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {6}Conclusion}{67}{chapter.6}% 
+\contentsline {chapter}{\numberline {6}Conclusion}{81}{chapter.6}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1}Conclusion}{67}{section.6.1}% 
+\contentsline {section}{\numberline {1}Conclusion}{81}{section.6.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {2}Perspectives}{67}{section.6.2}% 
+\contentsline {section}{\numberline {2}Perspectives}{81}{section.6.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {A}Appendix}{69}{appendix.A}% 
+\contentsline {chapter}{\numberline {A}Appendix}{83}{appendix.A}% 
