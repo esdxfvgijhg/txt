@@ -71,7 +71,7 @@
       \verb 10.1109/I-SMAC.2017.8058352
       \endverb
       \verb{file}
-      \verb Venkatesan et al_2017_Design of a smart gateway solution based on the exploration of specific.pdf:/home/aghiles/Aghiles/tool/tools/bibliography/storage/A8CEDHVT/Venkatesan et al_2017_Design of a smart gateway solution based on the exploration of specific.pdf:application/pdf
+      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/A8CEDHVT/Venkatesan et al_2017_Design of a smart gateway solution based on the exploration of specific.pdf
       \endverb
       \verb{urlraw}
       \verb http://ieeexplore.ieee.org/document/8058352/
@@ -79,7 +79,7 @@
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/8058352/
       \endverb
-      \keyw{,lora-new-1}
+      \keyw{}
     \endentry
     \entry{feltrin_lorawan_2018}{article}{}
       \name{author}{5}{}{%
@@ -109,25 +109,24 @@
            given={Roberto},
            giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{85302b28d72956e7bda30b06fe5f1bf1}
+      \strng{namehash}{bd3986956c7fd93a0970eba94035e42c}
       \strng{fullhash}{0d52bc6f0a24f2ce3556d8edb601aa24}
-      \strng{bibnamehash}{85302b28d72956e7bda30b06fe5f1bf1}
-      \strng{authorbibnamehash}{85302b28d72956e7bda30b06fe5f1bf1}
-      \strng{authornamehash}{85302b28d72956e7bda30b06fe5f1bf1}
+      \strng{bibnamehash}{0d52bc6f0a24f2ce3556d8edb601aa24}
+      \strng{authorbibnamehash}{0d52bc6f0a24f2ce3556d8edb601aa24}
+      \strng{authornamehash}{bd3986956c7fd93a0970eba94035e42c}
       \strng{authorfullhash}{0d52bc6f0a24f2ce3556d8edb601aa24}
       \field{sortinit}{7}
       \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The Internet of Things (IoT) addresses a huge set of possible application domains, requiring both short- and long-range communication technologies. When long distances are present, a number of proprietary and standard solutions for Low Power Wide Area Networks (LPWAN) are already available. Among them, LoRaWAN is a candidate technology supported by many network operators. This paper discusses the possible role of LoRaWAN for the IoT. First, the LoRaWAN technology is assessed experimentally through a set of laboratory and on-field tests, to characterize it from the link-level viewpoint; then, a system-level analysis is performed through simulation, to evaluate the capacity of a LoRaWAN gateway and a multigateway network to serve a large area. Finally, the results are discussed considering a broad set of use cases.}
-      \field{annotation}{\textbackslash{}citet\{feltrin\_lorawan\_2018\} discussed the role of LoRaWAN for IoT and showed its application to many use cases.\\ They considered the effect of non perfect orthogonality of SFs for a link level analysis. ~}
+      \field{annotation}{\textbackslash{}citet\{feltrin\_lorawan\_2018\} discussed the role of LoRaWAN for IoT and showed its application to many use cases.\\ They considered the effect of non perfect orthogonality of SFs for a link level analysis.}
       \field{issn}{2327-4662}
-      \field{journaltitle}{IEEE Internet of Things Journal}
+      \field{journaltitle}{IEEE Internet Things J.}
       \field{langid}{english}
       \field{month}{6}
       \field{note}{00024}
       \field{number}{3}
-      \field{shortjournal}{IEEE Internet Things J.}
       \field{shorttitle}{{{LoRaWAN}}}
       \field{title}{{{LoRaWAN}}: {{Evaluation}} of {{Link}}- and {{System}}-{{Level Performance}}}
       \field{urlday}{20}
@@ -143,7 +142,7 @@
       \verb 10.1109/JIOT.2018.2828867
       \endverb
       \verb{file}
-      \verb Feltrin et al. - 2018 - LoRaWAN Evaluation of Link- and System-Level Perf.pdf:/home/aghiles/Aghiles/tool/tools/bibliography/storage/EUXH6LEM/Feltrin et al. - 2018 - LoRaWAN Evaluation of Link- and System-Level Perf.pdf:application/pdf
+      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/EUXH6LEM/Feltrin et al. - 2018 - LoRaWAN Evaluation of Link- and System-Level Perf.pdf
       \endverb
       \verb{urlraw}
       \verb https://ieeexplore.ieee.org/document/8344411/
@@ -151,7 +150,7 @@
       \verb{url}
       \verb https://ieeexplore.ieee.org/document/8344411/
       \endverb
-      \keyw{,lora-adr-2}
+      \keyw{}
     \endentry
     \entry{rizzi_evaluation_2017}{article}{}
       \name{author}{4}{}{%
@@ -176,22 +175,21 @@
            given={Emiliano},
            giveni={E\bibinitperiod}}}%
       }
-      \strng{namehash}{403354d56d64219b0c349921b92eec12}
+      \strng{namehash}{0e3eaec6ad07fca068e964ab0e985ff8}
       \strng{fullhash}{c7a1279d6da63e4b6ea1018545abea32}
-      \strng{bibnamehash}{403354d56d64219b0c349921b92eec12}
-      \strng{authorbibnamehash}{403354d56d64219b0c349921b92eec12}
-      \strng{authornamehash}{403354d56d64219b0c349921b92eec12}
+      \strng{bibnamehash}{c7a1279d6da63e4b6ea1018545abea32}
+      \strng{authorbibnamehash}{c7a1279d6da63e4b6ea1018545abea32}
+      \strng{authornamehash}{0e3eaec6ad07fca068e964ab0e985ff8}
       \strng{authorfullhash}{c7a1279d6da63e4b6ea1018545abea32}
       \field{sortinit}{9}
       \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456, 1557-9662}
-      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
+      \field{journaltitle}{IEEE Trans. Instrum. Meas.}
       \field{month}{12}
       \field{note}{00064}
       \field{number}{12}
-      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
       \field{title}{Evaluation of the {{IoT LoRaWAN Solution}} for {{Distributed Measurement Applications}}}
       \field{urlday}{25}
       \field{urlmonth}{11}
@@ -206,7 +204,7 @@
       \verb 10.1109/TIM.2017.2746378
       \endverb
       \verb{file}
-      \verb Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications:/home/aghiles/Aghiles/tool/tools/bibliography/storage/E9LJ3KA3/rizzi2017.pdf:application/pdf;Rizzi et al_2017_Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications.pdf:/home/aghiles/Aghiles/tool/tools/bibliography/storage/URE7IUCV/Rizzi et al_2017_Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications.pdf:application/pdf
+      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/E9LJ3KA3/rizzi2017.pdf;/home/aghiles/Aghiles/tool/tools/r-bibliography/storage/URE7IUCV/Rizzi et al_2017_Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications.pdf
       \endverb
       \verb{urlraw}
       \verb http://ieeexplore.ieee.org/document/8036410/
@@ -214,7 +212,7 @@
       \verb{url}
       \verb http://ieeexplore.ieee.org/document/8036410/
       \endverb
-      \keyw{,lora-new-2}
+      \keyw{}
     \endentry
     \entry{marco_cattani_experimental_2017}{article}{}
       \name{author}{3}{}{%
@@ -242,12 +240,11 @@
       \field{annotation}{\textbackslash{}citet\{marco\_cattani\_experimental\_2017\} evaluated the impact of the LoRa physical layer settings on the data rate and energy efficiency.\\ They evaluated the impact of environmental factors such as temperature on the LoRa network performance and showed that high temperatures degrade the Packet Delivery Ratio (PDR) and Received Signal Strength (RSS).}
       \field{day}{15}
       \field{issn}{2224-2708}
-      \field{journaltitle}{Journal of Sensor and Actuator Networks}
+      \field{journaltitle}{JSAN}
       \field{langid}{english}
       \field{month}{6}
       \field{note}{00000}
       \field{number}{2}
-      \field{shortjournal}{JSAN}
       \field{title}{An {{Experimental Evaluation}} of the {{Reliability}} of {{LoRa Long}}-{{Range Low}}-{{Power Wireless Communication}}}
       \field{urlday}{20}
       \field{urlmonth}{11}
@@ -262,7 +259,7 @@
       \verb 10.3390/jsan6020007
       \endverb
       \verb{file}
-      \verb Marco Cattani et al. - 2017 - An Experimental Evaluation of the Reliability of L.pdf:/home/aghiles/Aghiles/tool/tools/bibliography/storage/4U6LJJT4/Marco Cattani et al. - 2017 - An Experimental Evaluation of the Reliability of L.pdf:application/pdf
+      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/4U6LJJT4/Marco Cattani et al. - 2017 - An Experimental Evaluation of the Reliability of L.pdf
       \endverb
       \verb{urlraw}
       \verb http://www.mdpi.com/2224-2708/6/2/7
@@ -270,66 +267,7 @@
       \verb{url}
       \verb http://www.mdpi.com/2224-2708/6/2/7
       \endverb
-      \keyw{,lora-new-3}
-    \endentry
-    \entry{dawaliby_adaptive_2019}{article}{}
-      \name{author}{3}{}{%
-        {{hash=ec815706190704d01733a205dfc1b96c}{%
-           family={Dawaliby},
-           familyi={D\bibinitperiod},
-           given={Samir},
-           giveni={S\bibinitperiod}}}%
-        {{hash=9451e504c00df59199b6e64a9cf313d0}{%
-           family={Bradai},
-           familyi={B\bibinitperiod},
-           given={Abbas},
-           giveni={A\bibinitperiod}}}%
-        {{hash=20a06b1612e68e9c6c1abc5f8527d9f5}{%
-           family={Pousset},
-           familyi={P\bibinitperiod},
-           given={Yannis},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{d8a8248965d1610efcb02e5689c1fcea}
-      \strng{fullhash}{d8a8248965d1610efcb02e5689c1fcea}
-      \strng{bibnamehash}{d8a8248965d1610efcb02e5689c1fcea}
-      \strng{authorbibnamehash}{d8a8248965d1610efcb02e5689c1fcea}
-      \strng{authornamehash}{d8a8248965d1610efcb02e5689c1fcea}
-      \strng{authorfullhash}{d8a8248965d1610efcb02e5689c1fcea}
-      \field{sortinit}{1}
-      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Knowing the heterogeneity of applications and services that need to to be supported in the internet of things (IoT), network slicing came out as a potential solution that virtually isolates 5G networks with various service requirements over a common physical network infrastructure. The latter needs to simultaneously support and isolate traffic issued from mobile and machine services which may require different needs in terms of reliability, latency, and bandwidth. In this paper, network slicing is investigated in LoRa networks over fixed and dynamic slicing strategies. The performance of LoRa slices is evaluated with different spreading factor (SF) configurations. Then, a dynamic inter-slicing algorithm is proposed based on a maximum likelihood estimation that avoids resource starvation and prioritizes a slice over another depending on its QoS requirements. Moreover, a novel intra-slicing strategy is proposed that maximizes resource allocation efficiency of LoRa slices with regard to their delay requirements. An energy module for LoRa in NS3 is also implemented to evaluate the energy consumption of devices in each slice. Simulation results performed in realistic LoRa scenarios highlight the utility of our proposition in improving QoS requirements of IoT devices and providing isolation between slices.}
-      \field{issn}{0167739X}
-      \field{journaltitle}{Future Generation Computer Systems}
-      \field{langid}{english}
-      \field{month}{9}
-      \field{note}{00004}
-      \field{shortjournal}{Future Generation Computer Systems}
-      \field{title}{Adaptive Dynamic Network Slicing in {{LoRa}} Networks}
-      \field{urlday}{20}
-      \field{urlmonth}{11}
-      \field{urlyear}{2019}
-      \field{volume}{98}
-      \field{year}{2019}
-      \field{dateera}{ce}
-      \field{urldateera}{ce}
-      \field{pages}{697\bibrangedash 707}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1016/j.future.2019.01.042
-      \endverb
-      \verb{file}
-      \verb Dawaliby et al. - 2019 - Adaptive dynamic network slicing in LoRa networks.pdf:/home/aghiles/Aghiles/tool/tools/bibliography/storage/WQ72KWJM/Dawaliby et al. - 2019 - Adaptive dynamic network slicing in LoRa networks.pdf:application/pdf
-      \endverb
-      \verb{urlraw}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0167739X18318429
-      \endverb
-      \verb{url}
-      \verb https://linkinghub.elsevier.com/retrieve/pii/S0167739X18318429
-      \endverb
-      \keyw{,lora-adr-1}
+      \keyw{}
     \endentry
   \enddatalist
   \missing{bendaoud_network_2019}

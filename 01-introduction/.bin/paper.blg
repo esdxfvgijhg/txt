@@ -1,13 +1,5 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is '.bin/paper.blg'
-[23] biber:315> INFO - === dim. janv.  5, 2020, 23:04:46
-[44] Biber.pm:371> INFO - Reading '.bin/paper.bcf'
-[100] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[100] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
-[100] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[100] Biber.pm:889> INFO - Found 0 citekeys in bib section 2
-[100] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[114] Utils.pm:193> WARN - The file '.bin/paper.bcf' does not contain any citations!
-[121] bbl.pm:636> INFO - Writing '.bin/paper.bbl' with encoding 'UTF-8'
-[121] bbl.pm:739> INFO - Output to .bin/paper.bbl
-[122] Biber.pm:110> INFO - WARNINGS: 1
+[22] biber:315> INFO - === ven. févr. 14, 2020, 17:10:37
+[35] Utils.pm:209> ERROR - .bin/paper.bcf is malformed, last biblatex run probably failed. Deleted .bin/paper.bbl
+[35] Biber.pm:114> INFO - ERRORS: 1

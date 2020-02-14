@@ -267,29 +267,33 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {subsection}{\numberline {6.2}Summary and discussion}{57}{subsection.3.6.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {4}Fuzzy C-Means Clustering}{59}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}Reconfiguration of LoRa Networks Parameters using Fuzzy C-Means Clustering}{59}{chapter.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {1}Introduction}{59}{section.4.1}% 
+\contentsline {section}{\numberline {1}Introduction}{60}{section.4.1}% 
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {2}Related work}{60}{section.4.2}% 
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {3}Use case example}{61}{section.4.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.1}Reception Sensitivity}{61}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {3.1}Receiver Sensitivity (\ac {RS})}{62}{subsection.4.3.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.2}Bit error rate}{61}{subsection.4.3.2}% 
+\contentsline {subsection}{\numberline {3.2}Bit error rate (\ac {BER})}{62}{subsection.4.3.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.3}\ac {ToA}}{61}{subsection.4.3.3}% 
+\contentsline {subsection}{\numberline {3.3}Time on air (\ac {ToA})}{62}{subsection.4.3.3}% 
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {4}Approach}{62}{section.4.4}% 
 \defcounter {refsection}{1}\relax 
 \contentsline {subsection}{\numberline {4.1}Objective function:}{62}{subsection.4.4.1}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {4.2}Performance Index:}{62}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.2}Membership matrix:}{63}{subsection.4.4.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {5}Simulation settings}{63}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.3}Cluster heads:}{63}{subsection.4.4.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {section}{\numberline {6}Results}{63}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.4}Performance Index:}{63}{subsection.4.4.4}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {5}Simulation settings}{64}{section.4.5}% 
+\defcounter {refsection}{1}\relax 
+\contentsline {section}{\numberline {6}Results}{64}{section.4.6}% 
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {7}Conclusion}{67}{section.4.7}% 
 \defcounter {refsection}{1}\relax 

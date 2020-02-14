@@ -20,7 +20,7 @@
 \BOOKMARK [3][-]{subsubsection.3.2.4.3}{ZigBee}{subsection.3.2.4}% 20
 \BOOKMARK [2][-]{subsection.3.2.5}{LoRaWAN}{section.3.2}% 21
 \BOOKMARK [3][-]{subsubsection.3.2.5.1}{ALIANCE}{subsection.3.2.5}% 22
-\BOOKMARK [3][-]{figure.caption.22}{SEMTECH}{subsection.3.2.5}% 23
+\BOOKMARK [3][-]{figure.caption.19}{SEMTECH}{subsection.3.2.5}% 23
 \BOOKMARK [2][-]{subsection.3.2.6}{Divers}{section.3.2}% 24
 \BOOKMARK [3][-]{subsubsection.3.2.6.1}{IPLC}{subsection.3.2.6}% 25
 \BOOKMARK [3][-]{subsubsection.3.2.6.2}{BACnet}{subsection.3.2.6}% 26
@@ -33,8 +33,8 @@
 \BOOKMARK [3][-]{subsubsection.3.3.1.2}{CBOR}{subsection.3.3.1}% 33
 \BOOKMARK [3][-]{subsubsection.3.3.1.3}{DTLS}{subsection.3.3.1}% 34
 \BOOKMARK [3][-]{subsubsection.3.3.1.4}{OSCOAP}{subsection.3.3.1}% 35
-\BOOKMARK [3][-]{figure.caption.27}{CoAP}{subsection.3.3.1}% 36
-\BOOKMARK [3][-]{figure.caption.28}{MQTT}{subsection.3.3.1}% 37
+\BOOKMARK [3][-]{figure.caption.24}{CoAP}{subsection.3.3.1}% 36
+\BOOKMARK [3][-]{figure.caption.25}{MQTT}{subsection.3.3.1}% 37
 \BOOKMARK [3][-]{subsubsection.3.3.1.7}{XMPP}{subsection.3.3.1}% 38
 \BOOKMARK [3][-]{subsubsection.3.3.1.8}{AMQP}{subsection.3.3.1}% 39
 \BOOKMARK [3][-]{subsubsection.3.3.1.9}{DDS}{subsection.3.3.1}% 40
@@ -72,7 +72,7 @@
 \BOOKMARK [3][-]{subsubsection.3.4.1.2}{RIOT}{subsection.3.4.1}% 72
 \BOOKMARK [3][-]{subsubsection.3.4.1.3}{TinyOS}{subsection.3.4.1}% 73
 \BOOKMARK [3][-]{subsubsection.3.4.1.4}{freeRTOS}{subsection.3.4.1}% 74
-\BOOKMARK [3][-]{table.caption.38}{Summary and conclusion}{subsection.3.4.1}% 75
+\BOOKMARK [3][-]{table.caption.35}{Summary and conclusion}{subsection.3.4.1}% 75
 \BOOKMARK [2][-]{subsection.3.4.2}{Hardware platform}{section.3.4}% 76
 \BOOKMARK [3][-]{subsubsection.3.4.2.1}{Processing Unit}{subsection.3.4.2}% 77
 \BOOKMARK [3][-]{subsubsection.3.4.2.2}{Radio Unit}{subsection.3.4.2}% 78
@@ -82,51 +82,53 @@
 \BOOKMARK [1][-]{section.3.6}{Blockchain}{part.3}% 82
 \BOOKMARK [2][-]{subsection.3.6.1}{Application}{section.3.6}% 83
 \BOOKMARK [2][-]{subsection.3.6.2}{Summary and discussion}{section.3.6}% 84
-\BOOKMARK [0][-]{part.4}{4 Fuzzy C-Means Clustering}{}% 85
+\BOOKMARK [0][-]{part.4}{4 Reconfiguration of LoRa Networks Parameters using Fuzzy C-Means Clustering}{}% 85
 \BOOKMARK [1][-]{section.4.1}{Introduction}{part.4}% 86
 \BOOKMARK [1][-]{section.4.2}{Related work}{part.4}% 87
 \BOOKMARK [1][-]{section.4.3}{Use case example}{part.4}% 88
-\BOOKMARK [2][-]{subsection.4.3.1}{Reception Sensitivity}{section.4.3}% 89
-\BOOKMARK [2][-]{subsection.4.3.2}{Bit error rate}{section.4.3}% 90
-\BOOKMARK [2][-]{subsection.4.3.3}{ToA}{section.4.3}% 91
+\BOOKMARK [2][-]{subsection.4.3.1}{Receiver Sensitivity \(RS\)}{section.4.3}% 89
+\BOOKMARK [2][-]{subsection.4.3.2}{Bit error rate \(BER\)}{section.4.3}% 90
+\BOOKMARK [2][-]{subsection.4.3.3}{Time on air \(ToA\)}{section.4.3}% 91
 \BOOKMARK [1][-]{section.4.4}{Approach}{part.4}% 92
 \BOOKMARK [2][-]{subsection.4.4.1}{Objective function:}{section.4.4}% 93
-\BOOKMARK [2][-]{subsection.4.4.2}{Performance Index:}{section.4.4}% 94
-\BOOKMARK [1][-]{section.4.5}{Simulation settings}{part.4}% 95
-\BOOKMARK [1][-]{section.4.6}{Results}{part.4}% 96
-\BOOKMARK [1][-]{section.4.7}{Conclusion}{part.4}% 97
-\BOOKMARK [0][-]{part.5}{5 Testbed}{}% 98
-\BOOKMARK [1][-]{section.5.1}{Introduction bregellhardware2015}{part.5}% 99
-\BOOKMARK [2][-]{subsection.5.1.1}{Problem Statement}{section.5.1}% 100
-\BOOKMARK [2][-]{subsection.5.1.2}{Background}{section.5.1}% 101
-\BOOKMARK [2][-]{subsection.5.1.3}{Purpose \(Goal\)}{section.5.1}% 102
-\BOOKMARK [2][-]{subsection.5.1.4}{Limitations}{section.5.1}% 103
-\BOOKMARK [2][-]{subsection.5.1.5}{Method}{section.5.1}% 104
-\BOOKMARK [1][-]{section.5.2}{Related work}{part.5}% 105
-\BOOKMARK [1][-]{section.5.3}{Background}{part.5}% 106
-\BOOKMARK [2][-]{subsection.5.3.1}{Hardware}{section.5.3}% 107
-\BOOKMARK [2][-]{subsection.5.3.2}{Operating system}{section.5.3}% 108
-\BOOKMARK [2][-]{subsection.5.3.3}{Communication protocol}{section.5.3}% 109
-\BOOKMARK [2][-]{subsection.5.3.4}{Workspace and tools}{section.5.3}% 110
-\BOOKMARK [1][-]{section.5.4}{Proposed ...}{part.5}% 111
-\BOOKMARK [2][-]{subsection.5.4.1}{Drivers and firmware}{section.5.4}% 112
-\BOOKMARK [2][-]{subsection.5.4.2}{CoAP server}{section.5.4}% 113
-\BOOKMARK [3][-]{subsubsection.5.4.2.1}{Testing}{subsection.5.4.2}% 114
-\BOOKMARK [3][-]{subsubsection.5.4.2.2}{Final prototype}{subsection.5.4.2}% 115
-\BOOKMARK [1][-]{section.5.5}{Experimentation}{part.5}% 116
-\BOOKMARK [2][-]{subsection.5.5.1}{Range}{section.5.5}% 117
-\BOOKMARK [2][-]{subsection.5.5.2}{Response time}{section.5.5}% 118
-\BOOKMARK [2][-]{subsection.5.5.3}{Connection speed}{section.5.5}% 119
-\BOOKMARK [2][-]{subsection.5.5.4}{Power consumption}{section.5.5}% 120
-\BOOKMARK [1][-]{section.5.6}{Results}{part.5}% 121
-\BOOKMARK [2][-]{subsection.5.6.1}{Range}{section.5.6}% 122
-\BOOKMARK [2][-]{subsection.5.6.2}{Response time}{section.5.6}% 123
-\BOOKMARK [2][-]{subsection.5.6.3}{Connection speed}{section.5.6}% 124
-\BOOKMARK [2][-]{subsection.5.6.4}{Power consumption}{section.5.6}% 125
-\BOOKMARK [2][-]{subsection.5.6.5}{Project execution}{section.5.6}% 126
-\BOOKMARK [1][-]{section.5.7}{Discussion}{part.5}% 127
-\BOOKMARK [0][-]{part.6}{6 Conclusion}{}% 128
-\BOOKMARK [1][-]{section.6.1}{Conclusion}{part.6}% 129
-\BOOKMARK [1][-]{section.6.2}{Perspectives}{part.6}% 130
-\BOOKMARK [1][-]{section*.64}{Appendix}{part.6}% 131
-\BOOKMARK [0][-]{part.7}{7 Appendix}{}% 132
+\BOOKMARK [2][-]{subsection.4.4.2}{Membership matrix:}{section.4.4}% 94
+\BOOKMARK [2][-]{subsection.4.4.3}{Cluster heads:}{section.4.4}% 95
+\BOOKMARK [2][-]{subsection.4.4.4}{Performance Index:}{section.4.4}% 96
+\BOOKMARK [1][-]{section.4.5}{Simulation settings}{part.4}% 97
+\BOOKMARK [1][-]{section.4.6}{Results}{part.4}% 98
+\BOOKMARK [1][-]{section.4.7}{Conclusion}{part.4}% 99
+\BOOKMARK [0][-]{part.5}{5 Testbed}{}% 100
+\BOOKMARK [1][-]{section.5.1}{Introduction bregellhardware2015}{part.5}% 101
+\BOOKMARK [2][-]{subsection.5.1.1}{Problem Statement}{section.5.1}% 102
+\BOOKMARK [2][-]{subsection.5.1.2}{Background}{section.5.1}% 103
+\BOOKMARK [2][-]{subsection.5.1.3}{Purpose \(Goal\)}{section.5.1}% 104
+\BOOKMARK [2][-]{subsection.5.1.4}{Limitations}{section.5.1}% 105
+\BOOKMARK [2][-]{subsection.5.1.5}{Method}{section.5.1}% 106
+\BOOKMARK [1][-]{section.5.2}{Related work}{part.5}% 107
+\BOOKMARK [1][-]{section.5.3}{Background}{part.5}% 108
+\BOOKMARK [2][-]{subsection.5.3.1}{Hardware}{section.5.3}% 109
+\BOOKMARK [2][-]{subsection.5.3.2}{Operating system}{section.5.3}% 110
+\BOOKMARK [2][-]{subsection.5.3.3}{Communication protocol}{section.5.3}% 111
+\BOOKMARK [2][-]{subsection.5.3.4}{Workspace and tools}{section.5.3}% 112
+\BOOKMARK [1][-]{section.5.4}{Proposed ...}{part.5}% 113
+\BOOKMARK [2][-]{subsection.5.4.1}{Drivers and firmware}{section.5.4}% 114
+\BOOKMARK [2][-]{subsection.5.4.2}{CoAP server}{section.5.4}% 115
+\BOOKMARK [3][-]{subsubsection.5.4.2.1}{Testing}{subsection.5.4.2}% 116
+\BOOKMARK [3][-]{subsubsection.5.4.2.2}{Final prototype}{subsection.5.4.2}% 117
+\BOOKMARK [1][-]{section.5.5}{Experimentation}{part.5}% 118
+\BOOKMARK [2][-]{subsection.5.5.1}{Range}{section.5.5}% 119
+\BOOKMARK [2][-]{subsection.5.5.2}{Response time}{section.5.5}% 120
+\BOOKMARK [2][-]{subsection.5.5.3}{Connection speed}{section.5.5}% 121
+\BOOKMARK [2][-]{subsection.5.5.4}{Power consumption}{section.5.5}% 122
+\BOOKMARK [1][-]{section.5.6}{Results}{part.5}% 123
+\BOOKMARK [2][-]{subsection.5.6.1}{Range}{section.5.6}% 124
+\BOOKMARK [2][-]{subsection.5.6.2}{Response time}{section.5.6}% 125
+\BOOKMARK [2][-]{subsection.5.6.3}{Connection speed}{section.5.6}% 126
+\BOOKMARK [2][-]{subsection.5.6.4}{Power consumption}{section.5.6}% 127
+\BOOKMARK [2][-]{subsection.5.6.5}{Project execution}{section.5.6}% 128
+\BOOKMARK [1][-]{section.5.7}{Discussion}{part.5}% 129
+\BOOKMARK [0][-]{part.6}{6 Conclusion}{}% 130
+\BOOKMARK [1][-]{section.6.1}{Conclusion}{part.6}% 131
+\BOOKMARK [1][-]{section.6.2}{Perspectives}{part.6}% 132
+\BOOKMARK [1][-]{section*.58}{Appendix}{part.6}% 133
+\BOOKMARK [0][-]{part.7}{7 Appendix}{}% 134

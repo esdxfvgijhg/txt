@@ -41,17 +41,17 @@
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {xchapter}{Fuzzy C-Means Clustering}{59}{chapter.4}% 
+\contentsline {xchapter}{Reconfiguration of LoRa Networks Parameters using Fuzzy C-Means Clustering}{59}{chapter.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.1}{\ignorespaces Application requirements in \ac {IoT} \cite {feltrin_lorawan_2018} \cite {venkatesan_design_2017} \cite {rizzi_evaluation_2017}\relax }}{61}{table.caption.36}% 
+\contentsline {table}{\numberline {4.1}{\ignorespaces Applications requirements in \ac {IoT} \cite {feltrin_lorawan_2018,rizzi_evaluation_2017}\relax }}{61}{table.caption.36}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.2}{\ignorespaces \ac {LoRa} transmission parameters\relax }}{63}{table.caption.39}% 
+\contentsline {table}{\numberline {4.2}{\ignorespaces \ac {LoRa} transmission parameters\relax }}{64}{table.caption.39}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.3}{\ignorespaces Samples of membership values of \ac {LoRa} transmission settings to 3 different applications\relax }}{64}{table.caption.40}% 
+\contentsline {table}{\numberline {4.3}{\ignorespaces Samples of membership values of \ac {LoRa} transmission settings\relax }}{65}{table.caption.40}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.4}{\ignorespaces Cluster centers\relax }}{64}{table.caption.41}% 
+\contentsline {table}{\numberline {4.4}{\ignorespaces Cluster heads features\relax }}{65}{table.caption.41}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {4.5}{\ignorespaces Clustering performance\relax }}{64}{table.caption.42}% 
+\contentsline {table}{\numberline {4.5}{\ignorespaces Clustering performance\relax }}{65}{table.caption.42}% 
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
@@ -69,14 +69,14 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {table}{\numberline {A.2}{\ignorespaces LPWAN Characteristics \cite {berder_reseaux_2014}\relax }}{87}{table.A.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.3}{\ignorespaces \cite {raza_low_22}\relax }}{87}{table.caption.47}% 
+\contentsline {table}{\numberline {A.3}{\ignorespaces \cite {raza_low_22}\relax }}{87}{table.caption.46}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.4}{\ignorespaces IoT cloud platforms and their characteristics \cite {al-fuqaha_internet_24}\relax }}{88}{table.caption.48}% 
+\contentsline {table}{\numberline {A.4}{\ignorespaces IoT cloud platforms and their characteristics \cite {al-fuqaha_internet_24}\relax }}{88}{table.caption.47}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.5}{\ignorespaces IEEE 802.15.4 standards \cite {sarwar_iot_2015}\relax }}{88}{table.caption.49}% 
+\contentsline {table}{\numberline {A.5}{\ignorespaces IEEE 802.15.4 standards \cite {sarwar_iot_2015}\relax }}{88}{table.caption.48}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.6}{\ignorespaces An example table.\relax }}{88}{table.caption.50}% 
+\contentsline {table}{\numberline {A.6}{\ignorespaces An example table.\relax }}{88}{table.caption.49}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.7}{\ignorespaces Receiver sensitivity [dBm]\relax }}{88}{table.caption.51}% 
+\contentsline {table}{\numberline {A.7}{\ignorespaces Receiver sensitivity [dBm]\relax }}{88}{table.caption.50}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {table}{\numberline {A.8}{\ignorespaces oioioi \relax }}{88}{table.caption.52}% 
+\contentsline {table}{\numberline {A.8}{\ignorespaces oioioi \relax }}{88}{table.caption.51}% 

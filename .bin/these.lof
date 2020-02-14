@@ -35,15 +35,13 @@
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 
-\contentsline {xchapter}{Fuzzy C-Means Clustering}{59}{chapter.4}% 
+\contentsline {xchapter}{Reconfiguration of LoRa Networks Parameters using Fuzzy C-Means Clustering}{59}{chapter.4}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces Clustering process.\relax }}{63}{figure.caption.38}% 
+\contentsline {figure}{\numberline {1}{\ignorespaces Clustering process.\relax }}{64}{figure.caption.38}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces BER vs RSSI.\relax }}{65}{figure.caption.43}% 
+\contentsline {figure}{\numberline {2}{\ignorespaces RSSI vs ToA and BER.\relax }}{66}{figure.caption.43}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces BER vs ToA.\relax }}{65}{figure.caption.44}% 
-\defcounter {refsection}{1}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces ToA vs RSSI.\relax }}{66}{figure.caption.45}% 
+\contentsline {figure}{\numberline {3}{\ignorespaces SF vs ToA and BER.\relax }}{66}{figure.caption.44}% 
 \defcounter {refsection}{1}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{1}\relax 

@@ -1,4 +1,3 @@
-{\reset@font\mlffont\mtc@string\contentsline{figure}{\noexpand \leavevmode \numberline {1}{\ignorespaces Clustering process.\relax }}{\reset@font\mlffont 63}{figure.caption.38}}
-{\reset@font\mlffont\mtc@string\contentsline{figure}{\noexpand \leavevmode \numberline {2}{\ignorespaces BER vs RSSI.\relax }}{\reset@font\mlffont 65}{figure.caption.43}}
-{\reset@font\mlffont\mtc@string\contentsline{figure}{\noexpand \leavevmode \numberline {3}{\ignorespaces BER vs ToA.\relax }}{\reset@font\mlffont 65}{figure.caption.44}}
-{\reset@font\mlffont\mtc@string\contentsline{figure}{\noexpand \leavevmode \numberline {4}{\ignorespaces ToA vs RSSI.\relax }}{\reset@font\mlffont 66}{figure.caption.45}}
+{\reset@font\mlffont\mtc@string\contentsline{figure}{\noexpand \leavevmode \numberline {1}{\ignorespaces Clustering process.\relax }}{\reset@font\mlffont 64}{figure.caption.38}}
+{\reset@font\mlffont\mtc@string\contentsline{figure}{\noexpand \leavevmode \numberline {2}{\ignorespaces RSSI vs ToA and BER.\relax }}{\reset@font\mlffont 66}{figure.caption.43}}
+{\reset@font\mlffont\mtc@string\contentsline{figure}{\noexpand \leavevmode \numberline {3}{\ignorespaces SF vs ToA and BER.\relax }}{\reset@font\mlffont 66}{figure.caption.44}}
