@@ -1,0 +1,103 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{2}
+  \datalist[entry]{none/global//global/global}
+    \entry{venkatesan_design_2017}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=0548fd121a3db7c549a5cbca1c645ff5}{%
+           family={Venkatesan},
+           familyi={V\bibinitperiod},
+           given={V.\bibnamedelimi Prasanna},
+           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=c72445bd061fd9d1f42e545bcc341fd9}{%
+           family={Devi},
+           familyi={D\bibinitperiod},
+           given={C.\bibnamedelimi Punitha},
+           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=9396c8c2d9112305d5f010428e124f4b}{%
+           family={Sivaranjani},
+           familyi={S\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Palladam, Tamilnadu, India}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{fullhash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{bibnamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{authorbibnamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{authornamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \strng{authorfullhash}{50c0f9dc84d5a5e8f46d7060440177d0}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2017 {{International Conference}} on {{I}}-{{SMAC}} ({{IoT}} in {{Social}}, {{Mobile}}, {{Analytics}} and {{Cloud}}) ({{I}}-{{SMAC}})}
+      \field{eventtitle}{2017 {{International Conference}} on {{I}}-{{SMAC}} ({{IoT}} in {{Social}}, {{Mobile}}, {{Analytics}} and {{Cloud}}) ({{I}}-{{SMAC}})}
+      \field{isbn}{978-1-5090-3242-6 978-1-5090-3243-3}
+      \field{month}{2}
+      \field{note}{00004}
+      \field{title}{Design of a Smart Gateway Solution Based on the Exploration of Specific Challenges in {{IoT}}}
+      \field{urlday}{28}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{year}{2017}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{22\bibrangedash 31}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/I-SMAC.2017.8058352
+      \endverb
+      \verb{file}
+      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/A8CEDHVT/Venkatesan et al_2017_Design of a smart gateway solution based on the exploration of specific.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/8058352/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/8058352/
+      \endverb
+      \keyw{}
+    \endentry
+  \enddatalist
+  \missing{_rpl2_}
+  \missing{al-fuqaha_internet_24}
+  \missing{alba_intelligent_2016}
+  \missing{bera_softwaredefined_2017}
+  \missing{bregell_hardware_2015}
+  \missing{costanzo_software_2012}
+  \missing{degante_smart_2014}
+  \missing{gaddam_comparative_2018}
+  \missing{galluccio_sdnwise_2015}
+  \missing{hancke_role_2012}
+  \missing{kobo_survey_2017}
+  \missing{kouicem_internet_2018}
+  \missing{libelium_waspmote_2017}
+  \missing{luo_sensor_2012}
+  \missing{ndiaye_software_2017}
+  \missing{qin_software_2014}
+\endrefsection
+\endinput
+

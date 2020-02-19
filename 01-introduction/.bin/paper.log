@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  14 FEB 2020 17:10
+This is LuaTeX, Version 1.07.0 (TeX Live 2019/dev/Debian)  (format=lualatex 2019.12.25)  16 FEB 2020 19:38
  system commands enabled.
  file:line:error style messages enabled.
 **main.tex
@@ -49,7 +49,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.077 seconds
+luaotfload | main : initialization completed in 0.079 seconds
 (/home/aghiles/.config/latex/paper.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
@@ -2367,9 +2367,8 @@ Package biblatex Info: Automatic encoding selection.
 
 \openout6 = paper.bcf
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'paper.bbl' not found.
-
-No file paper.bbl.
+Package biblatex Info: ... file 'paper.bbl' found.
+ (./.bin/paper.bbl)
 Package biblatex Info: Reference section=0 on input line 6.
 Package biblatex Info: Reference segment=0 on input line 6.
 
@@ -2427,30 +2426,408 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 Package biblatex Info: Reference section=1 on input line 7.
 Package biblatex Info: Setting label 'refsection:1' on input line 7.
 \g__file_internal_ior=\read5
-(./authors.tex)
+(./authors.tex) (/home/aghiles/Aghiles/job/txt/references/ref.tex
 
-! LaTeX Error: File `ref.tex' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: tex)
-
-Enter file name: 
-./main.tex:11: Emergency stop.
-<read *> 
-   
-l.11 \chapter[.]{}
-                
-*** (cannot \read from terminal in nonstop modes)
+Package biblatex Warning: Keyword '5g' not found on input line 1.
 
 
+LaTeX Warning: Empty bibliography on input line 1.
+
+
+Package biblatex Warning: Keyword '5g-slice' not found on input line 2.
+
+
+LaTeX Warning: Empty bibliography on input line 2.
+
+
+Package biblatex Warning: Keyword 'divers-new' not found on input line 3.
+
+
+LaTeX Warning: Empty bibliography on input line 3.
+
+
+Package biblatex Warning: Keyword 'lora-adr' not found on input line 4.
+
+
+LaTeX Warning: Empty bibliography on input line 4.
+
+
+Package biblatex Warning: Keyword 'lora-adr-LoRaWAN' not found on input line 5.
+
+
+LaTeX Warning: Empty bibliography on input line 5.
+
+
+Package biblatex Warning: Keyword 'lora-adr-new' not found on input line 6.
+
+
+LaTeX Warning: Empty bibliography on input line 6.
+
+
+Package biblatex Warning: Keyword 'lora-channel' not found on input line 7.
+
+
+LaTeX Warning: Empty bibliography on input line 7.
+
+
+Package biblatex Warning: Keyword 'lora-new' not found on input line 8.
+
+
+LaTeX Warning: Empty bibliography on input line 8.
+
+
+Package biblatex Warning: Keyword 'lora-power' not found on input line 9.
+
+
+LaTeX Warning: Empty bibliography on input line 9.
+
+
+Package biblatex Warning: Keyword 'lora-z' not found on input line 10.
+
+
+LaTeX Warning: Empty bibliography on input line 10.
+
+
+LaTeX Warning: Empty bibliography on input line 11.
+
+)
+Package biblatex Info: Reference section=0 on input line 11.
+\blx@maxsegment@2=\count533
+\blx@sectionciteorder@2=\count534
+Package biblatex Info: Reference section=2 on input line 11.
+Package biblatex Info: Setting label 'refsection:2' on input line 11.
+LaTeX Font Info:    Try loading font information for U+stmry on input line 11.
+ (/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+LaTeX Font Info:    Try loading font information for U+msa on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for U+wasy on input line 11.
+
+(/usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2003/10/30 v2.0 Wasy-2 symbol font definitions
+)
+(./00_introduction.tex) (/home/aghiles/Aghiles/job/txt/references/ref.tex
+
+Package biblatex Warning: Keyword '5g' not found on input line 1.
+
+
+LaTeX Warning: Empty bibliography on input line 1.
+
+
+Package biblatex Warning: Keyword '5g-slice' not found on input line 2.
+
+
+LaTeX Warning: Empty bibliography on input line 2.
+
+
+Package biblatex Warning: Keyword 'divers-new' not found on input line 3.
+
+
+LaTeX Warning: Empty bibliography on input line 3.
+
+
+Package biblatex Warning: Keyword 'lora-adr' not found on input line 4.
+
+
+LaTeX Warning: Empty bibliography on input line 4.
+
+
+Package biblatex Warning: Keyword 'lora-adr-LoRaWAN' not found on input line 5.
+
+
+LaTeX Warning: Empty bibliography on input line 5.
+
+
+Package biblatex Warning: Keyword 'lora-adr-new' not found on input line 6.
+
+
+LaTeX Warning: Empty bibliography on input line 6.
+
+
+Package biblatex Warning: Keyword 'lora-channel' not found on input line 7.
+
+
+LaTeX Warning: Empty bibliography on input line 7.
+
+
+Package biblatex Warning: Keyword 'lora-new' not found on input line 8.
+
+
+LaTeX Warning: Empty bibliography on input line 8.
+
+
+Package biblatex Warning: Keyword 'lora-power' not found on input line 9.
+
+
+LaTeX Warning: Empty bibliography on input line 9.
+
+
+Package biblatex Warning: Keyword 'lora-z' not found on input line 10.
+
+
+LaTeX Warning: Empty bibliography on input line 10.
+
+
+LaTeX Warning: Empty bibliography on input line 11.
+
+)
+Package biblatex Info: Reference section=0 on input line 13.
+
+
+Package caption Warning: Unused \captionsetup[table] on input line 125.
+See the caption package documentation for explanation.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 14.
+[1
+Non-PDF special ignored!{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+
+
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 14.
+
+(./.bin/paper.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 14.
+
+
+ *File List*
+   paper.tex
+ fontenc.sty
+  ot1enc.def    2018/08/11 v2.0j Standard LaTeX file
+  ot1lmr.fd    2009/10/30 v1.6 Font defs for Latin Modern
+IEEEtran.cls    2015/08/26 V1.8b by Michael Shell
+  ot1ptm.fd    2001/06/04 font definitions for OT1/ptm.
+  xsetup.tex
+inputenc.sty    2018/08/11 v1.3c Input encoding file
+ fontenc.sty
+   t1enc.def    2018/08/11 v2.0j Standard LaTeX file
+   t1ptm.fd    2001/06/04 font definitions for T1/ptm.
+   babel.sty    2018/11/13 3.27 The Babel package
+ english.ldf    2017/06/06 v3.3r English support from the babel system
+ xstring.sty    2019/02/06 v1.83 String manipulations (CT)
+  pifont.sty    2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+    upzd.fd    2001/06/04 font definitions for U/pzd.
+    upsy.fd    2001/06/04 font definitions for U/psy.
+multicol.sty    2018/12/27 v1.8v multicolumn formatting (FMi)
+blkarray.sty    2015/02/27 v0.07 Block array (dpc)
+styles/gantt.sty
+    tikz.sty    2019/02/02 v3.1.1 (3.1.1)
+     pgf.sty    2019/02/02 v3.1.1 (3.1.1)
+  pgfrcs.sty    2019/02/02 v3.1.1 (3.1.1)
+everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
+  pgfrcs.code.tex
+ pgfcore.sty    2019/02/02 v3.1.1 (3.1.1)
+graphicx.sty    2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+  keyval.sty    2014/10/28 v1.15 key=value parser (DPC)
+graphics.sty    2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+    trig.sty    2016/01/03 v1.10 sin cos tan (DPC)
+graphics.cfg    2016/06/04 v1.11 sample graphics configuration
+  luatex.def    2018/01/08 v1.0l Graphics/color driver for luatex
+  pgfsys.sty    2019/02/02 v3.1.1 (3.1.1)
+  pgfsys.code.tex
+pgfsyssoftpath.code.tex    2019/02/02 v3.1.1 (3.1.1)
+pgfsysprotocol.code.tex    2019/02/02 v3.1.1 (3.1.1)
+  xcolor.sty    2016/05/11 v2.12 LaTeX color extensions (UK)
+   color.cfg    2016/01/02 v1.6 sample color configuration
+ pgfcore.code.tex
+pgfcomp-version-0-65.sty    2019/02/02 v3.1.1 (3.1.1)
+pgfcomp-version-1-18.sty    2019/02/02 v3.1.1 (3.1.1)
+  pgffor.sty    2019/02/02 v3.1.1 (3.1.1)
+ pgfkeys.sty    
+ pgfkeys.code.tex
+ pgfmath.sty    
+ pgfmath.code.tex
+  pgffor.code.tex
+    tikz.code.tex
+ xkeyval.sty    2014/12/03 v2.7a package option processing (HA)
+ xkeyval.tex    2014/12/03 v2.7a key=value parser (HA)
+  ifthen.sty    2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+    calc.sty    2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+ forloop.sty    2006/09/18 v3.0 For Loops for LaTeX
+  xparse.sty    2018-10-17 L3 Experimental document command parser
+   expl3.sty    2019-02-15 L3 programming layer (loader) 
+expl3-code.tex    2019-02-15 L3 programming layer 
+l3pdfmode.def    2019-02-15 v L3 Experimental driver: PDF mode
+xsetupcolors.tex
+colortbl.sty    2018/12/12 v1.0d Color table columns (DPC)
+   array.sty    2018/12/30 v2.4k Tabular extension package (FMi)
+tcolorbox.sty    2018/12/07 version 4.15 text color boxes
+verbatim.sty    2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+ environ.sty    2014/05/04 v0.3 A new way to define environments
+trimspaces.sty    2009/09/17 v1.1 Trim spaces around a token list
+etoolbox.sty    2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+algorithm2e.sty    2017/07/18 v5.2 algorithms environments
+ifoddpage.sty    2016/04/23 v1.1 Conditionals for odd/even page detection
+  xspace.sty    2014/10/28 v1.13 Space after command names (DPC,MH)
+ relsize.sty    2013/03/29 ver 4.1
+multirow.sty    2019/01/01 v2.4 Span multiple rows of a table
+booktabs.sty    2016/04/27 v1.618033 publication quality tables
+longtable.sty    2014/10/28 v4.11 Multi-page Table package (DPC)+ FMi change
+threeparttable.sty    2003/06/13  v 3.0
+tabulary.sty    2014/06/11 v0.10 tabulary package (DPC)
+tabularx.sty    2016/02/03 v2.11b `tabularx' package (DPC)
+ragged2e.sty    2009/05/21 v2.1 ragged2e Package (MS)
+everysel.sty    2011/10/28 v1.2 EverySelectfont Package (MS)
+hyperref.sty    2018/11/30 v6.88e Hypertext links for LaTeX
+hobsub-hyperref.sty    2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+hobsub-generic.sty    2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+  hobsub.sty    2016/05/16 v1.14 Construct package bundles (HO)
+infwarerr.sty    2016/05/16 v1.4 Providing info/warning/error messages (HO)
+ ltxcmds.sty    2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+ifluatex.sty    2016/05/16 v1.4 Provides the ifluatex switch (HO)
+  ifvtex.sty    2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+ intcalc.sty    2016/05/16 v1.2 Expandable calculations with integers (HO)
+   ifpdf.sty    2018/09/07 v3.3 Provides the ifpdf switch
+etexcmds.sty    2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+kvsetkeys.sty    2016/05/16 v1.17 Key value parser (HO)
+kvdefinekeys.sty    2016/05/16 v1.4 Define keys (HO)
+luatex-loader.sty    2016/05/16 v0.6 Lua module loader (HO)
+pdftexcmds.sty    2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO)
+pdfescape.sty    2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+bigintcalc.sty    2016/05/16 v1.4 Expandable calculations on big integers (HO)
+  bitset.sty    2016/05/16 v1.2 Handle bit-vector datatype (HO)
+uniquecounter.sty    2016/05/16 v1.3 Provide unlimited unique counter (HO)
+letltxmacro.sty    2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+ hopatch.sty    2016/05/16 v1.3 Wrapper for package hooks (HO)
+xcolor-patch.sty    2016/05/16 xcolor patch
+atveryend.sty    2016/05/16 v1.9 Hooks at the very end of document (HO)
+atbegshi.sty    2016/06/09 v1.18 At begin shipout hook (HO)
+refcount.sty    2016/05/16 v3.5 Data extraction from label references (HO)
+ hycolor.sty    2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+ ifxetex.sty    2010/09/12 v0.6 Provides ifxetex conditional
+ auxhook.sty    2016/05/16 v1.4 Hooks for auxiliary files (HO)
+kvoptions.sty    2016/05/16 v3.12 Key value format for package options (HO)
+  pd1enc.def    2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
+     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+ hluatex.def    2018/11/30 v6.88e Hyperref driver for luaTeX
+rerunfilecheck.sty    2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+subcaption.sty    2018/05/01 v1.1-162 Sub-captions (AR)
+ caption.sty    2018/10/06 v3.3-154 Customizing captions (AR)
+caption3.sty    2018/09/12 v1.8c caption3 kernel (AR)
+ltcaption.sty    2018/08/26 v1.4-95 longtable captions (AR)
+enumitem.sty    2019/02/04 v3.8 Customized lists
+biblatex.sty    2018/11/02 v3.12 programmable bibliographies (PK/MW)
+  logreq.sty    2010/08/04 v1.0 xml request logger
+  logreq.def    2010/08/04 v1.0 logreq spec v1.0
+  blx-dm.def    2018/11/02 v3.12 biblatex localization (PK/MW)
+blx-unicode.def
+blx-compat.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+biblatex.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+blx-natbib.def    2018/11/02 v3.12 biblatex compatibility (PK/MW)
+standard.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+ numeric.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+numeric-comp.bbx    2018/11/02 v3.12 biblatex bibliography style (PK/MW)
+    ieee.bbx    2018/08/20 v1.3 biblatex bibliography style
+numeric-comp.cbx    2018/11/02 v3.12 biblatex citation style (PK/MW)
+    ieee.cbx    2018/08/20 v1.3 biblatex citation style
+biblatex.cfg    
+xsetupcommands.tex
+bytefield.sty    2017/09/15 v2.4 Network protocol diagrams
+    acro.sty    2019/02/17 v2.9 Typeset Acronyms
+l3keys2e.sty    2018-10-17 LaTeX2e option processing using LaTeX3 keys
+xtemplate.sty    2018-10-17 L3 Experimental prototype document functions
+zref-abspage.sty    2018/11/21 v2.27 Module abspage for zref (HO)
+zref-base.sty    2018/11/21 v2.27 Module base for zref (HO)
+translations.sty    2017/08/31 v1.7a internationalization of LaTeX2e packages (C
+N)
+scrlfile.sty    2019/02/01 v3.26b KOMA-Script package (loading files)
+xsetupnomenclature.tex
+    tikz.tex
+pgfplots.sty    2018/03/28 v1.16 Data Visualization (1.16)
+    etex.sty    2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+bigstrut.sty    2019/01/01 v2.4 Provide larger struts in tabulars
+mathtools.sty    2018/01/08 v1.21 mathematical typesetting tools
+ mhsetup.sty    2017/03/31 v1.3 programming setup (MH)
+ amsmath.sty    2018/12/01 v2.17b AMS math features
+ amstext.sty    2000/06/29 v2.01 AMS text
+  amsgen.sty    1999/11/30 v2.0 generic functions
+  amsbsy.sty    1999/11/29 v1.2d Bold Symbols
+  amsopn.sty    2016/03/08 v2.02 operator names
+ eso-pic.sty    2018/04/12 v2.0h eso-pic (RN)
+stmaryrd.sty    1994/03/03 St Mary's Road symbol package
+  lscape.sty    2000/10/22 v3.01 Landscape Pages (DPC)
+textcomp.sty    2018/08/11 v2.0j Standard LaTeX package
+  ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+  bbding.sty    1999/04/15 v1.01 Dingbats symbols
+  cancel.sty    2013/04/12 v2.2 Cancel math terms
+makecell.sty    2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+ amssymb.sty    2013/01/14 v3.01 AMS font symbols
+amsfonts.sty    2013/01/14 v3.01 Basic AMSFonts support
+nicefrac.sty    1998/08/04 v0.9b Nice fractions
+pgfplotstable.sty    2018/03/28 v1.16 Table typesetting and Pretty-printing (1.1
+6)
+ wasysym.sty    2003/10/30 v2.0 Wasy-2 symbol support package
+filecontents.sty    2018/05/30 v1.4 Create an external file from within a LaTeX 
+document
+pdfpages.sty    2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+ppluatex.def    2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
+rotating.sty    2016/08/11 v2.16d rotated objects in LaTeX
+tkz-graph.sty    2018/09/19 ctan v 1.00 d base for graphs
+   hobby.code.tex
+pml3array.sty    
+ tikzset.tex
+tikzstyle.tex
+tikzcommands.tex
+ titling.sty    2009/09/04 v2.1d maketitle typesetting
+geometry.sty    2018/04/16 v5.8 Page Geometry
+chngcntr.sty    2018/04/09 v1.1a change counter resetting
+bibliography.tex
+ english.lbx    2018/11/02 v3.12 biblatex localization (PK/MW)
+  ts1cmr.fd    2014/09/29 v2.5h Standard LaTeX font definitions
+supp-pdf.mkii
+epstopdf-base.sty    2016/05/15 v2.6 Base part for package epstopdf
+  grfext.sty    2016/05/16 v1.2 Manage graphics extensions (HO)
+epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+ nameref.sty    2016/05/21 v2.44 Cross-referencing by name of section
+gettitlestring.sty    2016/05/16 v1.5 Cleanup title references (HO)
+   paper.out
+   paper.out
+   paper.bbl
+translations-basic-dictionary-english.trsl    (english translation file `transla
+tions-basic-dictionary')
+pdflscape.sty    2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+./authors.tex
+     ref.tex
+  Ustmry.fd
+    umsa.fd    2013/01/14 v3.01 AMS symbols A
+    umsb.fd    2013/01/14 v3.01 AMS symbols B
+   uwasy.fd    2003/10/30 v2.0 Wasy-2 symbol font definitions
+./00_introduction.tex
+     ref.tex
+ ***********
+
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 14.
+Package rerunfilecheck Info: File `paper.out' has not changed.
+(rerunfilecheck)             Checksum: 66C841A79269533C133BFC522AD07F4A;252.
+Package logreq Info: Writing requests to 'paper.run.xml'.
+
+\openout1 = paper.run.xml
+)
 
 Here is how much of LuaTeX's memory you used:
- 68988 strings out of 494383
- 125186,2373549 words of node,token memory allocated 833 words of node memory still in use:
-   5 hlist, 2 vlist, 2 rule, 1 dir, 4 kern, 1 glyph, 15 attribute, 112 glue_spec
-, 15 attribute_list, 7 write, 1 special, 1 pdf_dest, 1 pdf_colorstack nodes
-   avail lists: 1:10,2:39,3:6,4:12,5:5,6:1,7:4,9:1,11:1,12:1
- 71004 multiletter control sequences out of 65536+600000
- 151 fonts using 14875455 bytes
- 89i,1n,136p,1148b,792s stack positions out of 5000i,500n,10000p,200000b,100000s
-./main.tex:11:  ==> Fatal error occurred, no output PDF file produced!
+ 69186 strings out of 494383
+ 125186,2373549 words of node,token memory allocated
+ 790 words of node memory still in use:
+   6 hlist, 2 vlist, 2 rule, 2 glue, 4 kern, 1 glyph, 8 attribute, 112 glue_spec
+, 8 attribute_list, 1 write nodes
+   avail lists: 1:11,2:303,3:84,4:17,5:54,6:11,7:714,8:21,9:81,10:4,11:47,12:1
+ 71092 multiletter control sequences out of 65536+600000
+ 176 fonts using 16444711 bytes
+ 89i,13n,136p,1148b,1694s stack positions out of 5000i,500n,10000p,200000b,100000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texlive/t
+exmf-dist/fonts/type1/urw/times/utmr8a.pfb>
+Output written on paper.pdf (1 page, 19619 bytes).
+
+PDF statistics: 39 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 131072)
+ 48 words of extra memory for PDF output out of 10000 (max. 100000000)
+

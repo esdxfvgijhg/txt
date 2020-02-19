@@ -1,0 +1,46 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is '.bin/paper.blg'
+[32] biber:315> INFO - === dim. févr. 16, 2020, 19:38:03
+[62] Biber.pm:371> INFO - Reading '.bin/paper.bcf'
+[129] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[129] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
+[130] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[131] Biber.pm:889> INFO - Found 17 citekeys in bib section 2
+[131] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[154] Biber.pm:4093> INFO - Processing section 2
+[165] Biber.pm:4254> INFO - Looking for bibtex format file 'iot.bib' for section 2
+[355] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1293] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/references/iot.bib'
+[1346] Utils.pm:193> WARN - ISBN '978-1-5090-3242-6 978-1-5090-3243-3' in entry 'venkatesan_design_2017' is invalid - run biber with '--validate_datamodel' for details.
+[1347] Biber.pm:4254> INFO - Looking for bibtex format file 'iotbis.bib' for section 2
+[1486] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1493] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/references/iotbis.bib'
+[1494] Biber.pm:4254> INFO - Looking for bibtex format file 'privacy.bib' for section 2
+[1646] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2011] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/references/privacy.bib'
+[2026] Biber.pm:4254> INFO - Looking for bibtex format file 'petri.bib' for section 2
+[2146] bibtex.pm:1512> INFO - LaTeX decoding ...
+[2172] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/job/txt/references/petri.bib'
+[2173] Utils.pm:193> WARN - I didn't find a database entry for 'bregell_hardware_2015' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'kouicem_internet_2018' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'hancke_role_2012' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'alba_intelligent_2016' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'gaddam_comparative_2018' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for '_rpl2_' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'al-fuqaha_internet_24' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'libelium_waspmote_2017' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'qin_software_2014' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'kobo_survey_2017' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'ndiaye_software_2017' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'bera_softwaredefined_2017' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'luo_sensor_2012' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'costanzo_software_2012' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'galluccio_sdnwise_2015' (section 2)
+[2174] Utils.pm:193> WARN - I didn't find a database entry for 'degante_smart_2014' (section 2)
+[2183] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2183] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2184] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2184] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[2190] bbl.pm:636> INFO - Writing '.bin/paper.bbl' with encoding 'UTF-8'
+[2191] bbl.pm:739> INFO - Output to .bin/paper.bbl
+[2191] Biber.pm:110> INFO - WARNINGS: 17

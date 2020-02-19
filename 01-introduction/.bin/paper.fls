@@ -776,9 +776,12 @@ INPUT .bin/paper.out
 INPUT .bin/paper.out
 INPUT .bin/paper.out
 INPUT .bin/paper.out
-OUTPUT .bin/paper.out
 OUTPUT .bin/paper.pdf
+OUTPUT .bin/paper.out
 OUTPUT .bin/paper.bcf
+INPUT .bin/paper.bbl
+INPUT .bin/paper.bbl
+INPUT .bin/paper.bbl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 INPUT /usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -788,3 +791,50 @@ INPUT ls .*/authors.tex
 INPUT ls .*/authors.tex
 INPUT ./authors.tex
 INPUT ./authors.tex
+INPUT /home/aghiles/Aghiles/job/txt/references/ref.tex
+INPUT /home/aghiles/Aghiles/job/txt/references/ref.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/stmaryrd/stmary6.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT /usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+INPUT /usr/share/texlive/texmf-dist/tex/latex/wasysym/uwasy.fd
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy10.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy8.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/wasy/wasy6.tfm
+INPUT ls .*/0*.tex
+INPUT ls .*/0*.tex
+INPUT ls .*/0*.tex
+INPUT ./00_introduction.tex
+INPUT ./00_introduction.tex
+INPUT /usr/share/texlive/texmf-dist/fonts/tfm/adobe/times/ptmrc8t.tfm
+INPUT /usr/share/texlive/texmf-dist/fonts/vf/adobe/times/ptmrc8t.vf
+INPUT /home/aghiles/Aghiles/job/txt/references/ref.tex
+INPUT /home/aghiles/Aghiles/job/txt/references/ref.tex
+INPUT .bin/paper.aux
+INPUT .bin/paper.run.xml
+OUTPUT .bin/paper.run.xml
+INPUT /usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb
