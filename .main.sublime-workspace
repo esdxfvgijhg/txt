@@ -195,13 +195,27 @@
 	},
 	"expanded_folders":
 	[
-		"/home/aghiles/Aghiles/job/txt",
-		"/home/aghiles/Aghiles/job/txt/05-isncc"
+		"/home/aghiles/Aghiles/02/02"
 	],
 	"file_history":
 	[
-		"/home/aghiles/Aghiles/job/txt/05-isncc/authors.tex",
+		"/home/aghiles/Aghiles/02/02/01/10_introduction.tex",
+		"/home/aghiles/Aghiles/02/02/05/14_experimentation.tex",
+		"/home/aghiles/Aghiles/02/02/05/11_introduction.tex",
+		"/home/aghiles/Aghiles/02/02/02/10_tools.tex",
+		"/home/aghiles/Aghiles/02/02/main.tex",
+		"/home/aghiles/Aghiles/02/02/05/15_results.tex",
+		"/home/aghiles/Aghiles/02/02/05/13_method.tex",
+		"/home/aghiles/Aghiles/02/02/.bin/these.bbl",
+		"/home/aghiles/Aghiles/02/02/main3.tex",
+		"/home/aghiles/.config/latex/slide.tex",
+		"/home/aghiles/Aghiles/02/02/.bin/paper.bbl",
+		"/home/aghiles/Aghiles/02/02/a1/authors.tex",
+		"/home/aghiles/Aghiles/02/02/05/authors.tex",
+		"/home/aghiles/Aghiles/02/02/00/authors.tex",
+		"/home/aghiles/.config/latex/xsetup.tex",
 		"/home/aghiles/Aghiles/job/txt/main.tex",
+		"/home/aghiles/Aghiles/job/txt/05-isncc/authors.tex",
 		"/home/aghiles/Aghiles/Research/txt/A-Protocols/02_sensors.tex",
 		"/home/aghiles/Aghiles/job/txt/05-isncc/05_experimentation.tex",
 		"/home/aghiles/Aghiles/job/txt/05-isncc/00_abstract.tex",
@@ -312,22 +326,7 @@
 		"/home/aghiles/Aghiles/Research/Writing/These/06-Genetic Algorithm For LoRa Transmission Parameter Selection/11_introduction.tex",
 		"/home/aghiles/Aghiles/Research/Writing/These/02-State of the art/06_security.tex",
 		"/home/aghiles/Aghiles/Research/Writing/.lib/nomenclature.tex",
-		"/home/aghiles/Aghiles/Research/Writing/These/06-Genetic Algorithm For LoRa Transmission Parameter Selection/03_background.tex",
-		"/home/aghiles/Aghiles/Research/Writing/These/06-Genetic Algorithm For LoRa Transmission Parameter Selection/01_introduction.tex",
-		"/home/aghiles/Aghiles/Research/Writing/These/06-Genetic Algorithm For LoRa Transmission Parameter Selection/04_approach.tex",
-		"/home/aghiles/Aghiles/Tool/aghiles/config/1-web/mutt/.cacheij/headers",
-		"/home/aghiles/Aghiles/Research/Writing/These/A-Survey IoT/02_technologies.tex",
-		"/home/aghiles/Aghiles/Research/Writing/These/A-Survey IoT/09_divers.tex",
-		"/These/main.tex",
-		"/home/aghiles/Aghiles/Research/Writing/.lib/slide.tex",
-		"/home/aghiles/Aghiles/Research/Writing*/src/main.tex",
-		"/home/aghiles/Aghiles/Research/Writing/src/main.tex",
-		"/home/aghiles/Aghiles/Research/Writing/src/02-State of the art/12_related.tex",
-		"/home/aghiles/Aghiles/Research/Writing/src/02-State of the art/16_discussion.tex",
-		"/home/aghiles/Aghiles/Research/Writing/lib/commands.tex",
-		"/home/aghiles/Aghiles/Research/Writing/src/01-Introduction/10_introduction.tex",
-		"/home/aghiles/Aghiles/Research/Writing/lib/nomenclature.tex",
-		"/home/aghiles/Aghiles/Research/Writing/lib/tikzset.tex"
+		"/home/aghiles/Aghiles/Research/Writing/These/06-Genetic Algorithm For LoRa Transmission Parameter Selection/03_background.tex"
 	],
 	"find":
 	{
@@ -345,6 +344,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"fcm",
 			"illu",
 			"but",
 			"number",

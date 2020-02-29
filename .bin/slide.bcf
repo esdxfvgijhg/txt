@@ -2017,23 +2017,20 @@
   <bcf:section number="1">
     <bcf:citekey order="1">perera_mosden_2013</bcf:citekey>
     <bcf:citekey order="2">perera_mosden_2013</bcf:citekey>
-    <bcf:citekey order="3">kouicem_internet_2018</bcf:citekey>
-    <bcf:citekey order="4">venkatesan_design_2017</bcf:citekey>
-    <bcf:citekey order="5">kouicem_internet_2018</bcf:citekey>
-    <bcf:citekey order="6">venkatesan_design_2017</bcf:citekey>
+    <bcf:citekey order="3">feltrin_lorawan_2018</bcf:citekey>
+    <bcf:citekey order="4">feltrin_lorawan_2018</bcf:citekey>
+    <bcf:citekey order="5">feltrin_lorawan_2018</bcf:citekey>
+    <bcf:citekey order="5">rizzi_evaluation_2017</bcf:citekey>
+    <bcf:citekey order="6">feltrin_lorawan_2018</bcf:citekey>
+    <bcf:citekey order="6">rizzi_evaluation_2017</bcf:citekey>
     <bcf:citekey order="7">feltrin_lorawan_2018</bcf:citekey>
-    <bcf:citekey order="8">venkatesan_design_2017</bcf:citekey>
+    <bcf:citekey order="8">feltrin_lorawan_2018</bcf:citekey>
+    <bcf:citekey order="9">feltrin_lorawan_2018</bcf:citekey>
     <bcf:citekey order="9">rizzi_evaluation_2017</bcf:citekey>
     <bcf:citekey order="10">feltrin_lorawan_2018</bcf:citekey>
-    <bcf:citekey order="11">venkatesan_design_2017</bcf:citekey>
-    <bcf:citekey order="12">rizzi_evaluation_2017</bcf:citekey>
-    <bcf:citekey order="13">marco_cattani_experimental_2017</bcf:citekey>
-    <bcf:citekey order="14">marco_cattani_experimental_2017</bcf:citekey>
-    <bcf:citekey order="15">bendaoud_network_2019</bcf:citekey>
-    <bcf:citekey order="16">chowdhury_survey_2018</bcf:citekey>
-    <bcf:citekey order="17">bendaoud_network_2019</bcf:citekey>
-    <bcf:citekey order="18">chowdhury_survey_2018</bcf:citekey>
-    <bcf:citekey order="19">simiscuka_relay_2018</bcf:citekey>
+    <bcf:citekey order="10">rizzi_evaluation_2017</bcf:citekey>
+    <bcf:citekey order="11">marco_cattani_experimental_2017</bcf:citekey>
+    <bcf:citekey order="12">marco_cattani_experimental_2017</bcf:citekey>
   </bcf:section>
   <!-- SECTION 0 (cont.) -->
   <bcf:section number="0">

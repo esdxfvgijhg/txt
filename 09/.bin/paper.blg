@@ -1,0 +1,13 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is '.bin/paper.blg'
+[23] biber:315> INFO - === ven. févr. 21, 2020, 14:16:38
+[42] Biber.pm:371> INFO - Reading '.bin/paper.bcf'
+[97] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[97] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
+[97] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[97] Biber.pm:889> INFO - Found 0 citekeys in bib section 2
+[97] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[112] Utils.pm:193> WARN - The file '.bin/paper.bcf' does not contain any citations!
+[118] bbl.pm:636> INFO - Writing '.bin/paper.bbl' with encoding 'UTF-8'
+[118] bbl.pm:739> INFO - Output to .bin/paper.bbl
+[118] Biber.pm:110> INFO - WARNINGS: 1

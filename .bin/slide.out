@@ -1,37 +1,32 @@
 \BOOKMARK [2][]{Outline0.1}{Introduction}{}% 1
-\BOOKMARK [3][]{Outline0.1.1.3}{IoT Devices}{Outline0.1}% 2
-\BOOKMARK [3][]{Outline0.1.2.5}{IoT Applications}{Outline0.1}% 3
-\BOOKMARK [3][]{Outline0.1.3.9}{IoT Wireless Communications}{Outline0.1}% 4
-\BOOKMARK [4][]{Outline0.1.3.1.11}{LoRa}{Outline0.1.3.9}% 5
-\BOOKMARK [2][]{Outline0.2}{Academic Survey}{}% 6
-\BOOKMARK [2][]{Outline0.3}{Industrial Survey}{}% 7
-\BOOKMARK [2][]{Outline0.4}{Reconfiguration of LoRa Networks Parameters using Fuzzy C-Means Clustering}{}% 8
-\BOOKMARK [3][]{Outline0.4.1.21}{Problem statement}{Outline0.4}% 9
-\BOOKMARK [3][]{Outline0.4.2.23}{Background}{Outline0.4}% 10
-\BOOKMARK [4][]{Outline0.4.2.1.24}{Fuzzy C-Means Clustering}{Outline0.4.2.23}% 11
-\BOOKMARK [4][]{Outline0.4.2.2.30}{Game Theory}{Outline0.4.2.23}% 12
-\BOOKMARK [4][]{Outline0.4.2.3.32}{Multi-Arm Bandits}{Outline0.4.2.23}% 13
-\BOOKMARK [4][]{Outline0.4.2.4.36}{Q-Learning}{Outline0.4.2.23}% 14
-\BOOKMARK [4][]{Outline0.4.2.5.38}{Marcov Chain}{Outline0.4.2.23}% 15
-\BOOKMARK [4][]{Outline0.4.2.6.41}{Best Response Dynamics}{Outline0.4.2.23}% 16
-\BOOKMARK [4][]{Outline0.4.2.7.42}{Fictitious Paly}{Outline0.4.2.23}% 17
-\BOOKMARK [4][]{Outline0.4.2.8.43}{Reinforcement Learning}{Outline0.4.2.23}% 18
-\BOOKMARK [4][]{Outline0.4.2.9.44}{Joint Utility Strategy}{Outline0.4.2.23}% 19
-\BOOKMARK [4][]{Outline0.4.2.10.45}{Trial and Error Learning}{Outline0.4.2.23}% 20
-\BOOKMARK [4][]{Outline0.4.2.11.46}{Regret Matching Learning}{Outline0.4.2.23}% 21
-\BOOKMARK [4][]{Outline0.4.2.12.47}{Imitation Learning}{Outline0.4.2.23}% 22
-\BOOKMARK [3][]{Outline0.4.3.48}{Selection framework}{Outline0.4}% 23
-\BOOKMARK [3][]{Outline0.4.4.54}{Experimentation}{Outline0.4}% 24
-\BOOKMARK [3][]{Outline0.4.5.57}{Results}{Outline0.4}% 25
-\BOOKMARK [3][]{Outline0.4.6.59}{Discussion}{Outline0.4}% 26
-\BOOKMARK [2][]{Outline0.5}{Testbed}{}% 27
-\BOOKMARK [3][]{Outline0.5.1.62}{Problem statement}{Outline0.5}% 28
-\BOOKMARK [3][]{Outline0.5.2.64}{Contagion process}{Outline0.5}% 29
-\BOOKMARK [3][]{Outline0.5.3.70}{Experimentation}{Outline0.5}% 30
-\BOOKMARK [3][]{Outline0.5.4.72}{Results exploitation}{Outline0.5}% 31
-\BOOKMARK [3][]{Outline0.5.5.74}{Discussion}{Outline0.5}% 32
-\BOOKMARK [2][]{Outline0.6}{Conclusion}{}% 33
-\BOOKMARK [1][]{Outline1}{Appendix}{}% 34
-\BOOKMARK [2][]{Outline1.7}{Appendix}{Outline1}% 35
-\BOOKMARK [2][]{Outline1.8}{References}{Outline1}% 36
-\BOOKMARK [3][]{Outline1.8.1.79}{Others}{Outline1.8}% 37
+\BOOKMARK [2][]{Outline0.2}{Academic Survey}{}% 2
+\BOOKMARK [3][]{Outline0.2.0.1.9}{Genetic algorithm}{Outline0.2}% 3
+\BOOKMARK [4][]{Outline0.2.0.2.12}{Game Theory}{Outline0.2.0.1.9}% 4
+\BOOKMARK [4][]{Outline0.2.0.3.14}{Multi-Arm Bandits}{Outline0.2.0.1.9}% 5
+\BOOKMARK [4][]{Outline0.2.0.4.18}{Q-Learning}{Outline0.2.0.1.9}% 6
+\BOOKMARK [4][]{Outline0.2.0.5.20}{Marcov Chain}{Outline0.2.0.1.9}% 7
+\BOOKMARK [4][]{Outline0.2.0.6.23}{Best Response Dynamics}{Outline0.2.0.1.9}% 8
+\BOOKMARK [4][]{Outline0.2.0.7.24}{Fictitious Paly}{Outline0.2.0.1.9}% 9
+\BOOKMARK [4][]{Outline0.2.0.8.25}{Reinforcement Learning}{Outline0.2.0.1.9}% 10
+\BOOKMARK [4][]{Outline0.2.0.9.26}{Joint Utility Strategy}{Outline0.2.0.1.9}% 11
+\BOOKMARK [4][]{Outline0.2.0.10.27}{Trial and Error Learning}{Outline0.2.0.1.9}% 12
+\BOOKMARK [4][]{Outline0.2.0.11.28}{Regret Matching Learning}{Outline0.2.0.1.9}% 13
+\BOOKMARK [4][]{Outline0.2.0.12.29}{Imitation Learning}{Outline0.2.0.1.9}% 14
+\BOOKMARK [4][]{Outline0.2.0.13.30}{Clustering}{Outline0.2.0.1.9}% 15
+\BOOKMARK [2][]{Outline0.3}{Industrial Survey}{}% 16
+\BOOKMARK [2][]{Outline0.4}{FCM for LoRa setting}{}% 17
+\BOOKMARK [3][]{Outline0.4.1.34}{Problem statement}{Outline0.4}% 18
+\BOOKMARK [3][]{Outline0.4.2.40}{Approach}{Outline0.4}% 19
+\BOOKMARK [3][]{Outline0.4.3.44}{Experiments}{Outline0.4}% 20
+\BOOKMARK [3][]{Outline0.4.4.46}{Results}{Outline0.4}% 21
+\BOOKMARK [2][]{Outline0.5}{Testbed}{}% 22
+\BOOKMARK [3][]{Outline0.5.1.53}{Problem statement}{Outline0.5}% 23
+\BOOKMARK [3][]{Outline0.5.2.55}{Contagion process}{Outline0.5}% 24
+\BOOKMARK [3][]{Outline0.5.3.61}{Experimentation}{Outline0.5}% 25
+\BOOKMARK [3][]{Outline0.5.4.63}{Results exploitation}{Outline0.5}% 26
+\BOOKMARK [3][]{Outline0.5.5.65}{Discussion}{Outline0.5}% 27
+\BOOKMARK [2][]{Outline0.6}{Conclusion}{}% 28
+\BOOKMARK [1][]{Outline1}{Appendix}{}% 29
+\BOOKMARK [2][]{Outline1.7}{Appendix}{Outline1}% 30
+\BOOKMARK [2][]{Outline1.8}{References}{Outline1}% 31
+\BOOKMARK [3][]{Outline1.8.1.71}{Others}{Outline1.8}% 32

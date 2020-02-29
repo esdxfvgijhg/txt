@@ -19,67 +19,71 @@
 
 \refsection{1}
   \datalist[entry]{none/global//global/global}
-    \entry{venkatesan_design_2017}{inproceedings}{}
-      \name{author}{3}{}{%
-        {{hash=0548fd121a3db7c549a5cbca1c645ff5}{%
-           family={Venkatesan},
-           familyi={V\bibinitperiod},
-           given={V.\bibnamedelimi Prasanna},
-           giveni={V\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=c72445bd061fd9d1f42e545bcc341fd9}{%
-           family={Devi},
-           familyi={D\bibinitperiod},
-           given={C.\bibnamedelimi Punitha},
-           giveni={C\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
-        {{hash=9396c8c2d9112305d5f010428e124f4b}{%
-           family={Sivaranjani},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
+    \entry{perera_mosden_2013}{article}{}
+      \name{author}{5}{}{%
+        {{hash=e5b420aba58a8d93cbbcaf2b1b0f4dab}{%
+           family={Perera},
+           familyi={P\bibinitperiod},
+           given={Charith},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fc70eb90eedda65d38f05ef738504765}{%
+           family={Jayaraman},
+           familyi={J\bibinitperiod},
+           given={Prem\bibnamedelima Prakash},
+           giveni={P\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=8da289bb46b6a95f52ced670c23af820}{%
+           family={Zaslavsky},
+           familyi={Z\bibinitperiod},
+           given={Arkady},
+           giveni={A\bibinitperiod}}}%
+        {{hash=2df88d211fd24d931ebe3bf0dd661f93}{%
+           family={Christen},
+           familyi={C\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=25d9d97c240056793c5abcc6aee6a4d0}{%
+           family={Georgakopoulos},
+           familyi={G\bibinitperiod},
+           given={Dimitrios},
+           giveni={D\bibinitperiod}}}%
       }
-      \list{location}{1}{%
-        {Palladam, Tamilnadu, India}%
-      }
-      \list{publisher}{1}{%
-        {IEEE}%
-      }
-      \strng{namehash}{50c0f9dc84d5a5e8f46d7060440177d0}
-      \strng{fullhash}{50c0f9dc84d5a5e8f46d7060440177d0}
-      \strng{bibnamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
-      \strng{authorbibnamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
-      \strng{authornamehash}{50c0f9dc84d5a5e8f46d7060440177d0}
-      \strng{authorfullhash}{50c0f9dc84d5a5e8f46d7060440177d0}
-      \field{sortinit}{4}
-      \field{sortinithash}{11cdaee3b18e01d77f3f428b13c1fc76}
+      \strng{namehash}{3de209921c916ed281e1c8e4c1d97279}
+      \strng{fullhash}{8e83d93795126fdb31b8044a6e275f92}
+      \strng{bibnamehash}{8e83d93795126fdb31b8044a6e275f92}
+      \strng{authorbibnamehash}{8e83d93795126fdb31b8044a6e275f92}
+      \strng{authornamehash}{3de209921c916ed281e1c8e4c1d97279}
+      \strng{authorfullhash}{8e83d93795126fdb31b8044a6e275f92}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{2017 {{International Conference}} on {{I}}-{{SMAC}} ({{IoT}} in {{Social}}, {{Mobile}}, {{Analytics}} and {{Cloud}}) ({{I}}-{{SMAC}})}
-      \field{eventtitle}{2017 {{International Conference}} on {{I}}-{{SMAC}} ({{IoT}} in {{Social}}, {{Mobile}}, {{Analytics}} and {{Cloud}}) ({{I}}-{{SMAC}})}
-      \field{isbn}{978-1-5090-3242-6 978-1-5090-3243-3}
-      \field{month}{2}
-      \field{note}{00004}
-      \field{title}{Design of a Smart Gateway Solution Based on the Exploration of Specific Challenges in {{IoT}}}
-      \field{urlday}{28}
-      \field{urlmonth}{5}
-      \field{urlyear}{2019}
-      \field{year}{2017}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{The Internet of Things (IoT) is part of Future Internet and will comprise many billions of Internet Connected Objects (ICO) or ‘things’ where things can sense, communicate, compute and potentially actuate as well as have intelligence, multi-modal interfaces, physical/ virtual identities and attributes. Collecting data from these objects is an important task as it allows software systems to understand the environment better. Many different hardware devices may involve in the process of collecting and uploading sensor data to the cloud where complex processing can occur. Further, we cannot expect all these objects to be connected to the computers due to technical and economical reasons. Therefore, we should be able to utilize resource constrained devices to collect data from these ICOs. On the other hand, it is critical to process the collected sensor data before sending them to the cloud to make sure the sustainability of the infrastructure due to energy constraints. This requires to move the sensor data processing tasks towards the resource constrained computational devices (e.g. mobile phones). In this paper, we propose Mobile Sensor Data Processing Engine (MOSDEN), an plug-in-based IoT middleware for mobile devices, that allows to collect and process sensor data without programming efforts. Our architecture also supports sensing as a service model. We present the results of the evaluations that demonstrate its suitability towards real world deployments. Our proposed middleware is built on Android platform.}
+      \field{day}{15}
+      \field{eprintclass}{cs}
+      \field{eprinttype}{arxiv}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shorttitle}{{{MOSDEN}}}
+      \field{title}{{{MOSDEN}}: {{An Internet}} of {{Things Middleware}} for {{Resource Constrained Mobile Devices}}}
+      \field{urlday}{26}
+      \field{urlmonth}{2}
+      \field{urlyear}{2020}
+      \field{year}{2013}
       \field{dateera}{ce}
       \field{urldateera}{ce}
-      \field{pages}{22\bibrangedash 31}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1109/I-SMAC.2017.8058352
+      \verb{eprint}
+      \verb 1310.4038
       \endverb
       \verb{file}
-      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/A8CEDHVT/Venkatesan et al_2017_Design of a smart gateway solution based on the exploration of specific.pdf
+      \verb /home/aghiles/Aghiles/03/03/r-bibliography/storage/HRJLBTDH/Perera et al. - 2013 - MOSDEN An Internet of Things Middleware for Resou.pdf
       \endverb
       \verb{urlraw}
-      \verb http://ieeexplore.ieee.org/document/8058352/
+      \verb http://arxiv.org/abs/1310.4038
       \endverb
       \verb{url}
-      \verb http://ieeexplore.ieee.org/document/8058352/
+      \verb http://arxiv.org/abs/1310.4038
       \endverb
-      \keyw{}
+      \keyw{Computer Science - Distributed; Parallel; and Cluster Computing,Computer Science - Networking and Internet Architecture}
     \endentry
     \entry{feltrin_lorawan_2018}{article}{}
       \name{author}{5}{}{%
@@ -115,18 +119,19 @@
       \strng{authorbibnamehash}{0d52bc6f0a24f2ce3556d8edb601aa24}
       \strng{authornamehash}{bd3986956c7fd93a0970eba94035e42c}
       \strng{authorfullhash}{0d52bc6f0a24f2ce3556d8edb601aa24}
-      \field{sortinit}{7}
-      \field{sortinithash}{c818dd9105a2852444fc9f5e145c294e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a4b52e5432884761f50fb9571273b93e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
       \field{abstract}{The Internet of Things (IoT) addresses a huge set of possible application domains, requiring both short- and long-range communication technologies. When long distances are present, a number of proprietary and standard solutions for Low Power Wide Area Networks (LPWAN) are already available. Among them, LoRaWAN is a candidate technology supported by many network operators. This paper discusses the possible role of LoRaWAN for the IoT. First, the LoRaWAN technology is assessed experimentally through a set of laboratory and on-field tests, to characterize it from the link-level viewpoint; then, a system-level analysis is performed through simulation, to evaluate the capacity of a LoRaWAN gateway and a multigateway network to serve a large area. Finally, the results are discussed considering a broad set of use cases.}
       \field{annotation}{\textbackslash{}citet\{feltrin\_lorawan\_2018\} discussed the role of LoRaWAN for IoT and showed its application to many use cases.\\ They considered the effect of non perfect orthogonality of SFs for a link level analysis.}
       \field{issn}{2327-4662}
-      \field{journaltitle}{IEEE Internet Things J.}
+      \field{journaltitle}{IEEE Internet of Things Journal}
       \field{langid}{english}
       \field{month}{6}
       \field{note}{00024}
       \field{number}{3}
+      \field{shortjournal}{IEEE Internet Things J.}
       \field{shorttitle}{{{LoRaWAN}}}
       \field{title}{{{LoRaWAN}}: {{Evaluation}} of {{Link}}- and {{System}}-{{Level Performance}}}
       \field{urlday}{20}
@@ -142,7 +147,7 @@
       \verb 10.1109/JIOT.2018.2828867
       \endverb
       \verb{file}
-      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/EUXH6LEM/Feltrin et al. - 2018 - LoRaWAN Evaluation of Link- and System-Level Perf.pdf
+      \verb /home/aghiles/Aghiles/02/03/05/Feltrin et al_2018_LoRaWAN.pdf
       \endverb
       \verb{urlraw}
       \verb https://ieeexplore.ieee.org/document/8344411/
@@ -181,15 +186,16 @@
       \strng{authorbibnamehash}{c7a1279d6da63e4b6ea1018545abea32}
       \strng{authornamehash}{0e3eaec6ad07fca068e964ab0e985ff8}
       \strng{authorfullhash}{c7a1279d6da63e4b6ea1018545abea32}
-      \field{sortinit}{9}
-      \field{sortinithash}{1dd72ab054147731c9d824b49aba0534}
+      \field{sortinit}{5}
+      \field{sortinithash}{3c19c3776b658b3558e9e2e4840c01e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0018-9456, 1557-9662}
-      \field{journaltitle}{IEEE Trans. Instrum. Meas.}
+      \field{journaltitle}{IEEE Transactions on Instrumentation and Measurement}
       \field{month}{12}
       \field{note}{00064}
       \field{number}{12}
+      \field{shortjournal}{IEEE Trans. Instrum. Meas.}
       \field{title}{Evaluation of the {{IoT LoRaWAN Solution}} for {{Distributed Measurement Applications}}}
       \field{urlday}{25}
       \field{urlmonth}{11}
@@ -204,7 +210,7 @@
       \verb 10.1109/TIM.2017.2746378
       \endverb
       \verb{file}
-      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/E9LJ3KA3/rizzi2017.pdf;/home/aghiles/Aghiles/tool/tools/r-bibliography/storage/URE7IUCV/Rizzi et al_2017_Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications.pdf
+      \verb /home/aghiles/Aghiles/02/03/05/Rizzi et al_2017_Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications.pdf;/home/aghiles/Aghiles/02/03/05/Rizzi et al_2017_Evaluation of the IoT LoRaWAN Solution for Distributed Measurement Applications2.pdf
       \endverb
       \verb{urlraw}
       \verb http://ieeexplore.ieee.org/document/8036410/
@@ -240,11 +246,12 @@
       \field{annotation}{\textbackslash{}citet\{marco\_cattani\_experimental\_2017\} evaluated the impact of the LoRa physical layer settings on the data rate and energy efficiency.\\ They evaluated the impact of environmental factors such as temperature on the LoRa network performance and showed that high temperatures degrade the Packet Delivery Ratio (PDR) and Received Signal Strength (RSS).}
       \field{day}{15}
       \field{issn}{2224-2708}
-      \field{journaltitle}{JSAN}
+      \field{journaltitle}{Journal of Sensor and Actuator Networks}
       \field{langid}{english}
       \field{month}{6}
       \field{note}{00000}
       \field{number}{2}
+      \field{shortjournal}{JSAN}
       \field{title}{An {{Experimental Evaluation}} of the {{Reliability}} of {{LoRa Long}}-{{Range Low}}-{{Power Wireless Communication}}}
       \field{urlday}{20}
       \field{urlmonth}{11}
@@ -259,7 +266,7 @@
       \verb 10.3390/jsan6020007
       \endverb
       \verb{file}
-      \verb /home/aghiles/Aghiles/tool/tools/r-bibliography/storage/4U6LJJT4/Marco Cattani et al. - 2017 - An Experimental Evaluation of the Reliability of L.pdf
+      \verb /home/aghiles/Aghiles/02/03/05/Marco Cattani et al_2017_An Experimental Evaluation of the Reliability of LoRa Long-Range Low-Power.pdf
       \endverb
       \verb{urlraw}
       \verb http://www.mdpi.com/2224-2708/6/2/7
@@ -270,11 +277,6 @@
       \keyw{}
     \endentry
   \enddatalist
-  \missing{bendaoud_network_2019}
-  \missing{chowdhury_survey_2018}
-  \missing{kouicem_internet_2018}
-  \missing{perera_mosden_2013}
-  \missing{simiscuka_relay_2018}
 \endrefsection
 \endinput
 

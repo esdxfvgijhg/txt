@@ -267,7 +267,7 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {subsection}{\numberline {6.2}Summary and discussion}{57}{subsection.3.6.2}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {chapter}{\numberline {4}Reconfiguration of LoRa Networks Parameters using Fuzzy C-Means Clustering}{59}{chapter.4}% 
+\contentsline {chapter}{\numberline {4}FCM for LoRa setting}{59}{chapter.4}% 
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {1}Introduction}{60}{section.4.1}% 
 \defcounter {refsection}{1}\relax 
@@ -275,7 +275,7 @@
 \defcounter {refsection}{1}\relax 
 \contentsline {section}{\numberline {3}Use case example}{61}{section.4.3}% 
 \defcounter {refsection}{1}\relax 
-\contentsline {subsection}{\numberline {3.1}Receiver Sensitivity (\ac {RS})}{62}{subsection.4.3.1}% 
+\contentsline {subsection}{\numberline {3.1}Receiver Sensitivity (\ac {RS})}{61}{subsection.4.3.1}% 
 \defcounter {refsection}{1}\relax 
 \contentsline {subsection}{\numberline {3.2}Bit error rate (\ac {BER})}{62}{subsection.4.3.2}% 
 \defcounter {refsection}{1}\relax 

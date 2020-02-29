@@ -1,0 +1,126 @@
+
+% \begin{frame}{Why I started a PhD ?}{3 main reasons}
+%   \begin{itemize}
+%     \item Research methodology lecture.
+%     \item Bac+5 in networking ? not really !
+%     \item Being paid to study and to develop yourself !
+%   \end{itemize}
+% \end{frame}
+
+% \begin{frame}{Conference}{}
+%   \Itemize{
+%     \item 16th International Wireless Communications \& Mobile Computing Conference (iWCMC 2020)
+%     \item Byblos, Lebanon - June 29 - July 3, 2020
+
+%     \Itemize{
+%         \item Paper Submission: Jan. 10, 2020
+%         \item Acceptance Notification: March 30, 2020
+%         \item Camera Ready April 30, 2020
+%         \item Registration April 30, 2020
+%     }  
+%   }
+% \end{frame}
+
+
+
+
+\subsection{IoT Devices}
+\begin{frame}{Massive IoT devices}{Emergence of new IoT devices that need wide area wireless communications}
+    \Figure{!htb}{.8}{devices1}{Diversity of IoT devices \cite{perera_mosden_2013}}
+	\Itemize{
+		\item \textbf{2012:} Sigfox\medskip
+		\item \textbf{2015:} \ac{LoRa}
+		\Itemize{
+			\item Open access}
+		\item \textbf{2016:} \ac{NB-IoT}%
+		\smash{\raisebox{.7\dimexpr3\baselineskip+4\itemsep+2\parskip}{ $\left.\rule{0pt}{.7\dimexpr4\baselineskip+3\itemsep+3\parskip}\right\}\text{Low Power Wide Area Networks (LPWAN)}$ }}
+	}
+\end{frame}
+
+
+\subsection{IoT Wireless Communications}
+\begin{frame}{IoT wireless communication}{Wireless communication offers different \ac{QoS} performances }
+	\Columns{0.4}{0.6}{
+	\Enumerate{
+		\item \textbf{Cellular networks:}
+		\Itemize{
+			\item 2G, ..., 5G
+		}
+		\item \textbf{Short range networks:}
+		\Itemize{
+			\item Zigbee, Bluetooth, Wifi
+		}
+		\item \textbf{Long range networks:}
+		\Itemize{
+			\item LoRa, Sigfox, NB-IoT
+		}
+	}
+    }{
+        \Figure{!htb}{1}{new-LPWAN}{Short range, Cellular and Long range networks}
+    }
+\end{frame}
+
+\begin{frame}{IoT wireless communication}{Wireless communication performance need to be evaluated to match applications requirements}
+   \Figure{!htb}{.65}{lora-sigfox-nbiot}{\ac{LPWAN} comparison}
+\end{frame}
+
+%\subsubsection{LoRa}
+
+ \begin{frame}{LoRAWAN}{Exp: LoRAWAN is a new technology that satisfy IoT applications requirements}
+   \Columns{0.5}{0.5}{
+     \Figure{!htb}{.8}{class_a}{Class A (Baseline)}
+     \Figure{!htb}{1}{class_b}{Class B (Beacons)}
+     \Figure{!htb}{1}{class_c}{Class C (Continuous)}
+   }{
+     \Figure{!htb}{1}{lora_stack}{LoRa and LoRaWan stack}
+   }
+ \end{frame}
+
+\subsection{IoT Applications}
+\begin{frame}{Applications requirements}{Each application has its own communication requirements}
+    % \begin{table}[h!]
+    % \footnotesize
+    %   \begin{tabulary}{\textwidth}{L|C|C|C|C|C}
+    %   Challenges/Applications & Grids       & EHealth   & Transport     & Cities       & Building           \\\hline
+    %   Resources constraints   & \ko         & \ok       & \ko           & \mm          & \ko                \\\hline
+    %   Mobility                & \ko         & \mm       & \ok           & \ok          & \ko                \\\hline
+    %   Heterogeneity           & \mm         & \mm       & \mm           & \ok          & \ko                \\\hline
+    %   Scalability             & \ok         & \mm       & \ok           & \ok          & \mm                \\\hline
+    %   QoS constraints         & \mm         & \mm       & \ok           & \ok          & \ok                \\\hline
+    %   Data management         & \mm         & \ko       & \ok           & \ok          & \mm                \\\hline
+    %   Standardization         & \mm         & \mm       & \mm           & \mm          & \ok                \\\hline
+    %   Amount of attacks       & \ko         & \ko       & \ok           & \ok          & \ok                \\\hline
+    %   Safety                  & \mm         & \ok       & \ok           & \mm          & \ok                 \\\hline
+    %   \end{tabulary}
+    % \caption{\label{tab:iot_challenges} Main IoT challenges \cite{venkatesan_design_2017}}
+    % \end{table}
+
+  \Columns{0.4}{0.6}{
+  	\Figure{!htb}{1}{application}{\ac{IoT} applications \cite{feltrin_lorawan_2018}}
+ }{
+  \begin{table}[h!]
+  \begin{tabular}{lccl}
+  \footnotesize
+  \multirow{2}{*}{\textbf{Applications}}  & \textbf{\acs{PR}}   & \textbf{\acs{PDR}}  & \textbf{\acs{PS}}     \\
+  \                                       & \textbf{[pkt/day]}     & \textbf{min [\%]}              & \textbf{[Byte]}      \\
+  \hline \textbf{Wearables}               & 10                     &        90                  & 10-20                \\
+  \textbf{Smoke Detectors}                & 11                     &        90                  & 10-20                \\
+  \textbf{Smart Grid}                     & 10                     &        80                  & 10-20    \\
+  \textbf{Waste Management}               & 24                     &        60                  & 10-20     \\
+  \textbf{Smart Bicycle}                  & 192                    &        80                  & 50-100    \\
+  \textbf{Animal Tracking}                & 100                    &        70                  & 50-100    \\
+  \textbf{Environmental}                  & 5                      &        90                  & 50-100    \\
+  % \textbf{Asset Tracking}                 & 100                    &        90                  & 50-100    \\
+  \textbf{Water/Gas Metering}             & 8                      &        85                  & 100-200   \\
+  \textbf{Medical Assisted}               & 8                      &        90                  & 100-200    \\
+  \textbf{Safety Monitoring}              & 2                      &        95                  & 100-200    \\\hline
+  \end{tabular}
+	\caption{\label{tab:applications_requirements}Applications requirements in \ac{IoT} \cite{feltrin_lorawan_2018,rizzi_evaluation_2017}}
+	\end{table}
+ }
+
+\stamp{blue}{30}{6.2, 3}{How to setup the network to satisfy these requirements ?}{99}
+
+\end{frame}
+
+

@@ -1,0 +1,30 @@
+[0] Config.pm:304> INFO - This is Biber 2.12
+[0] Config.pm:307> INFO - Logfile is '.bin/paper.blg'
+[23] biber:315> INFO - === ven. févr. 21, 2020, 15:22:45
+[42] Biber.pm:371> INFO - Reading '.bin/paper.bcf'
+[98] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[99] Biber.pm:889> INFO - Found 0 citekeys in bib section 1
+[99] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[99] Biber.pm:889> INFO - Found 1 citekeys in bib section 2
+[99] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[119] Biber.pm:4093> INFO - Processing section 2
+[129] Biber.pm:4254> INFO - Looking for bibtex format file 'iot.bib' for section 2
+[268] bibtex.pm:1512> INFO - LaTeX decoding ...
+[893] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/02/02/re/iot.bib'
+[914] Biber.pm:4254> INFO - Looking for bibtex format file 'iotbis.bib' for section 2
+[1016] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1021] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/02/02/re/iotbis.bib'
+[1022] Biber.pm:4254> INFO - Looking for bibtex format file 'privacy.bib' for section 2
+[1142] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1404] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/02/02/re/privacy.bib'
+[1414] Biber.pm:4254> INFO - Looking for bibtex format file 'petri.bib' for section 2
+[1518] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1542] bibtex.pm:1329> INFO - Found BibTeX data source '/home/aghiles/Aghiles/02/02/re/petri.bib'
+[1543] Utils.pm:193> WARN - I didn't find a database entry for 'bregell_hardware_2015' (section 2)
+[1550] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1550] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1550] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1550] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[1550] bbl.pm:636> INFO - Writing '.bin/paper.bbl' with encoding 'UTF-8'
+[1551] bbl.pm:739> INFO - Output to .bin/paper.bbl
+[1551] Biber.pm:110> INFO - WARNINGS: 1

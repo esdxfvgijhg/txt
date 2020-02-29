@@ -1,0 +1,1 @@
+https://sokogskriv.no/en/writing/structure-and-argumentation/structuring-a-thesis/

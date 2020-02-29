@@ -1,33 +1,17 @@
 [0] Config.pm:304> INFO - This is Biber 2.12
 [0] Config.pm:307> INFO - Logfile is '.bin/slide.blg'
-[22] biber:315> INFO - === ven. févr. 14, 2020, 15:42:55
-[40] Biber.pm:371> INFO - Reading '.bin/slide.bcf'
-[92] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[92] Biber.pm:889> INFO - Found 9 citekeys in bib section 1
-[92] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
-[107] Biber.pm:4093> INFO - Processing section 1
-[116] Biber.pm:4254> INFO - Looking for bibtex format file 'iot.bib' for section 1
-[262] bibtex.pm:1512> INFO - LaTeX decoding ...
-[946] bibtex.pm:1329> INFO - Found BibTeX data source './references/iot.bib'
-[987] Utils.pm:193> WARN - ISBN '978-1-5090-3242-6 978-1-5090-3243-3' in entry 'venkatesan_design_2017' is invalid - run biber with '--validate_datamodel' for details.
-[1007] Biber.pm:4254> INFO - Looking for bibtex format file 'iotbis.bib' for section 1
-[1102] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1108] bibtex.pm:1329> INFO - Found BibTeX data source './references/iotbis.bib'
-[1109] Biber.pm:4254> INFO - Looking for bibtex format file 'privacy.bib' for section 1
-[1223] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1489] bibtex.pm:1329> INFO - Found BibTeX data source './references/privacy.bib'
-[1499] Biber.pm:4254> INFO - Looking for bibtex format file 'petri.bib' for section 1
-[1596] bibtex.pm:1512> INFO - LaTeX decoding ...
-[1618] bibtex.pm:1329> INFO - Found BibTeX data source './references/petri.bib'
-[1619] Utils.pm:193> WARN - I didn't find a database entry for 'perera_mosden_2013' (section 1)
-[1619] Utils.pm:193> WARN - I didn't find a database entry for 'kouicem_internet_2018' (section 1)
-[1619] Utils.pm:193> WARN - I didn't find a database entry for 'bendaoud_network_2019' (section 1)
-[1620] Utils.pm:193> WARN - I didn't find a database entry for 'chowdhury_survey_2018' (section 1)
-[1620] Utils.pm:193> WARN - I didn't find a database entry for 'simiscuka_relay_2018' (section 1)
-[1629] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1629] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1629] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1629] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
-[1637] bbl.pm:636> INFO - Writing '.bin/slide.bbl' with encoding 'UTF-8'
-[1640] bbl.pm:739> INFO - Output to .bin/slide.bbl
-[1640] Biber.pm:110> INFO - WARNINGS: 6
+[22] biber:315> INFO - === jeu. févr. 27, 2020, 13:15:13
+[41] Biber.pm:371> INFO - Reading '.bin/slide.bcf'
+[99] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[99] Biber.pm:889> INFO - Found 4 citekeys in bib section 1
+[99] Biber.pm:889> INFO - Found 0 citekeys in bib section 0
+[116] Biber.pm:4093> INFO - Processing section 1
+[125] Biber.pm:4254> INFO - Looking for bibtex format file 'iot.bib' for section 1
+[285] bibtex.pm:1512> INFO - LaTeX decoding ...
+[1169] bibtex.pm:1329> INFO - Found BibTeX data source './re/iot.bib'
+[1242] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1242] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1242] Biber.pm:3921> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1242] Biber.pm:3927> INFO - No sort tailoring available for locale 'en-US'
+[1249] bbl.pm:636> INFO - Writing '.bin/slide.bbl' with encoding 'UTF-8'
+[1252] bbl.pm:739> INFO - Output to .bin/slide.bbl
